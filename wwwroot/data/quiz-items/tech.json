@@ -2,28 +2,28 @@
   {
     "name": "Kafka",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Apache Kafka is a distributed event streaming platform used for high-performance data pipelines."
   },
   {
     "name": "Terraform",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Terraform is an infrastructure-as-code tool by HashiCorp for provisioning cloud resources."
   },
   {
     "name": "Kubernetes",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Kubernetes (K8s) is an open-source container orchestration platform originally developed by Google."
   },
   {
     "name": "Grafana",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Grafana is an open-source analytics and visualization platform for monitoring data."
   },
@@ -38,7 +38,7 @@
   {
     "name": "Heroku",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Heroku is a cloud platform as a service (PaaS) for deploying and managing applications."
   },
@@ -52,21 +52,21 @@
   {
     "name": "Redis",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Redis is an in-memory data structure store used as a database, cache, and message broker."
   },
   {
     "name": "Istio",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Istio is an open-source service mesh for Kubernetes that manages microservice traffic."
   },
   {
     "name": "Prometheus",
     "categories": [
-      "Tech",
+      "CloudInfra",
       "GreekPagan"
     ],
     "explanation": "Prometheus is a Greek Titan who gave fire to humanity, and also an open-source monitoring system."
@@ -74,7 +74,7 @@
   {
     "name": "Loki",
     "categories": [
-      "Tech",
+      "CloudInfra",
       "NorsePagan"
     ],
     "explanation": "Loki is the Norse trickster god, and also a log aggregation system by Grafana Labs."
@@ -82,35 +82,35 @@
   {
     "name": "Helm",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Helm is a package manager for Kubernetes that uses chart templates."
   },
   {
     "name": "Vault",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "HashiCorp Vault is a secrets management tool for storing and accessing sensitive data."
   },
   {
     "name": "Consul",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "HashiCorp Consul is a service mesh solution for service discovery and configuration."
   },
   {
     "name": "Nomad",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "HashiCorp Nomad is a workload orchestrator for deploying and managing applications."
   },
   {
     "name": "Envoy",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Envoy is a high-performance proxy designed for service mesh architectures."
   },
@@ -138,42 +138,42 @@
   {
     "name": "Ansible",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Ansible is an IT automation tool for configuration management and application deployment."
   },
   {
     "name": "Datadog",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Datadog is a monitoring and analytics platform for cloud-scale applications."
   },
   {
     "name": "Splunk",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Splunk is a platform for searching, monitoring, and analyzing machine-generated data."
   },
   {
     "name": "Supabase",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Supabase is an open-source Firebase alternative with a PostgreSQL database."
   },
   {
     "name": "Vercel",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Vercel is a cloud platform for frontend deployment, created by the makers of Next.js."
   },
   {
     "name": "Netlify",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Netlify is a web development platform for building and deploying modern web projects."
   },
@@ -187,56 +187,56 @@
   {
     "name": "Nginx",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Nginx is a popular web server, reverse proxy, and load balancer."
   },
   {
     "name": "Traefik",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Traefik is a modern reverse proxy and load balancer for microservices."
   },
   {
     "name": "Cilium",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Cilium is eBPF-based networking and security for Kubernetes and other platforms."
   },
   {
     "name": "Falco",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Falco is a cloud-native runtime security tool for detecting threats in containers."
   },
   {
     "name": "Argo",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Argo is a collection of Kubernetes-native tools for workflows, deployments, and GitOps."
   },
   {
     "name": "Kibana",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Kibana is a data visualization dashboard for Elasticsearch."
   },
   {
     "name": "Elasticsearch",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Elasticsearch is a distributed search and analytics engine."
   },
   {
     "name": "Pulumi",
     "categories": [
-      "Tech"
+      "CloudInfra"
     ],
     "explanation": "Pulumi is an infrastructure-as-code tool supporting multiple programming languages."
   },

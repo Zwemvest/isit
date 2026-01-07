@@ -63,7 +63,12 @@ public class QuizService
         "Painter",
         "Philosopher",
         "Author",
-        "CarModel"
+        "CarModel",
+        "CloudInfra",
+        "MTG",
+        "Celestial",
+        "Bird",
+        "Pigment"
     ];
 
     public static readonly Dictionary<string, string> CategoryDisplayNames = new()
@@ -94,7 +99,12 @@ public class QuizService
         ["Painter"] = "Famous Painter",
         ["Philosopher"] = "Philosopher",
         ["Author"] = "Famous Author",
-        ["CarModel"] = "Car Model"
+        ["CarModel"] = "Car Model",
+        ["CloudInfra"] = "Cloud Infrastructure Tool",
+        ["MTG"] = "Magic: The Gathering",
+        ["Celestial"] = "Celestial Body",
+        ["Bird"] = "Bird Species",
+        ["Pigment"] = "Artist Pigment"
     };
 
     public QuizService(HttpClient httpClient)
