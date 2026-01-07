@@ -359,9 +359,10 @@
     "categories": [
       "RockBand",
       "Tech",
-      "CarModel"
+      "CarModel",
+      "Celestial"
     ],
-    "explanation": "Eclipse is a Swedish rock band, the famous Java IDE, and the Mitsubishi Eclipse sports car."
+    "explanation": "Eclipse is a Swedish rock band, the famous Java IDE, the Mitsubishi Eclipse sports car, and an astronomical event."
   },
   {
     "name": "Phoenix",
@@ -369,9 +370,11 @@
       "RockBand",
       "DnD",
       "GreekPagan",
-      "CarModel"
+      "CarModel",
+      "Bird",
+      "Celestial"
     ],
-    "explanation": "Phoenix is a French rock band, the mythological firebird in D&D and Greek myth, and the Pontiac Phoenix."
+    "explanation": "Phoenix is a French rock band, the mythological firebird, the Pontiac Phoenix, and the Phoenix constellation."
   },
   {
     "name": "Nirvana",

@@ -345,9 +345,10 @@
     "name": "Swift",
     "categories": [
       "ProgrammingLang",
-      "Pokemon"
+      "Pokemon",
+      "Bird"
     ],
-    "explanation": "Swift is Apple's programming language for iOS/macOS, and also a Normal-type move in Pokémon that never misses."
+    "explanation": "Swift is Apple's programming language, a Pokémon move that never misses, and a fast-flying bird species."
   },
   {
     "name": "Oracle",

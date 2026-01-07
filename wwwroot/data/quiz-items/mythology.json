@@ -141,9 +141,10 @@
     "categories": [
       "GreekPagan",
       "Tech",
-      "CarModel"
+      "CarModel",
+      "Celestial"
     ],
-    "explanation": "Atlas is the Greek Titan holding up the sky, MongoDB's cloud platform, and the Volkswagen Atlas SUV."
+    "explanation": "Atlas is the Greek Titan holding up the sky, MongoDB's cloud platform, the Volkswagen Atlas SUV, and a moon of Saturn."
   },
   {
     "name": "Cassandra",
@@ -157,9 +158,10 @@
     "name": "Pandora",
     "categories": [
       "GreekPagan",
-      "Tech"
+      "Tech",
+      "Celestial"
     ],
-    "explanation": "Pandora opened the box releasing evils into the world, and is also a music streaming service."
+    "explanation": "Pandora opened the box releasing evils into the world, a music streaming service, and a moon of Saturn."
   },
   {
     "name": "Jupiter",
@@ -294,9 +296,10 @@
     "categories": [
       "GreekPagan",
       "Tech",
-      "DnD"
+      "DnD",
+      "Celestial"
     ],
-    "explanation": "Triton is the Greek merman god (son of Poseidon), NVIDIA's GPU programming language, and a playable aquatic race in D&D."
+    "explanation": "Triton is the Greek merman god, NVIDIA's GPU programming language, a D&D race, and Neptune's largest moon."
   },
   {
     "name": "Medusa",
@@ -320,9 +323,10 @@
     "name": "Hyperion",
     "categories": [
       "GreekPagan",
-      "Tech"
+      "Tech",
+      "Celestial"
     ],
-    "explanation": "Hyperion is the Greek Titan of light, and also an Apache Big Data platform and SAP's OLAP database."
+    "explanation": "Hyperion is the Greek Titan of light, Apache Big Data platform, and a moon of Saturn."
   },
   {
     "name": "Chronos",
@@ -352,9 +356,10 @@
     "name": "Helios",
     "categories": [
       "GreekPagan",
-      "Tech"
+      "Tech",
+      "Celestial"
     ],
-    "explanation": "Helios is the Greek god of the Sun, and also LinkedIn's open-source search platform."
+    "explanation": "Helios is the Greek god of the Sun, LinkedIn's search platform, and refers to the Sun itself."
   },
   {
     "name": "Hera",
@@ -386,9 +391,10 @@
     "categories": [
       "GreekPagan",
       "Tech",
-      "CarModel"
+      "CarModel",
+      "Celestial"
     ],
-    "explanation": "The Titans are primordial Greek gods, Google's TPU security chip, and the Nissan Titan pickup truck."
+    "explanation": "The Titans are primordial Greek gods, Google's TPU chip, the Nissan Titan truck, and Saturn's largest moon."
   },
   {
     "name": "Sleipnir",
@@ -641,9 +647,10 @@
     "name": "Aurora",
     "categories": [
       "RomanPagan",
-      "CarModel"
+      "CarModel",
+      "Celestial"
     ],
-    "explanation": "Aurora is the Roman goddess of the dawn, and the Oldsmobile Aurora luxury sedan."
+    "explanation": "Aurora is the Roman goddess of the dawn, the Oldsmobile Aurora sedan, and the aurora borealis phenomenon."
   },
   {
     "name": "Eos",
