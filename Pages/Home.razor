@@ -1,0 +1,183 @@
+@page "/"
+@using IsIt.Services
+@using IsIt.Models
+@inject QuizService QuizService
+
+<PageTitle>IsIt...?</PageTitle>
+
+@if (_state == QuizState.Loading)
+{
+    <MudStack AlignItems="AlignItems.Center" Class="mt-8">
+        <MudProgressCircular Color="Color.Primary" Indeterminate="true" />
+    </MudStack>
+}
+else if (_state == QuizState.Start)
+{
+    <MudStack AlignItems="AlignItems.Center" Spacing="6">
+        <MudText Typo="Typo.h2" Align="Align.Center">IsIt...?</MudText>
+        <MudText Typo="Typo.body1" Align="Align.Center" Color="Color.Secondary">
+            Guess which categories each item belongs to.<br />
+            Some items belong to multiple categories!
+        </MudText>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" OnClick="StartGame">
+            Start Quiz
+        </MudButton>
+    </MudStack>
+}
+else if (_state == QuizState.Playing)
+{
+    var item = QuizService.GetCurrentItem();
+    if (item != null)
+    {
+        <MudStack Spacing="4">
+            <MudText Typo="Typo.caption" Color="Color.Secondary">
+                Question @QuizService.CurrentQuestionNumber of @QuizService.TotalQuestions
+            </MudText>
+
+            <MudText Typo="Typo.h3" Align="Align.Center" Class="my-4">@item.Name</MudText>
+
+            <MudText Typo="Typo.h6" Color="Color.Secondary">Is it...</MudText>
+
+            <MudStack Spacing="2">
+                @foreach (var category in QuizService.AllCategories)
+                {
+                    var isSelected = _selectedCategories.Contains(category);
+                    <MudButton
+                        Variant="@(isSelected ? Variant.Filled : Variant.Outlined)"
+                        Color="@(isSelected ? Color.Primary : Color.Default)"
+                        FullWidth="true"
+                        OnClick="() => ToggleCategory(category)">
+                        @QuizService.CategoryDisplayNames[category]
+                    </MudButton>
+                }
+            </MudStack>
+
+            <MudButton
+                Variant="Variant.Filled"
+                Color="Color.Success"
+                FullWidth="true"
+                Class="mt-4"
+                Disabled="@(_selectedCategories.Count == 0)"
+                OnClick="SubmitAnswer">
+                Submit
+            </MudButton>
+        </MudStack>
+    }
+}
+else if (_state == QuizState.ShowingResult)
+{
+    var item = QuizService.GetCurrentItem();
+    if (item != null)
+    {
+        <MudStack Spacing="4">
+            <MudText Typo="Typo.h3" Align="Align.Center">@item.Name</MudText>
+
+            <MudAlert Severity="@(_lastAnswerCorrect ? Severity.Success : Severity.Error)" Variant="Variant.Filled">
+                @(_lastAnswerCorrect ? "Correct!" : "Not quite!")
+            </MudAlert>
+
+            <MudText Typo="Typo.body1" Class="mt-2">
+                <strong>Answer:</strong> @string.Join(", ", item.Categories.Select(c => QuizService.CategoryDisplayNames[c]))
+            </MudText>
+
+            <MudPaper Class="pa-4" Elevation="0" Style="background-color: var(--mud-palette-background-grey);">
+                <MudText Typo="Typo.body2">@item.Explanation</MudText>
+            </MudPaper>
+
+            <MudButton
+                Variant="Variant.Filled"
+                Color="Color.Primary"
+                FullWidth="true"
+                OnClick="NextQuestion">
+                @(QuizService.CurrentQuestionNumber < QuizService.TotalQuestions ? "Next" : "See Results")
+            </MudButton>
+        </MudStack>
+    }
+}
+else if (_state == QuizState.Finished)
+{
+    var percentage = QuizService.TotalQuestions > 0
+        ? (int)Math.Round(100.0 * QuizService.Score / QuizService.TotalQuestions)
+        : 0;
+
+    <MudStack AlignItems="AlignItems.Center" Spacing="4">
+        <MudText Typo="Typo.h3">Quiz Complete!</MudText>
+
+        <MudText Typo="Typo.h1" Color="Color.Primary">
+            @QuizService.Score / @QuizService.TotalQuestions
+        </MudText>
+
+        <MudText Typo="Typo.h5" Color="Color.Secondary">@percentage% correct</MudText>
+
+        <MudText Typo="Typo.body1" Class="mt-4">
+            @GetScoreMessage(percentage)
+        </MudText>
+
+        <MudButton
+            Variant="Variant.Filled"
+            Color="Color.Primary"
+            Size="Size.Large"
+            Class="mt-4"
+            OnClick="StartGame">
+            Play Again
+        </MudButton>
+    </MudStack>
+}
+
+@code {
+    private enum QuizState { Loading, Start, Playing, ShowingResult, Finished }
+
+    private QuizState _state = QuizState.Loading;
+    private HashSet<string> _selectedCategories = [];
+    private bool _lastAnswerCorrect;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await QuizService.LoadItemsAsync();
+        _state = QuizState.Start;
+    }
+
+    private void StartGame()
+    {
+        QuizService.StartNewGame();
+        _selectedCategories.Clear();
+        _state = QuizState.Playing;
+    }
+
+    private void ToggleCategory(string category)
+    {
+        if (!_selectedCategories.Remove(category))
+        {
+            _selectedCategories.Add(category);
+        }
+    }
+
+    private void SubmitAnswer()
+    {
+        _lastAnswerCorrect = QuizService.CheckAnswer(_selectedCategories);
+        _state = QuizState.ShowingResult;
+    }
+
+    private void NextQuestion()
+    {
+        QuizService.MoveToNext();
+        _selectedCategories.Clear();
+
+        if (QuizService.IsFinished)
+        {
+            _state = QuizState.Finished;
+        }
+        else
+        {
+            _state = QuizState.Playing;
+        }
+    }
+
+    private static string GetScoreMessage(int percentage) => percentage switch
+    {
+        >= 90 => "Outstanding! You really know your stuff!",
+        >= 70 => "Great job! You've got a sharp eye!",
+        >= 50 => "Not bad! Room for improvement though.",
+        _ => "Keep practicing! You'll get better!"
+    };
+}
