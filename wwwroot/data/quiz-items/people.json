@@ -191,10 +191,9 @@
   {
     "name": "Picasso",
     "categories": [
-      "Painter",
-      "Tech"
+      "Painter"
     ],
-    "explanation": "Pablo Picasso was the legendary Cubist painter. Picasso is also Google's AI image generation model."
+    "explanation": "Pablo Picasso was the legendary Spanish painter who co-founded Cubism and created over 50,000 artworks including Guernica."
   },
   {
     "name": "Warhol",
@@ -238,10 +237,9 @@
   {
     "name": "Rembrandt",
     "categories": [
-      "Painter",
-      "Tech"
+      "Painter"
     ],
-    "explanation": "Rembrandt was the Dutch master of light and shadow. Also Adobe's AI lighting technology."
+    "explanation": "Rembrandt van Rijn was the Dutch Golden Age master of light and shadow, famous for The Night Watch and over 90 self-portraits."
   },
   {
     "name": "Monet",
@@ -683,10 +681,9 @@
   {
     "name": "Byron",
     "categories": [
-      "Author",
-      "CarModel"
+      "Author"
     ],
-    "explanation": "Lord Byron was the Romantic poet known for Don Juan. Byron is also a brand of golf equipment and various products."
+    "explanation": "Lord Byron was the Romantic poet known for Don Juan and Childe Harold's Pilgrimage, whose scandalous life made him the original rock star."
   },
   {
     "name": "Shelley",

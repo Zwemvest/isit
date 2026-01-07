@@ -75,17 +75,19 @@
     "name": "Apollo",
     "categories": [
       "GreekPagan",
+      "RomanPagan",
       "Tech",
       "CarModel"
     ],
-    "explanation": "Apollo is the Greek god of sun and prophecy, a GraphQL API platform, and the Buick Apollo compact car."
+    "explanation": "Apollo is the Greek/Roman god of sun, music, and prophecy, NASA's moon landing program, a GraphQL platform, and the Buick Apollo."
   },
   {
     "name": "Athena",
     "categories": [
-      "GreekPagan"
+      "GreekPagan",
+      "Tech"
     ],
-    "explanation": "Athena is the Greek goddess of wisdom and warfare, born from Zeus's head."
+    "explanation": "Athena is the Greek goddess of wisdom and warfare born from Zeus's head, and AWS Athena is a serverless SQL query service."
   },
   {
     "name": "Poseidon",
@@ -229,9 +231,10 @@
   {
     "name": "Ceres",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "Celestial"
     ],
-    "explanation": "Ceres is the Roman goddess of agriculture and harvest."
+    "explanation": "Ceres is the Roman goddess of agriculture, and also the largest object in the asteroid belt - a dwarf planet discovered in 1801."
   },
   {
     "name": "Pluto",
@@ -286,9 +289,10 @@
   {
     "name": "Epona",
     "categories": [
-      "CelticPagan"
+      "CelticPagan",
+      "Zelda"
     ],
-    "explanation": "Epona is the Celtic goddess of horses, later adopted into Roman worship."
+    "explanation": "Epona is the Celtic goddess of horses, and Link's iconic horse companion in The Legend of Zelda series since Ocarina of Time."
   },
   {
     "name": "Daedalus",
@@ -424,9 +428,10 @@
     "name": "Valkyrie",
     "categories": [
       "NorsePagan",
-      "DnD"
+      "DnD",
+      "CarModel"
     ],
-    "explanation": "Valkyries are Norse maidens who choose the slain for Valhalla, and appear as celestials in D&D."
+    "explanation": "Valkyries are Norse warrior maidens who choose the slain for Valhalla, celestials in D&D, and the Aston Martin Valkyrie hypercar."
   },
   {
     "name": "Mjolnir",
@@ -495,14 +500,6 @@
     "explanation": "Diana is the Roman goddess of the hunt and moon, equivalent to the Greek Artemis."
   },
   {
-    "name": "Apollo",
-    "categories": [
-      "RomanPagan",
-      "Tech"
-    ],
-    "explanation": "Apollo is also honored in Roman religion as god of light and music, plus NASA's moon program and GraphQL platform."
-  },
-  {
     "name": "Saturn",
     "categories": [
       "RomanPagan",
@@ -535,9 +532,10 @@
   {
     "name": "Vesta",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "CarModel"
     ],
-    "explanation": "Vesta is the Roman goddess of the hearth, served by the Vestal Virgins."
+    "explanation": "Vesta is the Roman goddess of the hearth served by the Vestal Virgins, and the Opel/Vauxhall Vesta subcompact car."
   },
   {
     "name": "Janus",
@@ -690,22 +688,6 @@
       "CarModel"
     ],
     "explanation": "The Furies (Erinyes) were Greek goddesses of vengeance, and the Plymouth Fury muscle car."
-  },
-  {
-    "name": "Vesta",
-    "categories": [
-      "RomanPagan",
-      "CarModel"
-    ],
-    "explanation": "Vesta is the Roman goddess of the hearth and home, and the Opel/Vauxhall Vesta subcompact."
-  },
-  {
-    "name": "Valkyrie",
-    "categories": [
-      "NorsePagan",
-      "CarModel"
-    ],
-    "explanation": "Valkyries are Norse warrior maidens who choose the slain for Valhalla, and the Aston Martin Valkyrie hypercar."
   },
   {
     "name": "Orion",

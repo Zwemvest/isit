@@ -10,10 +10,9 @@
   {
     "name": "Mithril",
     "categories": [
-      "LordOfTheRings",
-      "Tech"
+      "LordOfTheRings"
     ],
-    "explanation": "Mithril is the precious silver metal in Middle-earth, and also Meta's open-source AI model series."
+    "explanation": "Mithril is the precious 'true-silver' metal in Middle-earth, lighter than silk yet harder than steel. Frodo's mithril coat saved his life in Moria."
   },
   {
     "name": "Shadowfax",
@@ -626,16 +625,18 @@
   {
     "name": "Tiamat",
     "categories": [
-      "DnD"
+      "DnD",
+      "MTG"
     ],
-    "explanation": "Tiamat is the Babylonian goddess of primordial chaos, and also the five-headed dragon goddess of evil in D&D."
+    "explanation": "Tiamat is the Babylonian goddess of primordial chaos, the five-headed dragon queen of evil in D&D, and a Legendary Creature card in MTG."
   },
   {
     "name": "Bahamut",
     "categories": [
-      "DnD"
+      "DnD",
+      "MTG"
     ],
-    "explanation": "Bahamut is a fish from Arabian mythology supporting the world, and also the platinum dragon god of good in D&D."
+    "explanation": "Bahamut is a fish from Arabian mythology supporting the world, the platinum dragon god of justice in D&D, and a Legendary Creature card in MTG."
   },
   {
     "name": "Asmodeus",
@@ -710,9 +711,10 @@
   {
     "name": "Mordenkainen",
     "categories": [
-      "DnD"
+      "DnD",
+      "MTG"
     ],
-    "explanation": "Mordenkainen is a legendary archmage from Greyhawk, namesake of many D&D spells like Mordenkainen's Sword."
+    "explanation": "Mordenkainen is the legendary archmage from D&D's Greyhawk setting, namesake of famous spells, and a Legendary Creature in MTG's Adventures in the Forgotten Realms."
   },
   {
     "name": "Elminster",
@@ -752,16 +754,18 @@
   {
     "name": "Lolth",
     "categories": [
-      "DnD"
+      "DnD",
+      "MTG"
     ],
-    "explanation": "Lolth is the spider goddess of the Drow, also known as the Queen of the Demonweb Pits."
+    "explanation": "Lolth is the Spider Queen goddess of the Drow and Queen of the Demonweb Pits, also a Legendary Creature in MTG's Adventures in the Forgotten Realms."
   },
   {
     "name": "Drizzt",
     "categories": [
-      "DnD"
+      "DnD",
+      "MTG"
     ],
-    "explanation": "Drizzt Do'Urden is a famous Drow ranger who rejected his evil heritage, wielding twin scimitars."
+    "explanation": "Drizzt Do'Urden is the iconic dual-scimitar wielding Drow ranger who rejected his evil heritage, and a Legendary Creature in MTG's Adventures in the Forgotten Realms."
   },
   {
     "name": "Underdark",
@@ -1087,46 +1091,6 @@
       "CarModel"
     ],
     "explanation": "Rangers are the Dúnedain guardians in LOTR, a D&D class, and the Ford Ranger pickup truck."
-  },
-  {
-    "name": "Tiamat",
-    "categories": [
-      "MTG",
-      "DnD"
-    ],
-    "explanation": "Tiamat is the five-headed dragon goddess in D&D, and a legendary creature card in Magic: The Gathering."
-  },
-  {
-    "name": "Drizzt",
-    "categories": [
-      "MTG",
-      "DnD"
-    ],
-    "explanation": "Drizzt Do'Urden is the iconic Drow ranger from D&D's Forgotten Realms, and a planeswalker card in MTG."
-  },
-  {
-    "name": "Mordenkainen",
-    "categories": [
-      "MTG",
-      "DnD"
-    ],
-    "explanation": "Mordenkainen is the legendary archmage from D&D's Greyhawk setting, and a planeswalker card in MTG."
-  },
-  {
-    "name": "Lolth",
-    "categories": [
-      "MTG",
-      "DnD"
-    ],
-    "explanation": "Lolth is the Spider Queen deity of the Drow in D&D, and a planeswalker card in MTG's Adventures in the Forgotten Realms."
-  },
-  {
-    "name": "Bahamut",
-    "categories": [
-      "MTG",
-      "DnD"
-    ],
-    "explanation": "Bahamut is the platinum dragon god of justice in D&D, and a legendary creature card in MTG."
   },
   {
     "name": "Erebos",

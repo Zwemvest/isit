@@ -168,9 +168,10 @@
   {
     "name": "Eluveitie",
     "categories": [
-      "MetalBand"
+      "MetalBand",
+      "CelticPagan"
     ],
-    "explanation": "Eluveitie is a Swiss folk metal band blending melodic death metal with Celtic folk instruments."
+    "explanation": "Eluveitie is a Swiss folk metal band. The name comes from 300 BC Etruscan graffiti meaning 'The Helvetian' - they even sing in reconstructed Gaulish!"
   },
   {
     "name": "Ensiferum",
@@ -336,9 +337,10 @@
     "categories": [
       "RockBand",
       "Tech",
-      "SiliconValleyBS"
+      "SiliconValleyBS",
+      "CarModel"
     ],
-    "explanation": "Tesla is the American rock band formed in 1984. Also Elon Musk's electric car company."
+    "explanation": "Tesla is the American rock band formed in 1984, and also Elon Musk's electric car company (Model S, Model 3, Model X, Model Y)."
   },
   {
     "name": "Journey",

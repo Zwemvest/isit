@@ -2,9 +2,10 @@
   {
     "name": "Kafka",
     "categories": [
-      "CloudInfra"
+      "CloudInfra",
+      "Author"
     ],
-    "explanation": "Apache Kafka is a distributed event streaming platform used for high-performance data pipelines."
+    "explanation": "Apache Kafka is a distributed event streaming platform, named after author Franz Kafka because it's 'a system optimized for writing.'"
   },
   {
     "name": "Terraform",
@@ -217,9 +218,10 @@
   {
     "name": "Argo",
     "categories": [
-      "CloudInfra"
+      "CloudInfra",
+      "GreekPagan"
     ],
-    "explanation": "Argo is a collection of Kubernetes-native tools for workflows, deployments, and GitOps."
+    "explanation": "Argo is a K8s-native workflow tool, named after the legendary ship of Jason and the Argonauts in Greek mythology."
   },
   {
     "name": "Kibana",
@@ -412,9 +414,10 @@
   {
     "name": "Cosmos",
     "categories": [
-      "SiliconValleyBS"
+      "SiliconValleyBS",
+      "Celestial"
     ],
-    "explanation": "Cosmos is a blockchain ecosystem calling itself the 'Internet of Blockchains'."
+    "explanation": "Cosmos is a blockchain ecosystem calling itself the 'Internet of Blockchains.' The cosmos means 'the universe as an ordered system.'"
   },
   {
     "name": "Uniswap",
@@ -489,9 +492,10 @@
   {
     "name": "Stellar",
     "categories": [
-      "SiliconValleyBS"
+      "SiliconValleyBS",
+      "Celestial"
     ],
-    "explanation": "Stellar is a blockchain payment network, originally forked from Ripple."
+    "explanation": "Stellar is a blockchain payment network forked from Ripple. The name means 'of or relating to stars.'"
   },
   {
     "name": "Monero",

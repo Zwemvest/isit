@@ -176,6 +176,22 @@
     "explanation": "Lucario is a Fighting/Steel-type Pokémon that can manipulate aura, and a fighter in Super Smash Bros."
   },
   {
+    "name": "Mew",
+    "categories": [
+      "Pokemon",
+      "SmashBros"
+    ],
+    "explanation": "Mew is the mythical Psychic-type ancestor of all Pokémon, appearing in all six Super Smash Bros. games as a rare Poké Ball summon."
+  },
+  {
+    "name": "Greninja",
+    "categories": [
+      "Pokemon",
+      "SmashBros"
+    ],
+    "explanation": "Greninja is a Water/Dark-type ninja frog Pokémon, a playable fighter in Super Smash Bros. 4 and Ultimate."
+  },
+  {
     "name": "Audino",
     "categories": [
       "Pokemon"
@@ -653,20 +669,28 @@
     "explanation": "Ganondorf is the main antagonist of The Legend of Zelda series, wielding the Triforce of Power, and a heavy fighter in Super Smash Bros."
   },
   {
+    "name": "Sheik",
+    "categories": [
+      "Zelda",
+      "SmashBros"
+    ],
+    "explanation": "Sheik is Zelda's ninja alter ego in Ocarina of Time, and a playable fighter in every Super Smash Bros. since Melee."
+  },
+  {
+    "name": "Toon Link",
+    "categories": [
+      "Zelda",
+      "SmashBros"
+    ],
+    "explanation": "Toon Link is the cel-shaded hero from Wind Waker, and a playable fighter in Super Smash Bros. Brawl, 4, and Ultimate."
+  },
+  {
     "name": "Navi",
     "categories": [
       "Zelda",
       "Tech"
     ],
     "explanation": "Navi is Link's fairy companion in Ocarina of Time, and also an early AMD GPU architecture."
-  },
-  {
-    "name": "Epona",
-    "categories": [
-      "Zelda",
-      "CelticPagan"
-    ],
-    "explanation": "Epona is Link's horse in Zelda, named after the Celtic goddess of horses."
   },
   {
     "name": "Hyrule",

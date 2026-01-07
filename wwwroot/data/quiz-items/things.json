@@ -750,25 +750,28 @@
     "explanation": "India is the historic subcontinent civilization, and Indian Yellow was a pigment made from mango-fed cow urine."
   },
   {
-    "name": "Vermillion",
+    "name": "Vermilion",
     "categories": [
-      "Pigment"
+      "Pigment",
+      "Pokemon"
     ],
-    "explanation": "Vermillion is a brilliant red pigment historically made from cinnabar (mercury sulfide)."
+    "explanation": "Vermilion is a brilliant red pigment made from cinnabar, and Vermilion City is home to Lt. Surge's Electric-type Gym in Pokemon."
   },
   {
     "name": "Cerulean",
     "categories": [
-      "Pigment"
+      "Pigment",
+      "Pokemon"
     ],
-    "explanation": "Cerulean is a sky-blue pigment made from cobalt stannate, popular since the 19th century."
+    "explanation": "Cerulean is a sky-blue cobalt stannate pigment, and Cerulean City is home to Misty's Water-type Gym in Pokemon."
   },
   {
     "name": "Ultramarine",
     "categories": [
-      "Pigment"
+      "Pigment",
+      "Warhammer"
     ],
-    "explanation": "Ultramarine was historically made from lapis lazuli; the name means 'beyond the sea'."
+    "explanation": "Ultramarine is a blue pigment from lapis lazuli ('beyond the sea'), and the Ultramarines are THE iconic Space Marine chapter in Warhammer 40k."
   },
   {
     "name": "Ochre",
