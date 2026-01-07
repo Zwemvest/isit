@@ -670,92 +670,84 @@
     "explanation": "Sienna is an earth pigment from Tuscany, the historic Italian city-state of Siena, and the Toyota Sienna minivan."
   },
   {
-    "name": "Prussian Blue",
+    "name": "Prussia",
     "categories": [
       "Pigment",
       "HistoricalState"
     ],
-    "explanation": "Prussian Blue (1704) was the first modern synthetic pigment, named after the Kingdom of Prussia."
+    "explanation": "Prussia was a major German kingdom, and Prussian Blue (1704) was the first modern synthetic pigment."
   },
   {
-    "name": "Venetian Red",
+    "name": "Venice",
     "categories": [
       "Pigment",
       "HistoricalState"
     ],
-    "explanation": "Venetian Red is an iron oxide pigment named after Venice, the historic Italian maritime republic."
+    "explanation": "Venice was the historic Italian maritime republic, and Venetian Red is a classic iron oxide pigment."
   },
   {
-    "name": "Naples Yellow",
+    "name": "Naples",
     "categories": [
       "Pigment",
       "HistoricalState"
     ],
-    "explanation": "Naples Yellow is a lead-based pigment named after the Kingdom of Naples, Italy."
+    "explanation": "Naples was the capital of a southern Italian kingdom, and Naples Yellow is a lead-based artist pigment."
   },
   {
-    "name": "Umber",
+    "name": "Umbria",
     "categories": [
       "Pigment",
       "HistoricalState"
     ],
-    "explanation": "Umber is an earth pigment named after Umbria, the Italian region where it was originally mined."
+    "explanation": "Umbria is an Italian region, and Umber pigment was originally mined there."
   },
   {
-    "name": "Van Dyke Brown",
+    "name": "Van Dyck",
     "categories": [
       "Pigment",
       "Painter"
     ],
-    "explanation": "Van Dyke Brown is a pigment named after Flemish Baroque painter Anthony van Dyck."
+    "explanation": "Anthony van Dyck was a Flemish Baroque painter, and Van Dyke Brown pigment is named after him."
   },
   {
-    "name": "Payne's Grey",
+    "name": "Payne",
     "categories": [
       "Pigment",
       "Painter"
     ],
-    "explanation": "Payne's Grey is a pigment named after William Payne, an 18th-century English watercolor painter."
+    "explanation": "William Payne was an 18th-century English watercolorist, and Payne's Grey pigment bears his name."
   },
   {
-    "name": "Mars Black",
-    "categories": [
-      "Pigment",
-      "RomanPagan"
-    ],
-    "explanation": "Mars Black is a synthetic iron oxide pigment named after Mars, the Roman god of war."
-  },
-  {
-    "name": "Tyrian Purple",
+    "name": "Tyre",
     "categories": [
       "Pigment",
       "HistoricalState"
     ],
-    "explanation": "Tyrian Purple was the legendary dye from ancient Tyre (Phoenicia), worth more than gold in antiquity."
+    "explanation": "Tyre was an ancient Phoenician city, and Tyrian Purple dye was worth more than gold in antiquity."
   },
   {
-    "name": "Egyptian Blue",
+    "name": "Egypt",
     "categories": [
       "Pigment",
       "HistoricalState"
     ],
-    "explanation": "Egyptian Blue is one of the oldest synthetic pigments, created in ancient Egypt around 3100 BC."
+    "explanation": "Egypt is the ancient civilization, and Egyptian Blue is one of the oldest synthetic pigments (c. 3100 BC)."
   },
   {
-    "name": "Indian Yellow",
-    "categories": [
-      "Pigment",
-      "HistoricalState"
-    ],
-    "explanation": "Indian Yellow was historically made in India from mango-fed cow urine; now synthesized."
-  },
-  {
-    "name": "Cobalt Blue",
+    "name": "Cobalt",
     "categories": [
       "Pigment",
       "Tech"
     ],
-    "explanation": "Cobalt Blue is a vivid blue pigment; cobalt is also a critical element for lithium-ion batteries."
+    "explanation": "Cobalt Blue is a vivid artist pigment, and cobalt is a critical element for lithium-ion batteries."
+  },
+  {
+    "name": "India",
+    "categories": [
+      "Pigment",
+      "HistoricalState"
+    ],
+    "explanation": "India is the historic subcontinent civilization, and Indian Yellow was a pigment made from mango-fed cow urine."
   },
   {
     "name": "Vermillion",

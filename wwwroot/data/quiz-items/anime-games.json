@@ -1,5 +1,29 @@
 [
   {
+    "name": "Zelda",
+    "categories": [
+      "Zelda",
+      "SmashBros"
+    ],
+    "explanation": "Princess Zelda is the titular character of The Legend of Zelda series, wielder of the Triforce of Wisdom, and a fighter in Super Smash Bros."
+  },
+  {
+    "name": "Jigglypuff",
+    "categories": [
+      "Pokemon",
+      "SmashBros"
+    ],
+    "explanation": "Jigglypuff is a Normal/Fairy-type Pokémon known for singing, and one of the original 12 Super Smash Bros. characters."
+  },
+  {
+    "name": "Charizard",
+    "categories": [
+      "Pokemon",
+      "SmashBros"
+    ],
+    "explanation": "Charizard is a Fire/Flying-type Pokémon, one of the most iconic starters, and a playable fighter in Super Smash Bros."
+  },
+  {
     "name": "Snorlax",
     "categories": [
       "Pokemon"
@@ -30,16 +54,18 @@
   {
     "name": "Pikachu",
     "categories": [
-      "Pokemon"
+      "Pokemon",
+      "SmashBros"
     ],
-    "explanation": "Pikachu is the iconic Electric-type Pokémon and mascot of the franchise."
+    "explanation": "Pikachu is the iconic Electric-type Pokémon, franchise mascot, and one of the original 12 Super Smash Bros. characters."
   },
   {
     "name": "Mewtwo",
     "categories": [
-      "Pokemon"
+      "Pokemon",
+      "SmashBros"
     ],
-    "explanation": "Mewtwo is a Psychic-type legendary Pokémon created through genetic engineering from Mew's DNA."
+    "explanation": "Mewtwo is a Psychic-type legendary Pokémon created from Mew's DNA, and a powerful fighter in Super Smash Bros."
   },
   {
     "name": "Ditto",
@@ -144,9 +170,10 @@
   {
     "name": "Lucario",
     "categories": [
-      "Pokemon"
+      "Pokemon",
+      "SmashBros"
     ],
-    "explanation": "Lucario is a Fighting/Steel-type Pokémon that can sense and manipulate aura."
+    "explanation": "Lucario is a Fighting/Steel-type Pokémon that can manipulate aura, and a fighter in Super Smash Bros."
   },
   {
     "name": "Audino",
@@ -612,16 +639,18 @@
     "name": "Link",
     "categories": [
       "Zelda",
-      "DigitalTerm"
+      "DigitalTerm",
+      "SmashBros"
     ],
-    "explanation": "Link is the hero of the Legend of Zelda series, and a fundamental web/HTML concept."
+    "explanation": "Link is the hero of the Legend of Zelda series, a web/HTML concept, and one of the original 12 Super Smash Bros. characters."
   },
   {
     "name": "Ganondorf",
     "categories": [
-      "Zelda"
+      "Zelda",
+      "SmashBros"
     ],
-    "explanation": "Ganondorf is the main antagonist of The Legend of Zelda series, the Gerudo King who wields the Triforce of Power."
+    "explanation": "Ganondorf is the main antagonist of The Legend of Zelda series, wielding the Triforce of Power, and a heavy fighter in Super Smash Bros."
   },
   {
     "name": "Navi",

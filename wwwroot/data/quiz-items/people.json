@@ -216,9 +216,10 @@
     "name": "Leonardo",
     "categories": [
       "Painter",
-      "Tech"
+      "Tech",
+      "AssassinsCreed"
     ],
-    "explanation": "Leonardo da Vinci was the Renaissance polymath. Leonardo.AI is an image generation platform."
+    "explanation": "Leonardo da Vinci was the Renaissance polymath, Leonardo.AI is an image generation platform, and he's a key ally in Assassin's Creed II and Brotherhood."
   },
   {
     "name": "Michelangelo",
@@ -389,16 +390,18 @@
   {
     "name": "Socrates",
     "categories": [
-      "Philosopher"
+      "Philosopher",
+      "AssassinsCreed"
     ],
-    "explanation": "Socrates was the ancient Greek philosopher who developed the Socratic method of questioning."
+    "explanation": "Socrates was the ancient Greek philosopher who developed the Socratic method, and a major character in Assassin's Creed Odyssey."
   },
   {
     "name": "Plato",
     "categories": [
-      "Philosopher"
+      "Philosopher",
+      "AssassinsCreed"
     ],
-    "explanation": "Plato was the ancient Greek philosopher who founded the Academy and wrote The Republic."
+    "explanation": "Plato was the ancient Greek philosopher who founded the Academy, and appears as a young man in Assassin's Creed Odyssey."
   },
   {
     "name": "Aristotle",
@@ -691,5 +694,22 @@
       "Author"
     ],
     "explanation": "Mary Shelley was the author of Frankenstein, considered the first science fiction novel."
+  },
+  {
+    "name": "Machiavelli",
+    "categories": [
+      "Philosopher",
+      "Author",
+      "AssassinsCreed"
+    ],
+    "explanation": "Niccolò Machiavelli was the political philosopher who wrote The Prince, and a major ally in Assassin's Creed Brotherhood."
+  },
+  {
+    "name": "Cleopatra",
+    "categories": [
+      "HistoricalState",
+      "AssassinsCreed"
+    ],
+    "explanation": "Cleopatra VII was the last pharaoh of ancient Egypt, and a major character in Assassin's Creed Origins."
   }
 ]

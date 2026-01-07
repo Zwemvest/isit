@@ -166,37 +166,43 @@
   {
     "name": "Jupiter",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "Celestial"
     ],
-    "explanation": "Jupiter is the Roman king of the gods, equivalent to the Greek Zeus."
+    "explanation": "Jupiter is the Roman king of the gods, and the largest planet in our solar system."
   },
   {
     "name": "Mars",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "Celestial",
+      "Pigment"
     ],
-    "explanation": "Mars is the Roman god of war, more honored than his Greek counterpart Ares."
+    "explanation": "Mars is the Roman god of war, the 'Red Planet', and Mars Black/Red/Yellow are iron oxide pigments."
   },
   {
     "name": "Venus",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "Celestial"
     ],
-    "explanation": "Venus is the Roman goddess of love, equivalent to the Greek Aphrodite."
+    "explanation": "Venus is the Roman goddess of love, and the second planet from the Sun."
   },
   {
     "name": "Neptune",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "Celestial"
     ],
-    "explanation": "Neptune is the Roman god of the sea, equivalent to the Greek Poseidon."
+    "explanation": "Neptune is the Roman god of the sea, and the eighth planet from the Sun."
   },
   {
     "name": "Mercury",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "Celestial"
     ],
-    "explanation": "Mercury is the Roman messenger god, equivalent to the Greek Hermes."
+    "explanation": "Mercury is the Roman messenger god, and the closest planet to the Sun."
   },
   {
     "name": "Vulcan",
@@ -230,9 +236,10 @@
   {
     "name": "Pluto",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "Celestial"
     ],
-    "explanation": "Pluto is the Roman god of the underworld, equivalent to the Greek Hades."
+    "explanation": "Pluto is the Roman god of the underworld, and the dwarf planet in our solar system."
   },
   {
     "name": "Morrigan",

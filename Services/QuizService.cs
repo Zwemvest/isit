@@ -68,7 +68,9 @@ public class QuizService
         "MTG",
         "Celestial",
         "Bird",
-        "Pigment"
+        "Pigment",
+        "SmashBros",
+        "AssassinsCreed"
     ];
 
     public static readonly Dictionary<string, string> CategoryDisplayNames = new()
@@ -87,7 +89,7 @@ public class QuizService
         ["StarWars"] = "Star Wars",
         ["ProgrammingLang"] = "Programming Language or Framework",
         ["DigitalTerm"] = "Digital Terminology",
-        ["SiliconValleyBS"] = "Silicon Valley VC Bullshit",
+        ["SiliconValleyBS"] = "Silicon Valley Venture Capitalist Bullshit",
         ["HistoricalState"] = "Historical State or City",
         ["DnD"] = "Dungeons and Dragons",
         ["Warhammer"] = "Warhammer",
@@ -104,7 +106,9 @@ public class QuizService
         ["MTG"] = "Magic: The Gathering",
         ["Celestial"] = "Celestial Body",
         ["Bird"] = "Bird Species",
-        ["Pigment"] = "Artist Pigment"
+        ["Pigment"] = "Artist Pigment",
+        ["SmashBros"] = "Super Smash Bros. Character",
+        ["AssassinsCreed"] = "Assassin's Creed Appearance"
     };
 
     public QuizService(HttpClient httpClient)

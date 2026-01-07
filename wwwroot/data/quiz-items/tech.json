@@ -208,9 +208,11 @@
   {
     "name": "Falco",
     "categories": [
-      "CloudInfra"
+      "CloudInfra",
+      "Bird",
+      "SmashBros"
     ],
-    "explanation": "Falco is a cloud-native runtime security tool for detecting threats in containers."
+    "explanation": "Falco is a CNCF runtime security tool, a genus of birds including falcons, and Falco Lombardi is a Star Fox character playable in Super Smash Bros."
   },
   {
     "name": "Argo",
