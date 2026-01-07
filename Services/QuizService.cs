@@ -3,6 +3,12 @@ using IsIt.Models;
 
 namespace IsIt.Services;
 
+public enum ScoringMode
+{
+    AllCorrect,
+    AnyCorrect
+}
+
 public class QuizService
 {
     private readonly HttpClient _httpClient;
@@ -10,6 +16,12 @@ public class QuizService
     private List<QuizItem> _shuffledItems = [];
     private int _currentIndex;
     private int _score;
+
+    // Settings
+    public ScoringMode ScoringMode { get; set; } = ScoringMode.AllCorrect;
+    public HashSet<string> IncludedCategories { get; private set; } = [];
+
+    public const int MinCategories = 3;
 
     public static readonly List<string> AllCategories =
     [
@@ -20,7 +32,10 @@ public class QuizService
         "PaganGod",
         "MetalBand",
         "IKEAFurniture",
-        "StarWars"
+        "StarWars",
+        "Programming",
+        "HistoricalState",
+        "DnD"
     ];
 
     public static readonly Dictionary<string, string> CategoryDisplayNames = new()
@@ -32,12 +47,34 @@ public class QuizService
         ["PaganGod"] = "Pagan God",
         ["MetalBand"] = "Metal Band",
         ["IKEAFurniture"] = "IKEA Furniture",
-        ["StarWars"] = "Star Wars"
+        ["StarWars"] = "Star Wars",
+        ["Programming"] = "Programming Term",
+        ["HistoricalState"] = "Historical State or City",
+        ["DnD"] = "Dungeons and Dragons"
     };
 
     public QuizService(HttpClient httpClient)
     {
         _httpClient = httpClient;
+        InitializeRandomCategories();
+    }
+
+    public void InitializeRandomCategories()
+    {
+        // Default: 6 random categories
+        IncludedCategories = AllCategories
+            .OrderBy(_ => Random.Shared.Next())
+            .Take(6)
+            .ToHashSet();
+    }
+
+    public void SetIncludedCategories(IEnumerable<string> categories)
+    {
+        var validCategories = categories.Where(c => AllCategories.Contains(c)).ToHashSet();
+        if (validCategories.Count >= MinCategories)
+        {
+            IncludedCategories = validCategories;
+        }
     }
 
     public async Task LoadItemsAsync()

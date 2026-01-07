@@ -16,12 +16,12 @@
   },
   {
     "name": "Zoloft",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Zoloft (sertraline) is one of the most commonly prescribed SSRI antidepressants."
   },
   {
     "name": "Lexapro",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Lexapro (escitalopram) is an SSRI antidepressant used for anxiety and depression."
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "name": "Prozac",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Prozac (fluoxetine) was the first SSRI antidepressant, approved in 1987."
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "name": "Wellbutrin",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Wellbutrin (bupropion) is an atypical antidepressant that works differently from SSRIs."
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "name": "Cymbalta",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Cymbalta (duloxetine) is an SNRI antidepressant also used for chronic pain."
   },
   {
@@ -106,7 +106,7 @@
   },
   {
     "name": "Effexor",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Effexor (venlafaxine) is an SNRI antidepressant used for depression and anxiety disorders."
   },
   {
@@ -122,107 +122,107 @@
   {
     "name": "Ditto",
     "categories": ["Pokemon", "Tech"],
-    "explanation": "Ditto is a Normal-type Pokémon that can transform into anything, AND it's a popular clipboard manager app for macOS."
+    "explanation": "Ditto is a Normal-type Pokémon that can transform into anything, and also a clipboard manager app for macOS."
   },
   {
     "name": "Porygon",
-    "categories": ["Pokemon"],
-    "explanation": "Porygon is the first artificial Pokémon, made entirely of programming code. Not to be confused with Polygon, the blockchain."
+    "categories": ["Pokemon", "Programming"],
+    "explanation": "Porygon is the first artificial Pokémon, made entirely of programming code - a literal programming construct."
   },
   {
     "name": "Polygon",
-    "categories": ["Tech"],
-    "explanation": "Polygon is a Layer 2 blockchain scaling solution for Ethereum. Not the digital Pokémon, that's Porygon."
+    "categories": ["Tech", "Programming"],
+    "explanation": "Polygon is a Layer 2 blockchain, and also a fundamental term in computer graphics for shapes made of vertices."
   },
   {
     "name": "Celexa",
-    "categories": ["Antidepressant"],
-    "explanation": "Celexa (citalopram) is an SSRI antidepressant. Sounds like Celebi, but won't help you time travel."
+    "categories": ["Psychiatric"],
+    "explanation": "Celexa (citalopram) is an SSRI antidepressant used for depression."
   },
   {
     "name": "Chansey",
     "categories": ["Pokemon"],
-    "explanation": "Chansey is a Normal-type Pokémon that carries a healing egg. Sounds like a medication, but it's just very caring."
+    "explanation": "Chansey is a Normal-type Pokémon that carries a healing egg in its pouch."
   },
   {
     "name": "Blissey",
     "categories": ["Pokemon"],
-    "explanation": "Blissey is Chansey's evolution, known for making people happy. Still not an antidepressant though."
+    "explanation": "Blissey is Chansey's evolution, known for its nurturing nature and high HP."
   },
   {
     "name": "Drowzee",
     "categories": ["Pokemon"],
-    "explanation": "Drowzee is a Psychic-type Pokémon that eats dreams. Sounds like a sleep aid, but definitely isn't FDA approved."
+    "explanation": "Drowzee is a Psychic-type Pokémon that feeds on dreams."
   },
   {
     "name": "Hypno",
     "categories": ["Pokemon"],
-    "explanation": "Hypno is Drowzee's evolution that hypnotizes prey. Not a sedative, despite the name."
+    "explanation": "Hypno is Drowzee's evolution, carrying a pendulum it uses to hypnotize prey."
   },
   {
     "name": "Electrode",
     "categories": ["Pokemon"],
-    "explanation": "Electrode is an Electric-type Pokémon that looks like a Poké Ball. Sounds techy, but will just explode on you."
+    "explanation": "Electrode is an Electric-type Pokémon that resembles a Poké Ball and is known for exploding."
   },
   {
     "name": "Magneton",
     "categories": ["Pokemon"],
-    "explanation": "Magneton is three Magnemite linked together. Sounds like a physics term, but it's just magnets with eyes."
+    "explanation": "Magneton is an Electric/Steel-type Pokémon composed of three Magnemite linked together."
   },
   {
     "name": "Rotom",
     "categories": ["Pokemon"],
-    "explanation": "Rotom is an Electric/Ghost Pokémon that possesses appliances. 'Motor' backwards - very tech-adjacent but still a Pokémon."
+    "explanation": "Rotom is an Electric/Ghost-type Pokémon that can possess electrical appliances."
   },
   {
     "name": "Heroku",
     "categories": ["Tech"],
-    "explanation": "Heroku is a cloud platform for deploying apps. Sounds like a Pokémon, but it's just a PaaS."
+    "explanation": "Heroku is a cloud platform as a service (PaaS) for deploying and managing applications."
   },
   {
     "name": "Roku",
     "categories": ["Tech"],
-    "explanation": "Roku is a streaming device company. Definitely sounds like it could be a Rock-type Pokémon."
+    "explanation": "Roku is a streaming device and platform company founded in 2002."
   },
   {
     "name": "Redis",
     "categories": ["Tech"],
-    "explanation": "Redis is an in-memory data structure store. Sounds like a medication, but it's just very fast key-value storage."
+    "explanation": "Redis is an in-memory data structure store used as a database, cache, and message broker."
   },
   {
     "name": "Istio",
     "categories": ["Tech"],
-    "explanation": "Istio is a service mesh for Kubernetes. Sounds pharmaceutical, but it's for managing microservices."
+    "explanation": "Istio is an open-source service mesh for Kubernetes that manages microservice traffic."
   },
   {
     "name": "Paxil",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Paxil (paroxetine) is an SSRI antidepressant used for depression and anxiety disorders."
   },
   {
     "name": "Pristiq",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Pristiq (desvenlafaxine) is an SNRI antidepressant, the active metabolite of Effexor."
   },
   {
     "name": "Remeron",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Remeron (mirtazapine) is a tetracyclic antidepressant that also helps with sleep."
   },
   {
     "name": "Trintellix",
-    "categories": ["Antidepressant"],
-    "explanation": "Trintellix (vortioxetine) is a newer antidepressant with a multimodal mechanism of action."
+    "categories": ["Psychiatric"],
+    "explanation": "Trintellix (vortioxetine) is an antidepressant with a multimodal mechanism of action."
   },
   {
     "name": "Trazodone",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Trazodone is an antidepressant often prescribed off-label for insomnia."
   },
   {
     "name": "Abilify",
-    "categories": ["Antidepressant"],
-    "explanation": "Abilify (aripiprazole) is an atypical antipsychotic often used to augment antidepressants."
+    "categories": ["Psychiatric"],
+    "explanation": "Abilify (aripiprazole) is an atypical antipsychotic used to augment antidepressant treatment."
   },
   {
     "name": "Sauron",
@@ -252,12 +252,12 @@
   {
     "name": "Balrog",
     "categories": ["LordOfTheRings"],
-    "explanation": "The Balrog is the ancient demon of shadow and flame that Gandalf faced in Moria."
+    "explanation": "The Balrog is an ancient demon of shadow and flame that Gandalf faced in Moria."
   },
   {
     "name": "Nazgûl",
-    "categories": ["LordOfTheRings"],
-    "explanation": "The Nazgûl are the nine Ringwraiths, Men corrupted by the Nine Rings of Power."
+    "categories": ["LordOfTheRings", "MetalBand"],
+    "explanation": "The Nazgûl are the nine Ringwraiths in LOTR, and also an Italian black metal band formed in 1992."
   },
   {
     "name": "Glamdring",
@@ -266,8 +266,8 @@
   },
   {
     "name": "Morgoth",
-    "categories": ["LordOfTheRings"],
-    "explanation": "Morgoth was the first Dark Lord, Sauron's master, and the original source of evil in Arda."
+    "categories": ["LordOfTheRings", "MetalBand"],
+    "explanation": "Morgoth was the first Dark Lord in Tolkien's legendarium, and also a German death metal band formed in 1985."
   },
   {
     "name": "Shelob",
@@ -277,137 +277,137 @@
   {
     "name": "Prometheus",
     "categories": ["Tech", "PaganGod"],
-    "explanation": "Prometheus is a Greek Titan who gave fire to humanity, AND an open-source monitoring system. Double trouble!"
+    "explanation": "Prometheus is a Greek Titan who gave fire to humanity, and also an open-source monitoring system."
   },
   {
     "name": "Loki",
     "categories": ["Tech", "PaganGod"],
-    "explanation": "Loki is the Norse trickster god, AND a log aggregation system by Grafana Labs. Mischief managed both ways."
+    "explanation": "Loki is the Norse trickster god, and also a log aggregation system by Grafana Labs."
   },
   {
     "name": "Helm",
     "categories": ["Tech"],
-    "explanation": "Helm is a package manager for Kubernetes. Sounds like fantasy equipment, but it's just YAML templates."
+    "explanation": "Helm is a package manager for Kubernetes that uses chart templates."
   },
   {
     "name": "Vault",
     "categories": ["Tech"],
-    "explanation": "HashiCorp Vault is a secrets management tool. Sounds like a dungeon feature, manages passwords instead."
+    "explanation": "HashiCorp Vault is a secrets management tool for storing and accessing sensitive data."
   },
   {
     "name": "Consul",
     "categories": ["Tech"],
-    "explanation": "HashiCorp Consul is a service mesh solution. Sounds like a Roman official, does service discovery."
+    "explanation": "HashiCorp Consul is a service mesh solution for service discovery and configuration."
   },
   {
     "name": "Nomad",
     "categories": ["Tech"],
-    "explanation": "HashiCorp Nomad is a workload orchestrator. Sounds adventurous, schedules containers."
+    "explanation": "HashiCorp Nomad is a workload orchestrator for deploying and managing applications."
   },
   {
     "name": "Envoy",
     "categories": ["Tech"],
-    "explanation": "Envoy is a high-performance proxy for service mesh. Sounds like a diplomatic messenger, routes traffic."
+    "explanation": "Envoy is a high-performance proxy designed for service mesh architectures."
   },
   {
     "name": "Arceus",
     "categories": ["Pokemon"],
-    "explanation": "Arceus is the 'God Pokémon' said to have created the universe. Sounds like a medication or spell."
+    "explanation": "Arceus is the mythical 'God Pokémon' said to have created the Pokémon universe."
   },
   {
     "name": "Dialga",
     "categories": ["Pokemon"],
-    "explanation": "Dialga is the legendary Pokémon that controls time. Sounds like it could be a blood pressure medication."
+    "explanation": "Dialga is a Steel/Dragon-type legendary Pokémon that controls time."
   },
   {
     "name": "Palkia",
     "categories": ["Pokemon"],
-    "explanation": "Palkia is the legendary Pokémon that controls space. Definitely sounds like a medication."
+    "explanation": "Palkia is a Water/Dragon-type legendary Pokémon that controls space."
   },
   {
     "name": "Giratina",
     "categories": ["Pokemon"],
-    "explanation": "Giratina rules the Distortion World. Sounds like an antibiotic, is actually an antimatter dragon."
+    "explanation": "Giratina is a Ghost/Dragon-type legendary Pokémon that rules the Distortion World."
   },
   {
     "name": "Luxray",
     "categories": ["Pokemon"],
-    "explanation": "Luxray is an Electric-type Pokémon with X-ray vision. Sounds like a medical imaging company."
+    "explanation": "Luxray is an Electric-type Pokémon with eyes that can see through anything."
   },
   {
     "name": "Lucario",
     "categories": ["Pokemon"],
-    "explanation": "Lucario is a Fighting/Steel-type Pokémon that can sense aura. Sounds like a car brand or medication."
+    "explanation": "Lucario is a Fighting/Steel-type Pokémon that can sense and manipulate aura."
   },
   {
     "name": "Audino",
     "categories": ["Pokemon"],
-    "explanation": "Audino is a Normal-type Pokémon that can sense feelings with its ears. Sounds like a hearing aid brand."
+    "explanation": "Audino is a Normal-type Pokémon that can sense feelings through its ear feelers."
   },
   {
     "name": "Latios",
     "categories": ["Pokemon"],
-    "explanation": "Latios is a Dragon/Psychic legendary Pokémon. Sounds like an operating system or medication."
+    "explanation": "Latios is a Dragon/Psychic-type legendary Pokémon known for high intelligence."
   },
   {
     "name": "Latias",
     "categories": ["Pokemon"],
-    "explanation": "Latias is Latios's counterpart. Also sounds like it could be a medication or software."
+    "explanation": "Latias is a Dragon/Psychic-type legendary Pokémon and Latios's counterpart."
   },
   {
     "name": "Solana",
     "categories": ["Tech"],
-    "explanation": "Solana is a high-performance blockchain. Sounds like it could be an antidepressant or a Pokémon."
+    "explanation": "Solana is a high-performance blockchain platform known for fast transaction speeds."
   },
   {
     "name": "Avalanche",
     "categories": ["Tech"],
-    "explanation": "Avalanche is a blockchain platform. Sounds like a Pokémon move, is actually crypto infrastructure."
+    "explanation": "Avalanche is a blockchain platform for decentralized applications and custom networks."
   },
   {
     "name": "Cardano",
     "categories": ["Tech"],
-    "explanation": "Cardano is a proof-of-stake blockchain named after mathematician Gerolamo Cardano."
+    "explanation": "Cardano is a proof-of-stake blockchain platform named after mathematician Gerolamo Cardano."
   },
   {
     "name": "Ansible",
     "categories": ["Tech"],
-    "explanation": "Ansible is an IT automation tool. Named after the instant communication device from sci-fi."
+    "explanation": "Ansible is an IT automation tool for configuration management and application deployment."
   },
   {
     "name": "Datadog",
     "categories": ["Tech"],
-    "explanation": "Datadog is a monitoring and analytics platform. Not a Pokémon, despite the animal name."
+    "explanation": "Datadog is a monitoring and analytics platform for cloud-scale applications."
   },
   {
     "name": "Splunk",
     "categories": ["Tech"],
-    "explanation": "Splunk is a data analytics platform. Sounds like a Pokémon move or a weird medication."
+    "explanation": "Splunk is a platform for searching, monitoring, and analyzing machine-generated data."
   },
   {
     "name": "Supabase",
     "categories": ["Tech"],
-    "explanation": "Supabase is an open-source Firebase alternative. Sounds like it could be a Pokémon base form."
+    "explanation": "Supabase is an open-source Firebase alternative with a PostgreSQL database."
   },
   {
     "name": "Vercel",
     "categories": ["Tech"],
-    "explanation": "Vercel is a cloud platform for frontend deployment. Sounds vaguely pharmaceutical."
+    "explanation": "Vercel is a cloud platform for frontend deployment, created by the makers of Next.js."
   },
   {
     "name": "Netlify",
     "categories": ["Tech"],
-    "explanation": "Netlify is a web development platform. Sounds like a Pokémon ability."
+    "explanation": "Netlify is a web development platform for building and deploying modern web projects."
   },
   {
     "name": "Eowyn",
     "categories": ["LordOfTheRings"],
-    "explanation": "Éowyn is the shieldmaiden of Rohan who slew the Witch-king with 'I am no man!'"
+    "explanation": "Éowyn is the shieldmaiden of Rohan who slew the Witch-king of Angmar."
   },
   {
     "name": "Faramir",
     "categories": ["LordOfTheRings"],
-    "explanation": "Faramir is Boromir's brother, Captain of Gondor, who showed quality by letting Frodo go."
+    "explanation": "Faramir is Boromir's brother and Captain of Gondor who helped Frodo on his quest."
   },
   {
     "name": "Boromir",
@@ -417,152 +417,152 @@
   {
     "name": "Isildur",
     "categories": ["LordOfTheRings"],
-    "explanation": "Isildur cut the Ring from Sauron's hand but refused to destroy it, leading to ages of trouble."
+    "explanation": "Isildur cut the Ring from Sauron's hand but refused to destroy it."
   },
   {
     "name": "Treebeard",
     "categories": ["LordOfTheRings"],
-    "explanation": "Treebeard (Fangorn) is the oldest Ent, shepherd of the trees, who led the attack on Isengard."
+    "explanation": "Treebeard (Fangorn) is the oldest Ent who led the attack on Isengard."
   },
   {
     "name": "Smeagol",
     "categories": ["LordOfTheRings"],
-    "explanation": "Sméagol was a Hobbit-like creature corrupted into Gollum by the One Ring's influence."
+    "explanation": "Sméagol was a Hobbit-like creature corrupted into Gollum by the One Ring."
   },
   {
     "name": "Slowpoke",
     "categories": ["Pokemon"],
-    "explanation": "Slowpoke is a Water/Psychic-type Pokémon that takes 5 seconds to feel pain. Not a medication for slow thinking."
+    "explanation": "Slowpoke is a Water/Psychic-type Pokémon known for its slow reactions."
   },
   {
     "name": "Abra",
     "categories": ["Pokemon"],
-    "explanation": "Abra is a Psychic-type Pokémon that sleeps 18 hours a day. Named after 'abracadabra', not a pill."
+    "explanation": "Abra is a Psychic-type Pokémon that sleeps 18 hours a day and teleports when threatened."
   },
   {
     "name": "Kadabra",
     "categories": ["Pokemon"],
-    "explanation": "Kadabra evolves from Abra and has a silver spoon. Still part of a magic word, not a drug."
+    "explanation": "Kadabra is Abra's evolution, a Psychic-type that emits alpha waves from its body."
   },
   {
     "name": "Alakazam",
     "categories": ["Pokemon"],
-    "explanation": "Alakazam has an IQ of 5,000 and two spoons. Completes the magic word trio, still not pharmaceutical."
+    "explanation": "Alakazam is Kadabra's evolution with an IQ of 5,000 and powerful psychic abilities."
   },
   {
     "name": "Nidoran",
     "categories": ["Pokemon"],
-    "explanation": "Nidoran is a Poison-type Pokémon with gender differences. Sounds like a medication name."
+    "explanation": "Nidoran is a Poison-type Pokémon that was the first to have distinct male and female forms."
   },
   {
     "name": "Gengar",
     "categories": ["Pokemon"],
-    "explanation": "Gengar is a Ghost/Poison-type Pokémon that hides in shadows. Not a German engineering company."
+    "explanation": "Gengar is a Ghost/Poison-type Pokémon that hides in shadows to steal heat from surroundings."
   },
   {
     "name": "Arcanine",
     "categories": ["Pokemon"],
-    "explanation": "Arcanine is a Fire-type legendary Pokémon known for its speed and loyalty. Not Arduino, the microcontroller."
+    "explanation": "Arcanine is a Fire-type Pokémon known for its speed, loyalty, and majestic appearance."
   },
   {
     "name": "Arduino",
     "categories": ["Tech"],
-    "explanation": "Arduino is an open-source electronics platform with easy-to-use hardware and software. Not the Fire-type Pokémon, that's Arcanine."
+    "explanation": "Arduino is an open-source electronics platform with easy-to-use hardware and software."
   },
   {
     "name": "Nginx",
     "categories": ["Tech"],
-    "explanation": "Nginx is a popular web server and reverse proxy. Pronounced 'engine-x', looks like alien language."
+    "explanation": "Nginx is a popular web server, reverse proxy, and load balancer."
   },
   {
     "name": "Traefik",
     "categories": ["Tech"],
-    "explanation": "Traefik is a modern reverse proxy and load balancer. Sounds like a medication for traffic anxiety."
+    "explanation": "Traefik is a modern reverse proxy and load balancer for microservices."
   },
   {
     "name": "Cilium",
     "categories": ["Tech"],
-    "explanation": "Cilium is eBPF-based networking for Kubernetes. Named after cell biology, does network security."
+    "explanation": "Cilium is eBPF-based networking and security for Kubernetes and other platforms."
   },
   {
     "name": "Falco",
     "categories": ["Tech"],
-    "explanation": "Falco is a cloud-native runtime security tool. Named after a bird, catches threats."
+    "explanation": "Falco is a cloud-native runtime security tool for detecting threats in containers."
   },
   {
     "name": "Argo",
     "categories": ["Tech"],
-    "explanation": "Argo is a collection of Kubernetes-native workflow tools. Named after the mythical ship."
+    "explanation": "Argo is a collection of Kubernetes-native tools for workflows, deployments, and GitOps."
   },
   {
     "name": "Seroquel",
-    "categories": ["Antidepressant"],
-    "explanation": "Seroquel (quetiapine) is an atypical antipsychotic used for bipolar depression."
+    "categories": ["Psychiatric"],
+    "explanation": "Seroquel (quetiapine) is an atypical antipsychotic used for bipolar disorder and depression."
   },
   {
     "name": "Latuda",
-    "categories": ["Antidepressant"],
-    "explanation": "Latuda (lurasidone) is an atypical antipsychotic for bipolar depression. Sounds like Latias/Latios!"
+    "categories": ["Psychiatric"],
+    "explanation": "Latuda (lurasidone) is an atypical antipsychotic used for bipolar depression and schizophrenia."
   },
   {
     "name": "Vraylar",
-    "categories": ["Antidepressant"],
-    "explanation": "Vraylar (cariprazine) is an atypical antipsychotic for bipolar disorder and depression."
+    "categories": ["Psychiatric"],
+    "explanation": "Vraylar (cariprazine) is an atypical antipsychotic for bipolar disorder and schizophrenia."
   },
   {
     "name": "Rexulti",
-    "categories": ["Antidepressant"],
-    "explanation": "Rexulti (brexpiprazole) is used to augment antidepressants. Sounds like a Pokémon evolution."
+    "categories": ["Psychiatric"],
+    "explanation": "Rexulti (brexpiprazole) is an atypical antipsychotic used to augment antidepressant treatment."
   },
   {
     "name": "Viibryd",
-    "categories": ["Antidepressant"],
+    "categories": ["Psychiatric"],
     "explanation": "Viibryd (vilazodone) is an SSRI antidepressant with partial 5-HT1A agonist activity."
   },
   {
     "name": "Gastly",
     "categories": ["Pokemon"],
-    "explanation": "Gastly is a Ghost/Poison-type Pokémon made of gas. Sounds like a stomach medication."
+    "explanation": "Gastly is a Ghost/Poison-type Pokémon composed almost entirely of gas."
   },
   {
     "name": "Koffing",
     "categories": ["Pokemon"],
-    "explanation": "Koffing is a Poison-type Pokémon that emits toxic gas. Sounds like a cough medicine."
+    "explanation": "Koffing is a Poison-type Pokémon that stores toxic gases in its body."
   },
   {
     "name": "Weezing",
     "categories": ["Pokemon"],
-    "explanation": "Weezing is Koffing's evolution. Really sounds like it should be a respiratory medication."
+    "explanation": "Weezing is Koffing's evolution, consisting of two Koffing fused together."
   },
   {
     "name": "Tangela",
     "categories": ["Pokemon"],
-    "explanation": "Tangela is a Grass-type Pokémon covered in vines. Sounds like a hair product."
+    "explanation": "Tangela is a Grass-type Pokémon whose body is covered in thick blue vines."
   },
   {
     "name": "Nidoking",
     "categories": ["Pokemon"],
-    "explanation": "Nidoking is the final evolution of male Nidoran. Sounds like it could be a pharma company."
+    "explanation": "Nidoking is the final evolution of male Nidoran, a powerful Poison/Ground-type."
   },
   {
     "name": "Starmie",
     "categories": ["Pokemon"],
-    "explanation": "Starmie is a Water/Psychic-type starfish Pokémon with a jewel core. Sounds like a kids' vitamin brand."
+    "explanation": "Starmie is a Water/Psychic-type starfish Pokémon with a glowing jewel core."
   },
   {
     "name": "Dratini",
     "categories": ["Pokemon"],
-    "explanation": "Dratini is a Dragon-type Pokémon that was thought to be mythical. Sounds like a pasta or medication."
+    "explanation": "Dratini is a Dragon-type Pokémon that was long considered a mythical creature."
   },
   {
     "name": "Dragonite",
     "categories": ["Pokemon"],
-    "explanation": "Dragonite is Dratini's final evolution. Sounds like a mineral supplement."
+    "explanation": "Dragonite is Dratini's final evolution, a Dragon/Flying-type known for rescuing people at sea."
   },
   {
     "name": "Orcrist",
     "categories": ["LordOfTheRings"],
-    "explanation": "Orcrist is Thorin Oakenshield's Elven sword, the 'Goblin-cleaver', found with Glamdring."
+    "explanation": "Orcrist is Thorin Oakenshield's Elven sword, known as the 'Goblin-cleaver'."
   },
   {
     "name": "Narsil",
@@ -572,32 +572,27 @@
   {
     "name": "Lothlórien",
     "categories": ["LordOfTheRings"],
-    "explanation": "Lothlórien is the golden forest realm of Galadriel and Celeborn."
+    "explanation": "Lothlórien is the golden forest realm ruled by Galadriel and Celeborn."
   },
   {
     "name": "Rivendell",
     "categories": ["LordOfTheRings"],
-    "explanation": "Rivendell (Imladris) is Elrond's hidden valley sanctuary, the 'Last Homely House'."
+    "explanation": "Rivendell (Imladris) is Elrond's hidden valley sanctuary in the Misty Mountains."
   },
   {
     "name": "Mirkwood",
     "categories": ["LordOfTheRings"],
-    "explanation": "Mirkwood is the great forest corrupted by Sauron's influence, home to Wood-elves and giant spiders."
+    "explanation": "Mirkwood is the great forest home to Wood-elves, corrupted by Sauron's influence."
   },
   {
     "name": "Mordor",
     "categories": ["LordOfTheRings"],
-    "explanation": "Mordor is Sauron's realm of shadow, where Mount Doom lies and the Ring was forged."
+    "explanation": "Mordor is Sauron's realm of shadow where Mount Doom lies and the Ring was forged."
   },
-  {
-    "name": "Isengard",
-    "categories": ["LordOfTheRings"],
-    "explanation": "Isengard is Saruman's fortress with the tower Orthanc, destroyed by the Ents."
-  },
-  {
+    {
     "name": "Kibana",
     "categories": ["Tech"],
-    "explanation": "Kibana is a data visualization dashboard for Elasticsearch. Sounds like a Pokémon."
+    "explanation": "Kibana is a data visualization dashboard for Elasticsearch."
   },
   {
     "name": "Elasticsearch",
@@ -607,12 +602,12 @@
   {
     "name": "Pulumi",
     "categories": ["Tech"],
-    "explanation": "Pulumi is an infrastructure-as-code tool. Sounds like a flower or Italian pasta."
+    "explanation": "Pulumi is an infrastructure-as-code tool supporting multiple programming languages."
   },
   {
     "name": "Celeborn",
     "categories": ["LordOfTheRings"],
-    "explanation": "Celeborn is Galadriel's husband and Lord of Lothlórien. Sounds like Celebi but much older."
+    "explanation": "Celeborn is Galadriel's husband and Lord of Lothlórien."
   },
   {
     "name": "Thranduil",
@@ -622,7 +617,7 @@
   {
     "name": "Denethor",
     "categories": ["LordOfTheRings"],
-    "explanation": "Denethor II was the Steward of Gondor who went mad and tried to burn Faramir."
+    "explanation": "Denethor II was the Steward of Gondor who went mad from using a palantír."
   },
   {
     "name": "Glorfindel",
@@ -637,63 +632,62 @@
   {
     "name": "Éomer",
     "categories": ["LordOfTheRings"],
-    "explanation": "Éomer is Éowyn's brother, Marshal of the Riddermark, who became King of Rohan."
+    "explanation": "Éomer is Éowyn's brother and Marshal of the Riddermark who became King of Rohan."
   },
-
   {
     "name": "Odin",
     "categories": ["PaganGod"],
-    "explanation": "Odin is the Norse Allfather, god of wisdom, war, and death. Gave up an eye for knowledge."
+    "explanation": "Odin is the Norse Allfather, god of wisdom, war, and death who sacrificed an eye for knowledge."
   },
   {
     "name": "Thor",
     "categories": ["PaganGod"],
-    "explanation": "Thor is the Norse god of thunder who wields Mjölnir. Yes, before Marvel."
+    "explanation": "Thor is the Norse god of thunder who wields the hammer Mjölnir."
   },
   {
     "name": "Freya",
     "categories": ["PaganGod"],
-    "explanation": "Freya is the Norse goddess of love, beauty, and war. Rides a chariot pulled by cats."
+    "explanation": "Freya is the Norse goddess of love, beauty, and war who rides a chariot pulled by cats."
   },
   {
     "name": "Tyr",
     "categories": ["PaganGod", "MetalBand"],
-    "explanation": "Týr is the Norse god of war who lost his hand to Fenrir, AND a Faroese folk metal band!"
+    "explanation": "Týr is the Norse god of war who lost his hand to Fenrir, and also a Faroese folk metal band."
   },
   {
     "name": "Baldur",
     "categories": ["PaganGod"],
-    "explanation": "Baldur is the Norse god of light and purity, killed by mistletoe thanks to Loki's trickery."
+    "explanation": "Baldur is the Norse god of light and purity, killed by mistletoe due to Loki's trickery."
   },
   {
     "name": "Heimdall",
     "categories": ["PaganGod"],
-    "explanation": "Heimdall is the Norse guardian of Bifröst who can see and hear everything."
+    "explanation": "Heimdall is the Norse guardian of Bifröst who can see and hear across all realms."
   },
   {
     "name": "Frigg",
     "categories": ["PaganGod"],
-    "explanation": "Frigg is Odin's wife and Norse goddess of marriage and motherhood."
+    "explanation": "Frigg is Odin's wife and the Norse goddess of marriage and motherhood."
   },
   {
     "name": "Hel",
     "categories": ["PaganGod"],
-    "explanation": "Hel is the Norse goddess of the underworld, daughter of Loki. Half alive, half dead."
+    "explanation": "Hel is the Norse goddess of the underworld, daughter of Loki, half alive and half dead."
   },
   {
     "name": "Fenrir",
-    "categories": ["PaganGod"],
-    "explanation": "Fenrir is the monstrous Norse wolf destined to kill Odin at Ragnarök."
+    "categories": ["PaganGod", "MetalBand"],
+    "explanation": "Fenrir is the monstrous Norse wolf destined to kill Odin at Ragnarök, and also multiple metal bands."
   },
   {
     "name": "Zeus",
     "categories": ["PaganGod"],
-    "explanation": "Zeus is the Greek king of gods, ruler of Mount Olympus and god of thunder."
+    "explanation": "Zeus is the Greek king of the gods, ruler of Mount Olympus and god of thunder."
   },
   {
     "name": "Apollo",
     "categories": ["PaganGod", "Tech"],
-    "explanation": "Apollo is the Greek god of sun, music, and prophecy, AND Apollo GraphQL is a popular API platform!"
+    "explanation": "Apollo is the Greek god of sun, music, and prophecy, and also a GraphQL API platform."
   },
   {
     "name": "Athena",
@@ -708,17 +702,17 @@
   {
     "name": "Hades",
     "categories": ["PaganGod"],
-    "explanation": "Hades is the Greek god of the underworld and the dead. Not actually evil, just got a bad job."
+    "explanation": "Hades is the Greek god of the underworld and ruler of the dead."
   },
   {
     "name": "Ares",
     "categories": ["PaganGod"],
-    "explanation": "Ares is the Greek god of war, known for being brutal and unpopular among other gods."
+    "explanation": "Ares is the Greek god of war, known for his brutal and violent nature."
   },
   {
     "name": "Hermes",
     "categories": ["PaganGod"],
-    "explanation": "Hermes is the Greek messenger god, also god of thieves, travelers, and commerce."
+    "explanation": "Hermes is the Greek messenger god, also patron of thieves, travelers, and commerce."
   },
   {
     "name": "Artemis",
@@ -733,62 +727,62 @@
   {
     "name": "Dionysus",
     "categories": ["PaganGod"],
-    "explanation": "Dionysus is the Greek god of wine, festivity, and ecstasy. Life of the party."
+    "explanation": "Dionysus is the Greek god of wine, festivity, and religious ecstasy."
   },
   {
     "name": "Atlas",
     "categories": ["PaganGod", "Tech"],
-    "explanation": "Atlas is the Greek Titan condemned to hold up the sky, AND MongoDB Atlas is a cloud database platform!"
+    "explanation": "Atlas is the Greek Titan condemned to hold up the sky, and also MongoDB's cloud database platform."
   },
   {
     "name": "Cassandra",
     "categories": ["PaganGod", "Tech"],
-    "explanation": "Cassandra was a Greek prophetess cursed to never be believed, AND Apache Cassandra is a distributed database!"
+    "explanation": "Cassandra was a Greek prophetess cursed to never be believed, and also an Apache distributed database."
   },
   {
     "name": "Pandora",
     "categories": ["PaganGod", "Tech"],
-    "explanation": "Pandora opened the box releasing all evils in Greek myth, AND Pandora is a music streaming service!"
+    "explanation": "Pandora opened the box releasing evils into the world, and is also a music streaming service."
   },
   {
     "name": "Jupiter",
     "categories": ["PaganGod"],
-    "explanation": "Jupiter is the Roman king of gods, equivalent to Zeus. Also a planet, but not a category."
+    "explanation": "Jupiter is the Roman king of the gods, equivalent to the Greek Zeus."
   },
   {
     "name": "Mars",
     "categories": ["PaganGod"],
-    "explanation": "Mars is the Roman god of war, much more respected than Greek Ares."
+    "explanation": "Mars is the Roman god of war, more honored than his Greek counterpart Ares."
   },
   {
     "name": "Venus",
     "categories": ["PaganGod"],
-    "explanation": "Venus is the Roman goddess of love, equivalent to Aphrodite."
+    "explanation": "Venus is the Roman goddess of love, equivalent to the Greek Aphrodite."
   },
   {
     "name": "Neptune",
     "categories": ["PaganGod"],
-    "explanation": "Neptune is the Roman god of the sea, equivalent to Poseidon."
+    "explanation": "Neptune is the Roman god of the sea, equivalent to the Greek Poseidon."
   },
   {
     "name": "Mercury",
     "categories": ["PaganGod"],
-    "explanation": "Mercury is the Roman messenger god, equivalent to Hermes. Also an element and planet."
+    "explanation": "Mercury is the Roman messenger god, equivalent to the Greek Hermes."
   },
   {
     "name": "Vulcan",
     "categories": ["PaganGod"],
-    "explanation": "Vulcan is the Roman god of fire and forge, equivalent to Hephaestus."
+    "explanation": "Vulcan is the Roman god of fire and the forge, equivalent to the Greek Hephaestus."
   },
   {
     "name": "Minerva",
     "categories": ["PaganGod"],
-    "explanation": "Minerva is the Roman goddess of wisdom, equivalent to Athena."
+    "explanation": "Minerva is the Roman goddess of wisdom, equivalent to the Greek Athena."
   },
   {
     "name": "Juno",
     "categories": ["PaganGod", "Tech"],
-    "explanation": "Juno is the Roman queen of gods, AND Juno is an email security company!"
+    "explanation": "Juno is the Roman queen of the gods, and also an email security company."
   },
   {
     "name": "Ceres",
@@ -798,7 +792,7 @@
   {
     "name": "Pluto",
     "categories": ["PaganGod"],
-    "explanation": "Pluto is the Roman god of the underworld, equivalent to Hades."
+    "explanation": "Pluto is the Roman god of the underworld, equivalent to the Greek Hades."
   },
   {
     "name": "Morrigan",
@@ -833,63 +827,62 @@
   {
     "name": "Epona",
     "categories": ["PaganGod"],
-    "explanation": "Epona is the Celtic goddess of horses, adopted by the Romans."
+    "explanation": "Epona is the Celtic goddess of horses, later adopted into Roman worship."
   },
-
   {
     "name": "Mastodon",
     "categories": ["MetalBand", "Tech"],
-    "explanation": "Mastodon is an American progressive metal band, AND the decentralized social media platform! Double whammy."
+    "explanation": "Mastodon is an American progressive metal band, and also a decentralized social media platform."
   },
   {
     "name": "Gojira",
     "categories": ["MetalBand"],
-    "explanation": "Gojira is a French progressive metal band. Sounds like Godzilla (it is), not a Pokémon."
+    "explanation": "Gojira is a French progressive/death metal band named after the Japanese name for Godzilla."
   },
   {
     "name": "Opeth",
     "categories": ["MetalBand"],
-    "explanation": "Opeth is a Swedish progressive metal/rock band. Sounds like it could be a medication."
+    "explanation": "Opeth is a Swedish progressive metal/rock band known for blending death metal with acoustic passages."
   },
   {
     "name": "Meshuggah",
     "categories": ["MetalBand"],
-    "explanation": "Meshuggah is a Swedish extreme metal band. Yiddish for 'crazy', not a Pokémon."
+    "explanation": "Meshuggah is a Swedish extreme metal band known for polyrhythmic compositions. The name is Yiddish for 'crazy'."
   },
   {
     "name": "Amon Amarth",
     "categories": ["MetalBand", "LordOfTheRings"],
-    "explanation": "Amon Amarth is a Swedish melodic death metal band named after Mount Doom's Sindarin name in LOTR!"
+    "explanation": "Amon Amarth is a Swedish melodic death metal band named after Mount Doom's Sindarin name in LOTR."
   },
   {
     "name": "Gorgoroth",
     "categories": ["MetalBand", "LordOfTheRings"],
-    "explanation": "Gorgoroth is a Norwegian black metal band named after the plateau in Mordor from LOTR!"
+    "explanation": "Gorgoroth is a Norwegian black metal band named after the plateau in Mordor from LOTR."
   },
   {
     "name": "Burzum",
     "categories": ["MetalBand", "LordOfTheRings"],
-    "explanation": "Burzum was a Norwegian black metal project. The name is Black Speech for 'darkness' from LOTR!"
+    "explanation": "Burzum was a Norwegian black metal project. The name is Black Speech for 'darkness' from LOTR."
   },
   {
     "name": "Venom",
     "categories": ["MetalBand"],
-    "explanation": "Venom is an English extreme metal band, pioneers of black metal. Sounds like a Pokémon type."
+    "explanation": "Venom is an English extreme metal band and pioneers of the black metal genre."
   },
   {
     "name": "Behemoth",
-    "categories": ["MetalBand"],
-    "explanation": "Behemoth is a Polish blackened death metal band named after the biblical monster."
+    "categories": ["MetalBand", "PaganGod", "DnD"],
+    "explanation": "Behemoth is a Polish death metal band, a biblical monster, and a creature type in D&D."
   },
   {
     "name": "Nile",
     "categories": ["MetalBand"],
-    "explanation": "Nile is an American death metal band with Egyptian themes. Also a river, obviously."
+    "explanation": "Nile is an American death metal band known for Egyptian and ancient themes."
   },
   {
     "name": "Carcass",
     "categories": ["MetalBand"],
-    "explanation": "Carcass is an English extreme metal band, pioneers of grindcore."
+    "explanation": "Carcass is an English extreme metal band and pioneers of grindcore and melodic death metal."
   },
   {
     "name": "Sepultura",
@@ -899,22 +892,22 @@
   {
     "name": "Testament",
     "categories": ["MetalBand"],
-    "explanation": "Testament is an American thrash metal band from the Bay Area."
+    "explanation": "Testament is an American thrash metal band from the San Francisco Bay Area."
   },
   {
     "name": "Exodus",
     "categories": ["MetalBand"],
-    "explanation": "Exodus is an American thrash metal band, one of the Big Four of Bay Area thrash."
+    "explanation": "Exodus is an American thrash metal band and one of the originators of Bay Area thrash."
   },
   {
     "name": "Overkill",
     "categories": ["MetalBand"],
-    "explanation": "Overkill is an American thrash metal band from New Jersey."
+    "explanation": "Overkill is an American thrash metal band from New Jersey, active since 1980."
   },
   {
     "name": "Death",
     "categories": ["MetalBand"],
-    "explanation": "Death was an American death metal band, pioneers of the genre. Yes, just 'Death'."
+    "explanation": "Death was an American band led by Chuck Schuldiner, pioneers of the death metal genre."
   },
   {
     "name": "Emperor",
@@ -924,47 +917,47 @@
   {
     "name": "Immortal",
     "categories": ["MetalBand"],
-    "explanation": "Immortal is a Norwegian black metal band famous for their 'Blashyrkh' mythology."
+    "explanation": "Immortal is a Norwegian black metal band known for their 'Blashyrkh' mythology."
   },
   {
     "name": "Mayhem",
     "categories": ["MetalBand"],
-    "explanation": "Mayhem is a Norwegian black metal band with an extremely controversial history."
+    "explanation": "Mayhem is a Norwegian black metal band influential in the second wave of black metal."
   },
   {
     "name": "Nightwish",
     "categories": ["MetalBand"],
-    "explanation": "Nightwish is a Finnish symphonic metal band. Sounds like a spell or medication."
+    "explanation": "Nightwish is a Finnish symphonic metal band known for operatic vocals and orchestral arrangements."
   },
   {
     "name": "Epica",
     "categories": ["MetalBand"],
-    "explanation": "Epica is a Dutch symphonic metal band. Sounds pharmaceutical, plays epic music."
+    "explanation": "Epica is a Dutch symphonic metal band featuring operatic female vocals and orchestral elements."
   },
   {
     "name": "Kamelot",
     "categories": ["MetalBand"],
-    "explanation": "Kamelot is an American power metal band. Sounds like Camelot, and that's intentional."
+    "explanation": "Kamelot is an American power metal band named after the legendary castle of King Arthur."
   },
   {
     "name": "Sabaton",
     "categories": ["MetalBand"],
-    "explanation": "Sabaton is a Swedish power metal band focused on war history. Named after armored boots."
+    "explanation": "Sabaton is a Swedish power metal band focused on historical wars. Named after armored boots."
   },
   {
     "name": "Eluveitie",
     "categories": ["MetalBand"],
-    "explanation": "Eluveitie is a Swiss folk metal band with Celtic influences. Good luck pronouncing it."
+    "explanation": "Eluveitie is a Swiss folk metal band blending melodic death metal with Celtic folk instruments."
   },
   {
     "name": "Ensiferum",
     "categories": ["MetalBand"],
-    "explanation": "Ensiferum is a Finnish folk metal band. Latin for 'sword-bearer'."
+    "explanation": "Ensiferum is a Finnish folk metal band. The name is Latin for 'sword-bearer'."
   },
   {
     "name": "Rammstein",
     "categories": ["MetalBand"],
-    "explanation": "Rammstein is a German industrial metal band known for pyrotechnics."
+    "explanation": "Rammstein is a German industrial metal band known for German lyrics and pyrotechnic live shows."
   },
   {
     "name": "Trivium",
@@ -974,27 +967,27 @@
   {
     "name": "Baroness",
     "categories": ["MetalBand"],
-    "explanation": "Baroness is an American heavy metal band known for their colorful album artwork."
+    "explanation": "Baroness is an American heavy metal band known for progressive elements and colorful artwork."
   },
   {
     "name": "Sleep",
     "categories": ["MetalBand"],
-    "explanation": "Sleep is an American stoner/doom metal band. Sounds like a medication, makes heavy music."
+    "explanation": "Sleep is an American stoner/doom metal band known for extremely long songs."
   },
   {
     "name": "Ghost",
     "categories": ["MetalBand"],
-    "explanation": "Ghost is a Swedish rock/metal band with Satanic imagery and catchy hooks."
+    "explanation": "Ghost is a Swedish rock/metal band known for Satanic imagery and melodic hooks."
   },
   {
     "name": "Slayer",
     "categories": ["MetalBand"],
-    "explanation": "Slayer was an American thrash metal band, one of the Big Four of thrash."
+    "explanation": "Slayer was an American thrash metal band, one of the 'Big Four' of thrash metal."
   },
   {
     "name": "Anthrax",
     "categories": ["MetalBand"],
-    "explanation": "Anthrax is an American thrash metal band, one of the Big Four. Yes, named after the disease."
+    "explanation": "Anthrax is an American thrash metal band, one of the 'Big Four' of thrash metal."
   },
   {
     "name": "Kreator",
@@ -1004,398 +997,996 @@
   {
     "name": "Darkthrone",
     "categories": ["MetalBand"],
-    "explanation": "Darkthrone is a Norwegian black metal band, influential in the second wave."
+    "explanation": "Darkthrone is a Norwegian black metal band influential in the second wave of black metal."
   },
   {
     "name": "Dimmu Borgir",
     "categories": ["MetalBand"],
-    "explanation": "Dimmu Borgir is a Norwegian symphonic black metal band. Named after an Icelandic lava formation."
+    "explanation": "Dimmu Borgir is a Norwegian symphonic black metal band named after an Icelandic lava formation."
   },
   {
     "name": "Arch Enemy",
     "categories": ["MetalBand"],
-    "explanation": "Arch Enemy is a Swedish melodic death metal band."
+    "explanation": "Arch Enemy is a Swedish melodic death metal band known for technical guitar work."
   },
   {
     "name": "Amorphis",
     "categories": ["MetalBand"],
-    "explanation": "Amorphis is a Finnish metal band with progressive and folk elements."
+    "explanation": "Amorphis is a Finnish metal band blending progressive, folk, and death metal elements."
   },
   {
     "name": "Insomnium",
     "categories": ["MetalBand"],
-    "explanation": "Insomnium is a Finnish melodic death metal band. Sounds like a sleep medication."
-  },
-
-  {
-    "name": "KALLAX",
-    "categories": ["IKEAFurniture"],
-    "explanation": "KALLAX is IKEA's popular cube shelving unit. Sounds like it could be a Norse god of organization."
+    "explanation": "Insomnium is a Finnish melodic death metal band known for melancholic atmospheres."
   },
   {
-    "name": "MALM",
+    "name": "Kallax",
     "categories": ["IKEAFurniture"],
-    "explanation": "MALM is IKEA's bed and dresser series. Swedish for 'ore', sounds like a Pokémon."
+    "explanation": "KALLAX is IKEA's popular cube shelving unit system."
   },
   {
-    "name": "BILLY",
+    "name": "Malm",
     "categories": ["IKEAFurniture"],
-    "explanation": "BILLY is IKEA's iconic bookcase, sold since 1979. Just a regular name, but it's furniture."
+    "explanation": "MALM is IKEA's bed and dresser series. The name is Swedish for 'ore'."
   },
   {
-    "name": "POÄNG",
+    "name": "Billy",
     "categories": ["IKEAFurniture"],
-    "explanation": "POÄNG is IKEA's bentwood armchair. Swedish for 'point', sounds like a Pokémon move."
+    "explanation": "BILLY is IKEA's iconic bookcase, in production since 1979."
   },
   {
-    "name": "LACK",
+    "name": "Poäng",
     "categories": ["IKEAFurniture"],
-    "explanation": "LACK is IKEA's simple side table series. Sounds like it's missing something."
+    "explanation": "POÄNG is IKEA's bentwood armchair. The name is Swedish for 'point'."
   },
   {
-    "name": "HEMNES",
+    "name": "Lack",
     "categories": ["IKEAFurniture"],
-    "explanation": "HEMNES is IKEA's traditional furniture series. Named after a Norwegian municipality."
+    "explanation": "LACK is IKEA's affordable side table series with a hollow core design."
   },
   {
-    "name": "BESTÅ",
+    "name": "Hemnes",
     "categories": ["IKEAFurniture"],
-    "explanation": "BESTÅ is IKEA's storage system series. Sounds like 'best' in Swedish (it means 'to consist')."
+    "explanation": "HEMNES is IKEA's traditional furniture series named after a Norwegian municipality."
   },
   {
-    "name": "DETOLF",
+    "name": "Bestå",
     "categories": ["IKEAFurniture"],
-    "explanation": "DETOLF is IKEA's glass display cabinet. Sounds like a Norse dwarf name."
+    "explanation": "BESTÅ is IKEA's modular storage system. The name means 'to consist' in Swedish."
   },
   {
-    "name": "EKTORP",
+    "name": "Detolf",
     "categories": ["IKEAFurniture"],
-    "explanation": "EKTORP is IKEA's classic sofa series. Sounds like a spell or a Pokémon."
+    "explanation": "DETOLF is IKEA's glass-door display cabinet."
   },
   {
-    "name": "KLIPPAN",
+    "name": "Ektorp",
     "categories": ["IKEAFurniture"],
-    "explanation": "KLIPPAN is IKEA's compact sofa. Named after a Swedish town, sounds like a Pokémon."
+    "explanation": "EKTORP is IKEA's classic sofa series with removable, washable covers."
   },
   {
-    "name": "FRAKTA",
+    "name": "Klippan",
     "categories": ["IKEAFurniture"],
-    "explanation": "FRAKTA is IKEA's iconic blue bag. Swedish for 'to transport', sounds like a fracture medication."
+    "explanation": "KLIPPAN is IKEA's compact loveseat named after a Swedish town."
   },
   {
-    "name": "BJÖRKUDDEN",
+    "name": "Frakta",
     "categories": ["IKEAFurniture"],
-    "explanation": "BJÖRKUDDEN is an IKEA table series. Swedish for 'birch point', maximum Nordic energy."
+    "explanation": "FRAKTA is IKEA's iconic blue shopping bag. Swedish for 'to transport'."
   },
   {
-    "name": "RÅSKOG",
+    "name": "Björkudden",
     "categories": ["IKEAFurniture"],
-    "explanation": "RÅSKOG is IKEA's utility cart. Sounds like a Viking battle cry."
+    "explanation": "BJÖRKUDDEN is an IKEA table series. Swedish for 'birch point'."
   },
   {
-    "name": "BEKVÄM",
+    "name": "Råskog",
     "categories": ["IKEAFurniture"],
-    "explanation": "BEKVÄM is IKEA's step stool. Swedish for 'comfortable', sounds like a meditation app."
+    "explanation": "RÅSKOG is IKEA's steel utility cart on casters."
   },
   {
-    "name": "STRANDMON",
+    "name": "Bekväm",
     "categories": ["IKEAFurniture"],
-    "explanation": "STRANDMON is IKEA's wing chair. Sounds like a Pokémon evolution of 'Strandm'."
+    "explanation": "BEKVÄM is IKEA's wooden step stool. Swedish for 'comfortable'."
   },
   {
-    "name": "JÄRVFJÄLLET",
+    "name": "Strandmon",
     "categories": ["IKEAFurniture"],
-    "explanation": "JÄRVFJÄLLET is IKEA's office chair. Swedish for 'mountain of Järv', pronunciation nightmare."
+    "explanation": "STRANDMON is IKEA's wing chair inspired by a 1950s Scandinavian design."
   },
   {
-    "name": "MARKUS",
+    "name": "Järvfjället",
     "categories": ["IKEAFurniture"],
-    "explanation": "MARKUS is IKEA's popular office chair. Just a regular name, but it's a chair."
+    "explanation": "JÄRVFJÄLLET is IKEA's ergonomic office chair. Swedish for 'mountain of Järv'."
   },
   {
-    "name": "KIVIK",
+    "name": "Markus",
     "categories": ["IKEAFurniture"],
-    "explanation": "KIVIK is IKEA's sofa series. Named after a Swedish town, sounds like a Pokémon."
+    "explanation": "MARKUS is IKEA's popular ergonomic office chair with a high back."
   },
   {
-    "name": "SÖDERHAMN",
+    "name": "Kivik",
     "categories": ["IKEAFurniture"],
-    "explanation": "SÖDERHAMN is IKEA's modular sofa. Named after a Swedish city, very Nordic."
+    "explanation": "KIVIK is IKEA's deep-seated sofa series named after a Swedish town."
   },
   {
-    "name": "VITTSJÖ",
+    "name": "Söderhamn",
     "categories": ["IKEAFurniture"],
-    "explanation": "VITTSJÖ is IKEA's glass shelving unit. Swedish for 'white lake', sounds like a spell."
+    "explanation": "SÖDERHAMN is IKEA's modular sofa system named after a Swedish city."
   },
   {
-    "name": "HAVSTA",
+    "name": "Vittsjö",
     "categories": ["IKEAFurniture"],
-    "explanation": "HAVSTA is IKEA's storage series. Sounds like a Viking settlement."
+    "explanation": "VITTSJÖ is IKEA's glass and metal shelving unit. Swedish for 'white lake'."
   },
   {
-    "name": "IVAR",
+    "name": "Havsta",
     "categories": ["IKEAFurniture"],
-    "explanation": "IVAR is IKEA's pine shelving system. A Nordic name, also 'Ivar the Boneless' was a Viking."
+    "explanation": "HAVSTA is IKEA's solid pine storage furniture series."
   },
   {
-    "name": "TROFAST",
+    "name": "Ivar",
     "categories": ["IKEAFurniture"],
-    "explanation": "TROFAST is IKEA's kids storage. Swedish for 'faithful', sounds like a medication."
+    "explanation": "IVAR is IKEA's untreated pine shelving system designed for customization."
   },
   {
-    "name": "BRIMNES",
+    "name": "Trofast",
     "categories": ["IKEAFurniture"],
-    "explanation": "BRIMNES is IKEA's bed/storage series. Sounds like a Lord of the Rings location."
+    "explanation": "TROFAST is IKEA's children's storage system with bins. Swedish for 'faithful'."
   },
   {
-    "name": "NORDLI",
+    "name": "Brimnes",
     "categories": ["IKEAFurniture"],
-    "explanation": "NORDLI is IKEA's bedroom series. Very obviously Nordic, sounds like a medication."
+    "explanation": "BRIMNES is IKEA's bedroom furniture series with built-in storage."
   },
   {
-    "name": "FENOMEN",
+    "name": "Nordli",
     "categories": ["IKEAFurniture"],
-    "explanation": "FENOMEN is IKEA's unscented candle. Swedish for 'phenomenon', sounds dramatic for a candle."
+    "explanation": "NORDLI is IKEA's modular bedroom furniture series."
   },
   {
-    "name": "SKURUP",
+    "name": "Fenomen",
     "categories": ["IKEAFurniture"],
-    "explanation": "SKURUP is IKEA's lamp series. Named after a Swedish town, sounds like a startup."
+    "explanation": "FENOMEN is IKEA's unscented block candle. Swedish for 'phenomenon'."
   },
   {
-    "name": "TERTIAL",
+    "name": "Skurup",
     "categories": ["IKEAFurniture"],
-    "explanation": "TERTIAL is IKEA's work lamp. Latin-sounding, like a medication or academic term."
+    "explanation": "SKURUP is IKEA's pendant and floor lamp series named after a Swedish town."
   },
   {
-    "name": "GODMORGON",
+    "name": "Tertial",
     "categories": ["IKEAFurniture"],
-    "explanation": "GODMORGON is IKEA's bathroom series. Swedish for 'good morning', surprisingly literal."
+    "explanation": "TERTIAL is IKEA's adjustable work lamp with an articulated arm."
   },
   {
-    "name": "FLISAT",
+    "name": "Godmorgon",
     "categories": ["IKEAFurniture"],
-    "explanation": "FLISAT is IKEA's children's series. Sounds like a medication for children."
+    "explanation": "GODMORGON is IKEA's bathroom furniture series. Swedish for 'good morning'."
   },
   {
-    "name": "ANTILOP",
+    "name": "Flisat",
     "categories": ["IKEAFurniture"],
-    "explanation": "ANTILOP is IKEA's high chair. Swedish for 'antelope', which is a strange choice for a baby chair."
+    "explanation": "FLISAT is IKEA's children's furniture series made from solid pine."
   },
   {
-    "name": "DUKTIG",
+    "name": "Antilop",
     "categories": ["IKEAFurniture"],
-    "explanation": "DUKTIG is IKEA's play kitchen series. Swedish for 'clever/good', sounds like a medication."
+    "explanation": "ANTILOP is IKEA's high chair for babies. Swedish for 'antelope'."
   },
-
+  {
+    "name": "Duktig",
+    "categories": ["IKEAFurniture"],
+    "explanation": "DUKTIG is IKEA's children's play kitchen series. Swedish for 'clever' or 'good'."
+  },
   {
     "name": "Anakin",
     "categories": ["StarWars"],
-    "explanation": "Anakin Skywalker is the Chosen One who became Darth Vader. Not an antidepressant."
+    "explanation": "Anakin Skywalker is the Chosen One who became Darth Vader."
   },
   {
     "name": "Padmé",
     "categories": ["StarWars"],
-    "explanation": "Padmé Amidala is the Queen/Senator of Naboo and Anakin's wife."
+    "explanation": "Padmé Amidala is the Queen and Senator of Naboo, mother of Luke and Leia."
   },
   {
     "name": "Qui-Gon",
     "categories": ["StarWars"],
-    "explanation": "Qui-Gon Jinn is the Jedi who discovered Anakin. Sounds like a medication or martial art."
+    "explanation": "Qui-Gon Jinn is the Jedi Master who discovered Anakin Skywalker on Tatooine."
   },
   {
     "name": "Obi-Wan",
     "categories": ["StarWars"],
-    "explanation": "Obi-Wan Kenobi is the legendary Jedi Master who trained Anakin and Luke."
+    "explanation": "Obi-Wan Kenobi is the legendary Jedi Master who trained both Anakin and Luke Skywalker."
   },
   {
     "name": "Yoda",
     "categories": ["StarWars"],
-    "explanation": "Yoda is the 900-year-old Jedi Grand Master. Backwards, he speaks."
+    "explanation": "Yoda is the 900-year-old Jedi Grand Master known for his wisdom and unique speech pattern."
   },
   {
     "name": "Mace Windu",
     "categories": ["StarWars"],
-    "explanation": "Mace Windu is the purple lightsaber Jedi Master. Because Samuel L. Jackson wanted purple."
+    "explanation": "Mace Windu is a Jedi Master and member of the Jedi Council who wields a purple lightsaber."
   },
   {
     "name": "Palpatine",
     "categories": ["StarWars"],
-    "explanation": "Palpatine is the Sith Lord who became Emperor. Sounds like a medication for heart palpitations."
+    "explanation": "Palpatine is the Sith Lord Darth Sidious who manipulated his way to becoming Emperor."
   },
   {
     "name": "Dooku",
     "categories": ["StarWars"],
-    "explanation": "Count Dooku is the elegant Sith Lord played by Christopher Lee. Sounds like a Pokémon."
+    "explanation": "Count Dooku is a former Jedi who became the Sith Lord Darth Tyranus."
   },
   {
     "name": "Grievous",
     "categories": ["StarWars"],
-    "explanation": "General Grievous is the cyborg Separatist leader who collects lightsabers."
+    "explanation": "General Grievous is the cyborg Supreme Commander of the Separatist Droid Army."
   },
   {
     "name": "Kylo Ren",
     "categories": ["StarWars"],
-    "explanation": "Kylo Ren is Ben Solo's dark side alter ego. Sounds like a tech startup."
+    "explanation": "Kylo Ren is Ben Solo's dark side identity, grandson of Darth Vader."
   },
   {
     "name": "Ahsoka",
     "categories": ["StarWars"],
-    "explanation": "Ahsoka Tano is Anakin's former Padawan who left the Jedi Order."
+    "explanation": "Ahsoka Tano is a Togruta former Jedi Padawan of Anakin Skywalker."
   },
   {
     "name": "Grogu",
     "categories": ["StarWars"],
-    "explanation": "Grogu is 'Baby Yoda's real name from The Mandalorian. Sounds like a Pokémon."
+    "explanation": "Grogu is a Force-sensitive youngling of Yoda's species, found by Din Djarin."
   },
   {
     "name": "Din Djarin",
     "categories": ["StarWars"],
-    "explanation": "Din Djarin is The Mandalorian's real name. Sounds like a medication."
+    "explanation": "Din Djarin is a Mandalorian bounty hunter who becomes Grogu's guardian."
   },
   {
     "name": "Thrawn",
     "categories": ["StarWars"],
-    "explanation": "Grand Admiral Thrawn is the blue-skinned tactical genius from the Empire."
+    "explanation": "Grand Admiral Thrawn is a Chiss tactical genius serving the Galactic Empire."
   },
   {
     "name": "Tarkin",
     "categories": ["StarWars"],
-    "explanation": "Grand Moff Tarkin commanded the Death Star. Sounds like a medication or tech company."
+    "explanation": "Grand Moff Tarkin is the Imperial officer who commanded the first Death Star."
   },
   {
     "name": "Jabba",
     "categories": ["StarWars"],
-    "explanation": "Jabba the Hutt is the crime lord slug. Sounds like a JavaScript framework."
+    "explanation": "Jabba the Hutt is a powerful crime lord operating from Tatooine."
   },
   {
     "name": "Boba Fett",
     "categories": ["StarWars"],
-    "explanation": "Boba Fett is the legendary bounty hunter clone of Jango Fett."
+    "explanation": "Boba Fett is a legendary bounty hunter and unaltered clone of Jango Fett."
   },
   {
     "name": "Chewbacca",
     "categories": ["StarWars"],
-    "explanation": "Chewbacca is Han Solo's Wookiee co-pilot and best friend."
+    "explanation": "Chewbacca is a Wookiee warrior and Han Solo's co-pilot and best friend."
   },
   {
     "name": "Lando",
     "categories": ["StarWars"],
-    "explanation": "Lando Calrissian is the smooth gambler and former Baron of Cloud City."
+    "explanation": "Lando Calrissian is a gambler, smuggler, and former Baron Administrator of Cloud City."
   },
   {
     "name": "Tatooine",
     "categories": ["StarWars"],
-    "explanation": "Tatooine is the desert planet with two suns where Luke grew up."
+    "explanation": "Tatooine is the desert planet with twin suns where Luke Skywalker was raised."
   },
   {
     "name": "Coruscant",
     "categories": ["StarWars"],
-    "explanation": "Coruscant is the city-covered capital planet of the Republic/Empire."
+    "explanation": "Coruscant is the city-covered planet that served as capital of the Republic and Empire."
   },
   {
     "name": "Naboo",
     "categories": ["StarWars"],
-    "explanation": "Naboo is Padmé's lush homeworld with underwater Gungans."
+    "explanation": "Naboo is a lush planet home to humans and the amphibious Gungans."
   },
   {
     "name": "Mustafar",
     "categories": ["StarWars"],
-    "explanation": "Mustafar is the lava planet where Anakin became Vader. Sounds like a condiment."
+    "explanation": "Mustafar is a volcanic planet where Anakin Skywalker was defeated and became Vader."
   },
   {
     "name": "Hoth",
     "categories": ["StarWars"],
-    "explanation": "Hoth is the ice planet where the Rebels had Echo Base."
+    "explanation": "Hoth is the frozen ice planet where the Rebel Alliance established Echo Base."
   },
   {
     "name": "Dagobah",
     "categories": ["StarWars"],
-    "explanation": "Dagobah is the swamp planet where Yoda lived in exile. Sounds like a medication."
+    "explanation": "Dagobah is the swamp planet where Yoda lived in exile and trained Luke."
   },
   {
     "name": "Endor",
     "categories": ["StarWars"],
-    "explanation": "Endor is the forest moon of Ewoks where Death Star II was destroyed."
+    "explanation": "Endor is the forest moon inhabited by Ewoks where the second Death Star was destroyed."
   },
   {
     "name": "Bespin",
     "categories": ["StarWars"],
-    "explanation": "Bespin is the gas giant where Cloud City floats. Sounds like a medication."
+    "explanation": "Bespin is the gas giant planet where Cloud City floats in the atmosphere."
   },
   {
     "name": "Kashyyyk",
     "categories": ["StarWars"],
-    "explanation": "Kashyyyk is the Wookiee homeworld. Good luck spelling it correctly."
+    "explanation": "Kashyyyk is the forested homeworld of the Wookiees."
   },
   {
     "name": "Mandalore",
     "categories": ["StarWars"],
-    "explanation": "Mandalore is the warrior planet of the Mandalorians."
+    "explanation": "Mandalore is the homeworld of the Mandalorian warrior culture."
   },
   {
     "name": "Alderaan",
     "categories": ["StarWars"],
-    "explanation": "Alderaan was Leia's peaceful homeworld. Was. Death Star happened."
+    "explanation": "Alderaan was Princess Leia's peaceful homeworld, destroyed by the Death Star."
   },
   {
     "name": "Jakku",
     "categories": ["StarWars"],
-    "explanation": "Jakku is the desert junkyard planet where Rey grew up. Sounds like a Pokémon."
+    "explanation": "Jakku is the desert junkyard planet where Rey grew up scavenging."
   },
   {
     "name": "Kyber",
     "categories": ["StarWars"],
-    "explanation": "Kyber crystals power lightsabers. Sounds like cyber or a cryptocurrency."
+    "explanation": "Kyber crystals are Force-attuned crystals that power lightsabers."
   },
   {
     "name": "Holocron",
     "categories": ["StarWars"],
-    "explanation": "Holocrons are ancient data storage devices for Jedi/Sith knowledge. Sounds like a tech company."
+    "explanation": "Holocrons are ancient data storage devices containing Jedi or Sith knowledge."
   },
   {
     "name": "Bacta",
     "categories": ["StarWars"],
-    "explanation": "Bacta is the healing liquid used in tanks. Actually sounds like a medication!"
+    "explanation": "Bacta is a healing substance used in medical tanks to treat injuries."
   },
   {
     "name": "Sarlacc",
     "categories": ["StarWars"],
-    "explanation": "The Sarlacc is the pit monster that digests prey for 1000 years. Sounds like a medication."
+    "explanation": "The Sarlacc is a large omnivorous creature that digests prey over thousands of years."
   },
   {
     "name": "Rancor",
     "categories": ["StarWars"],
-    "explanation": "The Rancor is Jabba's pet monster. Also means 'bitter resentment'."
+    "explanation": "Rancors are large predatory reptiles, one was kept as a pet by Jabba the Hutt."
   },
   {
     "name": "Ewok",
     "categories": ["StarWars"],
-    "explanation": "Ewoks are the teddy bear warriors of Endor. Sounds like a Pokémon."
+    "explanation": "Ewoks are small furry sentient beings native to the forest moon of Endor."
   },
   {
     "name": "Wookiee",
     "categories": ["StarWars"],
-    "explanation": "Wookiees are the tall furry species from Kashyyyk. Note the double 'e'."
+    "explanation": "Wookiees are tall, hairy sentient beings from Kashyyyk known for strength and loyalty."
   },
   {
     "name": "Twi'lek",
     "categories": ["StarWars"],
-    "explanation": "Twi'leks are the species with head-tails (lekku). Sounds like a tech startup."
+    "explanation": "Twi'leks are a humanoid species with distinctive head-tails called lekku."
   },
   {
     "name": "Zabrak",
     "categories": ["StarWars"],
-    "explanation": "Zabraks are the horned species like Darth Maul. Sounds like a medication."
+    "explanation": "Zabraks are a humanoid species with vestigial horns, including Darth Maul."
   },
   {
     "name": "Sith",
     "categories": ["StarWars"],
-    "explanation": "The Sith are the dark side Force users. Not a lisp."
+    "explanation": "The Sith are an order of Force users who embrace the dark side."
   },
   {
     "name": "Jedi",
     "categories": ["StarWars"],
-    "explanation": "The Jedi are the light side Force users and peacekeepers. Iconic."
+    "explanation": "The Jedi are an order of Force users who serve as peacekeepers of the galaxy."
+  },
+  {
+    "name": "Cirith Ungol",
+    "categories": ["LordOfTheRings", "MetalBand"],
+    "explanation": "Cirith Ungol is the spider pass into Mordor guarded by Shelob, and also a classic American heavy metal band formed in 1972."
+  },
+  {
+    "name": "Isengard",
+    "categories": ["LordOfTheRings", "MetalBand"],
+    "explanation": "Isengard is Saruman's fortress in LOTR, and also a Norwegian black metal project by Fenriz of Darkthrone."
+  },
+  {
+    "name": "Carach Angren",
+    "categories": ["LordOfTheRings", "MetalBand"],
+    "explanation": "Carach Angren is Sindarin for 'Iron Jaws', a location in Mordor, and also a Dutch symphonic black metal band."
+  },
+  {
+    "name": "Marduk",
+    "categories": ["PaganGod", "MetalBand"],
+    "explanation": "Marduk is the chief Babylonian deity, and also a legendary Swedish black metal band formed in 1990."
+  },
+  {
+    "name": "Daedalus",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Daedalus is the Greek mythological master craftsman and father of Icarus, and also the official Cardano cryptocurrency wallet."
+  },
+  {
+    "name": "Triton",
+    "categories": ["PaganGod", "Tech", "DnD"],
+    "explanation": "Triton is the Greek merman god (son of Poseidon), NVIDIA's GPU programming language, and a playable aquatic race in D&D."
+  },
+  {
+    "name": "Medusa",
+    "categories": ["PaganGod", "Tech", "DnD"],
+    "explanation": "Medusa is the Greek Gorgon with snake hair, an open-source commerce platform, and a classic D&D monster type."
+  },
+  {
+    "name": "Cerberus",
+    "categories": ["PaganGod", "Tech", "DnD"],
+    "explanation": "Cerberus is the three-headed dog of Greek myth, an Android security app, and appears in D&D's Nine Hells."
+  },
+  {
+    "name": "Hyperion",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Hyperion is the Greek Titan of light, and also an Apache Big Data platform and SAP's OLAP database."
+  },
+  {
+    "name": "Chronos",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Chronos is the Greek personification of Time, and also a distributed cron job scheduler by Airbnb."
+  },
+  {
+    "name": "Morpheus",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Morpheus is the Greek god of dreams, and also NVIDIA's cybersecurity AI framework."
+  },
+  {
+    "name": "Talos",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Talos is the Greek mythological bronze automaton protecting Crete, and also Cisco's threat intelligence organization."
+  },
+  {
+    "name": "Helios",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Helios is the Greek god of the Sun, and also LinkedIn's open-source search platform."
+  },
+  {
+    "name": "Hera",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Hera is the Greek queen of the gods, and also a workflow orchestration SDK for Argo Workflows."
+  },
+  {
+    "name": "Kraken",
+    "categories": ["PaganGod", "Tech", "DnD"],
+    "explanation": "The Kraken is a legendary Norse sea monster, a major crypto exchange, and a powerful D&D monster."
+  },
+  {
+    "name": "Icarus",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Icarus is the Greek figure who flew too close to the sun, and also Icarus Verilog, a hardware simulation tool."
+  },
+  {
+    "name": "Titan",
+    "categories": ["PaganGod", "Tech", "DnD"],
+    "explanation": "The Titans are primordial Greek gods, Google's TPU security chip, and powerful beings in D&D (Empyreans)."
+  },
+  {
+    "name": "Sleipnir",
+    "categories": ["PaganGod", "Tech"],
+    "explanation": "Sleipnir is Odin's eight-legged horse in Norse mythology, and also a Japanese web browser."
+  },
+  {
+    "name": "Tesseract",
+    "categories": ["MetalBand", "Tech", "Programming"],
+    "explanation": "TesseracT is a British metal band, a 4D hypercube in math, and Google's open-source OCR programming library."
+  },
+  {
+    "name": "Xentrix",
+    "categories": ["MetalBand"],
+    "explanation": "Xentrix is a British thrash metal band formed in 1985."
+  },
+  {
+    "name": "Skorupi",
+    "categories": ["Pokemon"],
+    "explanation": "Skorupi is a Poison/Bug-type Pokémon that looks like a scorpion."
+  },
+  {
+    "name": "Klefki",
+    "categories": ["Pokemon"],
+    "explanation": "Klefki is a Steel/Fairy-type Pokémon that collects keys on its ring-shaped body."
+  },
+  {
+    "name": "Xerneas",
+    "categories": ["Pokemon"],
+    "explanation": "Xerneas is the Fairy-type legendary Pokémon representing life in Pokémon X."
+  },
+  {
+    "name": "Geodon",
+    "categories": ["Psychiatric"],
+    "explanation": "Geodon (ziprasidone) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+  },
+  {
+    "name": "Lunesta",
+    "categories": ["Psychiatric"],
+    "explanation": "Lunesta (eszopiclone) is a sedative-hypnotic medication prescribed for insomnia."
+  },
+  {
+    "name": "Zyprexa",
+    "categories": ["Psychiatric"],
+    "explanation": "Zyprexa (olanzapine) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+  },
+  {
+    "name": "Klonopin",
+    "categories": ["Psychiatric"],
+    "explanation": "Klonopin (clonazepam) is a benzodiazepine used for anxiety and seizure disorders."
+  },
+  {
+    "name": "Thorazine",
+    "categories": ["Psychiatric"],
+    "explanation": "Thorazine (chlorpromazine) was the first major antipsychotic medication, approved in 1954."
+  },
+  {
+    "name": "Risperdal",
+    "categories": ["Psychiatric"],
+    "explanation": "Risperdal (risperidone) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+  },
+  {
+    "name": "Nardil",
+    "categories": ["Psychiatric"],
+    "explanation": "Nardil (phenelzine) is an MAOI antidepressant requiring dietary restrictions."
+  },
+  {
+    "name": "Lamictal",
+    "categories": ["Psychiatric"],
+    "explanation": "Lamictal (lamotrigine) is a mood stabilizer used for bipolar disorder and epilepsy."
+  },
+  {
+    "name": "Invega",
+    "categories": ["Psychiatric"],
+    "explanation": "Invega (paliperidone) is an extended-release atypical antipsychotic for schizophrenia."
+  },
+  {
+    "name": "Skogsta",
+    "categories": ["IKEAFurniture"],
+    "explanation": "Skogsta is IKEA's solid acacia wood dining furniture series."
+  },
+  {
+    "name": "Vallentuna",
+    "categories": ["IKEAFurniture"],
+    "explanation": "Vallentuna is IKEA's modular seating system named after a Swedish municipality."
+  },
+  {
+    "name": "Kura",
+    "categories": ["IKEAFurniture"],
+    "explanation": "Kura is IKEA's reversible children's bed that can be flipped for different heights."
+  },
+  {
+    "name": "Norden",
+    "categories": ["IKEAFurniture"],
+    "explanation": "Norden is IKEA's gateleg table with drawers. Swedish for 'the North'."
+  },
+  {
+    "name": "Friheten",
+    "categories": ["IKEAFurniture"],
+    "explanation": "Friheten is IKEA's sofa bed with storage. Swedish for 'freedom'."
+  },
+  {
+    "name": "Bossk",
+    "categories": ["StarWars"],
+    "explanation": "Bossk is a Trandoshan bounty hunter who appears in The Empire Strikes Back."
+  },
+  {
+    "name": "Lobot",
+    "categories": ["StarWars"],
+    "explanation": "Lobot is Lando Calrissian's cyborg aide with a computer headband in Cloud City."
+  },
+  {
+    "name": "Ventress",
+    "categories": ["StarWars"],
+    "explanation": "Asajj Ventress is a Dathomirian dark side assassin from the Clone Wars series."
+  },
+  {
+    "name": "Sebulba",
+    "categories": ["StarWars"],
+    "explanation": "Sebulba is the Dug podracer who cheated against young Anakin in The Phantom Menace."
+  },
+  {
+    "name": "Plo Koon",
+    "categories": ["StarWars"],
+    "explanation": "Plo Koon is a Kel Dor Jedi Master and member of the Jedi Council."
+  },
+  {
+    "name": "Gonk",
+    "categories": ["StarWars"],
+    "explanation": "Gonk droids (GNK Power Droids) are walking battery units that make 'gonk' sounds."
+  },
+  {
+    "name": "Dengar",
+    "categories": ["StarWars"],
+    "explanation": "Dengar is a human bounty hunter seen on Vader's Star Destroyer in The Empire Strikes Back."
+  },
+  {
+    "name": "Lambda",
+    "categories": ["PaganGod", "Programming", "Tech"],
+    "explanation": "Lambda is a Greek letter, a core concept in functional programming, and AWS Lambda is a serverless computing service."
+  },
+  {
+    "name": "Redux",
+    "categories": ["Programming"],
+    "explanation": "Redux is a JavaScript state management library commonly used with React."
+  },
+  {
+    "name": "Kotlin",
+    "categories": ["Programming"],
+    "explanation": "Kotlin is a modern programming language for Android development, created by JetBrains."
+  },
+  {
+    "name": "Scala",
+    "categories": ["Programming"],
+    "explanation": "Scala is a functional programming language that runs on the JVM."
+  },
+  {
+    "name": "Haskell",
+    "categories": ["Programming"],
+    "explanation": "Haskell is a purely functional programming language named after logician Haskell Curry."
+  },
+  {
+    "name": "Clojure",
+    "categories": ["Programming"],
+    "explanation": "Clojure is a functional Lisp dialect that runs on the JVM."
+  },
+  {
+    "name": "Tuple",
+    "categories": ["Programming"],
+    "explanation": "A tuple is an immutable ordered collection of elements, used in many programming languages."
+  },
+  {
+    "name": "Vector",
+    "categories": ["Programming"],
+    "explanation": "A vector is a dynamic array data structure and a fundamental concept in graphics programming."
+  },
+  {
+    "name": "Pixilate",
+    "categories": ["Pokemon"],
+    "explanation": "Pixilate is a Pokémon ability that turns Normal-type moves into Fairy-type moves."
+  },
+  {
+    "name": "Saruhan",
+    "categories": ["HistoricalState"],
+    "explanation": "Saruhan was an Anatolian beylik (Turkish principality) in western Anatolia during the 14th-15th centuries."
+  },
+  {
+    "name": "Aragon",
+    "categories": ["HistoricalState"],
+    "explanation": "Aragon was a medieval Spanish kingdom that united with Castile to form modern Spain."
+  },
+  {
+    "name": "Gondar",
+    "categories": ["HistoricalState"],
+    "explanation": "Gondar is an Ethiopian city that served as the capital of the Ethiopian Empire from 1636 to 1855."
+  },
+  {
+    "name": "Trebizond",
+    "categories": ["HistoricalState"],
+    "explanation": "The Empire of Trebizond was a Byzantine successor state on the Black Sea coast, lasting from 1204 to 1461."
+  },
+  {
+    "name": "Wallachia",
+    "categories": ["HistoricalState"],
+    "explanation": "Wallachia was a Romanian principality and home of Vlad the Impaler (Dracula)."
+  },
+  {
+    "name": "Byzantium",
+    "categories": ["HistoricalState"],
+    "explanation": "Byzantium was the Eastern Roman Empire, lasting from 330 AD until Constantinople fell in 1453."
+  },
+  {
+    "name": "Khmer",
+    "categories": ["HistoricalState"],
+    "explanation": "The Khmer Empire was a powerful Southeast Asian state that built Angkor Wat, lasting from 802 to 1431."
+  },
+  {
+    "name": "Ayutthaya",
+    "categories": ["HistoricalState"],
+    "explanation": "Ayutthaya was a Thai kingdom that preceded modern Thailand, flourishing from 1351 to 1767."
+  },
+  {
+    "name": "Majapahit",
+    "categories": ["HistoricalState"],
+    "explanation": "Majapahit was a powerful Indonesian maritime empire based in Java from 1293 to around 1527."
+  },
+  {
+    "name": "Vijayanagar",
+    "categories": ["HistoricalState"],
+    "explanation": "Vijayanagar was a powerful South Indian empire that ruled much of southern India from 1336 to 1646."
+  },
+  {
+    "name": "Theodoro",
+    "categories": ["HistoricalState"],
+    "explanation": "Theodoro was a small Gothic principality in Crimea that existed from the 13th century until 1475."
+  },
+  {
+    "name": "Ulm",
+    "categories": ["HistoricalState"],
+    "explanation": "Ulm is a German city on the Danube, birthplace of Albert Einstein and home to the world's tallest church steeple."
+  },
+  {
+    "name": "Dithmarschen",
+    "categories": ["HistoricalState"],
+    "explanation": "Dithmarschen was a medieval peasant republic in northern Germany that defeated Danish armies in 1500."
+  },
+  {
+    "name": "Mewar",
+    "categories": ["HistoricalState"],
+    "explanation": "Mewar was a Rajput kingdom in India famous for resisting Mughal conquest under Maharana Pratap."
+  },
+  {
+    "name": "Ternate",
+    "categories": ["HistoricalState"],
+    "explanation": "Ternate was a sultanate in the Indonesian Spice Islands, a major clove producer and trading power."
+  },
+  {
+    "name": "Tidore",
+    "categories": ["HistoricalState"],
+    "explanation": "Tidore was Ternate's rival sultanate in the Spice Islands, allied with Spain against Portuguese-backed Ternate."
+  },
+  {
+    "name": "Tiamat",
+    "categories": ["PaganGod", "DnD"],
+    "explanation": "Tiamat is the Babylonian goddess of primordial chaos, and also the five-headed dragon goddess of evil in D&D."
+  },
+  {
+    "name": "Bahamut",
+    "categories": ["PaganGod", "DnD"],
+    "explanation": "Bahamut is a fish from Arabian mythology supporting the world, and also the platinum dragon god of good in D&D."
+  },
+  {
+    "name": "Asmodeus",
+    "categories": ["PaganGod", "DnD"],
+    "explanation": "Asmodeus is a demon king from Jewish and Christian demonology, and also the archdevil ruler of the Nine Hells in D&D."
+  },
+  {
+    "name": "Balduran",
+    "categories": ["DnD"],
+    "explanation": "Balduran was a legendary explorer and founder of the city of Baldur's Gate in the Forgotten Realms."
+  },
+  {
+    "name": "Tarrasque",
+    "categories": ["DnD"],
+    "explanation": "The Tarrasque is a legendary dinosaur-like monstrosity in D&D, considered nearly impossible to kill."
+  },
+  {
+    "name": "Mystra",
+    "categories": ["DnD"],
+    "explanation": "Mystra is the goddess of magic in the Forgotten Realms, keeper of the Weave."
+  },
+  {
+    "name": "Vecna",
+    "categories": ["DnD"],
+    "explanation": "Vecna is a powerful lich who became a god, known for his Hand and Eye artifacts in D&D."
+  },
+  {
+    "name": "Beholder",
+    "categories": ["DnD"],
+    "explanation": "A Beholder is an iconic D&D monster - a floating orb with a central eye and eyestalks with magical rays."
+  },
+  {
+    "name": "Illithid",
+    "categories": ["DnD"],
+    "explanation": "Illithids (Mind Flayers) are psionic aberrations with tentacled faces that consume brains in D&D."
+  },
+  {
+    "name": "Drow",
+    "categories": ["DnD"],
+    "explanation": "The Drow are dark elves who live in the Underdark, known for their worship of Lolth in D&D."
+  },
+  {
+    "name": "Lich",
+    "categories": ["DnD"],
+    "explanation": "A Lich is an undead spellcaster who achieved immortality by binding their soul to a phylactery in D&D."
+  },
+  {
+    "name": "Strahd",
+    "categories": ["DnD"],
+    "explanation": "Count Strahd von Zarovich is the vampire lord of Barovia in the classic D&D adventure Curse of Strahd."
+  },
+  {
+    "name": "Mordenkainen",
+    "categories": ["DnD"],
+    "explanation": "Mordenkainen is a legendary archmage from Greyhawk, namesake of many D&D spells like Mordenkainen's Sword."
+  },
+  {
+    "name": "Elminster",
+    "categories": ["DnD"],
+    "explanation": "Elminster Aumar is the Sage of Shadowdale, one of the most powerful wizards in the Forgotten Realms."
+  },
+  {
+    "name": "Acererak",
+    "categories": ["DnD"],
+    "explanation": "Acererak is a powerful demilich, creator of the Tomb of Horrors and Tomb of Annihilation dungeons."
+  },
+  {
+    "name": "Faerûn",
+    "categories": ["DnD"],
+    "explanation": "Faerûn is the main continent of the Forgotten Realms campaign setting in D&D."
+  },
+  {
+    "name": "Netheril",
+    "categories": ["DnD"],
+    "explanation": "Netheril was an ancient magical empire with flying cities in the Forgotten Realms."
+  },
+  {
+    "name": "Thay",
+    "categories": ["DnD"],
+    "explanation": "Thay is a magocracy ruled by the Red Wizards in the Forgotten Realms."
+  },
+  {
+    "name": "Lolth",
+    "categories": ["DnD"],
+    "explanation": "Lolth is the spider goddess of the Drow, also known as the Queen of the Demonweb Pits."
+  },
+  {
+    "name": "Drizzt",
+    "categories": ["DnD"],
+    "explanation": "Drizzt Do'Urden is a famous Drow ranger who rejected his evil heritage, wielding twin scimitars."
+  },
+  {
+    "name": "Underdark",
+    "categories": ["DnD"],
+    "explanation": "The Underdark is a vast subterranean realm beneath Faerûn, home to Drow, Duergar, and Illithids."
+  },
+  {
+    "name": "Flumph",
+    "categories": ["DnD"],
+    "explanation": "A Flumph is a friendly floating aberration that feeds on psionic energy - one of D&D's quirkiest monsters."
+  },
+  {
+    "name": "Gelatinous Cube",
+    "categories": ["DnD"],
+    "explanation": "A Gelatinous Cube is a transparent ooze that fills dungeon corridors, dissolving anything it engulfs."
+  },
+  {
+    "name": "Owlbear",
+    "categories": ["DnD"],
+    "explanation": "An Owlbear is an iconic D&D monster combining an owl's head with a bear's body."
+  },
+  {
+    "name": "Displacer Beast",
+    "categories": ["DnD"],
+    "explanation": "A Displacer Beast is a six-legged panther-like creature with tentacles that projects illusions of itself."
+  },
+  {
+    "name": "Githyanki",
+    "categories": ["DnD"],
+    "explanation": "The Githyanki are a warrior race from the Astral Plane who ride red dragons and hunt Illithids."
+  },
+  {
+    "name": "Githzerai",
+    "categories": ["DnD"],
+    "explanation": "The Githzerai are psionic monks living in Limbo, cousins and enemies of the Githyanki."
+  },
+  {
+    "name": "Aboleth",
+    "categories": ["DnD"],
+    "explanation": "Aboleths are ancient aquatic aberrations with perfect memory that predate the gods in D&D lore."
+  },
+  {
+    "name": "Java",
+    "categories": ["Programming", "HistoricalState"],
+    "explanation": "Java is a widely-used programming language, and also Indonesia's most populous island with rich history."
+  },
+  {
+    "name": "Mordva",
+    "categories": ["HistoricalState"],
+    "explanation": "Mordva (Mordovia) is a Russian region home to the Mordvin people, a Finno-Ugric ethnic group."
+  },
+  {
+    "name": "Kenku",
+    "categories": ["DnD"],
+    "explanation": "Kenku are raven-like flightless bird people who can only speak by mimicking sounds in D&D."
+  },
+  {
+    "name": "Slaad",
+    "categories": ["DnD"],
+    "explanation": "Slaadi are chaotic frog-like aberrations from the plane of Limbo in D&D."
+  },
+  {
+    "name": "Demogorgon",
+    "categories": ["DnD"],
+    "explanation": "Demogorgon is the two-headed Prince of Demons, one of the most powerful demon lords in D&D."
+  },
+  {
+    "name": "Orcus",
+    "categories": ["DnD", "PaganGod"],
+    "explanation": "Orcus is the demon prince of undeath in D&D, named after the Roman god of the underworld."
+  },
+  {
+    "name": "Bulette",
+    "categories": ["DnD"],
+    "explanation": "A Bulette is a shark-like burrowing monster in D&D, also called a 'landshark'."
+  },
+  {
+    "name": "Modron",
+    "categories": ["DnD"],
+    "explanation": "Modrons are lawful clockwork beings from the plane of Mechanus in D&D."
+  },
+  {
+    "name": "Elixir",
+    "categories": ["Programming"],
+    "explanation": "Elixir is a functional programming language that runs on the Erlang virtual machine."
+  },
+  {
+    "name": "Flutter",
+    "categories": ["Programming", "Tech"],
+    "explanation": "Flutter is Google's UI framework for building cross-platform mobile, web, and desktop apps."
+  },
+  {
+    "name": "Ember",
+    "categories": ["Programming"],
+    "explanation": "Ember.js is a JavaScript framework for building ambitious web applications."
+  },
+  {
+    "name": "Morea",
+    "categories": ["HistoricalState"],
+    "explanation": "Morea was the medieval name for the Peloponnese peninsula in Greece, used from the 10th century onward."
+  },
+  {
+    "name": "Axum",
+    "categories": ["HistoricalState"],
+    "explanation": "Axum was a powerful Ethiopian kingdom (1st-7th century AD), considered one of the four great powers of the ancient world."
+  },
+  {
+    "name": "Lydia",
+    "categories": ["HistoricalState"],
+    "explanation": "Lydia was an ancient Anatolian kingdom famous for inventing coined money under King Croesus."
+  },
+  {
+    "name": "Nabataea",
+    "categories": ["HistoricalState"],
+    "explanation": "Nabataea was an ancient Arab kingdom centered at Petra (4th century BC - 106 AD), famous for rock-cut architecture."
+  },
+  {
+    "name": "Birka",
+    "categories": ["HistoricalState"],
+    "explanation": "Birka was a major Viking Age trading center in Sweden (8th-10th century), one of Scandinavia's earliest urban settlements."
+  },
+  {
+    "name": "Hedeby",
+    "categories": ["HistoricalState"],
+    "explanation": "Hedeby was a major Viking trading settlement in what is now northern Germany (8th-11th century)."
+  },
+  {
+    "name": "Kush",
+    "categories": ["HistoricalState"],
+    "explanation": "Kush was an ancient Nubian kingdom in Sudan that once conquered Egypt, lasting from c. 1070 BC to 350 AD."
+  },
+  {
+    "name": "Elam",
+    "categories": ["HistoricalState"],
+    "explanation": "Elam was one of the oldest civilizations, located in ancient Iran, lasting from c. 3200 BC to 539 BC."
+  },
+  {
+    "name": "Pontus",
+    "categories": ["HistoricalState"],
+    "explanation": "Pontus was a Hellenistic kingdom on the Black Sea coast of Anatolia (281-63 BC), ruled by Mithridates the Great."
+  },
+  {
+    "name": "Colchis",
+    "categories": ["HistoricalState"],
+    "explanation": "Colchis was an ancient kingdom in the Caucasus (modern Georgia), famous in Greek myth as home of Medea and the Golden Fleece."
+  },
+  {
+    "name": "Urartu",
+    "categories": ["HistoricalState"],
+    "explanation": "Urartu was a powerful Iron Age kingdom in the Armenian Highlands (9th-6th century BC), a rival to Assyria."
+  },
+  {
+    "name": "Phrygia",
+    "categories": ["HistoricalState"],
+    "explanation": "Phrygia was an ancient Anatolian kingdom (12th-7th century BC), famous for King Midas and the Gordian Knot."
   }
 ]
