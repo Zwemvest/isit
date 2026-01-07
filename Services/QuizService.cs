@@ -16,7 +16,7 @@ public class QuizService
         "LordOfTheRings",
         "Pokemon",
         "Tech",
-        "Antidepressant",
+        "Psychiatric",
         "PaganGod",
         "MetalBand",
         "IKEAFurniture",
@@ -28,7 +28,7 @@ public class QuizService
         ["LordOfTheRings"] = "Lord of the Rings",
         ["Pokemon"] = "Pokémon",
         ["Tech"] = "Tech",
-        ["Antidepressant"] = "Antidepressant",
+        ["Psychiatric"] = "Psychiatric Medication",
         ["PaganGod"] = "Pagan God",
         ["MetalBand"] = "Metal Band",
         ["IKEAFurniture"] = "IKEA Furniture",
@@ -48,9 +48,14 @@ public class QuizService
         }
     }
 
+    private const int QuestionsPerGame = 20;
+
     public void StartNewGame()
     {
-        _shuffledItems = _items.OrderBy(_ => Random.Shared.Next()).ToList();
+        _shuffledItems = _items
+            .OrderBy(_ => Random.Shared.Next())
+            .Take(QuestionsPerGame)
+            .ToList();
         _currentIndex = 0;
         _score = 0;
     }
