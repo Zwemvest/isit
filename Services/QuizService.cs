@@ -9,6 +9,12 @@ public enum ScoringMode
     AnyCorrect
 }
 
+public enum GameMode
+{
+    Daily,
+    Custom
+}
+
 public class QuizService
 {
     private readonly HttpClient _httpClient;
@@ -20,8 +26,11 @@ public class QuizService
     // Settings
     public ScoringMode ScoringMode { get; set; } = ScoringMode.AllCorrect;
     public HashSet<string> IncludedCategories { get; private set; } = [];
+    public GameMode CurrentGameMode { get; private set; } = GameMode.Custom;
 
     public const int MinCategories = 3;
+    public const int DailyCategories = 6;
+    public const int DailyQuestions = 20;
 
     public static readonly List<string> AllCategories =
     [
@@ -29,28 +38,54 @@ public class QuizService
         "Pokemon",
         "Tech",
         "Psychiatric",
-        "PaganGod",
+        "NorsePagan",
+        "GreekPagan",
+        "RomanPagan",
+        "CelticPagan",
         "MetalBand",
+        "RockBand",
         "IKEAFurniture",
         "StarWars",
-        "Programming",
+        "ProgrammingLang",
+        "DigitalTerm",
+        "SiliconValleyBS",
         "HistoricalState",
-        "DnD"
+        "DnD",
+        "Warhammer",
+        "Zelda",
+        "Yugioh",
+        "Digimon",
+        "DragonBallZ",
+        "JoJo",
+        "Artist"
     ];
 
     public static readonly Dictionary<string, string> CategoryDisplayNames = new()
     {
         ["LordOfTheRings"] = "Lord of the Rings",
         ["Pokemon"] = "Pokémon",
-        ["Tech"] = "Tech",
+        ["Tech"] = "Tech Company or Product",
         ["Psychiatric"] = "Psychiatric Medication",
-        ["PaganGod"] = "Pagan God",
+        ["NorsePagan"] = "Norse Mythology",
+        ["GreekPagan"] = "Greek Mythology",
+        ["RomanPagan"] = "Roman Mythology",
+        ["CelticPagan"] = "Celtic Mythology",
         ["MetalBand"] = "Metal Band",
+        ["RockBand"] = "Rock Band",
         ["IKEAFurniture"] = "IKEA Furniture",
         ["StarWars"] = "Star Wars",
-        ["Programming"] = "Programming Term",
+        ["ProgrammingLang"] = "Programming Language or Framework",
+        ["DigitalTerm"] = "Digital Terminology",
+        ["SiliconValleyBS"] = "Silicon Valley VC Bullshit",
         ["HistoricalState"] = "Historical State or City",
-        ["DnD"] = "Dungeons and Dragons"
+        ["DnD"] = "Dungeons and Dragons",
+        ["Warhammer"] = "Warhammer",
+        ["Zelda"] = "Legend of Zelda",
+        ["Yugioh"] = "Yu-Gi-Oh!",
+        ["Digimon"] = "Digimon",
+        ["DragonBallZ"] = "Dragon Ball Z",
+        ["JoJo"] = "JoJo's Bizarre Adventure",
+        ["Artist"] = "Famous Artist"
     };
 
     public QuizService(HttpClient httpClient)
@@ -89,15 +124,53 @@ public class QuizService
 
     public void StartNewGame()
     {
+        CurrentGameMode = GameMode.Custom;
+
         // Filter items to those that have at least one included category
+        // In Custom/endless mode, we take ALL matching items (no limit)
         _shuffledItems = _items
             .Where(item => item.Categories.Any(c => IncludedCategories.Contains(c)))
             .OrderBy(_ => Random.Shared.Next())
-            .Take(QuestionsPerGame)
             .ToList();
         _currentIndex = 0;
         _score = 0;
     }
+
+    public int GetDailySeed()
+    {
+        var today = DateTime.UtcNow.Date;
+        return today.Year * 10000 + today.Month * 100 + today.Day;
+    }
+
+    public string GetDailyDateString()
+    {
+        return DateTime.UtcNow.Date.ToString("yyyy-MM-dd");
+    }
+
+    public void StartDailyGame()
+    {
+        CurrentGameMode = GameMode.Daily;
+        var seed = GetDailySeed();
+        var rng = new Random(seed);
+
+        // Select 6 categories using the seeded RNG
+        IncludedCategories = AllCategories
+            .OrderBy(_ => rng.Next())
+            .Take(DailyCategories)
+            .ToHashSet();
+
+        // Filter and shuffle items using the same seed
+        _shuffledItems = _items
+            .Where(item => item.Categories.Any(c => IncludedCategories.Contains(c)))
+            .OrderBy(_ => rng.Next())
+            .Take(DailyQuestions)
+            .ToList();
+
+        _currentIndex = 0;
+        _score = 0;
+    }
+
+    public bool IsDailyComplete => CurrentGameMode == GameMode.Daily && _currentIndex >= DailyQuestions;
 
     /// <summary>
     /// Gets the categories for the current item that are included in the game.
@@ -123,6 +196,8 @@ public class QuizService
     public int TotalQuestions => _shuffledItems.Count;
     public int Score => _score;
     public bool IsFinished => _currentIndex >= _shuffledItems.Count;
+    public bool HasReachedMinQuestions => _currentIndex >= QuestionsPerGame;
+    public const int MinQuestionsForResults = 20;
 
     public bool CheckAnswer(IEnumerable<string> selectedCategories)
     {

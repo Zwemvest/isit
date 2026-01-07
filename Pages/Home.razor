@@ -1,7 +1,9 @@
 @page "/"
 @using IsIt.Services
 @using IsIt.Models
+@using System.Text.Json
 @inject QuizService QuizService
+@inject IJSRuntime JS
 
 <PageTitle>IsIt...?</PageTitle>
 
@@ -20,46 +22,86 @@ else if (_state == QuizState.Start)
             Some items belong to multiple categories!
         </MudText>
 
-        <MudExpansionPanels Class="mt-4" Style="width: 100%; max-width: 400px;">
-            <MudExpansionPanel Text="Settings">
-                <MudStack Spacing="4">
-                    <MudText Typo="Typo.subtitle2">Scoring Mode</MudText>
-                    <MudToggleGroup T="ScoringMode" @bind-Value="QuizService.ScoringMode" Color="Color.Primary" Style="width: 100%;">
-                        <MudToggleItem Value="ScoringMode.AllCorrect" Text="All Correct" />
-                        <MudToggleItem Value="ScoringMode.AnyCorrect" Text="Any Correct" />
-                    </MudToggleGroup>
-                    <MudText Typo="Typo.caption" Color="Color.Secondary">
-                        @(QuizService.ScoringMode == ScoringMode.AllCorrect
-                            ? "Must select all correct categories exactly"
-                            : "At least one correct category counts as correct")
+        <MudToggleGroup T="GameMode" @bind-Value="_selectedGameMode" Color="Color.Primary" Style="width: 100%; max-width: 400px;">
+            <MudToggleItem Value="GameMode.Daily" Text="Daily" />
+            <MudToggleItem Value="GameMode.Custom" Text="Custom" />
+        </MudToggleGroup>
+
+        @if (_selectedGameMode == GameMode.Daily)
+        {
+            <MudPaper Class="pa-4" Style="width: 100%; max-width: 400px;">
+                <MudStack Spacing="2">
+                    <MudText Typo="Typo.h6">Daily Challenge</MudText>
+                    <MudText Typo="Typo.body2" Color="Color.Secondary">
+                        @QuizService.GetDailyDateString()
                     </MudText>
-
-                    <MudDivider Class="my-2" />
-
-                    <MudText Typo="Typo.subtitle2">Included Categories (min @QuizService.MinCategories)</MudText>
-                    <MudSelect T="string" MultiSelection="true" SelectedValues="_selectedIncludedCategories"
-                               SelectedValuesChanged="OnCategoriesChanged"
-                               Label="Categories" Variant="Variant.Outlined"
-                               MultiSelectionTextFunc="@(list => $"{list.Count()} categories selected")">
-                        @foreach (var cat in QuizService.AllCategories)
-                        {
-                            <MudSelectItem Value="@cat">@QuizService.CategoryDisplayNames[cat]</MudSelectItem>
-                        }
-                    </MudSelect>
-                    @if (_selectedIncludedCategories.Count() < QuizService.MinCategories)
+                    <MudText Typo="Typo.caption" Color="Color.Secondary">
+                        Same 20 questions for everyone today. 6 random categories seeded by today's date.
+                    </MudText>
+                    @if (_dailyCompleted)
                     {
-                        <MudText Typo="Typo.caption" Color="Color.Error">
-                            Select at least @QuizService.MinCategories categories
-                        </MudText>
+                        <MudAlert Severity="Severity.Info" Variant="Variant.Outlined" Class="mt-2">
+                            You've already completed today's daily!
+                        </MudAlert>
                     }
                 </MudStack>
-            </MudExpansionPanel>
-        </MudExpansionPanels>
+            </MudPaper>
 
-        <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" OnClick="StartGame"
-                   Disabled="@(_selectedIncludedCategories.Count() < QuizService.MinCategories)">
-            Start Quiz
-        </MudButton>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" OnClick="StartDailyGame"
+                       Disabled="@_dailyCompleted">
+                @(_dailyCompleted ? "Already Completed" : "Start Daily")
+            </MudButton>
+
+            @if (_dailyCompleted && _savedDailyResult != null)
+            {
+                <MudButton Variant="Variant.Outlined" Color="Color.Secondary" Size="Size.Medium" OnClick="ShowDailyResults">
+                    View Today's Results
+                </MudButton>
+            }
+        }
+        else
+        {
+            <MudExpansionPanels Class="mt-4" Style="width: 100%; max-width: 400px;">
+                <MudExpansionPanel Text="Settings">
+                    <MudStack Spacing="4">
+                        <MudText Typo="Typo.subtitle2">Scoring Mode</MudText>
+                        <MudToggleGroup T="ScoringMode" @bind-Value="QuizService.ScoringMode" Color="Color.Primary" Style="width: 100%;">
+                            <MudToggleItem Value="ScoringMode.AllCorrect" Text="All Correct" />
+                            <MudToggleItem Value="ScoringMode.AnyCorrect" Text="Any Correct" />
+                        </MudToggleGroup>
+                        <MudText Typo="Typo.caption" Color="Color.Secondary">
+                            @(QuizService.ScoringMode == ScoringMode.AllCorrect
+                                ? "Must select all correct categories exactly"
+                                : "At least one correct category counts as correct")
+                        </MudText>
+
+                        <MudDivider Class="my-2" />
+
+                        <MudText Typo="Typo.subtitle2">Included Categories (min @QuizService.MinCategories)</MudText>
+                        <MudSelect T="string" MultiSelection="true" SelectedValues="_selectedIncludedCategories"
+                                   SelectedValuesChanged="OnCategoriesChanged"
+                                   Label="Categories" Variant="Variant.Outlined"
+                                   MultiSelectionTextFunc="@(list => $"{list.Count()} categories selected")">
+                            @foreach (var cat in QuizService.AllCategories)
+                            {
+                                <MudSelectItem Value="@cat">@QuizService.CategoryDisplayNames[cat]</MudSelectItem>
+                            }
+                        </MudSelect>
+                        @if (_selectedIncludedCategories.Count() < QuizService.MinCategories)
+                        {
+                            <MudText Typo="Typo.caption" Color="Color.Error">
+                                Select at least @QuizService.MinCategories categories
+                            </MudText>
+                        }
+                    </MudStack>
+                </MudExpansionPanel>
+            </MudExpansionPanels>
+
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" OnClick="StartGame"
+                       Disabled="@(_selectedIncludedCategories.Count() < QuizService.MinCategories)">
+                Start Custom Quiz
+            </MudButton>
+        }
     </MudStack>
 }
 else if (_state == QuizState.Playing)
@@ -68,11 +110,61 @@ else if (_state == QuizState.Playing)
     if (item != null)
     {
         <MudStack Spacing="4">
-            <MudText Typo="Typo.caption" Color="Color.Secondary">
-                Question @QuizService.CurrentQuestionNumber of @QuizService.TotalQuestions
-            </MudText>
+            @* Fixed-height result box for previous answer *@
+            <MudPaper Style="min-height: 140px; width: 100%;" Elevation="0" Class="pa-3">
+                @if (_lastAnswerItem != null)
+                {
+                    <MudAlert Severity="@GetResultSeverity()" Variant="Variant.Filled" Dense="true" Class="mb-2">
+                        <strong>@_lastAnswerItem.Name:</strong> @string.Join(", ", _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c)).Select(c => QuizService.CategoryDisplayNames[c]))
+                        @{
+                            var excludedCats = _lastAnswerItem.Categories.Where(c => !QuizService.IncludedCategories.Contains(c)).ToList();
+                        }
+                        @if (excludedCats.Count > 0)
+                        {
+                            <span style="opacity: 0.8;"> (also @string.Join(", ", excludedCats.Select(c => QuizService.CategoryDisplayNames[c])))</span>
+                        }
+                    </MudAlert>
+                    <MudText Typo="Typo.body2" Style="opacity: 0.9;">@_lastAnswerItem.Explanation</MudText>
+                }
+                else
+                {
+                    <MudText Typo="Typo.body2" Color="Color.Secondary" Align="Align.Center" Class="mt-6">
+                        Answer questions to see results here
+                    </MudText>
+                }
+            </MudPaper>
 
-            <MudText Typo="Typo.h3" Align="Align.Center" Class="my-4">@item.Name</MudText>
+            <MudDivider />
+
+            <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
+                <MudText Typo="Typo.caption" Color="Color.Secondary">
+                    @if (QuizService.CurrentGameMode == GameMode.Daily)
+                    {
+                        <span>Question @QuizService.CurrentQuestionNumber of @QuizService.DailyQuestions (Daily)</span>
+                    }
+                    else if (QuizService.HasReachedMinQuestions)
+                    {
+                        <span>Question @QuizService.CurrentQuestionNumber / Endless</span>
+                    }
+                    else
+                    {
+                        <span>Question @QuizService.CurrentQuestionNumber of @QuizService.MinQuestionsForResults</span>
+                    }
+                </MudText>
+                @if (QuizService.CurrentGameMode == GameMode.Custom)
+                {
+                    <MudButton
+                        Variant="Variant.Outlined"
+                        Color="Color.Primary"
+                        Size="Size.Small"
+                        Disabled="@(!QuizService.HasReachedMinQuestions)"
+                        OnClick="ShowResults">
+                        Show Results
+                    </MudButton>
+                }
+            </MudStack>
+
+            <MudText Typo="Typo.h3" Align="Align.Center" Class="my-2">@item.Name</MudText>
 
             <MudText Typo="Typo.h6" Color="Color.Secondary">Is it...</MudText>
 
@@ -102,55 +194,26 @@ else if (_state == QuizState.Playing)
         </MudStack>
     }
 }
-else if (_state == QuizState.ShowingResult)
-{
-    var item = QuizService.GetCurrentItem();
-    if (item != null)
-    {
-        <MudStack Spacing="4">
-            <MudText Typo="Typo.h3" Align="Align.Center">@item.Name</MudText>
-
-            <MudAlert Severity="@(_lastAnswerCorrect ? Severity.Success : Severity.Error)" Variant="Variant.Filled">
-                @(_lastAnswerCorrect ? "Correct!" : "Not quite!")
-            </MudAlert>
-
-            @{
-                var includedCorrect = QuizService.GetCurrentItemIncludedCategories();
-                var excludedCategories = item.Categories.Except(includedCorrect).ToList();
-            }
-            <MudText Typo="Typo.body1" Class="mt-2">
-                <strong>Answer:</strong> @string.Join(", ", includedCorrect.Select(c => QuizService.CategoryDisplayNames[c]))
-                @if (excludedCategories.Count > 0)
-                {
-                    <span style="color: var(--mud-palette-text-secondary);"> (also @string.Join(", ", excludedCategories.Select(c => QuizService.CategoryDisplayNames[c])))</span>
-                }
-            </MudText>
-
-            <MudPaper Class="pa-4" Elevation="0" Style="background-color: var(--mud-palette-background-grey);">
-                <MudText Typo="Typo.body2">@item.Explanation</MudText>
-            </MudPaper>
-
-            <MudButton
-                Variant="Variant.Filled"
-                Color="Color.Primary"
-                FullWidth="true"
-                OnClick="NextQuestion">
-                @(QuizService.CurrentQuestionNumber < QuizService.TotalQuestions ? "Next" : "See Results")
-            </MudButton>
-        </MudStack>
-    }
-}
 else if (_state == QuizState.Finished)
 {
-    var percentage = QuizService.TotalQuestions > 0
-        ? (int)Math.Round(100.0 * QuizService.Score / QuizService.TotalQuestions)
+    var questionsAnswered = QuizService.CurrentQuestionNumber - 1;
+    var percentage = questionsAnswered > 0
+        ? (int)Math.Round(100.0 * QuizService.Score / questionsAnswered)
         : 0;
 
     <MudStack AlignItems="AlignItems.Center" Spacing="4">
-        <MudText Typo="Typo.h3">Quiz Complete!</MudText>
+        @if (QuizService.CurrentGameMode == GameMode.Daily)
+        {
+            <MudText Typo="Typo.h3">Daily Complete!</MudText>
+            <MudText Typo="Typo.body2" Color="Color.Secondary">@QuizService.GetDailyDateString()</MudText>
+        }
+        else
+        {
+            <MudText Typo="Typo.h3">Quiz Complete!</MudText>
+        }
 
         <MudText Typo="Typo.h1" Color="Color.Primary">
-            @QuizService.Score / @QuizService.TotalQuestions
+            @QuizService.Score / @questionsAnswered
         </MudText>
 
         <MudText Typo="Typo.h5" Color="Color.Secondary">@percentage% correct</MudText>
@@ -159,26 +222,57 @@ else if (_state == QuizState.Finished)
             @GetScoreMessage(percentage)
         </MudText>
 
-        <MudButton
-            Variant="Variant.Filled"
-            Color="Color.Primary"
-            Size="Size.Large"
-            Class="mt-4"
-            OnClick="StartGame">
-            Play Again
-        </MudButton>
+        <MudStack Row="true" Spacing="2" Class="mt-4">
+            <MudButton
+                Variant="Variant.Filled"
+                Color="Color.Primary"
+                Size="Size.Large"
+                OnClick="BackToStart">
+                @(QuizService.CurrentGameMode == GameMode.Daily ? "Back to Menu" : "Play Again")
+            </MudButton>
+            <MudButton
+                Variant="Variant.Outlined"
+                Color="Color.Secondary"
+                Size="Size.Large"
+                StartIcon="@Icons.Material.Filled.Share"
+                OnClick="ShareResults">
+                Share
+            </MudButton>
+        </MudStack>
+
+        @if (_showCopiedMessage)
+        {
+            <MudAlert Severity="Severity.Success" Variant="Variant.Text" Dense="true">
+                Copied to clipboard!
+            </MudAlert>
+        }
     </MudStack>
 }
 
 @code {
-    private enum QuizState { Loading, Start, Playing, ShowingResult, Finished }
+    private enum QuizState { Loading, Start, Playing, Finished }
+    private enum AnswerResult { None, Correct, Partial, Wrong }
 
     private QuizState _state = QuizState.Loading;
     private HashSet<string> _selectedCategories = [];
-    private bool _lastAnswerCorrect;
+
+    // Last answer tracking for the result box
+    private QuizItem? _lastAnswerItem;
+    private AnswerResult _lastAnswerResult = AnswerResult.None;
 
     // Settings
     private IEnumerable<string> _selectedIncludedCategories = [];
+    private GameMode _selectedGameMode = GameMode.Daily;
+
+    // Daily mode tracking
+    private bool _dailyCompleted;
+    private DailyResult? _savedDailyResult;
+
+    // Share functionality
+    private bool _showCopiedMessage;
+
+    private const string DailyResultKey = "isit_daily_result";
+    private const string GitHubPagesUrl = "https://xprtz.github.io/isit";
 
     protected override async Task OnInitializedAsync()
     {
@@ -186,6 +280,63 @@ else if (_state == QuizState.Finished)
         // Initialize the UI selection from the service's defaults
         _selectedIncludedCategories = QuizService.IncludedCategories.ToList();
         _state = QuizState.Start;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await CheckDailyCompletion();
+            StateHasChanged();
+        }
+    }
+
+    private async Task CheckDailyCompletion()
+    {
+        try
+        {
+            var json = await JS.InvokeAsync<string?>("localStorage.getItem", DailyResultKey);
+            if (!string.IsNullOrEmpty(json))
+            {
+                _savedDailyResult = JsonSerializer.Deserialize<DailyResult>(json);
+                if (_savedDailyResult != null && _savedDailyResult.Date == QuizService.GetDailyDateString())
+                {
+                    _dailyCompleted = true;
+                }
+                else
+                {
+                    _savedDailyResult = null;
+                    _dailyCompleted = false;
+                }
+            }
+        }
+        catch
+        {
+            // localStorage not available or other error
+        }
+    }
+
+    private async Task SaveDailyResult()
+    {
+        var result = new DailyResult
+        {
+            Date = QuizService.GetDailyDateString(),
+            Score = QuizService.Score,
+            TotalQuestions = QuizService.DailyQuestions,
+            Categories = QuizService.IncludedCategories.ToList()
+        };
+
+        try
+        {
+            var json = JsonSerializer.Serialize(result);
+            await JS.InvokeVoidAsync("localStorage.setItem", DailyResultKey, json);
+            _savedDailyResult = result;
+            _dailyCompleted = true;
+        }
+        catch
+        {
+            // localStorage not available
+        }
     }
 
     private void OnCategoriesChanged(IEnumerable<string> categories)
@@ -201,7 +352,35 @@ else if (_state == QuizState.Finished)
     {
         QuizService.StartNewGame();
         _selectedCategories.Clear();
+        _lastAnswerItem = null;
+        _lastAnswerResult = AnswerResult.None;
         _state = QuizState.Playing;
+    }
+
+    private void StartDailyGame()
+    {
+        QuizService.StartDailyGame();
+        _selectedCategories.Clear();
+        _lastAnswerItem = null;
+        _lastAnswerResult = AnswerResult.None;
+        _state = QuizState.Playing;
+    }
+
+    private void ShowDailyResults()
+    {
+        if (_savedDailyResult != null)
+        {
+            // Just show the finished state with saved results
+            _state = QuizState.Finished;
+        }
+    }
+
+    private void BackToStart()
+    {
+        _state = QuizState.Start;
+        _lastAnswerItem = null;
+        _lastAnswerResult = AnswerResult.None;
+        _selectedCategories.Clear();
     }
 
     private void ToggleCategory(string category)
@@ -212,26 +391,134 @@ else if (_state == QuizState.Finished)
         }
     }
 
-    private void SubmitAnswer()
+    private async Task SubmitAnswer()
     {
-        _lastAnswerCorrect = QuizService.CheckAnswer(_selectedCategories);
-        _state = QuizState.ShowingResult;
-    }
+        // Store current item before moving on
+        _lastAnswerItem = QuizService.GetCurrentItem();
 
-    private void NextQuestion()
-    {
-        QuizService.MoveToNext();
-        _selectedCategories.Clear();
+        // Check answer and determine result type
+        var isCorrect = QuizService.CheckAnswer(_selectedCategories);
 
-        if (QuizService.IsFinished)
+        if (isCorrect)
         {
-            _state = QuizState.Finished;
+            _lastAnswerResult = AnswerResult.Correct;
+        }
+        else if (_lastAnswerItem != null)
+        {
+            // Check for partial match (at least one correct category selected)
+            var correctCategories = _lastAnswerItem.Categories
+                .Where(c => QuizService.IncludedCategories.Contains(c))
+                .ToHashSet();
+            var hasPartialMatch = _selectedCategories.Any(s => correctCategories.Contains(s));
+            _lastAnswerResult = hasPartialMatch ? AnswerResult.Partial : AnswerResult.Wrong;
         }
         else
         {
-            _state = QuizState.Playing;
+            _lastAnswerResult = AnswerResult.Wrong;
+        }
+
+        // Move to next question immediately
+        QuizService.MoveToNext();
+        _selectedCategories.Clear();
+
+        // Check if daily is complete
+        if (QuizService.IsDailyComplete)
+        {
+            await SaveDailyResult();
+            _state = QuizState.Finished;
+        }
+        // Only auto-finish custom mode when we've run out of questions entirely
+        else if (QuizService.CurrentGameMode == GameMode.Custom && QuizService.IsFinished)
+        {
+            _state = QuizState.Finished;
         }
     }
+
+    private void ShowResults()
+    {
+        _state = QuizState.Finished;
+    }
+
+    private async Task ShareResults()
+    {
+        var questionsAnswered = QuizService.CurrentQuestionNumber - 1;
+        var percentage = questionsAnswered > 0
+            ? (int)Math.Round(100.0 * QuizService.Score / questionsAnswered)
+            : 0;
+
+        // Generate emoji grid (like Wordle)
+        var emojiGrid = GenerateEmojiGrid();
+
+        // Build the share text
+        var shareText = QuizService.CurrentGameMode == GameMode.Daily
+            ? $"IsIt...? Daily {QuizService.GetDailyDateString()}\n"
+            : $"IsIt...? Custom Quiz\n";
+
+        shareText += $"{QuizService.Score}/{questionsAnswered} ({percentage}%)\n\n";
+        shareText += emojiGrid + "\n\n";
+        shareText += GitHubPagesUrl;
+
+        // If Custom mode, add URL parameters
+        if (QuizService.CurrentGameMode == GameMode.Custom)
+        {
+            var categories = string.Join(",", QuizService.IncludedCategories);
+            shareText += $"?mode=custom&cats={Uri.EscapeDataString(categories)}";
+        }
+
+        try
+        {
+            await JS.InvokeVoidAsync("navigator.clipboard.writeText", shareText);
+            _showCopiedMessage = true;
+            StateHasChanged();
+
+            // Hide message after 2 seconds
+            await Task.Delay(2000);
+            _showCopiedMessage = false;
+            StateHasChanged();
+        }
+        catch
+        {
+            // Clipboard API not available
+        }
+    }
+
+    private string GenerateEmojiGrid()
+    {
+        // We don't track individual answers, so we'll show a simple score representation
+        var questionsAnswered = QuizService.CurrentQuestionNumber - 1;
+        var score = QuizService.Score;
+        var rows = new List<string>();
+
+        // Show results in rows of 5
+        for (int i = 0; i < questionsAnswered && i < 20; i += 5)
+        {
+            var row = "";
+            for (int j = 0; j < 5 && (i + j) < questionsAnswered && (i + j) < 20; j++)
+            {
+                // Simple visualization: green squares for correct answers, red for incorrect
+                // Since we don't track individual answers, we'll approximate based on score percentage
+                var questionIndex = i + j;
+                if (questionIndex < score)
+                {
+                    row += "\ud83d\udfe9"; // Green square
+                }
+                else
+                {
+                    row += "\ud83d\udfe5"; // Red square
+                }
+            }
+            rows.Add(row);
+        }
+
+        return string.Join("\n", rows);
+    }
+
+    private Severity GetResultSeverity() => _lastAnswerResult switch
+    {
+        AnswerResult.Correct => Severity.Success,
+        AnswerResult.Partial => Severity.Warning,
+        _ => Severity.Error
+    };
 
     private static string GetScoreMessage(int percentage) => percentage switch
     {
