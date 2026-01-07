@@ -1,0 +1,3 @@
+- Write instructions for agents on adding new categories. A category should contain at least 20 entries, and preferably an entry should match another category. If not, the entry should be a near-miss on another category, in which case the near-miss term for the other category is also added to that specific category. For instance, if we add a "Historical state or city" for Gondar, Gondor should be added to the "Lord of the Rings" category, and Galar to the "Pokémon" category. 
+- Add 3 new categories: Warhammer, Yu-gi-oh, Digimon
+- When the user reaches 
