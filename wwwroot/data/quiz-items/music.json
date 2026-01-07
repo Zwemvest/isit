@@ -55,9 +55,10 @@
   {
     "name": "Venom",
     "categories": [
-      "MetalBand"
+      "MetalBand",
+      "Superhero"
     ],
-    "explanation": "Venom is an English extreme metal band and pioneers of the black metal genre."
+    "explanation": "Venom is a pioneering English black metal band (1979), and Spider-Man's symbiote nemesis who got his own movie franchise."
   },
   {
     "name": "Behemoth",
@@ -225,9 +226,10 @@
   {
     "name": "Anthrax",
     "categories": [
-      "MetalBand"
+      "MetalBand",
+      "Superhero"
     ],
-    "explanation": "Anthrax is an American thrash metal band, one of the 'Big Four' of thrash metal."
+    "explanation": "Anthrax is a Big Four thrash metal band, and a Marvel supervillain who fights the Avengers. The band definitely has better stage presence."
   },
   {
     "name": "Kreator",
@@ -374,9 +376,11 @@
       "GreekPagan",
       "CarModel",
       "Bird",
-      "Celestial"
+      "Celestial",
+      "Superhero",
+      "SpaceMission"
     ],
-    "explanation": "Phoenix is a French rock band, the mythological firebird, the Pontiac Phoenix, and the Phoenix constellation."
+    "explanation": "Phoenix is a French rock band, the mythical firebird, Pontiac car, constellation, X-Men's Jean Grey's cosmic alter-ego, and NASA's Mars lander that found water ice."
   },
   {
     "name": "Nirvana",

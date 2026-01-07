@@ -1,5 +1,23 @@
 [
   {
+    "name": "Cyborg",
+    "categories": [
+      "Tech",
+      "DigitalTerm",
+      "Superhero"
+    ],
+    "explanation": "A cyborg is a cybernetic organism (human-machine hybrid), a legitimate tech term, and DC's Victor Stone - Justice League member who IS the term, basically."
+  },
+  {
+    "name": "Jarvis",
+    "categories": [
+      "Tech",
+      "DigitalTerm",
+      "Superhero"
+    ],
+    "explanation": "JARVIS (Just A Rather Very Intelligent System) was Tony Stark's AI assistant that became Vision. The name has become synonymous with AI assistants."
+  },
+  {
     "name": "Kafka",
     "categories": [
       "CloudInfra",
@@ -76,9 +94,10 @@
     "name": "Loki",
     "categories": [
       "CloudInfra",
-      "NorsePagan"
+      "NorsePagan",
+      "Superhero"
     ],
-    "explanation": "Loki is the Norse trickster god, and also a log aggregation system by Grafana Labs."
+    "explanation": "Loki is the Norse trickster god, Grafana's log aggregation system, and Marvel's chaos agent played by Tom Hiddleston."
   },
   {
     "name": "Helm",
@@ -358,9 +377,10 @@
     "name": "Oracle",
     "categories": [
       "Tech",
-      "GreekPagan"
+      "GreekPagan",
+      "Superhero"
     ],
-    "explanation": "Oracle is a major database company, and in Greek mythology, oracles were prophetic figures like the Pythia at Delphi."
+    "explanation": "Oracle is the database giant, Greek prophetic figures like the Pythia at Delphi, and Barbara Gordon's hacker identity after retiring as Batgirl."
   },
   {
     "name": "Django",

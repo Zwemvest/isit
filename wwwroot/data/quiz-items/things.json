@@ -530,9 +530,10 @@
     "categories": [
       "Bird",
       "CarModel",
-      "Tech"
+      "Tech",
+      "Superhero"
     ],
-    "explanation": "The falcon is the fastest animal on Earth, the Ford Falcon classic car, and SpaceX's Falcon rockets."
+    "explanation": "The falcon is the fastest animal on Earth, the Ford Falcon, SpaceX's rockets, and Sam Wilson - Captain America's bestie turned Captain America himself."
   },
   {
     "name": "Thunderbird",
@@ -562,22 +563,41 @@
     "explanation": "Eagles are majestic birds of prey, the AMC Eagle crossover vehicle, and The Eagles rock band ('Hotel California')."
   },
   {
+    "name": "Hawkeye",
+    "categories": [
+      "Bird",
+      "Superhero"
+    ],
+    "explanation": "Hawkeye refers to a hawk's exceptional vision, and Marvel's Clint Barton - the Avenger who never misses (just like actual hawks diving for prey)."
+  },
+  {
+    "name": "Vulture",
+    "categories": [
+      "Bird",
+      "Superhero"
+    ],
+    "explanation": "Vultures are nature's cleanup crew, and Spider-Man's winged villain - Michael Keaton played him in Homecoming, which is perfect because he was also Batman."
+  },
+  {
     "name": "Raven",
     "categories": [
       "Bird",
       "NorsePagan",
       "Warhammer",
-      "DnD"
+      "DnD",
+      "Superhero",
+      "MetalBand"
     ],
-    "explanation": "Ravens are intelligent corvids, Odin's messengers Huginn and Muninn, the Raven Guard Space Marines, and the Raven Queen deity in D&D."
+    "explanation": "Ravens are intelligent corvids, Odin's messengers, Raven Guard Space Marines, D&D's Raven Queen, DC's Teen Titans empath, and a NWOBHM band from 1974."
   },
   {
     "name": "Robin",
     "categories": [
       "Bird",
-      "CarModel"
+      "CarModel",
+      "Superhero"
     ],
-    "explanation": "The robin is a common songbird, and the Reliant Robin is the iconic British three-wheeled car."
+    "explanation": "The robin is a common songbird, the Reliant Robin three-wheeler, and Batman's sidekick(s) - there have been like five of them at this point."
   },
   {
     "name": "Skylark",

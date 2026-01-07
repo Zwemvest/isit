@@ -2,16 +2,18 @@
   {
     "name": "Odin",
     "categories": [
-      "NorsePagan"
+      "NorsePagan",
+      "Superhero"
     ],
-    "explanation": "Odin is the Norse Allfather, god of wisdom, war, and death who sacrificed an eye for knowledge."
+    "explanation": "Odin is the Norse Allfather who sacrificed an eye for wisdom. Marvel brought him to the big screen as Thor's father, ruler of Asgard."
   },
   {
     "name": "Thor",
     "categories": [
-      "NorsePagan"
+      "NorsePagan",
+      "Superhero"
     ],
-    "explanation": "Thor is the Norse god of thunder who wields the hammer Mjölnir."
+    "explanation": "Thor is the Norse god of thunder wielding Mjölnir. Marvel made him an Avenger and Chris Hemsworth made hammers sexy."
   },
   {
     "name": "Freya",
@@ -38,9 +40,10 @@
   {
     "name": "Heimdall",
     "categories": [
-      "NorsePagan"
+      "NorsePagan",
+      "Superhero"
     ],
-    "explanation": "Heimdall is the Norse guardian of Bifröst who can see and hear across all realms."
+    "explanation": "Heimdall is the Norse guardian of Bifröst who sees across all realms. Idris Elba played him in the MCU running Asgard's border security."
   },
   {
     "name": "Frigg",
@@ -77,9 +80,10 @@
       "GreekPagan",
       "RomanPagan",
       "Tech",
-      "CarModel"
+      "CarModel",
+      "SpaceMission"
     ],
-    "explanation": "Apollo is the Greek/Roman god of sun, music, and prophecy, NASA's moon landing program, a GraphQL platform, and the Buick Apollo."
+    "explanation": "Apollo is the Greek/Roman sun god, NASA's legendary moon landing program, Apollo GraphQL, and the Buick Apollo."
   },
   {
     "name": "Athena",
@@ -106,9 +110,18 @@
   {
     "name": "Ares",
     "categories": [
-      "GreekPagan"
+      "GreekPagan",
+      "Superhero"
     ],
-    "explanation": "Ares is the Greek god of war, known for his brutal and violent nature."
+    "explanation": "Ares is the Greek god of war. DC made him Wonder Woman's archnemesis - she literally killed him in the 2017 film."
+  },
+  {
+    "name": "Hercules",
+    "categories": [
+      "GreekPagan",
+      "Superhero"
+    ],
+    "explanation": "Hercules (Greek: Heracles) is the legendary demigod known for his twelve labors. Marvel's been publishing Hercules comics since the 60s - he's basically the OG superhero."
   },
   {
     "name": "Hermes",
@@ -120,9 +133,10 @@
   {
     "name": "Artemis",
     "categories": [
-      "GreekPagan"
+      "GreekPagan",
+      "SpaceMission"
     ],
-    "explanation": "Artemis is the Greek goddess of the hunt, wilderness, and the moon."
+    "explanation": "Artemis is the Greek moon goddess and Apollo's twin sister. NASA named their return-to-Moon program after her - the mythological sequel we needed."
   },
   {
     "name": "Aphrodite",
@@ -144,9 +158,48 @@
       "GreekPagan",
       "Tech",
       "CarModel",
+      "Celestial",
+      "SpaceMission",
+      "Superhero"
+    ],
+    "explanation": "Atlas is the Greek Titan holding up the sky, the Atlas rocket family that launched Moon missions, MongoDB Atlas, the VW Atlas, a Saturn moon, and multiple Marvel/DC heroes."
+  },
+  {
+    "name": "Pegasus",
+    "categories": [
+      "GreekPagan",
+      "SpaceMission",
       "Celestial"
     ],
-    "explanation": "Atlas is the Greek Titan holding up the sky, MongoDB's cloud platform, the Volkswagen Atlas SUV, and a moon of Saturn."
+    "explanation": "Pegasus is the Greek winged horse born from Medusa's blood, the Pegasus air-launched rocket, and a prominent northern constellation."
+  },
+  {
+    "name": "Centaur",
+    "categories": [
+      "GreekPagan",
+      "SpaceMission",
+      "DnD"
+    ],
+    "explanation": "Centaurs are Greek half-human half-horse creatures, the Centaur rocket upper stage (first to use liquid hydrogen), and a playable race in D&D."
+  },
+  {
+    "name": "Psyche",
+    "categories": [
+      "GreekPagan",
+      "SpaceMission",
+      "Celestial"
+    ],
+    "explanation": "Psyche is the Greek goddess of the soul who married Eros, a metal-rich asteroid that may be a planetary core, and NASA's mission to explore it (arriving 2029)."
+  },
+  {
+    "name": "Gemini",
+    "categories": [
+      "GreekPagan",
+      "SpaceMission",
+      "Celestial",
+      "RockBand"
+    ],
+    "explanation": "Gemini means 'twins' for Castor and Pollux in Greek myth, NASA's two-astronaut program (1961-1966), the zodiac constellation, and Gemini Syndrome hard rock band."
   },
   {
     "name": "Cassandra",
@@ -202,16 +255,19 @@
     "name": "Mercury",
     "categories": [
       "RomanPagan",
-      "Celestial"
+      "Celestial",
+      "SpaceMission",
+      "CarModel"
     ],
-    "explanation": "Mercury is the Roman messenger god, and the closest planet to the Sun."
+    "explanation": "Mercury is the Roman messenger god, the closest planet, NASA's first human spaceflight program (1958-1963), and Ford's Mercury car brand (1938-2011)."
   },
   {
     "name": "Vulcan",
     "categories": [
-      "RomanPagan"
+      "RomanPagan",
+      "SpaceMission"
     ],
-    "explanation": "Vulcan is the Roman god of fire and the forge, equivalent to the Greek Hephaestus."
+    "explanation": "Vulcan is the Roman god of fire and the forge. ULA's Vulcan Centaur rocket (2024) is named for him - fitting for something that produces spectacular flames."
   },
   {
     "name": "Minerva",
@@ -224,9 +280,10 @@
     "name": "Juno",
     "categories": [
       "RomanPagan",
-      "Tech"
+      "Tech",
+      "SpaceMission"
     ],
-    "explanation": "Juno is the Roman queen of the gods, and also an email security company."
+    "explanation": "Juno is the Roman queen of the gods and Jupiter's wife. NASA's Juno spacecraft has orbited Jupiter since 2016 - who better to peer through the clouds and see what Jupiter is up to?"
   },
   {
     "name": "Ceres",
@@ -403,9 +460,11 @@
       "GreekPagan",
       "Tech",
       "CarModel",
-      "Celestial"
+      "Celestial",
+      "SpaceMission",
+      "Superhero"
     ],
-    "explanation": "The Titans are primordial Greek gods, Google's TPU chip, the Nissan Titan truck, and Saturn's largest moon."
+    "explanation": "The Titans are primordial Greek gods, Google's TPU, the Nissan Titan, Saturn's largest moon with liquid methane lakes, the Titan rocket family, and the Teen Titans."
   },
   {
     "name": "Sleipnir",
@@ -418,20 +477,97 @@
   {
     "name": "Lambda",
     "categories": [
-      "GreekPagan",
+      "GreekLetter",
       "DigitalTerm",
       "Tech"
     ],
-    "explanation": "Lambda is a Greek letter, a core concept in functional programming, and AWS Lambda is a serverless computing service."
+    "explanation": "Lambda is the 11th Greek letter, a core concept in functional programming (lambda calculus), and AWS Lambda is a serverless computing service."
+  },
+  {
+    "name": "Alpha",
+    "categories": [
+      "GreekLetter",
+      "Tech",
+      "SiliconValleyBS",
+      "CarModel"
+    ],
+    "explanation": "Alpha is the first Greek letter, Google's parent Alphabet, Tesla's alpha software releases, and the Alfa Romeo car brand. Also the first COVID variant of concern."
+  },
+  {
+    "name": "Beta",
+    "categories": [
+      "GreekLetter",
+      "Tech",
+      "DigitalTerm",
+      "SiliconValleyBS"
+    ],
+    "explanation": "Beta is the second Greek letter, a software testing phase ('beta release'), and fundamental to Silicon Valley product culture. Also a notable COVID variant."
+  },
+  {
+    "name": "Delta",
+    "categories": [
+      "GreekLetter",
+      "CarModel",
+      "Tech",
+      "DigitalTerm"
+    ],
+    "explanation": "Delta is the fourth Greek letter (triangle symbol), the Lancia Delta rally car, Delta Air Lines, the math symbol for change, and the infamous COVID variant."
+  },
+  {
+    "name": "Omega",
+    "categories": [
+      "GreekLetter",
+      "CarModel",
+      "Tech",
+      "RockBand"
+    ],
+    "explanation": "Omega is the final Greek letter meaning 'the end', the Oldsmobile Omega, Omega watches, and Omega is a Hungarian prog rock band. 'Alpha and Omega' means beginning and end."
+  },
+  {
+    "name": "Sigma",
+    "categories": [
+      "GreekLetter",
+      "Tech",
+      "DigitalTerm"
+    ],
+    "explanation": "Sigma is the 18th Greek letter meaning 'sum' in mathematics, Six Sigma quality methodology, Sigma camera lenses, and the internet 'sigma male' meme."
+  },
+  {
+    "name": "Pi",
+    "categories": [
+      "GreekLetter",
+      "Tech",
+      "DigitalTerm"
+    ],
+    "explanation": "Pi is the 16th Greek letter representing 3.14159... - the mathematical constant, and the Raspberry Pi single-board computer revolutionizing DIY electronics."
+  },
+  {
+    "name": "Tau",
+    "categories": [
+      "GreekLetter",
+      "Warhammer",
+      "Tech"
+    ],
+    "explanation": "Tau is the 19th Greek letter, the Tau Empire is a major high-tech faction in Warhammer 40k, and tau represents 2*pi advocated by some as superior to pi."
+  },
+  {
+    "name": "Kappa",
+    "categories": [
+      "GreekLetter",
+      "Tech",
+      "DigitalTerm"
+    ],
+    "explanation": "Kappa is the 10th Greek letter, the famous Twitch emote for sarcasm (the grey face), and statistics' kappa coefficient measures inter-rater agreement."
   },
   {
     "name": "Valkyrie",
     "categories": [
       "NorsePagan",
       "DnD",
-      "CarModel"
+      "CarModel",
+      "Superhero"
     ],
-    "explanation": "Valkyries are Norse warrior maidens who choose the slain for Valhalla, celestials in D&D, and the Aston Martin Valkyrie hypercar."
+    "explanation": "Valkyries are Norse maidens who choose the slain for Valhalla, D&D celestials, the Aston Martin hypercar, and Tessa Thompson's hard-drinking warrior queen in the MCU."
   },
   {
     "name": "Mjolnir",
@@ -504,9 +640,11 @@
     "categories": [
       "RomanPagan",
       "Tech",
-      "Celestial"
+      "Celestial",
+      "SpaceMission",
+      "CarModel"
     ],
-    "explanation": "Saturn is the Roman god of time and harvest, the Sega Saturn console, and the ringed planet."
+    "explanation": "Saturn is the Roman god of time, the Sega Saturn, the ringed planet, the mighty Saturn V Moon rocket, and GM's Saturn car brand (1985-2010)."
   },
   {
     "name": "Cupid",
@@ -677,34 +815,38 @@
     "name": "Electra",
     "categories": [
       "GreekPagan",
-      "CarModel"
+      "CarModel",
+      "Superhero"
     ],
-    "explanation": "Electra was a Greek princess central to tragedies by Sophocles and Euripides, and the Buick Electra."
+    "explanation": "Electra was a Greek princess in tragedies by Sophocles, the Buick Electra, and Marvel's Elektra Natchios - Daredevil's deadly assassin ex (spelled with a K)."
   },
   {
     "name": "Fury",
     "categories": [
       "GreekPagan",
-      "CarModel"
+      "CarModel",
+      "Superhero"
     ],
-    "explanation": "The Furies (Erinyes) were Greek goddesses of vengeance, and the Plymouth Fury muscle car."
+    "explanation": "The Furies (Erinyes) were Greek goddesses of vengeance, the Plymouth Fury muscle car, and Nick Fury runs SHIELD in Marvel (with his iconic eyepatch)."
   },
   {
     "name": "Orion",
     "categories": [
       "Celestial",
       "GreekPagan",
-      "CarModel"
+      "CarModel",
+      "SpaceMission"
     ],
-    "explanation": "Orion is the famous hunter constellation, the giant huntsman in Greek mythology, and the Ford Orion compact car."
+    "explanation": "Orion is the iconic hunter constellation, the Greek giant huntsman, the Ford Orion, and NASA's crew capsule for Artemis Moon missions."
   },
   {
     "name": "Nova",
     "categories": [
       "Celestial",
-      "CarModel"
+      "CarModel",
+      "Superhero"
     ],
-    "explanation": "A nova is a stellar explosion where a white dwarf brightens dramatically, and the Chevrolet Nova muscle car."
+    "explanation": "A nova is a stellar explosion, the Chevrolet Nova muscle car, and Marvel's Nova Corps - cosmic heroes led by Richard Rider protecting the galaxy."
   },
   {
     "name": "Vega",
@@ -782,6 +924,30 @@
     "explanation": "A quasar is an extremely bright galactic nucleus powered by a supermassive black hole, and a Vue.js framework."
   },
   {
+    "name": "Voyager",
+    "categories": [
+      "SpaceMission",
+      "MetalBand"
+    ],
+    "explanation": "NASA's twin Voyager spacecraft (1977) are the most distant human-made objects in interstellar space, and Voyager is an Australian prog metal band that competed in Eurovision 2023."
+  },
+  {
+    "name": "Cassini",
+    "categories": [
+      "SpaceMission",
+      "Celestial"
+    ],
+    "explanation": "The Cassini-Huygens mission studied Saturn for 13 years before plunging into the planet. Named after Giovanni Cassini who discovered the gap in Saturn's rings."
+  },
+  {
+    "name": "Dawn",
+    "categories": [
+      "SpaceMission",
+      "Celestial"
+    ],
+    "explanation": "NASA's Dawn spacecraft was the first to orbit two extraterrestrial bodies (Vesta and Ceres), exploring the 'dawn of the solar system'."
+  },
+  {
     "name": "Comet",
     "categories": [
       "Celestial",
@@ -800,17 +966,19 @@
   {
     "name": "Nebula",
     "categories": [
-      "Celestial"
+      "Celestial",
+      "Superhero"
     ],
-    "explanation": "A nebula is an interstellar cloud of gas and dust where stars form."
+    "explanation": "A nebula is an interstellar cloud where stars form, and Nebula is Thanos's cyborg daughter and reluctant Guardian of the Galaxy in Marvel."
   },
   {
     "name": "Europa",
     "categories": [
       "Celestial",
-      "GreekPagan"
+      "GreekPagan",
+      "SpaceMission"
     ],
-    "explanation": "Europa is Jupiter's ice moon with a subsurface ocean, named after the Phoenician princess Zeus abducted as a bull."
+    "explanation": "Europa is Jupiter's icy moon possibly harboring life, the Greek princess Zeus abducted as a bull, and NASA's Europa Clipper mission (arriving 2030)."
   },
   {
     "name": "Ganymede",

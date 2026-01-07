@@ -70,7 +70,10 @@ public class QuizService
         "Bird",
         "Pigment",
         "SmashBros",
-        "AssassinsCreed"
+        "AssassinsCreed",
+        "Superhero",
+        "GreekLetter",
+        "SpaceMission"
     ];
 
     public static readonly Dictionary<string, string> CategoryDisplayNames = new()
@@ -108,7 +111,10 @@ public class QuizService
         ["Bird"] = "Bird Species",
         ["Pigment"] = "Artist Pigment",
         ["SmashBros"] = "Super Smash Bros. Character",
-        ["AssassinsCreed"] = "Assassin's Creed Appearance"
+        ["AssassinsCreed"] = "Assassin's Creed Appearance",
+        ["Superhero"] = "Marvel/DC Superhero",
+        ["GreekLetter"] = "Greek Letter",
+        ["SpaceMission"] = "NASA Mission or Spacecraft"
     };
 
     public QuizService(HttpClient httpClient)
