@@ -1087,5 +1087,161 @@
       "CarModel"
     ],
     "explanation": "Rangers are the Dúnedain guardians in LOTR, a D&D class, and the Ford Ranger pickup truck."
+  },
+  {
+    "name": "Tiamat",
+    "categories": [
+      "MTG",
+      "DnD"
+    ],
+    "explanation": "Tiamat is the five-headed dragon goddess in D&D, and a legendary creature card in Magic: The Gathering."
+  },
+  {
+    "name": "Drizzt",
+    "categories": [
+      "MTG",
+      "DnD"
+    ],
+    "explanation": "Drizzt Do'Urden is the iconic Drow ranger from D&D's Forgotten Realms, and a planeswalker card in MTG."
+  },
+  {
+    "name": "Mordenkainen",
+    "categories": [
+      "MTG",
+      "DnD"
+    ],
+    "explanation": "Mordenkainen is the legendary archmage from D&D's Greyhawk setting, and a planeswalker card in MTG."
+  },
+  {
+    "name": "Lolth",
+    "categories": [
+      "MTG",
+      "DnD"
+    ],
+    "explanation": "Lolth is the Spider Queen deity of the Drow in D&D, and a planeswalker card in MTG's Adventures in the Forgotten Realms."
+  },
+  {
+    "name": "Bahamut",
+    "categories": [
+      "MTG",
+      "DnD"
+    ],
+    "explanation": "Bahamut is the platinum dragon god of justice in D&D, and a legendary creature card in MTG."
+  },
+  {
+    "name": "Erebos",
+    "categories": [
+      "MTG",
+      "GreekPagan"
+    ],
+    "explanation": "Erebos is the Greek primordial god of darkness, and a god card in MTG's Theros set."
+  },
+  {
+    "name": "Heliod",
+    "categories": [
+      "MTG",
+      "GreekPagan"
+    ],
+    "explanation": "Heliod is based on Helios (Greek sun god), appearing as the god of the sun in MTG's Theros set."
+  },
+  {
+    "name": "Thassa",
+    "categories": [
+      "MTG",
+      "GreekPagan"
+    ],
+    "explanation": "Thassa is based on Thalassa (Greek sea personification), the god of the sea in MTG's Theros set."
+  },
+  {
+    "name": "Purphoros",
+    "categories": [
+      "MTG",
+      "GreekPagan"
+    ],
+    "explanation": "Purphoros is based on Hephaestus, the god of the forge in MTG's Theros set."
+  },
+  {
+    "name": "Nylea",
+    "categories": [
+      "MTG",
+      "GreekPagan"
+    ],
+    "explanation": "Nylea is based on Artemis, the god of the hunt in MTG's Theros set."
+  },
+  {
+    "name": "Pestilence",
+    "categories": [
+      "MTG",
+      "MetalBand"
+    ],
+    "explanation": "Pestilence is an iconic black enchantment card in MTG, and a Dutch death metal band formed in 1986."
+  },
+  {
+    "name": "Dismember",
+    "categories": [
+      "MTG",
+      "MetalBand"
+    ],
+    "explanation": "Dismember is an instant removal spell in MTG, and a Swedish death metal band formed in 1988."
+  },
+  {
+    "name": "Iron Maiden",
+    "categories": [
+      "MTG",
+      "MetalBand"
+    ],
+    "explanation": "Iron Maiden is an artifact creature card in MTG, and the legendary British heavy metal band."
+  },
+  {
+    "name": "Toralf",
+    "categories": [
+      "MTG",
+      "NorsePagan"
+    ],
+    "explanation": "Toralf is based on Thor, appearing as the god of fury in MTG's Kaldheim set."
+  },
+  {
+    "name": "Alrund",
+    "categories": [
+      "MTG",
+      "NorsePagan"
+    ],
+    "explanation": "Alrund is based on Odin, appearing as the god of wisdom in MTG's Kaldheim set."
+  },
+  {
+    "name": "Valki",
+    "categories": [
+      "MTG",
+      "NorsePagan"
+    ],
+    "explanation": "Valki is based on Loki, appearing as the god of lies in MTG's Kaldheim set."
+  },
+  {
+    "name": "Black Lotus",
+    "categories": [
+      "MTG"
+    ],
+    "explanation": "Black Lotus is the most valuable and iconic card in MTG history, a 'Power Nine' artifact."
+  },
+  {
+    "name": "Jace",
+    "categories": [
+      "MTG"
+    ],
+    "explanation": "Jace Beleren is one of the most iconic planeswalker characters in Magic: The Gathering."
+  },
+  {
+    "name": "Liliana",
+    "categories": [
+      "MTG"
+    ],
+    "explanation": "Liliana Vess is a powerful necromancer planeswalker in Magic: The Gathering."
+  },
+  {
+    "name": "Chandra",
+    "categories": [
+      "MTG"
+    ],
+    "explanation": "Chandra Nalaar is a pyromancer planeswalker in Magic: The Gathering."
   }
 ]

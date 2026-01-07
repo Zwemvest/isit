@@ -493,9 +493,10 @@
     "name": "Saturn",
     "categories": [
       "RomanPagan",
-      "Tech"
+      "Tech",
+      "Celestial"
     ],
-    "explanation": "Saturn is the Roman god of time and harvest, and also the Sega Saturn console and a planet."
+    "explanation": "Saturn is the Roman god of time and harvest, the Sega Saturn console, and the ringed planet."
   },
   {
     "name": "Cupid",
@@ -691,5 +692,152 @@
       "CarModel"
     ],
     "explanation": "Valkyries are Norse warrior maidens who choose the slain for Valhalla, and the Aston Martin Valkyrie hypercar."
+  },
+  {
+    "name": "Orion",
+    "categories": [
+      "Celestial",
+      "GreekPagan",
+      "CarModel"
+    ],
+    "explanation": "Orion is the famous hunter constellation, the giant huntsman in Greek mythology, and the Ford Orion compact car."
+  },
+  {
+    "name": "Nova",
+    "categories": [
+      "Celestial",
+      "CarModel"
+    ],
+    "explanation": "A nova is a stellar explosion where a white dwarf brightens dramatically, and the Chevrolet Nova muscle car."
+  },
+  {
+    "name": "Vega",
+    "categories": [
+      "Celestial",
+      "CarModel",
+      "Tech"
+    ],
+    "explanation": "Vega is the fifth-brightest star in the night sky, the Chevrolet Vega compact car, and AMD's GPU architecture."
+  },
+  {
+    "name": "Polaris",
+    "categories": [
+      "Celestial",
+      "Tech",
+      "CarModel"
+    ],
+    "explanation": "Polaris is the North Star used for navigation, AMD's GPU architecture, and the Polaris vehicle brand."
+  },
+  {
+    "name": "Sirius",
+    "categories": [
+      "Celestial",
+      "Tech"
+    ],
+    "explanation": "Sirius is the brightest star in the night sky (the 'Dog Star'), and Sirius XM satellite radio."
+  },
+  {
+    "name": "Andromeda",
+    "categories": [
+      "Celestial",
+      "GreekPagan",
+      "MetalBand"
+    ],
+    "explanation": "Andromeda is our nearest large galaxy, the Greek princess chained to a rock, and a Swedish death metal band."
+  },
+  {
+    "name": "Equinox",
+    "categories": [
+      "Celestial",
+      "CarModel"
+    ],
+    "explanation": "The equinox is when day and night are equal length, and the Chevrolet Equinox crossover SUV."
+  },
+  {
+    "name": "Solstice",
+    "categories": [
+      "Celestial",
+      "CarModel"
+    ],
+    "explanation": "The solstice marks the longest and shortest days of the year, and the Pontiac Solstice roadster."
+  },
+  {
+    "name": "Corona",
+    "categories": [
+      "Celestial",
+      "CarModel"
+    ],
+    "explanation": "The corona is the Sun's outer atmosphere visible during eclipses, and the Toyota Corona sedan."
+  },
+  {
+    "name": "Pulsar",
+    "categories": [
+      "Celestial",
+      "CarModel"
+    ],
+    "explanation": "A pulsar is a rotating neutron star emitting radio wave beams, and the Nissan Pulsar compact car."
+  },
+  {
+    "name": "Quasar",
+    "categories": [
+      "Celestial",
+      "CloudInfra"
+    ],
+    "explanation": "A quasar is an extremely bright galactic nucleus powered by a supermassive black hole, and a Vue.js framework."
+  },
+  {
+    "name": "Comet",
+    "categories": [
+      "Celestial",
+      "CarModel"
+    ],
+    "explanation": "Comets are icy bodies orbiting the Sun with distinctive tails, and the Mercury Comet classic car."
+  },
+  {
+    "name": "Meteor",
+    "categories": [
+      "Celestial",
+      "CloudInfra"
+    ],
+    "explanation": "A meteor is a space rock burning in Earth's atmosphere (shooting star), and Meteor.js web framework."
+  },
+  {
+    "name": "Nebula",
+    "categories": [
+      "Celestial"
+    ],
+    "explanation": "A nebula is an interstellar cloud of gas and dust where stars form."
+  },
+  {
+    "name": "Europa",
+    "categories": [
+      "Celestial",
+      "GreekPagan"
+    ],
+    "explanation": "Europa is Jupiter's ice moon with a subsurface ocean, named after the Phoenician princess Zeus abducted as a bull."
+  },
+  {
+    "name": "Ganymede",
+    "categories": [
+      "Celestial",
+      "GreekPagan"
+    ],
+    "explanation": "Ganymede is the largest moon in the solar system (Jupiter's moon), named after Zeus's cupbearer."
+  },
+  {
+    "name": "Callisto",
+    "categories": [
+      "Celestial",
+      "GreekPagan"
+    ],
+    "explanation": "Callisto is Jupiter's second-largest moon, named after the Greek nymph transformed into a bear by Hera."
+  },
+  {
+    "name": "Io",
+    "categories": [
+      "Celestial",
+      "GreekPagan"
+    ],
+    "explanation": "Io is Jupiter's volcanic moon, named after the priestess of Hera whom Zeus transformed into a cow."
   }
 ]

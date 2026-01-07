@@ -524,5 +524,265 @@
       "CarModel"
     ],
     "explanation": "Capri is the Italian island that was a retreat for Roman emperors, and the Ford/Mercury Capri."
+  },
+  {
+    "name": "Falcon",
+    "categories": [
+      "Bird",
+      "CarModel",
+      "Tech"
+    ],
+    "explanation": "The falcon is the fastest animal on Earth, the Ford Falcon classic car, and SpaceX's Falcon rockets."
+  },
+  {
+    "name": "Thunderbird",
+    "categories": [
+      "Bird",
+      "CarModel",
+      "Tech"
+    ],
+    "explanation": "The thunderbird is a legendary Native American supernatural bird, the iconic Ford Thunderbird car, and Mozilla's email client."
+  },
+  {
+    "name": "Firebird",
+    "categories": [
+      "Bird",
+      "CarModel",
+      "Tech"
+    ],
+    "explanation": "The firebird is a mythological creature similar to the phoenix, the Pontiac Firebird muscle car, and the original Firefox browser codename."
+  },
+  {
+    "name": "Eagle",
+    "categories": [
+      "Bird",
+      "CarModel",
+      "RockBand"
+    ],
+    "explanation": "Eagles are majestic birds of prey, the AMC Eagle crossover vehicle, and The Eagles rock band ('Hotel California')."
+  },
+  {
+    "name": "Raven",
+    "categories": [
+      "Bird",
+      "NorsePagan",
+      "Warhammer",
+      "DnD"
+    ],
+    "explanation": "Ravens are intelligent corvids, Odin's messengers Huginn and Muninn, the Raven Guard Space Marines, and the Raven Queen deity in D&D."
+  },
+  {
+    "name": "Robin",
+    "categories": [
+      "Bird",
+      "CarModel"
+    ],
+    "explanation": "The robin is a common songbird, and the Reliant Robin is the iconic British three-wheeled car."
+  },
+  {
+    "name": "Skylark",
+    "categories": [
+      "Bird",
+      "CarModel"
+    ],
+    "explanation": "The skylark is a songbird celebrated in poetry, and the Buick Skylark was a popular American car."
+  },
+  {
+    "name": "Finch",
+    "categories": [
+      "Bird",
+      "CloudInfra"
+    ],
+    "explanation": "Finches are diverse songbirds (Darwin's finches), and AWS Finch is a container development tool."
+  },
+  {
+    "name": "Condor",
+    "categories": [
+      "Bird",
+      "CloudInfra"
+    ],
+    "explanation": "Condors are the largest flying land birds in the Western Hemisphere, and HTCondor is high-throughput computing software."
+  },
+  {
+    "name": "Crow",
+    "categories": [
+      "Bird",
+      "RockBand"
+    ],
+    "explanation": "Crows are highly intelligent corvids, and The Black Crowes are a major American rock band."
+  },
+  {
+    "name": "Magpie",
+    "categories": [
+      "Bird",
+      "ProgrammingLang"
+    ],
+    "explanation": "Magpies are intelligent corvids known for collecting shiny objects, and Magpie is a programming language."
+  },
+  {
+    "name": "Hawk",
+    "categories": [
+      "Bird",
+      "CarModel",
+      "RockBand"
+    ],
+    "explanation": "Hawks are birds of prey, the Studebaker Hawk classic car, and Hawkwind is a British space rock band."
+  },
+  {
+    "name": "Lark",
+    "categories": [
+      "Bird",
+      "CarModel"
+    ],
+    "explanation": "Larks are songbirds known for their melodious calls, and the Studebaker Lark was a compact car."
+  },
+  {
+    "name": "Osprey",
+    "categories": [
+      "Bird",
+      "Tech"
+    ],
+    "explanation": "The osprey is a fish-eating raptor also called the sea hawk, and the V-22 Osprey military tiltrotor aircraft."
+  },
+  {
+    "name": "Kiwi",
+    "categories": [
+      "Bird",
+      "Tech"
+    ],
+    "explanation": "The kiwi is a flightless bird native to New Zealand, and Kiwi.com is a travel tech company."
+  },
+  {
+    "name": "Pelican",
+    "categories": [
+      "Bird",
+      "Tech"
+    ],
+    "explanation": "Pelicans are water birds with distinctive throat pouches, and Pelican Cases is a major rugged equipment brand."
+  },
+  {
+    "name": "Sienna",
+    "categories": [
+      "Pigment",
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "Sienna is an earth pigment from Tuscany, the historic Italian city-state of Siena, and the Toyota Sienna minivan."
+  },
+  {
+    "name": "Prussian Blue",
+    "categories": [
+      "Pigment",
+      "HistoricalState"
+    ],
+    "explanation": "Prussian Blue (1704) was the first modern synthetic pigment, named after the Kingdom of Prussia."
+  },
+  {
+    "name": "Venetian Red",
+    "categories": [
+      "Pigment",
+      "HistoricalState"
+    ],
+    "explanation": "Venetian Red is an iron oxide pigment named after Venice, the historic Italian maritime republic."
+  },
+  {
+    "name": "Naples Yellow",
+    "categories": [
+      "Pigment",
+      "HistoricalState"
+    ],
+    "explanation": "Naples Yellow is a lead-based pigment named after the Kingdom of Naples, Italy."
+  },
+  {
+    "name": "Umber",
+    "categories": [
+      "Pigment",
+      "HistoricalState"
+    ],
+    "explanation": "Umber is an earth pigment named after Umbria, the Italian region where it was originally mined."
+  },
+  {
+    "name": "Van Dyke Brown",
+    "categories": [
+      "Pigment",
+      "Painter"
+    ],
+    "explanation": "Van Dyke Brown is a pigment named after Flemish Baroque painter Anthony van Dyck."
+  },
+  {
+    "name": "Payne's Grey",
+    "categories": [
+      "Pigment",
+      "Painter"
+    ],
+    "explanation": "Payne's Grey is a pigment named after William Payne, an 18th-century English watercolor painter."
+  },
+  {
+    "name": "Mars Black",
+    "categories": [
+      "Pigment",
+      "RomanPagan"
+    ],
+    "explanation": "Mars Black is a synthetic iron oxide pigment named after Mars, the Roman god of war."
+  },
+  {
+    "name": "Tyrian Purple",
+    "categories": [
+      "Pigment",
+      "HistoricalState"
+    ],
+    "explanation": "Tyrian Purple was the legendary dye from ancient Tyre (Phoenicia), worth more than gold in antiquity."
+  },
+  {
+    "name": "Egyptian Blue",
+    "categories": [
+      "Pigment",
+      "HistoricalState"
+    ],
+    "explanation": "Egyptian Blue is one of the oldest synthetic pigments, created in ancient Egypt around 3100 BC."
+  },
+  {
+    "name": "Indian Yellow",
+    "categories": [
+      "Pigment",
+      "HistoricalState"
+    ],
+    "explanation": "Indian Yellow was historically made in India from mango-fed cow urine; now synthesized."
+  },
+  {
+    "name": "Cobalt Blue",
+    "categories": [
+      "Pigment",
+      "Tech"
+    ],
+    "explanation": "Cobalt Blue is a vivid blue pigment; cobalt is also a critical element for lithium-ion batteries."
+  },
+  {
+    "name": "Vermillion",
+    "categories": [
+      "Pigment"
+    ],
+    "explanation": "Vermillion is a brilliant red pigment historically made from cinnabar (mercury sulfide)."
+  },
+  {
+    "name": "Cerulean",
+    "categories": [
+      "Pigment"
+    ],
+    "explanation": "Cerulean is a sky-blue pigment made from cobalt stannate, popular since the 19th century."
+  },
+  {
+    "name": "Ultramarine",
+    "categories": [
+      "Pigment"
+    ],
+    "explanation": "Ultramarine was historically made from lapis lazuli; the name means 'beyond the sea'."
+  },
+  {
+    "name": "Ochre",
+    "categories": [
+      "Pigment"
+    ],
+    "explanation": "Ochre is one of humanity's oldest pigments, an iron oxide earth color used since prehistory."
   }
 ]
