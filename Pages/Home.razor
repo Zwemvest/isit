@@ -19,7 +19,45 @@ else if (_state == QuizState.Start)
             Guess which categories each item belongs to.<br />
             Some items belong to multiple categories!
         </MudText>
-        <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" OnClick="StartGame">
+
+        <MudExpansionPanels Class="mt-4" Style="width: 100%; max-width: 400px;">
+            <MudExpansionPanel Text="Settings">
+                <MudStack Spacing="4">
+                    <MudText Typo="Typo.subtitle2">Scoring Mode</MudText>
+                    <MudToggleGroup T="ScoringMode" @bind-Value="QuizService.ScoringMode" Color="Color.Primary" Style="width: 100%;">
+                        <MudToggleItem Value="ScoringMode.AllCorrect" Text="All Correct" />
+                        <MudToggleItem Value="ScoringMode.AnyCorrect" Text="Any Correct" />
+                    </MudToggleGroup>
+                    <MudText Typo="Typo.caption" Color="Color.Secondary">
+                        @(QuizService.ScoringMode == ScoringMode.AllCorrect
+                            ? "Must select all correct categories exactly"
+                            : "At least one correct category counts as correct")
+                    </MudText>
+
+                    <MudDivider Class="my-2" />
+
+                    <MudText Typo="Typo.subtitle2">Included Categories (min @QuizService.MinCategories)</MudText>
+                    <MudSelect T="string" MultiSelection="true" SelectedValues="_selectedIncludedCategories"
+                               SelectedValuesChanged="OnCategoriesChanged"
+                               Label="Categories" Variant="Variant.Outlined"
+                               MultiSelectionTextFunc="@(list => $"{list.Count()} categories selected")">
+                        @foreach (var cat in QuizService.AllCategories)
+                        {
+                            <MudSelectItem Value="@cat">@QuizService.CategoryDisplayNames[cat]</MudSelectItem>
+                        }
+                    </MudSelect>
+                    @if (_selectedIncludedCategories.Count() < QuizService.MinCategories)
+                    {
+                        <MudText Typo="Typo.caption" Color="Color.Error">
+                            Select at least @QuizService.MinCategories categories
+                        </MudText>
+                    }
+                </MudStack>
+            </MudExpansionPanel>
+        </MudExpansionPanels>
+
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" OnClick="StartGame"
+                   Disabled="@(_selectedIncludedCategories.Count() < QuizService.MinCategories)">
             Start Quiz
         </MudButton>
     </MudStack>
@@ -39,7 +77,7 @@ else if (_state == QuizState.Playing)
             <MudText Typo="Typo.h6" Color="Color.Secondary">Is it...</MudText>
 
             <MudStack Spacing="2">
-                @foreach (var category in QuizService.AllCategories)
+                @foreach (var category in QuizService.IncludedCategories.OrderBy(c => QuizService.AllCategories.IndexOf(c)))
                 {
                     var isSelected = _selectedCategories.Contains(category);
                     <MudButton
@@ -76,8 +114,16 @@ else if (_state == QuizState.ShowingResult)
                 @(_lastAnswerCorrect ? "Correct!" : "Not quite!")
             </MudAlert>
 
+            @{
+                var includedCorrect = QuizService.GetCurrentItemIncludedCategories();
+                var excludedCategories = item.Categories.Except(includedCorrect).ToList();
+            }
             <MudText Typo="Typo.body1" Class="mt-2">
-                <strong>Answer:</strong> @string.Join(", ", item.Categories.Select(c => QuizService.CategoryDisplayNames[c]))
+                <strong>Answer:</strong> @string.Join(", ", includedCorrect.Select(c => QuizService.CategoryDisplayNames[c]))
+                @if (excludedCategories.Count > 0)
+                {
+                    <span style="color: var(--mud-palette-text-secondary);"> (also @string.Join(", ", excludedCategories.Select(c => QuizService.CategoryDisplayNames[c])))</span>
+                }
             </MudText>
 
             <MudPaper Class="pa-4" Elevation="0" Style="background-color: var(--mud-palette-background-grey);">
@@ -131,10 +177,24 @@ else if (_state == QuizState.Finished)
     private HashSet<string> _selectedCategories = [];
     private bool _lastAnswerCorrect;
 
+    // Settings
+    private IEnumerable<string> _selectedIncludedCategories = [];
+
     protected override async Task OnInitializedAsync()
     {
         await QuizService.LoadItemsAsync();
+        // Initialize the UI selection from the service's defaults
+        _selectedIncludedCategories = QuizService.IncludedCategories.ToList();
         _state = QuizState.Start;
+    }
+
+    private void OnCategoriesChanged(IEnumerable<string> categories)
+    {
+        _selectedIncludedCategories = categories;
+        if (categories.Count() >= QuizService.MinCategories)
+        {
+            QuizService.SetIncludedCategories(categories);
+        }
     }
 
     private void StartGame()

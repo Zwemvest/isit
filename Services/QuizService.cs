@@ -89,12 +89,25 @@ public class QuizService
 
     public void StartNewGame()
     {
+        // Filter items to those that have at least one included category
         _shuffledItems = _items
+            .Where(item => item.Categories.Any(c => IncludedCategories.Contains(c)))
             .OrderBy(_ => Random.Shared.Next())
             .Take(QuestionsPerGame)
             .ToList();
         _currentIndex = 0;
         _score = 0;
+    }
+
+    /// <summary>
+    /// Gets the categories for the current item that are included in the game.
+    /// Excluded categories are filtered out.
+    /// </summary>
+    public List<string> GetCurrentItemIncludedCategories()
+    {
+        var current = GetCurrentItem();
+        if (current == null) return [];
+        return current.Categories.Where(c => IncludedCategories.Contains(c)).ToList();
     }
 
     public QuizItem? GetCurrentItem()
@@ -116,10 +129,22 @@ public class QuizService
         var current = GetCurrentItem();
         if (current == null) return false;
 
-        var selected = selectedCategories.OrderBy(x => x).ToList();
-        var correct = current.Categories.OrderBy(x => x).ToList();
+        var selected = selectedCategories.ToHashSet();
+        // Only consider included categories as "correct" - excluded ones don't count
+        var correctIncluded = current.Categories.Where(c => IncludedCategories.Contains(c)).ToHashSet();
 
-        var isCorrect = selected.SequenceEqual(correct);
+        bool isCorrect;
+        if (ScoringMode == ScoringMode.AllCorrect)
+        {
+            // Must match exactly all included categories
+            isCorrect = selected.SetEquals(correctIncluded);
+        }
+        else // AnyCorrect
+        {
+            // At least one selected category must be correct
+            isCorrect = selected.Any(s => correctIncluded.Contains(s));
+        }
+
         if (isCorrect)
         {
             _score++;
