@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet --version:*)",
+      "Bash(dotnet add:*)",
+      "Bash(dotnet build:*)",
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "Bash(dotnet new:*)",
+      "Bash(dotnet sln:*)",
+      "WebSearch",
+      "Bash(python3:*)",
+      "Bash(node analyze-quiz.js:*)",
+      "Bash(node -e:*)"
+    ]
+  }
+}

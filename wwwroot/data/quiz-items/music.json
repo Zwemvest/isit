@@ -1,0 +1,465 @@
+[
+  {
+    "name": "Mastodon",
+    "categories": [
+      "MetalBand",
+      "Tech"
+    ],
+    "explanation": "Mastodon is an American progressive metal band, and also a decentralized social media platform."
+  },
+  {
+    "name": "Gojira",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Gojira is a French progressive/death metal band named after the Japanese name for Godzilla."
+  },
+  {
+    "name": "Opeth",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Opeth is a Swedish progressive metal/rock band known for blending death metal with acoustic passages."
+  },
+  {
+    "name": "Meshuggah",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Meshuggah is a Swedish extreme metal band known for polyrhythmic compositions. The name is Yiddish for 'crazy'."
+  },
+  {
+    "name": "Amon Amarth",
+    "categories": [
+      "MetalBand",
+      "LordOfTheRings"
+    ],
+    "explanation": "Amon Amarth is a Swedish melodic death metal band named after Mount Doom's Sindarin name in LOTR."
+  },
+  {
+    "name": "Gorgoroth",
+    "categories": [
+      "MetalBand",
+      "LordOfTheRings"
+    ],
+    "explanation": "Gorgoroth is a Norwegian black metal band named after the plateau in Mordor from LOTR."
+  },
+  {
+    "name": "Burzum",
+    "categories": [
+      "MetalBand",
+      "LordOfTheRings"
+    ],
+    "explanation": "Burzum was a Norwegian black metal project. The name is Black Speech for 'darkness' from LOTR."
+  },
+  {
+    "name": "Venom",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Venom is an English extreme metal band and pioneers of the black metal genre."
+  },
+  {
+    "name": "Behemoth",
+    "categories": [
+      "MetalBand",
+      "DnD"
+    ],
+    "explanation": "Behemoth is a Polish death metal band, a biblical monster, and a creature type in D&D."
+  },
+  {
+    "name": "Nile",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Nile is an American death metal band known for Egyptian and ancient themes."
+  },
+  {
+    "name": "Carcass",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Carcass is an English extreme metal band and pioneers of grindcore and melodic death metal."
+  },
+  {
+    "name": "Sepultura",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Sepultura is a Brazilian metal band. The name is Portuguese for 'grave'."
+  },
+  {
+    "name": "Testament",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Testament is an American thrash metal band from the San Francisco Bay Area."
+  },
+  {
+    "name": "Exodus",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Exodus is an American thrash metal band and one of the originators of Bay Area thrash."
+  },
+  {
+    "name": "Overkill",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Overkill is an American thrash metal band from New Jersey, active since 1980."
+  },
+  {
+    "name": "Death",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Death was an American band led by Chuck Schuldiner, pioneers of the death metal genre."
+  },
+  {
+    "name": "Emperor",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Emperor was a Norwegian black metal band known for symphonic elements."
+  },
+  {
+    "name": "Immortal",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Immortal is a Norwegian black metal band known for their 'Blashyrkh' mythology."
+  },
+  {
+    "name": "Mayhem",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Mayhem is a Norwegian black metal band influential in the second wave of black metal."
+  },
+  {
+    "name": "Nightwish",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Nightwish is a Finnish symphonic metal band known for operatic vocals and orchestral arrangements."
+  },
+  {
+    "name": "Epica",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Epica is a Dutch symphonic metal band featuring operatic female vocals and orchestral elements."
+  },
+  {
+    "name": "Kamelot",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Kamelot is an American power metal band named after the legendary castle of King Arthur."
+  },
+  {
+    "name": "Sabaton",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Sabaton is a Swedish power metal band focused on historical wars. Named after armored boots."
+  },
+  {
+    "name": "Eluveitie",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Eluveitie is a Swiss folk metal band blending melodic death metal with Celtic folk instruments."
+  },
+  {
+    "name": "Ensiferum",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Ensiferum is a Finnish folk metal band. The name is Latin for 'sword-bearer'."
+  },
+  {
+    "name": "Rammstein",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Rammstein is a German industrial metal band known for German lyrics and pyrotechnic live shows."
+  },
+  {
+    "name": "Trivium",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Trivium is an American heavy metal band. Named after the classical education trivium."
+  },
+  {
+    "name": "Baroness",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Baroness is an American heavy metal band known for progressive elements and colorful artwork."
+  },
+  {
+    "name": "Sleep",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Sleep is an American stoner/doom metal band known for extremely long songs."
+  },
+  {
+    "name": "Ghost",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Ghost is a Swedish rock/metal band known for Satanic imagery and melodic hooks."
+  },
+  {
+    "name": "Slayer",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Slayer was an American thrash metal band, one of the 'Big Four' of thrash metal."
+  },
+  {
+    "name": "Anthrax",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Anthrax is an American thrash metal band, one of the 'Big Four' of thrash metal."
+  },
+  {
+    "name": "Kreator",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Kreator is a German thrash metal band, one of the 'Big Teutonic Four'."
+  },
+  {
+    "name": "Darkthrone",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Darkthrone is a Norwegian black metal band influential in the second wave of black metal."
+  },
+  {
+    "name": "Dimmu Borgir",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Dimmu Borgir is a Norwegian symphonic black metal band named after an Icelandic lava formation."
+  },
+  {
+    "name": "Arch Enemy",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Arch Enemy is a Swedish melodic death metal band known for technical guitar work."
+  },
+  {
+    "name": "Amorphis",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Amorphis is a Finnish metal band blending progressive, folk, and death metal elements."
+  },
+  {
+    "name": "Insomnium",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Insomnium is a Finnish melodic death metal band known for melancholic atmospheres."
+  },
+  {
+    "name": "Marduk",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Marduk is the chief Babylonian deity, and also a legendary Swedish black metal band formed in 1990."
+  },
+  {
+    "name": "Tesseract",
+    "categories": [
+      "MetalBand",
+      "Tech",
+      "DigitalTerm"
+    ],
+    "explanation": "TesseracT is a British metal band, a 4D hypercube in math, and Google's open-source OCR library."
+  },
+  {
+    "name": "Xentrix",
+    "categories": [
+      "MetalBand"
+    ],
+    "explanation": "Xentrix is a British thrash metal band formed in 1985."
+  },
+  {
+    "name": "Genesis",
+    "categories": [
+      "RockBand",
+      "Tech",
+      "SiliconValleyBS",
+      "CarModel"
+    ],
+    "explanation": "Genesis is Phil Collins' prog rock band, Sega's console, and Hyundai's luxury brand (Genesis G70, G80, etc.)."
+  },
+  {
+    "name": "Rush",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Rush was the legendary Canadian prog rock trio known for '2112', 'Tom Sawyer', and 'Limelight'."
+  },
+  {
+    "name": "Boston",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Boston is the American rock band behind 'More Than a Feeling' and 'Peace of Mind'."
+  },
+  {
+    "name": "Kansas",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Kansas is the American prog rock band known for 'Carry On Wayward Son' and 'Dust in the Wind'."
+  },
+  {
+    "name": "Chicago",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Chicago is the American rock band famous for their horn section, known for '25 or 6 to 4' and 'If You Leave Me Now'."
+  },
+  {
+    "name": "Tesla",
+    "categories": [
+      "RockBand",
+      "Tech",
+      "SiliconValleyBS"
+    ],
+    "explanation": "Tesla is the American rock band formed in 1984. Also Elon Musk's electric car company."
+  },
+  {
+    "name": "Journey",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Journey is the American rock band known for 'Don't Stop Believin', 'Separate Ways', and 'Faithfully'."
+  },
+  {
+    "name": "Queen",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Queen is the legendary British rock band of Freddie Mercury, known for 'Bohemian Rhapsody' and 'We Will Rock You'."
+  },
+  {
+    "name": "Eclipse",
+    "categories": [
+      "RockBand",
+      "Tech",
+      "CarModel"
+    ],
+    "explanation": "Eclipse is a Swedish rock band, the famous Java IDE, and the Mitsubishi Eclipse sports car."
+  },
+  {
+    "name": "Phoenix",
+    "categories": [
+      "RockBand",
+      "DnD",
+      "GreekPagan",
+      "CarModel"
+    ],
+    "explanation": "Phoenix is a French rock band, the mythological firebird in D&D and Greek myth, and the Pontiac Phoenix."
+  },
+  {
+    "name": "Nirvana",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Nirvana was Kurt Cobain's grunge band that defined the early 90s with 'Smells Like Teen Spirit' and 'Come As You Are'."
+  },
+  {
+    "name": "Toto",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Toto is the American rock band behind 'Africa', 'Rosanna', and 'Hold the Line'."
+  },
+  {
+    "name": "Saga",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Saga is the Canadian prog rock band known for 'On the Loose' and 'Wind Him Up'."
+  },
+  {
+    "name": "Foreigner",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Foreigner is the British-American rock band known for 'I Want to Know What Love Is'."
+  },
+  {
+    "name": "Cream",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Cream was the British rock supergroup with Eric Clapton."
+  },
+  {
+    "name": "Traffic",
+    "categories": [
+      "RockBand",
+      "DigitalTerm"
+    ],
+    "explanation": "Traffic was the British rock band featuring Steve Winwood. Traffic is also a web analytics term."
+  },
+  {
+    "name": "Styx",
+    "categories": [
+      "RockBand",
+      "GreekPagan",
+      "DnD"
+    ],
+    "explanation": "Styx is the American rock band behind 'Mr. Roboto'. Also the Greek underworld river appearing in D&D."
+  },
+  {
+    "name": "Asia",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Asia is the British prog rock supergroup known for 'Heat of the Moment' and 'Only Time Will Tell'."
+  },
+  {
+    "name": "Europe",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Europe is the Swedish rock band known for 'The Final Countdown' and 'Carrie'."
+  },
+  {
+    "name": "Scorpions",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Scorpions is the German rock band known for 'Wind of Change' and 'Rock You Like a Hurricane'."
+  },
+  {
+    "name": "Rainbow",
+    "categories": [
+      "RockBand"
+    ],
+    "explanation": "Rainbow was Ritchie Blackmore's rock band known for 'Man on the Silver Mountain' and 'Since You Been Gone'."
+  },
+  {
+    "name": "Viper",
+    "categories": [
+      "MetalBand",
+      "DnD",
+      "CarModel"
+    ],
+    "explanation": "Viper is a Brazilian metal band, vipers are D&D monsters, and the Dodge Viper sports car."
+  }
+]

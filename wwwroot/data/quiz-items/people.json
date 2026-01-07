@@ -1,0 +1,695 @@
+[
+  {
+    "name": "Zoloft",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Zoloft (sertraline) is one of the most commonly prescribed SSRI antidepressants."
+  },
+  {
+    "name": "Lexapro",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Lexapro (escitalopram) is an SSRI antidepressant used for anxiety and depression."
+  },
+  {
+    "name": "Prozac",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Prozac (fluoxetine) was the first SSRI antidepressant, approved in 1987."
+  },
+  {
+    "name": "Wellbutrin",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Wellbutrin (bupropion) is an atypical antidepressant that works differently from SSRIs."
+  },
+  {
+    "name": "Cymbalta",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Cymbalta (duloxetine) is an SNRI antidepressant also used for chronic pain."
+  },
+  {
+    "name": "Effexor",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Effexor (venlafaxine) is an SNRI antidepressant used for depression and anxiety disorders."
+  },
+  {
+    "name": "Celexa",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Celexa (citalopram) is an SSRI antidepressant used for depression."
+  },
+  {
+    "name": "Paxil",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Paxil (paroxetine) is an SSRI antidepressant used for depression and anxiety disorders."
+  },
+  {
+    "name": "Pristiq",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Pristiq (desvenlafaxine) is an SNRI antidepressant, the active metabolite of Effexor."
+  },
+  {
+    "name": "Remeron",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Remeron (mirtazapine) is a tetracyclic antidepressant that also helps with sleep."
+  },
+  {
+    "name": "Trintellix",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Trintellix (vortioxetine) is an antidepressant with a multimodal mechanism of action."
+  },
+  {
+    "name": "Trazodone",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Trazodone is an antidepressant often prescribed off-label for insomnia."
+  },
+  {
+    "name": "Abilify",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Abilify (aripiprazole) is an atypical antipsychotic used to augment antidepressant treatment."
+  },
+  {
+    "name": "Seroquel",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Seroquel (quetiapine) is an atypical antipsychotic used for bipolar disorder and depression."
+  },
+  {
+    "name": "Latuda",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Latuda (lurasidone) is an atypical antipsychotic used for bipolar depression and schizophrenia."
+  },
+  {
+    "name": "Vraylar",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Vraylar (cariprazine) is an atypical antipsychotic for bipolar disorder and schizophrenia."
+  },
+  {
+    "name": "Rexulti",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Rexulti (brexpiprazole) is an atypical antipsychotic used to augment antidepressant treatment."
+  },
+  {
+    "name": "Viibryd",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Viibryd (vilazodone) is an SSRI antidepressant with partial 5-HT1A agonist activity."
+  },
+  {
+    "name": "Geodon",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Geodon (ziprasidone) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+  },
+  {
+    "name": "Lunesta",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Lunesta (eszopiclone) is a sedative-hypnotic medication prescribed for insomnia."
+  },
+  {
+    "name": "Zyprexa",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Zyprexa (olanzapine) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+  },
+  {
+    "name": "Klonopin",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Klonopin (clonazepam) is a benzodiazepine used for anxiety and seizure disorders."
+  },
+  {
+    "name": "Thorazine",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Thorazine (chlorpromazine) was the first major antipsychotic medication, approved in 1954."
+  },
+  {
+    "name": "Risperdal",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Risperdal (risperidone) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+  },
+  {
+    "name": "Nardil",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Nardil (phenelzine) is an MAOI antidepressant requiring dietary restrictions."
+  },
+  {
+    "name": "Lamictal",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Lamictal (lamotrigine) is a mood stabilizer used for bipolar disorder and epilepsy."
+  },
+  {
+    "name": "Invega",
+    "categories": [
+      "Psychiatric"
+    ],
+    "explanation": "Invega (paliperidone) is an extended-release atypical antipsychotic for schizophrenia."
+  },
+  {
+    "name": "Picasso",
+    "categories": [
+      "Painter",
+      "Tech"
+    ],
+    "explanation": "Pablo Picasso was the legendary Cubist painter. Picasso is also Google's AI image generation model."
+  },
+  {
+    "name": "Warhol",
+    "categories": [
+      "Painter",
+      "SiliconValleyBS"
+    ],
+    "explanation": "Andy Warhol was the pop art icon. Various crypto/NFT platforms use the Warhol name."
+  },
+  {
+    "name": "Dali",
+    "categories": [
+      "Painter",
+      "Tech"
+    ],
+    "explanation": "Salvador Dalí was the surrealist master. DALL-E is OpenAI's image generation AI named after him."
+  },
+  {
+    "name": "Leonardo",
+    "categories": [
+      "Painter",
+      "Tech"
+    ],
+    "explanation": "Leonardo da Vinci was the Renaissance polymath. Leonardo.AI is an image generation platform."
+  },
+  {
+    "name": "Michelangelo",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Michelangelo was the Italian Renaissance sculptor of David and painter of the Sistine Chapel ceiling."
+  },
+  {
+    "name": "Raphael",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Raphael was the Italian Renaissance master painter of the School of Athens."
+  },
+  {
+    "name": "Rembrandt",
+    "categories": [
+      "Painter",
+      "Tech"
+    ],
+    "explanation": "Rembrandt was the Dutch master of light and shadow. Also Adobe's AI lighting technology."
+  },
+  {
+    "name": "Monet",
+    "categories": [
+      "Painter",
+      "SiliconValleyBS"
+    ],
+    "explanation": "Claude Monet founded Impressionism. Monet is also a DeFi protocol."
+  },
+  {
+    "name": "Kandinsky",
+    "categories": [
+      "Painter",
+      "Tech"
+    ],
+    "explanation": "Wassily Kandinsky pioneered abstract art. Kandinsky is also Sberbank's AI image generation model."
+  },
+  {
+    "name": "Pollock",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Jackson Pollock was the abstract expressionist famous for drip painting technique."
+  },
+  {
+    "name": "Banksy",
+    "categories": [
+      "Painter",
+      "SiliconValleyBS"
+    ],
+    "explanation": "Banksy is the anonymous British street artist. Various crypto/NFT projects use the name."
+  },
+  {
+    "name": "Rodin",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Auguste Rodin was the French sculptor of 'The Thinker', considered father of modern sculpture."
+  },
+  {
+    "name": "Goya",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Francisco Goya was the Spanish painter known for his dark period works."
+  },
+  {
+    "name": "Basquiat",
+    "categories": [
+      "Painter",
+      "SiliconValleyBS"
+    ],
+    "explanation": "Jean-Michel Basquiat was the neo-expressionist artist whose works are heavily traded as NFTs."
+  },
+  {
+    "name": "Escher",
+    "categories": [
+      "Painter",
+      "DigitalTerm"
+    ],
+    "explanation": "M.C. Escher created impossible architecture art, hugely influential in computer graphics."
+  },
+  {
+    "name": "Klimt",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Gustav Klimt was the Austrian symbolist painter known for 'The Kiss' with gold leaf technique."
+  },
+  {
+    "name": "Vermeer",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Johannes Vermeer was the Dutch Golden Age painter of 'Girl with a Pearl Earring'."
+  },
+  {
+    "name": "Caravaggio",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Caravaggio was the Italian Baroque master known for dramatic chiaroscuro."
+  },
+  {
+    "name": "Degas",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Edgar Degas was the French Impressionist famous for paintings of ballet dancers."
+  },
+  {
+    "name": "Bernini",
+    "categories": [
+      "Painter"
+    ],
+    "explanation": "Gian Lorenzo Bernini was the Italian Baroque sculptor of the Ecstasy of Saint Teresa."
+  },
+  {
+    "name": "Pascal",
+    "categories": [
+      "Philosopher",
+      "ProgrammingLang"
+    ],
+    "explanation": "Blaise Pascal was a 17th-century philosopher and mathematician. Pascal is also a programming language designed by Niklaus Wirth."
+  },
+  {
+    "name": "Thales",
+    "categories": [
+      "Philosopher",
+      "Tech"
+    ],
+    "explanation": "Thales of Miletus was the first Greek philosopher. Thales Group is a major French defense and aerospace company."
+  },
+  {
+    "name": "Bacon",
+    "categories": [
+      "Philosopher",
+      "Tech"
+    ],
+    "explanation": "Francis Bacon was the father of empiricism. Bacon.js is a functional reactive programming library for JavaScript."
+  },
+  {
+    "name": "Kafka",
+    "categories": [
+      "Author",
+      "Tech"
+    ],
+    "explanation": "Franz Kafka was the existentialist author of 'The Metamorphosis'. Apache Kafka is a distributed streaming platform."
+  },
+  {
+    "name": "Hemingway",
+    "categories": [
+      "Author",
+      "Tech"
+    ],
+    "explanation": "Ernest Hemingway was the American novelist known for sparse prose. Hemingway Editor is a popular writing app."
+  },
+  {
+    "name": "Asimov",
+    "categories": [
+      "Author",
+      "Tech"
+    ],
+    "explanation": "Isaac Asimov was the legendary sci-fi author of the Foundation series. Asimov Institute focuses on AI research."
+  },
+  {
+    "name": "Socrates",
+    "categories": [
+      "Philosopher"
+    ],
+    "explanation": "Socrates was the ancient Greek philosopher who developed the Socratic method of questioning."
+  },
+  {
+    "name": "Plato",
+    "categories": [
+      "Philosopher"
+    ],
+    "explanation": "Plato was the ancient Greek philosopher who founded the Academy and wrote The Republic."
+  },
+  {
+    "name": "Aristotle",
+    "categories": [
+      "Philosopher",
+      "Tech"
+    ],
+    "explanation": "Aristotle was the ancient Greek philosopher who tutored Alexander the Great. Aristotle is also an AI company."
+  },
+  {
+    "name": "Descartes",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "René Descartes was the rationalist philosopher famous for 'I think, therefore I am' and his Meditations."
+  },
+  {
+    "name": "Nietzsche",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Friedrich Nietzsche was the German philosopher who wrote Thus Spoke Zarathustra and declared 'God is dead'."
+  },
+  {
+    "name": "Kant",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Immanuel Kant was the German philosopher who wrote the Critique of Pure Reason."
+  },
+  {
+    "name": "Hegel",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Georg Wilhelm Friedrich Hegel was the German idealist philosopher known for dialectical reasoning."
+  },
+  {
+    "name": "Marx",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Karl Marx was the philosopher who wrote Das Kapital and The Communist Manifesto with Engels."
+  },
+  {
+    "name": "Hume",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "David Hume was the Scottish empiricist philosopher known for skepticism about causation."
+  },
+  {
+    "name": "Locke",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "John Locke was the English philosopher whose ideas influenced liberal democracy and the US Constitution."
+  },
+  {
+    "name": "Hobbes",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Thomas Hobbes was the philosopher who wrote Leviathan, arguing life without government is 'nasty, brutish, and short'."
+  },
+  {
+    "name": "Spinoza",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Baruch Spinoza was the rationalist philosopher who argued God and Nature are the same substance."
+  },
+  {
+    "name": "Rousseau",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Jean-Jacques Rousseau was the philosopher who wrote The Social Contract and influenced the French Revolution."
+  },
+  {
+    "name": "Voltaire",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Voltaire was the French Enlightenment writer known for Candide and his satirical wit."
+  },
+  {
+    "name": "Kierkegaard",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Søren Kierkegaard was the Danish philosopher considered the father of existentialism."
+  },
+  {
+    "name": "Sartre",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Jean-Paul Sartre was the French existentialist who wrote Being and Nothingness and No Exit."
+  },
+  {
+    "name": "Camus",
+    "categories": [
+      "Philosopher",
+      "Author"
+    ],
+    "explanation": "Albert Camus was the French-Algerian absurdist who wrote The Stranger and The Myth of Sisyphus."
+  },
+  {
+    "name": "Seneca",
+    "categories": [
+      "Philosopher",
+      "RomanPagan"
+    ],
+    "explanation": "Seneca the Younger was a Roman Stoic philosopher and advisor to Emperor Nero."
+  },
+  {
+    "name": "Marcus Aurelius",
+    "categories": [
+      "Philosopher",
+      "RomanPagan",
+      "HistoricalState"
+    ],
+    "explanation": "Marcus Aurelius was the Roman Emperor and Stoic philosopher who wrote Meditations."
+  },
+  {
+    "name": "Epictetus",
+    "categories": [
+      "Philosopher"
+    ],
+    "explanation": "Epictetus was a Greek Stoic philosopher who was born a slave and taught that we control only our reactions."
+  },
+  {
+    "name": "Orwell",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "George Orwell was the British author of 1984 and Animal Farm, known for dystopian political fiction."
+  },
+  {
+    "name": "Huxley",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Aldous Huxley was the British author of Brave New World, exploring a dystopia of pleasure and control."
+  },
+  {
+    "name": "Bradbury",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Ray Bradbury was the American author of Fahrenheit 451 and The Martian Chronicles."
+  },
+  {
+    "name": "Verne",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Jules Verne was the French 'Father of Science Fiction' who wrote Twenty Thousand Leagues Under the Sea."
+  },
+  {
+    "name": "Lovecraft",
+    "categories": [
+      "Author",
+      "MetalBand"
+    ],
+    "explanation": "H.P. Lovecraft created the Cthulhu Mythos. Many metal bands like Metallica reference his cosmic horror."
+  },
+  {
+    "name": "Poe",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Edgar Allan Poe was the American master of macabre who wrote The Raven and The Tell-Tale Heart."
+  },
+  {
+    "name": "Dickens",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Charles Dickens was the Victorian novelist who wrote A Tale of Two Cities and Oliver Twist."
+  },
+  {
+    "name": "Austen",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Jane Austen was the English novelist known for Pride and Prejudice and Sense and Sensibility."
+  },
+  {
+    "name": "Dostoevsky",
+    "categories": [
+      "Author",
+      "Philosopher"
+    ],
+    "explanation": "Fyodor Dostoevsky was the Russian author of Crime and Punishment and The Brothers Karamazov."
+  },
+  {
+    "name": "Tolstoy",
+    "categories": [
+      "Author",
+      "Philosopher"
+    ],
+    "explanation": "Leo Tolstoy was the Russian author of War and Peace and Anna Karenina."
+  },
+  {
+    "name": "Twain",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Mark Twain was the American humorist who wrote The Adventures of Tom Sawyer and Huckleberry Finn."
+  },
+  {
+    "name": "Shakespeare",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "William Shakespeare was the English playwright who wrote Hamlet, Macbeth, and Romeo and Juliet."
+  },
+  {
+    "name": "Homer",
+    "categories": [
+      "Author",
+      "GreekPagan"
+    ],
+    "explanation": "Homer was the ancient Greek poet who composed the Iliad and Odyssey, foundational works of Greek mythology."
+  },
+  {
+    "name": "Virgil",
+    "categories": [
+      "Author",
+      "RomanPagan"
+    ],
+    "explanation": "Virgil was the Roman poet who wrote the Aeneid, the epic of Rome's mythological founding."
+  },
+  {
+    "name": "Dante",
+    "categories": [
+      "Author",
+      "GreekPagan"
+    ],
+    "explanation": "Dante Alighieri wrote the Divine Comedy, drawing heavily on Greek and Roman mythology in his Inferno."
+  },
+  {
+    "name": "Milton",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "John Milton was the English poet who wrote Paradise Lost, the epic of Satan's fall from Heaven."
+  },
+  {
+    "name": "Chaucer",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Geoffrey Chaucer was the medieval English poet who wrote The Canterbury Tales."
+  },
+  {
+    "name": "Goethe",
+    "categories": [
+      "Author",
+      "Philosopher"
+    ],
+    "explanation": "Johann Wolfgang von Goethe was the German polymath who wrote Faust and The Sorrows of Young Werther."
+  },
+  {
+    "name": "Byron",
+    "categories": [
+      "Author",
+      "CarModel"
+    ],
+    "explanation": "Lord Byron was the Romantic poet known for Don Juan. Byron is also a brand of golf equipment and various products."
+  },
+  {
+    "name": "Shelley",
+    "categories": [
+      "Author"
+    ],
+    "explanation": "Mary Shelley was the author of Frankenstein, considered the first science fiction novel."
+  }
+]

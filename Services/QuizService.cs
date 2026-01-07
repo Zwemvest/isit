@@ -15,6 +15,8 @@ public enum GameMode
     Custom
 }
 
+public record AnswerRecord(QuizItem Item, HashSet<string> SelectedCategories, HashSet<string> CorrectCategories, bool WasCorrect);
+
 public class QuizService
 {
     private readonly HttpClient _httpClient;
@@ -22,6 +24,7 @@ public class QuizService
     private List<QuizItem> _shuffledItems = [];
     private int _currentIndex;
     private int _score;
+    private List<AnswerRecord> _answerHistory = [];
 
     // Settings
     public ScoringMode ScoringMode { get; set; } = ScoringMode.AllCorrect;
@@ -57,7 +60,10 @@ public class QuizService
         "Digimon",
         "DragonBallZ",
         "JoJo",
-        "Artist"
+        "Painter",
+        "Philosopher",
+        "Author",
+        "CarModel"
     ];
 
     public static readonly Dictionary<string, string> CategoryDisplayNames = new()
@@ -85,7 +91,10 @@ public class QuizService
         ["Digimon"] = "Digimon",
         ["DragonBallZ"] = "Dragon Ball Z",
         ["JoJo"] = "JoJo's Bizarre Adventure",
-        ["Artist"] = "Famous Artist"
+        ["Painter"] = "Famous Painter",
+        ["Philosopher"] = "Philosopher",
+        ["Author"] = "Famous Author",
+        ["CarModel"] = "Car Model"
     };
 
     public QuizService(HttpClient httpClient)
@@ -112,11 +121,26 @@ public class QuizService
         }
     }
 
+    private static readonly string[] DataFiles =
+    [
+        "data/quiz-items/mythology.json",
+        "data/quiz-items/fantasy.json",
+        "data/quiz-items/anime-games.json",
+        "data/quiz-items/music.json",
+        "data/quiz-items/tech.json",
+        "data/quiz-items/people.json",
+        "data/quiz-items/things.json"
+    ];
+
     public async Task LoadItemsAsync()
     {
         if (_items.Count == 0)
         {
-            _items = await _httpClient.GetFromJsonAsync<List<QuizItem>>("data/quiz-items.json") ?? [];
+            foreach (var file in DataFiles)
+            {
+                var items = await _httpClient.GetFromJsonAsync<List<QuizItem>>(file) ?? [];
+                _items.AddRange(items);
+            }
         }
     }
 
@@ -134,6 +158,7 @@ public class QuizService
             .ToList();
         _currentIndex = 0;
         _score = 0;
+        _answerHistory = [];
     }
 
     public int GetDailySeed()
@@ -168,6 +193,7 @@ public class QuizService
 
         _currentIndex = 0;
         _score = 0;
+        _answerHistory = [];
     }
 
     public bool IsDailyComplete => CurrentGameMode == GameMode.Daily && _currentIndex >= DailyQuestions;
@@ -225,8 +251,13 @@ public class QuizService
             _score++;
         }
 
+        // Record the answer
+        _answerHistory.Add(new AnswerRecord(current, selected, correctIncluded, isCorrect));
+
         return isCorrect;
     }
+
+    public IReadOnlyList<AnswerRecord> AnswerHistory => _answerHistory;
 
     public void MoveToNext()
     {

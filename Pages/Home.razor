@@ -196,12 +196,24 @@ else if (_state == QuizState.Playing)
 }
 else if (_state == QuizState.Finished)
 {
-    var questionsAnswered = QuizService.CurrentQuestionNumber - 1;
+    var questionsAnswered = QuizService.AnswerHistory.Count;
     var percentage = questionsAnswered > 0
         ? (int)Math.Round(100.0 * QuizService.Score / questionsAnswered)
         : 0;
 
     <MudStack AlignItems="AlignItems.Center" Spacing="4">
+        @* Show the last answer result at the top *@
+        @if (_lastAnswerItem != null)
+        {
+            <MudPaper Style="width: 100%; max-width: 500px;" Elevation="0" Class="pa-3">
+                <MudAlert Severity="@GetResultSeverity()" Variant="Variant.Filled" Dense="true" Class="mb-2">
+                    <strong>@_lastAnswerItem.Name:</strong> @string.Join(", ", _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c)).Select(c => QuizService.CategoryDisplayNames[c]))
+                </MudAlert>
+                <MudText Typo="Typo.body2" Style="opacity: 0.9;">@_lastAnswerItem.Explanation</MudText>
+            </MudPaper>
+            <MudDivider Style="width: 100%; max-width: 500px;" />
+        }
+
         @if (QuizService.CurrentGameMode == GameMode.Daily)
         {
             <MudText Typo="Typo.h3">Daily Complete!</MudText>
@@ -245,6 +257,47 @@ else if (_state == QuizState.Finished)
             <MudAlert Severity="Severity.Success" Variant="Variant.Text" Dense="true">
                 Copied to clipboard!
             </MudAlert>
+        }
+
+        @* Answer Review Section *@
+        @if (QuizService.AnswerHistory.Count > 0)
+        {
+            <MudExpansionPanels Class="mt-4" Style="width: 100%; max-width: 600px;">
+                <MudExpansionPanel Text="Review All Answers">
+                    <MudStack Spacing="2">
+                        @foreach (var (answer, index) in QuizService.AnswerHistory.Select((a, i) => (a, i)))
+                        {
+                            <MudPaper Class="pa-3" Elevation="1">
+                                <MudStack Spacing="1">
+                                    <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
+                                        <MudText Typo="Typo.subtitle1">
+                                            <strong>@(index + 1). @answer.Item.Name</strong>
+                                        </MudText>
+                                        @if (answer.WasCorrect)
+                                        {
+                                            <MudIcon Icon="@Icons.Material.Filled.Check" Color="Color.Success" />
+                                        }
+                                        else
+                                        {
+                                            <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" />
+                                        }
+                                    </MudStack>
+                                    <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                        <strong>Correct:</strong> @string.Join(", ", answer.CorrectCategories.Select(c => QuizService.CategoryDisplayNames[c]))
+                                    </MudText>
+                                    @if (!answer.WasCorrect)
+                                    {
+                                        <MudText Typo="Typo.body2" Color="Color.Error">
+                                            <strong>You said:</strong> @(answer.SelectedCategories.Count > 0 ? string.Join(", ", answer.SelectedCategories.Select(c => QuizService.CategoryDisplayNames[c])) : "(none)")
+                                        </MudText>
+                                    }
+                                    <MudText Typo="Typo.caption" Style="opacity: 0.8;">@answer.Item.Explanation</MudText>
+                                </MudStack>
+                            </MudPaper>
+                        }
+                    </MudStack>
+                </MudExpansionPanel>
+            </MudExpansionPanels>
         }
     </MudStack>
 }

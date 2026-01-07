@@ -1,0 +1,695 @@
+[
+  {
+    "name": "Odin",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Odin is the Norse Allfather, god of wisdom, war, and death who sacrificed an eye for knowledge."
+  },
+  {
+    "name": "Thor",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Thor is the Norse god of thunder who wields the hammer Mjölnir."
+  },
+  {
+    "name": "Freya",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Freya is the Norse goddess of love, beauty, and war who rides a chariot pulled by cats."
+  },
+  {
+    "name": "Tyr",
+    "categories": [
+      "NorsePagan",
+      "MetalBand"
+    ],
+    "explanation": "Týr is the Norse god of war who lost his hand to Fenrir, and also a Faroese folk metal band."
+  },
+  {
+    "name": "Baldur",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Baldur is the Norse god of light and purity, killed by mistletoe due to Loki's trickery."
+  },
+  {
+    "name": "Heimdall",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Heimdall is the Norse guardian of Bifröst who can see and hear across all realms."
+  },
+  {
+    "name": "Frigg",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Frigg is Odin's wife and the Norse goddess of marriage and motherhood."
+  },
+  {
+    "name": "Hel",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Hel is the Norse goddess of the underworld, daughter of Loki, half alive and half dead."
+  },
+  {
+    "name": "Fenrir",
+    "categories": [
+      "NorsePagan",
+      "MetalBand"
+    ],
+    "explanation": "Fenrir is the monstrous Norse wolf destined to kill Odin at Ragnarök, and also multiple metal bands."
+  },
+  {
+    "name": "Zeus",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Zeus is the Greek king of the gods, ruler of Mount Olympus and god of thunder."
+  },
+  {
+    "name": "Apollo",
+    "categories": [
+      "GreekPagan",
+      "Tech",
+      "CarModel"
+    ],
+    "explanation": "Apollo is the Greek god of sun and prophecy, a GraphQL API platform, and the Buick Apollo compact car."
+  },
+  {
+    "name": "Athena",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Athena is the Greek goddess of wisdom and warfare, born from Zeus's head."
+  },
+  {
+    "name": "Poseidon",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Poseidon is the Greek god of the sea, earthquakes, and horses."
+  },
+  {
+    "name": "Hades",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Hades is the Greek god of the underworld and ruler of the dead."
+  },
+  {
+    "name": "Ares",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Ares is the Greek god of war, known for his brutal and violent nature."
+  },
+  {
+    "name": "Hermes",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Hermes is the Greek messenger god, also patron of thieves, travelers, and commerce."
+  },
+  {
+    "name": "Artemis",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Artemis is the Greek goddess of the hunt, wilderness, and the moon."
+  },
+  {
+    "name": "Aphrodite",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Aphrodite is the Greek goddess of love and beauty, born from sea foam."
+  },
+  {
+    "name": "Dionysus",
+    "categories": [
+      "GreekPagan"
+    ],
+    "explanation": "Dionysus is the Greek god of wine, festivity, and religious ecstasy."
+  },
+  {
+    "name": "Atlas",
+    "categories": [
+      "GreekPagan",
+      "Tech",
+      "CarModel"
+    ],
+    "explanation": "Atlas is the Greek Titan holding up the sky, MongoDB's cloud platform, and the Volkswagen Atlas SUV."
+  },
+  {
+    "name": "Cassandra",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Cassandra was a Greek prophetess cursed to never be believed, and also an Apache distributed database."
+  },
+  {
+    "name": "Pandora",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Pandora opened the box releasing evils into the world, and is also a music streaming service."
+  },
+  {
+    "name": "Jupiter",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Jupiter is the Roman king of the gods, equivalent to the Greek Zeus."
+  },
+  {
+    "name": "Mars",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Mars is the Roman god of war, more honored than his Greek counterpart Ares."
+  },
+  {
+    "name": "Venus",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Venus is the Roman goddess of love, equivalent to the Greek Aphrodite."
+  },
+  {
+    "name": "Neptune",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Neptune is the Roman god of the sea, equivalent to the Greek Poseidon."
+  },
+  {
+    "name": "Mercury",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Mercury is the Roman messenger god, equivalent to the Greek Hermes."
+  },
+  {
+    "name": "Vulcan",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Vulcan is the Roman god of fire and the forge, equivalent to the Greek Hephaestus."
+  },
+  {
+    "name": "Minerva",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Minerva is the Roman goddess of wisdom, equivalent to the Greek Athena."
+  },
+  {
+    "name": "Juno",
+    "categories": [
+      "RomanPagan",
+      "Tech"
+    ],
+    "explanation": "Juno is the Roman queen of the gods, and also an email security company."
+  },
+  {
+    "name": "Ceres",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Ceres is the Roman goddess of agriculture and harvest."
+  },
+  {
+    "name": "Pluto",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Pluto is the Roman god of the underworld, equivalent to the Greek Hades."
+  },
+  {
+    "name": "Morrigan",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "The Morrígan is the Celtic goddess of war, fate, and death, often appearing as a crow."
+  },
+  {
+    "name": "Brigid",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Brigid is the Celtic goddess of fire, poetry, and smithcraft."
+  },
+  {
+    "name": "Cernunnos",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Cernunnos is the Celtic horned god of nature, animals, and fertility."
+  },
+  {
+    "name": "Danu",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Danu is the Celtic mother goddess, ancestor of the Tuatha Dé Danann."
+  },
+  {
+    "name": "Lugh",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Lugh is the Celtic god of skill, crafts, and many talents."
+  },
+  {
+    "name": "Dagda",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "The Dagda is the Celtic father god with a magic club and cauldron of plenty."
+  },
+  {
+    "name": "Epona",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Epona is the Celtic goddess of horses, later adopted into Roman worship."
+  },
+  {
+    "name": "Daedalus",
+    "categories": [
+      "GreekPagan",
+      "SiliconValleyBS"
+    ],
+    "explanation": "Daedalus is the Greek mythological master craftsman and father of Icarus, and also the official Cardano cryptocurrency wallet."
+  },
+  {
+    "name": "Triton",
+    "categories": [
+      "GreekPagan",
+      "Tech",
+      "DnD"
+    ],
+    "explanation": "Triton is the Greek merman god (son of Poseidon), NVIDIA's GPU programming language, and a playable aquatic race in D&D."
+  },
+  {
+    "name": "Medusa",
+    "categories": [
+      "GreekPagan",
+      "Tech",
+      "DnD"
+    ],
+    "explanation": "Medusa is the Greek Gorgon with snake hair, an open-source commerce platform, and a classic D&D monster type."
+  },
+  {
+    "name": "Cerberus",
+    "categories": [
+      "GreekPagan",
+      "Tech",
+      "DnD"
+    ],
+    "explanation": "Cerberus is the three-headed dog of Greek myth, an Android security app, and appears in D&D's Nine Hells."
+  },
+  {
+    "name": "Hyperion",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Hyperion is the Greek Titan of light, and also an Apache Big Data platform and SAP's OLAP database."
+  },
+  {
+    "name": "Chronos",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Chronos is the Greek personification of Time, and also a distributed cron job scheduler by Airbnb."
+  },
+  {
+    "name": "Morpheus",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Morpheus is the Greek god of dreams, and also NVIDIA's cybersecurity AI framework."
+  },
+  {
+    "name": "Talos",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Talos is the Greek mythological bronze automaton protecting Crete, and also Cisco's threat intelligence organization."
+  },
+  {
+    "name": "Helios",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Helios is the Greek god of the Sun, and also LinkedIn's open-source search platform."
+  },
+  {
+    "name": "Hera",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Hera is the Greek queen of the gods, and also a workflow orchestration SDK for Argo Workflows."
+  },
+  {
+    "name": "Kraken",
+    "categories": [
+      "NorsePagan",
+      "SiliconValleyBS",
+      "DnD"
+    ],
+    "explanation": "The Kraken is a legendary Norse sea monster, a major crypto exchange, and a powerful D&D monster."
+  },
+  {
+    "name": "Icarus",
+    "categories": [
+      "GreekPagan",
+      "Tech"
+    ],
+    "explanation": "Icarus is the Greek figure who flew too close to the sun, and also Icarus Verilog, a hardware simulation tool."
+  },
+  {
+    "name": "Titan",
+    "categories": [
+      "GreekPagan",
+      "Tech",
+      "CarModel"
+    ],
+    "explanation": "The Titans are primordial Greek gods, Google's TPU security chip, and the Nissan Titan pickup truck."
+  },
+  {
+    "name": "Sleipnir",
+    "categories": [
+      "NorsePagan",
+      "Tech"
+    ],
+    "explanation": "Sleipnir is Odin's eight-legged horse in Norse mythology, and also a Japanese web browser."
+  },
+  {
+    "name": "Lambda",
+    "categories": [
+      "GreekPagan",
+      "DigitalTerm",
+      "Tech"
+    ],
+    "explanation": "Lambda is a Greek letter, a core concept in functional programming, and AWS Lambda is a serverless computing service."
+  },
+  {
+    "name": "Valkyrie",
+    "categories": [
+      "NorsePagan",
+      "DnD"
+    ],
+    "explanation": "Valkyries are Norse maidens who choose the slain for Valhalla, and appear as celestials in D&D."
+  },
+  {
+    "name": "Mjolnir",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Mjolnir is Thor's hammer in Norse mythology, forged by dwarves and capable of leveling mountains."
+  },
+  {
+    "name": "Yggdrasil",
+    "categories": [
+      "NorsePagan",
+      "Tech"
+    ],
+    "explanation": "Yggdrasil is the World Tree in Norse mythology, and also a Linux distribution."
+  },
+  {
+    "name": "Ragnarok",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Ragnarok is the Norse apocalypse, the twilight of the gods where Odin dies fighting Fenrir."
+  },
+  {
+    "name": "Asgard",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Asgard is the realm of the Norse gods, connected to Earth by the Bifröst bridge."
+  },
+  {
+    "name": "Bifrost",
+    "categories": [
+      "NorsePagan",
+      "Tech"
+    ],
+    "explanation": "Bifröst is the rainbow bridge to Asgard in Norse myth, and also a remote access tool."
+  },
+  {
+    "name": "Valhalla",
+    "categories": [
+      "NorsePagan"
+    ],
+    "explanation": "Valhalla is the Norse hall of the slain, where warriors who die in battle feast with Odin until Ragnarok."
+  },
+  {
+    "name": "Jormungandr",
+    "categories": [
+      "NorsePagan",
+      "DnD"
+    ],
+    "explanation": "Jormungandr is the Norse World Serpent who encircles Midgard, appearing as a monster in D&D."
+  },
+  {
+    "name": "Bacchus",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Bacchus is the Roman god of wine and ecstasy, equivalent to the Greek Dionysus."
+  },
+  {
+    "name": "Diana",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Diana is the Roman goddess of the hunt and moon, equivalent to the Greek Artemis."
+  },
+  {
+    "name": "Apollo",
+    "categories": [
+      "RomanPagan",
+      "Tech"
+    ],
+    "explanation": "Apollo is also honored in Roman religion as god of light and music, plus NASA's moon program and GraphQL platform."
+  },
+  {
+    "name": "Saturn",
+    "categories": [
+      "RomanPagan",
+      "Tech"
+    ],
+    "explanation": "Saturn is the Roman god of time and harvest, and also the Sega Saturn console and a planet."
+  },
+  {
+    "name": "Cupid",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Cupid is the Roman god of love, equivalent to Greek Eros, often depicted with bow and arrows."
+  },
+  {
+    "name": "Flora",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Flora is the Roman goddess of flowers and spring, celebrated during the Floralia festival."
+  },
+  {
+    "name": "Fortuna",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Fortuna is the Roman goddess of fortune and luck, often depicted with a wheel."
+  },
+  {
+    "name": "Vesta",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Vesta is the Roman goddess of the hearth, served by the Vestal Virgins."
+  },
+  {
+    "name": "Janus",
+    "categories": [
+      "RomanPagan"
+    ],
+    "explanation": "Janus is the Roman two-faced god of doorways, beginnings, and endings. January is named after him."
+  },
+  {
+    "name": "Nuada",
+    "categories": [
+      "CelticPagan",
+      "DnD"
+    ],
+    "explanation": "Nuada is the Celtic god-king of the Tuatha Dé Danann, who lost his hand in battle."
+  },
+  {
+    "name": "Taranis",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Taranis is the Celtic god of thunder, depicted with a wheel and lightning."
+  },
+  {
+    "name": "Ogma",
+    "categories": [
+      "CelticPagan",
+      "DnD"
+    ],
+    "explanation": "Ogma is the Celtic god of eloquence and learning, who invented the Ogham alphabet."
+  },
+  {
+    "name": "Manannán",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Manannán mac Lir is the Celtic sea god, ruler of the otherworldly islands."
+  },
+  {
+    "name": "Belenus",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Belenus is the Celtic sun god, associated with healing and honored at Beltane."
+  },
+  {
+    "name": "Arianrhod",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Arianrhod is the Celtic goddess of the moon and stars, keeper of the Silver Wheel."
+  },
+  {
+    "name": "Rhiannon",
+    "categories": [
+      "CelticPagan",
+      "RockBand"
+    ],
+    "explanation": "Rhiannon is a Celtic goddess of horses and the otherworld, and also a famous Fleetwood Mac song."
+  },
+  {
+    "name": "Balor",
+    "categories": [
+      "CelticPagan",
+      "DnD"
+    ],
+    "explanation": "Balor is the Celtic one-eyed giant king of the Fomorians, similar to D&D's Balor demons."
+  },
+  {
+    "name": "Sucellos",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Sucellos is the Celtic god of agriculture and forests, wielding a long-handled hammer."
+  },
+  {
+    "name": "Andraste",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Andraste is the Celtic goddess of victory, invoked by Boudica before battle."
+  },
+  {
+    "name": "Mabon",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Mabon is the Welsh divine son, associated with the autumn equinox festival."
+  },
+  {
+    "name": "Aengus",
+    "categories": [
+      "CelticPagan"
+    ],
+    "explanation": "Aengus is the Celtic god of love, youth, and poetic inspiration, son of the Dagda."
+  },
+  {
+    "name": "Odyssey",
+    "categories": [
+      "GreekPagan",
+      "CarModel"
+    ],
+    "explanation": "The Odyssey is Homer's epic poem about Odysseus's journey, and the Honda Odyssey minivan."
+  },
+  {
+    "name": "Avalon",
+    "categories": [
+      "CelticPagan",
+      "CarModel"
+    ],
+    "explanation": "Avalon is the mythical island where King Arthur was taken after his final battle, and the Toyota Avalon sedan."
+  },
+  {
+    "name": "Aurora",
+    "categories": [
+      "RomanPagan",
+      "CarModel"
+    ],
+    "explanation": "Aurora is the Roman goddess of the dawn, and the Oldsmobile Aurora luxury sedan."
+  },
+  {
+    "name": "Eos",
+    "categories": [
+      "GreekPagan",
+      "CarModel"
+    ],
+    "explanation": "Eos is the Greek goddess of the dawn, and the Volkswagen Eos retractable hardtop convertible."
+  },
+  {
+    "name": "Phaeton",
+    "categories": [
+      "GreekPagan",
+      "CarModel"
+    ],
+    "explanation": "Phaeton was the son of Helios who crashed the sun chariot, and the Volkswagen Phaeton luxury sedan."
+  },
+  {
+    "name": "Electra",
+    "categories": [
+      "GreekPagan",
+      "CarModel"
+    ],
+    "explanation": "Electra was a Greek princess central to tragedies by Sophocles and Euripides, and the Buick Electra."
+  },
+  {
+    "name": "Fury",
+    "categories": [
+      "GreekPagan",
+      "CarModel"
+    ],
+    "explanation": "The Furies (Erinyes) were Greek goddesses of vengeance, and the Plymouth Fury muscle car."
+  },
+  {
+    "name": "Vesta",
+    "categories": [
+      "RomanPagan",
+      "CarModel"
+    ],
+    "explanation": "Vesta is the Roman goddess of the hearth and home, and the Opel/Vauxhall Vesta subcompact."
+  },
+  {
+    "name": "Valkyrie",
+    "categories": [
+      "NorsePagan",
+      "CarModel"
+    ],
+    "explanation": "Valkyries are Norse warrior maidens who choose the slain for Valhalla, and the Aston Martin Valkyrie hypercar."
+  }
+]

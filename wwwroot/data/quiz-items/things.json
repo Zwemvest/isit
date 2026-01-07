@@ -1,0 +1,528 @@
+[
+  {
+    "name": "Kallax",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "KALLAX is IKEA's popular cube shelving unit system."
+  },
+  {
+    "name": "Malm",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "MALM is IKEA's bed and dresser series. The name is Swedish for 'ore'."
+  },
+  {
+    "name": "Billy",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "BILLY is IKEA's iconic bookcase, in production since 1979."
+  },
+  {
+    "name": "Poäng",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "POÄNG is IKEA's bentwood armchair. The name is Swedish for 'point'."
+  },
+  {
+    "name": "Lack",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "LACK is IKEA's affordable side table series with a hollow core design."
+  },
+  {
+    "name": "Hemnes",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "HEMNES is IKEA's traditional furniture series named after a Norwegian municipality."
+  },
+  {
+    "name": "Bestå",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "BESTÅ is IKEA's modular storage system. The name means 'to consist' in Swedish."
+  },
+  {
+    "name": "Detolf",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "DETOLF is IKEA's glass-door display cabinet."
+  },
+  {
+    "name": "Ektorp",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "EKTORP is IKEA's classic sofa series with removable, washable covers."
+  },
+  {
+    "name": "Klippan",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "KLIPPAN is IKEA's compact loveseat named after a Swedish town."
+  },
+  {
+    "name": "Frakta",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "FRAKTA is IKEA's iconic blue shopping bag. Swedish for 'to transport'."
+  },
+  {
+    "name": "Björkudden",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "BJÖRKUDDEN is an IKEA table series. Swedish for 'birch point'."
+  },
+  {
+    "name": "Råskog",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "RÅSKOG is IKEA's steel utility cart on casters."
+  },
+  {
+    "name": "Bekväm",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "BEKVÄM is IKEA's wooden step stool. Swedish for 'comfortable'."
+  },
+  {
+    "name": "Strandmon",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "STRANDMON is IKEA's wing chair inspired by a 1950s Scandinavian design."
+  },
+  {
+    "name": "Järvfjället",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "JÄRVFJÄLLET is IKEA's ergonomic office chair. Swedish for 'mountain of Järv'."
+  },
+  {
+    "name": "Markus",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "MARKUS is IKEA's popular ergonomic office chair with a high back."
+  },
+  {
+    "name": "Kivik",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "KIVIK is IKEA's deep-seated sofa series named after a Swedish town."
+  },
+  {
+    "name": "Söderhamn",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "SÖDERHAMN is IKEA's modular sofa system named after a Swedish city."
+  },
+  {
+    "name": "Vittsjö",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "VITTSJÖ is IKEA's glass and metal shelving unit. Swedish for 'white lake'."
+  },
+  {
+    "name": "Havsta",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "HAVSTA is IKEA's solid pine storage furniture series."
+  },
+  {
+    "name": "Ivar",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "IVAR is IKEA's untreated pine shelving system designed for customization."
+  },
+  {
+    "name": "Trofast",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "TROFAST is IKEA's children's storage system with bins. Swedish for 'faithful'."
+  },
+  {
+    "name": "Brimnes",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "BRIMNES is IKEA's bedroom furniture series with built-in storage."
+  },
+  {
+    "name": "Nordli",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "NORDLI is IKEA's modular bedroom furniture series."
+  },
+  {
+    "name": "Fenomen",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "FENOMEN is IKEA's unscented block candle. Swedish for 'phenomenon'."
+  },
+  {
+    "name": "Skurup",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "SKURUP is IKEA's pendant and floor lamp series named after a Swedish town."
+  },
+  {
+    "name": "Tertial",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "TERTIAL is IKEA's adjustable work lamp with an articulated arm."
+  },
+  {
+    "name": "Godmorgon",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "GODMORGON is IKEA's bathroom furniture series. Swedish for 'good morning'."
+  },
+  {
+    "name": "Flisat",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "FLISAT is IKEA's children's furniture series made from solid pine."
+  },
+  {
+    "name": "Antilop",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "ANTILOP is IKEA's high chair for babies. Swedish for 'antelope'."
+  },
+  {
+    "name": "Duktig",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "DUKTIG is IKEA's children's play kitchen series. Swedish for 'clever' or 'good'."
+  },
+  {
+    "name": "Skogsta",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "Skogsta is IKEA's solid acacia wood dining furniture series."
+  },
+  {
+    "name": "Vallentuna",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "Vallentuna is IKEA's modular seating system named after a Swedish municipality."
+  },
+  {
+    "name": "Kura",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "Kura is IKEA's reversible children's bed that can be flipped for different heights."
+  },
+  {
+    "name": "Norden",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "Norden is IKEA's gateleg table with drawers. Swedish for 'the North'."
+  },
+  {
+    "name": "Friheten",
+    "categories": [
+      "IKEAFurniture"
+    ],
+    "explanation": "Friheten is IKEA's sofa bed with storage. Swedish for 'freedom'."
+  },
+  {
+    "name": "Saruhan",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Saruhan was an Anatolian beylik (Turkish principality) in western Anatolia during the 14th-15th centuries."
+  },
+  {
+    "name": "Aragon",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Aragon was a medieval Spanish kingdom that united with Castile to form modern Spain."
+  },
+  {
+    "name": "Gondar",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Gondar is an Ethiopian city that served as the capital of the Ethiopian Empire from 1636 to 1855."
+  },
+  {
+    "name": "Trebizond",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "The Empire of Trebizond was a Byzantine successor state on the Black Sea coast, lasting from 1204 to 1461."
+  },
+  {
+    "name": "Wallachia",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Wallachia was a Romanian principality and home of Vlad the Impaler (Dracula)."
+  },
+  {
+    "name": "Byzantium",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Byzantium was the Eastern Roman Empire, lasting from 330 AD until Constantinople fell in 1453."
+  },
+  {
+    "name": "Khmer",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "The Khmer Empire was a powerful Southeast Asian state that built Angkor Wat, lasting from 802 to 1431."
+  },
+  {
+    "name": "Ayutthaya",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Ayutthaya was a Thai kingdom that preceded modern Thailand, flourishing from 1351 to 1767."
+  },
+  {
+    "name": "Majapahit",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Majapahit was a powerful Indonesian maritime empire based in Java from 1293 to around 1527."
+  },
+  {
+    "name": "Vijayanagar",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Vijayanagar was a powerful South Indian empire that ruled much of southern India from 1336 to 1646."
+  },
+  {
+    "name": "Theodoro",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Theodoro was a small Gothic principality in Crimea that existed from the 13th century until 1475."
+  },
+  {
+    "name": "Ulm",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Ulm is a German city on the Danube, birthplace of Albert Einstein and home to the world's tallest church steeple."
+  },
+  {
+    "name": "Dithmarschen",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Dithmarschen was a medieval peasant republic in northern Germany that defeated Danish armies in 1500."
+  },
+  {
+    "name": "Mewar",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Mewar was a Rajput kingdom in India famous for resisting Mughal conquest under Maharana Pratap."
+  },
+  {
+    "name": "Ternate",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Ternate was a sultanate in the Indonesian Spice Islands, a major clove producer and trading power."
+  },
+  {
+    "name": "Tidore",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Tidore was Ternate's rival sultanate in the Spice Islands, allied with Spain against Portuguese-backed Ternate."
+  },
+  {
+    "name": "Mordva",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Mordva (Mordovia) is a Russian region home to the Mordvin people, a Finno-Ugric ethnic group."
+  },
+  {
+    "name": "Morea",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Morea was the medieval name for the Peloponnese peninsula in Greece, used from the 10th century onward."
+  },
+  {
+    "name": "Axum",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Axum was a powerful Ethiopian kingdom (1st-7th century AD), considered one of the four great powers of the ancient world."
+  },
+  {
+    "name": "Lydia",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Lydia was an ancient Anatolian kingdom famous for inventing coined money under King Croesus."
+  },
+  {
+    "name": "Nabataea",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Nabataea was an ancient Arab kingdom centered at Petra (4th century BC - 106 AD), famous for rock-cut architecture."
+  },
+  {
+    "name": "Birka",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Birka was a major Viking Age trading center in Sweden (8th-10th century), one of Scandinavia's earliest urban settlements."
+  },
+  {
+    "name": "Hedeby",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Hedeby was a major Viking trading settlement in what is now northern Germany (8th-11th century)."
+  },
+  {
+    "name": "Kush",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Kush was an ancient Nubian kingdom in Sudan that once conquered Egypt, lasting from c. 1070 BC to 350 AD."
+  },
+  {
+    "name": "Elam",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Elam was one of the oldest civilizations, located in ancient Iran, lasting from c. 3200 BC to 539 BC."
+  },
+  {
+    "name": "Pontus",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Pontus was a Hellenistic kingdom on the Black Sea coast of Anatolia (281-63 BC), ruled by Mithridates the Great."
+  },
+  {
+    "name": "Colchis",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Colchis was an ancient kingdom in the Caucasus (modern Georgia), famous in Greek myth as home of Medea and the Golden Fleece."
+  },
+  {
+    "name": "Urartu",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Urartu was a powerful Iron Age kingdom in the Armenian Highlands (9th-6th century BC), a rival to Assyria."
+  },
+  {
+    "name": "Phrygia",
+    "categories": [
+      "HistoricalState"
+    ],
+    "explanation": "Phrygia was an ancient Anatolian kingdom (12th-7th century BC), famous for King Midas and the Gordian Knot."
+  },
+  {
+    "name": "Monte Carlo",
+    "categories": [
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "Monte Carlo is the famous district of Monaco known for its casino, and the Chevrolet Monte Carlo."
+  },
+  {
+    "name": "Monaco",
+    "categories": [
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "Monaco is the independent city-state principality on the French Riviera, and the Dodge Monaco."
+  },
+  {
+    "name": "Corsica",
+    "categories": [
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "Corsica is the French Mediterranean island (birthplace of Napoleon), and the Chevrolet Corsica."
+  },
+  {
+    "name": "Granada",
+    "categories": [
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "Granada was the last Moorish kingdom in Spain until 1492, and the Ford Granada."
+  },
+  {
+    "name": "Cordoba",
+    "categories": [
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "Córdoba was the capital of the Islamic Caliphate in Spain, and the Chrysler Cordoba."
+  },
+  {
+    "name": "Seville",
+    "categories": [
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "Seville was the center of Spanish colonial trade, and the Cadillac Seville luxury car."
+  },
+  {
+    "name": "Eldorado",
+    "categories": [
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "El Dorado was the legendary lost city of gold, and the Cadillac Eldorado luxury coupe."
+  },
+  {
+    "name": "Capri",
+    "categories": [
+      "HistoricalState",
+      "CarModel"
+    ],
+    "explanation": "Capri is the Italian island that was a retreat for Roman emperors, and the Ford/Mercury Capri."
+  }
+]
