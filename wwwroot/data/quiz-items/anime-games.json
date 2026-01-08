@@ -896,11 +896,14 @@
     "explanation": "Cyber Dragon is a machine-type monster central to the Cyber archetype in Yu-Gi-Oh!"
   },
   {
-    "name": "Stardust Dragon",
+    "name": "Stardust",
     "categories": [
-      "Yugioh"
+      "Yugioh",
+      "JoJo",
+      "RockBand",
+      "Celestial"
     ],
-    "explanation": "Stardust Dragon is Yusei Fudo's ace Synchro Monster from 5D's."
+    "explanation": "Stardust Dragon is Yusei's ace in Yu-Gi-Oh! 5D's, 'Stardust Crusaders' is JoJo Part 3, Ziggy Stardust is Bowie's iconic alter ego, and stardust is literal cosmic matter."
   },
   {
     "name": "Number 39",

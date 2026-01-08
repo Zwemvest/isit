@@ -626,9 +626,10 @@
     "name": "Tiamat",
     "categories": [
       "DnD",
-      "MTG"
+      "MTG",
+      "MetalBand"
     ],
-    "explanation": "Tiamat is the Babylonian goddess of primordial chaos, the five-headed dragon queen of evil in D&D, and a Legendary Creature card in MTG."
+    "explanation": "Tiamat is the Babylonian chaos goddess, D&D's five-headed dragon queen, an MTG Legendary Creature, and a Swedish gothic/doom metal band formed in 1988."
   },
   {
     "name": "Bahamut",
@@ -905,10 +906,9 @@
   {
     "name": "Imperium",
     "categories": [
-      "Warhammer",
-      "HistoricalState"
+      "Warhammer"
     ],
-    "explanation": "The Imperium of Man rules humanity in Warhammer 40K, like the Roman Imperium."
+    "explanation": "The Imperium of Man is the galaxy-spanning human civilization in Warhammer 40K, ruled by the God-Emperor from the Golden Throne."
   },
   {
     "name": "Eldar",
@@ -1069,10 +1069,9 @@
   {
     "name": "Commissar",
     "categories": [
-      "Warhammer",
-      "HistoricalState"
+      "Warhammer"
     ],
-    "explanation": "Commissars are political officers in the Imperial Guard, named after Soviet commissars."
+    "explanation": "Commissars are political officers in the Imperial Guard who execute cowards to maintain morale."
   },
   {
     "name": "Rogue",
