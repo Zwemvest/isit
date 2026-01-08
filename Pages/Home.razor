@@ -196,14 +196,20 @@ else if (_state == QuizState.Playing)
 }
 else if (_state == QuizState.Finished)
 {
-    var questionsAnswered = QuizService.AnswerHistory.Count;
+    // Use saved results when viewing previously completed daily, otherwise use QuizService
+    var score = _viewingSavedResults && _savedDailyResult != null
+        ? _savedDailyResult.Score
+        : QuizService.Score;
+    var questionsAnswered = _viewingSavedResults && _savedDailyResult != null
+        ? _savedDailyResult.TotalQuestions
+        : QuizService.AnswerHistory.Count;
     var percentage = questionsAnswered > 0
-        ? (int)Math.Round(100.0 * QuizService.Score / questionsAnswered)
+        ? (int)Math.Round(100.0 * score / questionsAnswered)
         : 0;
 
     <MudStack AlignItems="AlignItems.Center" Spacing="4">
-        @* Show the last answer result at the top *@
-        @if (_lastAnswerItem != null)
+        @* Show the last answer result at the top (only if not viewing saved results) *@
+        @if (_lastAnswerItem != null && !_viewingSavedResults)
         {
             <MudPaper Style="width: 100%; max-width: 500px;" Elevation="0" Class="pa-3">
                 <MudAlert Severity="@GetResultSeverity()" Variant="Variant.Filled" Dense="true" Class="mb-2">
@@ -225,7 +231,7 @@ else if (_state == QuizState.Finished)
         }
 
         <MudText Typo="Typo.h1" Color="Color.Primary">
-            @QuizService.Score / @questionsAnswered
+            @score / @questionsAnswered
         </MudText>
 
         <MudText Typo="Typo.h5" Color="Color.Secondary">@percentage% correct</MudText>
@@ -233,6 +239,23 @@ else if (_state == QuizState.Finished)
         <MudText Typo="Typo.body1" Class="mt-4">
             @GetScoreMessage(percentage)
         </MudText>
+
+        @if (_viewingSavedResults || QuizService.CurrentGameMode == GameMode.Daily)
+        {
+            var streak = GetCurrentStreak();
+            @if (streak > 0)
+            {
+                <MudPaper Class="pa-3 mt-4" Elevation="1" Style="background: linear-gradient(135deg, #ff9800 0%, #f44336 100%);">
+                    <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.Center" Spacing="2">
+                        <MudIcon Icon="@Icons.Material.Filled.Whatshot" Style="color: white;" />
+                        <MudText Typo="Typo.h6" Style="color: white;">
+                            @streak day streak!
+                        </MudText>
+                        <MudIcon Icon="@Icons.Material.Filled.Whatshot" Style="color: white;" />
+                    </MudStack>
+                </MudPaper>
+            }
+        }
 
         <MudStack Row="true" Spacing="2" Class="mt-4">
             <MudButton
@@ -259,41 +282,77 @@ else if (_state == QuizState.Finished)
             </MudAlert>
         }
 
-        @* Answer Review Section *@
-        @if (QuizService.AnswerHistory.Count > 0)
+        @* Answer Review Section - works with both live answers and saved answers *@
+        @if (QuizService.AnswerHistory.Count > 0 || (_viewingSavedResults && _savedDailyResult?.Answers.Count > 0))
         {
             <MudExpansionPanels Class="mt-4" Style="width: 100%; max-width: 600px;">
                 <MudExpansionPanel Text="Review All Answers">
                     <MudStack Spacing="2">
-                        @foreach (var (answer, index) in QuizService.AnswerHistory.Select((a, i) => (a, i)))
+                        @if (_viewingSavedResults && _savedDailyResult != null)
                         {
-                            <MudPaper Class="pa-3" Elevation="1">
-                                <MudStack Spacing="1">
-                                    <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
-                                        <MudText Typo="Typo.subtitle1">
-                                            <strong>@(index + 1). @answer.Item.Name</strong>
+                            @foreach (var (answer, index) in _savedDailyResult.Answers.Select((a, i) => (a, i)))
+                            {
+                                <MudPaper Class="pa-3" Elevation="1">
+                                    <MudStack Spacing="1">
+                                        <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
+                                            <MudText Typo="Typo.subtitle1">
+                                                <strong>@(index + 1). @answer.ItemName</strong>
+                                            </MudText>
+                                            @if (answer.WasCorrect)
+                                            {
+                                                <MudIcon Icon="@Icons.Material.Filled.Check" Color="Color.Success" />
+                                            }
+                                            else
+                                            {
+                                                <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" />
+                                            }
+                                        </MudStack>
+                                        <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                            <strong>Correct:</strong> @string.Join(", ", answer.CorrectCategories.Select(c => QuizService.CategoryDisplayNames.GetValueOrDefault(c, c)))
                                         </MudText>
-                                        @if (answer.WasCorrect)
+                                        @if (!answer.WasCorrect)
                                         {
-                                            <MudIcon Icon="@Icons.Material.Filled.Check" Color="Color.Success" />
+                                            <MudText Typo="Typo.body2" Color="Color.Error">
+                                                <strong>You said:</strong> @(answer.SelectedCategories.Count > 0 ? string.Join(", ", answer.SelectedCategories.Select(c => QuizService.CategoryDisplayNames.GetValueOrDefault(c, c))) : "(none)")
+                                            </MudText>
                                         }
-                                        else
-                                        {
-                                            <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" />
-                                        }
+                                        <MudText Typo="Typo.caption" Style="opacity: 0.8;">@answer.Explanation</MudText>
                                     </MudStack>
-                                    <MudText Typo="Typo.body2" Color="Color.Secondary">
-                                        <strong>Correct:</strong> @string.Join(", ", answer.CorrectCategories.Select(c => QuizService.CategoryDisplayNames[c]))
-                                    </MudText>
-                                    @if (!answer.WasCorrect)
-                                    {
-                                        <MudText Typo="Typo.body2" Color="Color.Error">
-                                            <strong>You said:</strong> @(answer.SelectedCategories.Count > 0 ? string.Join(", ", answer.SelectedCategories.Select(c => QuizService.CategoryDisplayNames[c])) : "(none)")
+                                </MudPaper>
+                            }
+                        }
+                        else
+                        {
+                            @foreach (var (answer, index) in QuizService.AnswerHistory.Select((a, i) => (a, i)))
+                            {
+                                <MudPaper Class="pa-3" Elevation="1">
+                                    <MudStack Spacing="1">
+                                        <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
+                                            <MudText Typo="Typo.subtitle1">
+                                                <strong>@(index + 1). @answer.Item.Name</strong>
+                                            </MudText>
+                                            @if (answer.WasCorrect)
+                                            {
+                                                <MudIcon Icon="@Icons.Material.Filled.Check" Color="Color.Success" />
+                                            }
+                                            else
+                                            {
+                                                <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" />
+                                            }
+                                        </MudStack>
+                                        <MudText Typo="Typo.body2" Color="Color.Secondary">
+                                            <strong>Correct:</strong> @string.Join(", ", answer.CorrectCategories.Select(c => QuizService.CategoryDisplayNames[c]))
                                         </MudText>
-                                    }
-                                    <MudText Typo="Typo.caption" Style="opacity: 0.8;">@answer.Item.Explanation</MudText>
-                                </MudStack>
-                            </MudPaper>
+                                        @if (!answer.WasCorrect)
+                                        {
+                                            <MudText Typo="Typo.body2" Color="Color.Error">
+                                                <strong>You said:</strong> @(answer.SelectedCategories.Count > 0 ? string.Join(", ", answer.SelectedCategories.Select(c => QuizService.CategoryDisplayNames[c])) : "(none)")
+                                            </MudText>
+                                        }
+                                        <MudText Typo="Typo.caption" Style="opacity: 0.8;">@answer.Item.Explanation</MudText>
+                                    </MudStack>
+                                </MudPaper>
+                            }
                         }
                     </MudStack>
                 </MudExpansionPanel>
@@ -320,11 +379,14 @@ else if (_state == QuizState.Finished)
     // Daily mode tracking
     private bool _dailyCompleted;
     private DailyResult? _savedDailyResult;
+    private bool _viewingSavedResults;
+    private List<DailyHistoryEntry> _dailyHistory = [];
 
     // Share functionality
     private bool _showCopiedMessage;
 
     private const string DailyResultKey = "isit_daily_result";
+    private const string DailyHistoryKey = "isit_daily_history";
     private const string GitHubPagesUrl = "https://zwemvest.github.io/isit";
 
     protected override async Task OnInitializedAsync()
@@ -348,6 +410,7 @@ else if (_state == QuizState.Finished)
     {
         try
         {
+            // Load today's result
             var json = await JS.InvokeAsync<string?>("localStorage.getItem", DailyResultKey);
             if (!string.IsNullOrEmpty(json))
             {
@@ -361,6 +424,13 @@ else if (_state == QuizState.Finished)
                     _savedDailyResult = null;
                     _dailyCompleted = false;
                 }
+            }
+
+            // Load history for streak tracking
+            var historyJson = await JS.InvokeAsync<string?>("localStorage.getItem", DailyHistoryKey);
+            if (!string.IsNullOrEmpty(historyJson))
+            {
+                _dailyHistory = JsonSerializer.Deserialize<List<DailyHistoryEntry>>(historyJson) ?? [];
             }
         }
         catch
@@ -376,15 +446,40 @@ else if (_state == QuizState.Finished)
             Date = QuizService.GetDailyDateString(),
             Score = QuizService.Score,
             TotalQuestions = QuizService.DailyQuestions,
-            Categories = QuizService.IncludedCategories.ToList()
+            Categories = QuizService.IncludedCategories.ToList(),
+            Answers = QuizService.AnswerHistory.Select(a => new SavedAnswer
+            {
+                ItemName = a.Item.Name,
+                CorrectCategories = a.CorrectCategories.ToList(),
+                SelectedCategories = a.SelectedCategories.ToList(),
+                WasCorrect = a.WasCorrect,
+                Explanation = a.Item.Explanation
+            }).ToList()
         };
 
         try
         {
+            // Save today's detailed result
             var json = JsonSerializer.Serialize(result);
             await JS.InvokeVoidAsync("localStorage.setItem", DailyResultKey, json);
             _savedDailyResult = result;
             _dailyCompleted = true;
+
+            // Add to history (only date + score)
+            var historyEntry = new DailyHistoryEntry
+            {
+                Date = result.Date,
+                Score = result.Score,
+                TotalQuestions = result.TotalQuestions
+            };
+
+            // Remove any existing entry for today (shouldn't happen, but just in case)
+            _dailyHistory.RemoveAll(h => h.Date == result.Date);
+            _dailyHistory.Add(historyEntry);
+
+            // Save updated history
+            var historyJson = JsonSerializer.Serialize(_dailyHistory);
+            await JS.InvokeVoidAsync("localStorage.setItem", DailyHistoryKey, historyJson);
         }
         catch
         {
@@ -423,7 +518,7 @@ else if (_state == QuizState.Finished)
     {
         if (_savedDailyResult != null)
         {
-            // Just show the finished state with saved results
+            _viewingSavedResults = true;
             _state = QuizState.Finished;
         }
     }
@@ -434,6 +529,7 @@ else if (_state == QuizState.Finished)
         _lastAnswerItem = null;
         _lastAnswerResult = AnswerResult.None;
         _selectedCategories.Clear();
+        _viewingSavedResults = false;
     }
 
     private void ToggleCategory(string category)
@@ -494,25 +590,31 @@ else if (_state == QuizState.Finished)
 
     private async Task ShareResults()
     {
-        var questionsAnswered = QuizService.CurrentQuestionNumber - 1;
+        // Use saved results when viewing previously completed daily
+        var score = _viewingSavedResults && _savedDailyResult != null
+            ? _savedDailyResult.Score
+            : QuizService.Score;
+        var questionsAnswered = _viewingSavedResults && _savedDailyResult != null
+            ? _savedDailyResult.TotalQuestions
+            : QuizService.AnswerHistory.Count;
         var percentage = questionsAnswered > 0
-            ? (int)Math.Round(100.0 * QuizService.Score / questionsAnswered)
+            ? (int)Math.Round(100.0 * score / questionsAnswered)
             : 0;
 
         // Generate emoji grid (like Wordle)
-        var emojiGrid = GenerateEmojiGrid();
+        var emojiGrid = GenerateEmojiGrid(score, questionsAnswered);
 
         // Build the share text
-        var shareText = QuizService.CurrentGameMode == GameMode.Daily
+        var shareText = (_viewingSavedResults || QuizService.CurrentGameMode == GameMode.Daily)
             ? $"IsIt...? Daily {QuizService.GetDailyDateString()}\n"
             : $"IsIt...? Custom Quiz\n";
 
-        shareText += $"{QuizService.Score}/{questionsAnswered} ({percentage}%)\n\n";
+        shareText += $"{score}/{questionsAnswered} ({percentage}%)\n\n";
         shareText += emojiGrid + "\n\n";
         shareText += GitHubPagesUrl;
 
-        // If Custom mode, add URL parameters
-        if (QuizService.CurrentGameMode == GameMode.Custom)
+        // If Custom mode (not viewing saved daily), add URL parameters
+        if (!_viewingSavedResults && QuizService.CurrentGameMode == GameMode.Custom)
         {
             var categories = string.Join(",", QuizService.IncludedCategories);
             shareText += $"?mode=custom&cats={Uri.EscapeDataString(categories)}";
@@ -535,11 +637,9 @@ else if (_state == QuizState.Finished)
         }
     }
 
-    private string GenerateEmojiGrid()
+    private string GenerateEmojiGrid(int score, int questionsAnswered)
     {
         // We don't track individual answers, so we'll show a simple score representation
-        var questionsAnswered = QuizService.CurrentQuestionNumber - 1;
-        var score = QuizService.Score;
         var rows = new List<string>();
 
         // Show results in rows of 5
@@ -580,4 +680,45 @@ else if (_state == QuizState.Finished)
         >= 50 => "Not bad! Room for improvement though.",
         _ => "Keep practicing! You'll get better!"
     };
+
+    private int GetCurrentStreak()
+    {
+        if (_dailyHistory.Count == 0) return 0;
+
+        // Sort by date descending (most recent first)
+        var sortedHistory = _dailyHistory
+            .OrderByDescending(h => h.Date)
+            .ToList();
+
+        var streak = 0;
+        var expectedDate = DateTime.UtcNow.Date;
+
+        foreach (var entry in sortedHistory)
+        {
+            if (!DateTime.TryParse(entry.Date, out var entryDate))
+                continue;
+
+            entryDate = entryDate.Date;
+
+            // If this entry matches the expected date, increment streak
+            if (entryDate == expectedDate)
+            {
+                streak++;
+                expectedDate = expectedDate.AddDays(-1);
+            }
+            // If we haven't started counting yet and this is yesterday, start from there
+            else if (streak == 0 && entryDate == expectedDate.AddDays(-1))
+            {
+                streak++;
+                expectedDate = expectedDate.AddDays(-2);
+            }
+            // Gap in dates - streak is broken
+            else if (entryDate < expectedDate)
+            {
+                break;
+            }
+        }
+
+        return streak;
+    }
 }
