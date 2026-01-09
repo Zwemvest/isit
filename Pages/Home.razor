@@ -127,13 +127,15 @@ else if (_state == QuizState.Playing)
                     var includedCategories = _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c.Category)).ToList();
 
                     // Compute summary lists
-                    var correctSelected = includedCategories.Where(c => c.Result == ResultType.Correct && _lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
-                    var arguableSelected = includedCategories.Where(c => c.Result == ResultType.Arguable && _lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
-                    var obscureSelected = includedCategories.Where(c => c.Result == ResultType.Obscure && _lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
-                    var missSelected = includedCategories.Where(c => c.Result == ResultType.Miss && _lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
-                    var correctMissed = includedCategories.Where(c => c.Result == ResultType.Correct && !_lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
+                    var correctSelected = includedCategories.Where(c => c.Result == ResultType.Correct && _lastAnswerSelectedCategories.Contains(c.Category)).ToList();
+                    var arguableSelected = includedCategories.Where(c => c.Result == ResultType.Arguable && _lastAnswerSelectedCategories.Contains(c.Category)).ToList();
+                    var obscureSelected = includedCategories.Where(c => c.Result == ResultType.Obscure && _lastAnswerSelectedCategories.Contains(c.Category)).ToList();
+                    var correctMissed = includedCategories.Where(c => c.Result == ResultType.Correct && !_lastAnswerSelectedCategories.Contains(c.Category)).ToList();
+                    var missSelected = includedCategories.Where(c => c.Result == ResultType.Miss && _lastAnswerSelectedCategories.Contains(c.Category)).ToList();
+                    var errorSelected = QuizService.IncludedCategories.Where(c => includedCategories.All(ic => ic.Category != c)).ToList();
+                    var misses = correctMissed.Select(c => c.Category).Concat(missSelected.Select(c => c.Category)).Concat(errorSelected).ToList();
 
-                    <MudText Typo="Typo.h6" Class="mb-2">@_lastAnswerItem.Name</MudText>
+                                        <MudText Typo="Typo.h6" Class="mb-2">@_lastAnswerItem.Name</MudText>
 
                     @* Summary header showing how the answer was counted *@
                     <MudAlert Severity="@(_lastAnswerResult == AnswerResult.Correct ? Severity.Success : Severity.Error)"
@@ -142,20 +144,19 @@ else if (_state == QuizState.Playing)
                         <MudStack Spacing="0" Class="mt-1" Style="font-size: 0.85em; font-weight: normal;">
                             @if (correctSelected.Any())
                             {
-                                <span>Correct: @string.Join(", ", correctSelected)</span>
+                                <span>Correct: @string.Join(", ", correctSelected.Select(c => QuizService.CategoryDisplayNames[c.Category]))</span>
                             }
                             @if (arguableSelected.Any())
                             {
-                                <span>Arguable: @string.Join(", ", arguableSelected)</span>
+                                <span>Arguable: @string.Join(", ", correctSelected.Select(c => QuizService.CategoryDisplayNames[c.Category]))</span>
                             }
                             @if (obscureSelected.Any())
                             {
-                                <span>Obscure: @string.Join(", ", obscureSelected)</span>
+                                <span>Obscure: @string.Join(", ", correctSelected.Select(c => QuizService.CategoryDisplayNames[c.Category]))</span>
                             }
-                            @if (missSelected.Any() || correctMissed.Any())
+                            @if (misses.Any())
                             {
-                                var allMisses = missSelected.Concat(correctMissed.Select(c => c + " (not selected)")).ToList();
-                                <span>Miss: @string.Join(", ", allMisses)</span>
+                                <span>Miss: @string.Join(", ", misses.Select(c => QuizService.CategoryDisplayNames[c]))</span>
                             }
                         </MudStack>
                     </MudAlert>
@@ -202,6 +203,13 @@ else if (_state == QuizState.Playing)
                             <MudAlert Severity="Severity.Error" Variant="Variant.Outlined" Dense="true">
                                 <strong>@QuizService.CategoryDisplayNames[cat.Category] (Missed!)</strong><br />
                                 <span style="font-weight: normal;">@cat.Description</span>
+                            </MudAlert>
+                        }
+                        @* Just wrong *@
+                        @foreach (var cat in errorSelected)
+                        {
+                            <MudAlert Severity="Severity.Error" Variant="Variant.Outlined" Dense="true">
+                                <strong>@QuizService.CategoryDisplayNames[cat]</strong>
                             </MudAlert>
                         }
                     </MudStack>
@@ -772,25 +780,7 @@ else if (_state == QuizState.Finished)
         var lastRecord = QuizService.AnswerHistory.LastOrDefault();
         _lastAnswerMissedCategories = lastRecord?.MissedCategories;
 
-        if (isCorrect)
-        {
-            _lastAnswerResult = AnswerResult.Correct;
-        }
-        else if (_lastAnswerItem != null)
-        {
-            // Check for acceptable match (at least one correct/arguable/obscure category selected)
-            var acceptableCategories = _lastAnswerItem.Categories
-                .Where(c => QuizService.IncludedCategories.Contains(c.Category) &&
-                           (c.Result == ResultType.Correct || c.Result == ResultType.Arguable || c.Result == ResultType.Obscure))
-                .Select(c => c.Category)
-                .ToHashSet();
-            var hasAcceptableMatch = _selectedCategories.Any(s => acceptableCategories.Contains(s));
-            _lastAnswerResult = hasAcceptableMatch ? AnswerResult.Correct : AnswerResult.Wrong;
-        }
-        else
-        {
-            _lastAnswerResult = AnswerResult.Wrong;
-        }
+        _lastAnswerResult = isCorrect ? AnswerResult.Correct : AnswerResult.Wrong;
 
         // Move to next question immediately
         QuizService.MoveToNext();
