@@ -44,12 +44,18 @@ else if (_state == QuizState.Start)
                             You've already completed today's daily!
                         </MudAlert>
                     }
+                    else if (_dailyInProgress && _savedDailyResult != null)
+                    {
+                        <MudAlert Severity="Severity.Warning" Variant="Variant.Outlined" Class="mt-2">
+                            You have an in-progress daily (@_savedDailyResult.Answers.Count/@QuizService.DailyQuestions answered)
+                        </MudAlert>
+                    }
                 </MudStack>
             </MudPaper>
 
             <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Large" OnClick="StartDailyGame"
                        Disabled="@_dailyCompleted">
-                @(_dailyCompleted ? "Already Completed" : "Start Daily")
+                @(_dailyCompleted ? "Already Completed" : _dailyInProgress ? "Resume Daily" : "Start Daily")
             </MudButton>
 
             @if (_dailyCompleted && _savedDailyResult != null)
@@ -499,6 +505,7 @@ else if (_state == QuizState.Finished)
 
     // Daily mode tracking
     private bool _dailyCompleted;
+    private bool _dailyInProgress;
     private DailyResult? _savedDailyResult;
     private bool _viewingSavedResults;
     private List<DailyHistoryEntry> _dailyHistory = [];
@@ -538,10 +545,19 @@ else if (_state == QuizState.Finished)
                 _savedDailyResult = JsonSerializer.Deserialize<DailyResult>(json);
                 if (_savedDailyResult != null && _savedDailyResult.Date == QuizService.GetDailyDateString())
                 {
-                    _dailyCompleted = true;
+                    if (_savedDailyResult.IsCompleted)
+                    {
+                        _dailyCompleted = true;
+                    }
+                    else
+                    {
+                        // In-progress daily quiz - restore and resume
+                        _dailyInProgress = true;
+                    }
                 }
                 else
                 {
+                    // Old result from previous day - clear it
                     _savedDailyResult = null;
                     _dailyCompleted = false;
                 }
@@ -560,32 +576,27 @@ else if (_state == QuizState.Finished)
         }
     }
 
+    private async Task SaveDailyProgress()
+    {
+        if (QuizService.CurrentGameMode != GameMode.Daily) return;
+
+        var result = BuildDailyResult();
+
+        try
+        {
+            var json = JsonSerializer.Serialize(result);
+            await JS.InvokeVoidAsync("localStorage.setItem", DailyResultKey, json);
+            _savedDailyResult = result;
+        }
+        catch
+        {
+            // localStorage not available
+        }
+    }
+
     private async Task SaveDailyResult()
     {
-        var result = new DailyResult
-        {
-            Date = QuizService.GetDailyDateString(),
-            Score = QuizService.Score,
-            TotalQuestions = QuizService.DailyQuestions,
-            Categories = QuizService.IncludedCategories.ToList(),
-            Answers = QuizService.AnswerHistory.Select(a => new SavedAnswer
-            {
-                ItemName = a.Item.Name,
-                CorrectCategories = a.CorrectCategories.ToList(),
-                ArguableCategories = a.Item.Categories
-                    .Where(c => QuizService.IncludedCategories.Contains(c.Category) && c.Result == ResultType.Arguable)
-                    .Select(c => c.Category)
-                    .ToList(),
-                ObscureCategories = a.Item.Categories
-                    .Where(c => QuizService.IncludedCategories.Contains(c.Category) && c.Result == ResultType.Obscure)
-                    .Select(c => c.Category)
-                    .ToList(),
-                SelectedCategories = a.SelectedCategories.ToList(),
-                WasCorrect = a.WasCorrect,
-                Explanation = "", // Deprecated - now using CategoryDescriptions
-                CategoryDescriptions = QuizService.GetCategoryDescriptions(a.Item)
-            }).ToList()
-        };
+        var result = BuildDailyResult();
 
         try
         {
@@ -617,6 +628,34 @@ else if (_state == QuizState.Finished)
         }
     }
 
+    private DailyResult BuildDailyResult()
+    {
+        return new DailyResult
+        {
+            Date = QuizService.GetDailyDateString(),
+            Score = QuizService.Score,
+            TotalQuestions = QuizService.DailyQuestions,
+            Categories = QuizService.IncludedCategories.ToList(),
+            Answers = QuizService.AnswerHistory.Select(a => new SavedAnswer
+            {
+                ItemName = a.Item.Name,
+                CorrectCategories = a.CorrectCategories.ToList(),
+                ArguableCategories = a.Item.Categories
+                    .Where(c => QuizService.IncludedCategories.Contains(c.Category) && c.Result == ResultType.Arguable)
+                    .Select(c => c.Category)
+                    .ToList(),
+                ObscureCategories = a.Item.Categories
+                    .Where(c => QuizService.IncludedCategories.Contains(c.Category) && c.Result == ResultType.Obscure)
+                    .Select(c => c.Category)
+                    .ToList(),
+                SelectedCategories = a.SelectedCategories.ToList(),
+                WasCorrect = a.WasCorrect,
+                Explanation = "", // Deprecated - now using CategoryDescriptions
+                CategoryDescriptions = QuizService.GetCategoryDescriptions(a.Item)
+            }).ToList()
+        };
+    }
+
     private void OnCategoriesChanged(IEnumerable<string> categories)
     {
         _selectedIncludedCategories = categories;
@@ -638,7 +677,17 @@ else if (_state == QuizState.Finished)
 
     private void StartDailyGame()
     {
-        QuizService.StartDailyGame();
+        if (_dailyInProgress && _savedDailyResult != null)
+        {
+            // Resume from saved progress
+            QuizService.RestoreDailyGame(_savedDailyResult.Answers.Count, _savedDailyResult.Score);
+            _dailyInProgress = false; // Clear flag since we're now actively playing
+        }
+        else
+        {
+            QuizService.StartDailyGame();
+        }
+
         _selectedCategories.Clear();
         _lastAnswerItem = null;
         _lastAnswerResult = AnswerResult.None;
@@ -720,6 +769,11 @@ else if (_state == QuizState.Finished)
         else if (QuizService.CurrentGameMode == GameMode.Custom && QuizService.IsFinished)
         {
             _state = QuizState.Finished;
+        }
+        else if (QuizService.CurrentGameMode == GameMode.Daily)
+        {
+            // Save progress after each answer in daily mode
+            await SaveDailyProgress();
         }
     }
 

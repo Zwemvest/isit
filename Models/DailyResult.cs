@@ -7,6 +7,8 @@ public class DailyResult
     public int TotalQuestions { get; set; }
     public List<string> Categories { get; set; } = [];
     public List<SavedAnswer> Answers { get; set; } = [];
+
+    public bool IsCompleted => Answers.Count >= TotalQuestions;
 }
 
 public class SavedAnswer

@@ -212,6 +212,17 @@ public class QuizService
 
     public bool IsDailyComplete => CurrentGameMode == GameMode.Daily && _currentIndex >= DailyQuestions;
 
+    public void RestoreDailyGame(int currentIndex, int score)
+    {
+        // Start a fresh daily game (this sets up categories and shuffled items deterministically)
+        StartDailyGame();
+
+        // Then restore the saved progress
+        _currentIndex = currentIndex;
+        _score = score;
+        // Note: _answerHistory is not restored - the saved answers are stored in DailyResult
+    }
+
     /// <summary>
     /// Gets the category descriptions for a quiz item.
     /// </summary>
