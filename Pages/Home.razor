@@ -138,7 +138,7 @@ else if (_state == QuizState.Playing)
                     @* Summary header showing how the answer was counted *@
                     <MudAlert Severity="@(_lastAnswerResult == AnswerResult.Correct ? Severity.Success : Severity.Error)"
                               Variant="Variant.Filled" Dense="true" Class="mb-2">
-                        <strong>@(_lastAnswerResult == AnswerResult.Correct ? "Correct!" : _lastAnswerResult == AnswerResult.Acceptable ? "Acceptable (but incomplete)" : "Incorrect")</strong>
+                        <strong>@(_lastAnswerResult == AnswerResult.Correct ? "Correct!" : "Incorrect")</strong>
                         <MudStack Spacing="0" Class="mt-1" Style="font-size: 0.85em; font-weight: normal;">
                             @if (correctSelected.Any())
                             {
@@ -525,7 +525,7 @@ else if (_state == QuizState.Finished)
 
 @code {
     private enum QuizState { Loading, Start, Playing, Finished }
-    private enum AnswerResult { None, Correct, Acceptable, Wrong }
+    private enum AnswerResult { None, Correct, Wrong }
 
     private QuizState _state = QuizState.Loading;
     private HashSet<string> _selectedCategories = [];
@@ -785,7 +785,7 @@ else if (_state == QuizState.Finished)
                 .Select(c => c.Category)
                 .ToHashSet();
             var hasAcceptableMatch = _selectedCategories.Any(s => acceptableCategories.Contains(s));
-            _lastAnswerResult = hasAcceptableMatch ? AnswerResult.Acceptable : AnswerResult.Wrong;
+            _lastAnswerResult = hasAcceptableMatch ? AnswerResult.Correct : AnswerResult.Wrong;
         }
         else
         {
@@ -900,7 +900,6 @@ else if (_state == QuizState.Finished)
     private Severity GetResultSeverity() => _lastAnswerResult switch
     {
         AnswerResult.Correct => Severity.Success,
-        AnswerResult.Acceptable => Severity.Warning,
         _ => Severity.Error
     };
 
