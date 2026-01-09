@@ -121,7 +121,7 @@ else if (_state == QuizState.Playing)
     {
         <MudStack Spacing="4">
             @* Fixed-width result box for previous answer with scrollbar *@
-            <MudPaper Style="height: 200px; width: 100%; max-width: 500px; overflow-y: auto;" Elevation="0" Class="pa-2">
+            <MudPaper Style="height: 200px; width: 100%; overflow-y: auto;" Elevation="0" Class="pa-2">
                 @if (_lastAnswerItem != null)
                 {
                     var includedCategories = _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c.Category)).ToList();
@@ -186,6 +186,14 @@ else if (_state == QuizState.Playing)
                                 <span style="font-weight: normal;">@cat.Description</span>
                             </MudAlert>
                         }
+                        @* Correct categories that were NOT selected - ERROR (missed!) *@
+                        @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Correct && !_lastAnswerSelectedCategories.Contains(c.Category)))
+                        {
+                            <MudAlert Severity="Severity.Error" Variant="Variant.Outlined" Dense="true">
+                                <strong>@QuizService.CategoryDisplayNames[cat.Category] (Missed!)</strong><br />
+                                <span style="font-weight: normal;">@cat.Description</span>
+                            </MudAlert>
+                        }
                         @* Miss categories that WERE selected - ERROR *@
                         @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Miss && _lastAnswerSelectedCategories.Contains(c.Category)))
                         {
@@ -195,14 +203,6 @@ else if (_state == QuizState.Playing)
                                 {
                                     <br /><span style="font-weight: normal;">@cat.Description</span>
                                 }
-                            </MudAlert>
-                        }
-                        @* Correct categories that were NOT selected - ERROR (missed!) *@
-                        @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Correct && !_lastAnswerSelectedCategories.Contains(c.Category)))
-                        {
-                            <MudAlert Severity="Severity.Error" Variant="Variant.Outlined" Dense="true">
-                                <strong>@QuizService.CategoryDisplayNames[cat.Category] (Missed!)</strong><br />
-                                <span style="font-weight: normal;">@cat.Description</span>
                             </MudAlert>
                         }
                         @* Just wrong *@
