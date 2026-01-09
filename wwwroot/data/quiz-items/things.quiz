@@ -29,7 +29,7 @@ Byzantium | HistoricalState: "Byzantium was the Eastern Roman Empire, lasting fr
 Capri | CarModel: "The Ford/Mercury Capri was a sporty car." | HistoricalState: "Capri is the Italian island that was a retreat for Roman emperors."
 Cassini | Celestial: "The Cassini Division is the gap between Saturn's A and B rings, discovered by Giovanni Cassini." | SpaceMission: "Cassini-Huygens explored Saturn and its moons for 13 years before its Grand Finale dive in 2017."
 Cerulean | Pigment: "Cerulean is a sky-blue cobalt stannate pigment producing brilliant blue tones." | Pokemon: "Cerulean City is home to Misty's Water-type Gym in Pokemon."
-Cobalt | Pigment: "Cobalt Blue is a vivid artist pigment producing intense blue tones." | Tech: "Cobalt is a critical element for lithium-ion batteries in modern electronics."
+Cobalt | Pigment: "Cobalt Blue is a vivid artist pigment producing intense blue tones." | Tech: "Cobalt is a critical element for lithium-ion batteries in modern electronics." | CarModel: "The Chevrolet Cobalt was a compact car produced from 2004 to 2010, replacing the Cavalier."
 Colchis | GreekPagan: "In Greek mythology, Colchis was home of Medea and the Golden Fleece - where Jason and the Argonauts quested." | HistoricalState: "Colchis was an ancient kingdom in the Caucasus (modern Georgia)."
 Condor | Bird: "Condors are the largest flying land birds in the Western Hemisphere with massive wingspans." | CloudInfra: "HTCondor is high-throughput computing software for distributed workloads."
 Cordoba | CarModel: "The Chrysler Cordoba was a luxury personal coupe." | HistoricalState: "Córdoba was the capital of the Islamic Caliphate in Spain."
