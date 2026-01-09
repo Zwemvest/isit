@@ -90,7 +90,11 @@ else if (_state == QuizState.Start)
                                    MultiSelectionTextFunc="@(list => $"{list.Count()} categories selected")">
                             @foreach (var cat in QuizService.AllCategories)
                             {
-                                <MudSelectItem Value="@cat">@QuizService.CategoryDisplayNames[cat]</MudSelectItem>
+                                <MudSelectItem Value="@cat">
+                                    <MudTooltip Text="@QuizService.CategoryTooltips[cat]" Placement="Placement.Right">
+                                        <span>@QuizService.CategoryDisplayNames[cat]</span>
+                                    </MudTooltip>
+                                </MudSelectItem>
                             }
                         </MudSelect>
                         @if (_selectedIncludedCategories.Count() < QuizService.MinCategories)
@@ -122,7 +126,40 @@ else if (_state == QuizState.Playing)
                 {
                     var includedCategories = _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c.Category)).ToList();
 
+                    // Compute summary lists
+                    var correctSelected = includedCategories.Where(c => c.Result == ResultType.Correct && _lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
+                    var arguableSelected = includedCategories.Where(c => c.Result == ResultType.Arguable && _lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
+                    var obscureSelected = includedCategories.Where(c => c.Result == ResultType.Obscure && _lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
+                    var missSelected = includedCategories.Where(c => c.Result == ResultType.Miss && _lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
+                    var correctMissed = includedCategories.Where(c => c.Result == ResultType.Correct && !_lastAnswerSelectedCategories.Contains(c.Category)).Select(c => QuizService.CategoryDisplayNames[c.Category]).ToList();
+
                     <MudText Typo="Typo.h6" Class="mb-2">@_lastAnswerItem.Name</MudText>
+
+                    @* Summary header showing how the answer was counted *@
+                    <MudAlert Severity="@(_lastAnswerResult == AnswerResult.Correct ? Severity.Success : Severity.Error)"
+                              Variant="Variant.Filled" Dense="true" Class="mb-2">
+                        <strong>@(_lastAnswerResult == AnswerResult.Correct ? "Correct!" : _lastAnswerResult == AnswerResult.Acceptable ? "Acceptable (but incomplete)" : "Incorrect")</strong>
+                        <MudStack Spacing="0" Class="mt-1" Style="font-size: 0.85em; font-weight: normal;">
+                            @if (correctSelected.Any())
+                            {
+                                <span>Correct: @string.Join(", ", correctSelected)</span>
+                            }
+                            @if (arguableSelected.Any())
+                            {
+                                <span>Arguable: @string.Join(", ", arguableSelected)</span>
+                            }
+                            @if (obscureSelected.Any())
+                            {
+                                <span>Obscure: @string.Join(", ", obscureSelected)</span>
+                            }
+                            @if (missSelected.Any() || correctMissed.Any())
+                            {
+                                var allMisses = missSelected.Concat(correctMissed.Select(c => c + " (not selected)")).ToList();
+                                <span>Miss: @string.Join(", ", allMisses)</span>
+                            }
+                        </MudStack>
+                    </MudAlert>
+
                     <MudStack Spacing="2">
                         @* Correct categories that WERE selected - SUCCESS *@
                         @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Correct && _lastAnswerSelectedCategories.Contains(c.Category)))

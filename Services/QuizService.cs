@@ -77,7 +77,7 @@ public class QuizService
 
     public static readonly Dictionary<string, string> CategoryDisplayNames = new()
     {
-        ["LordOfTheRings"] = "Lord of the Rings",
+        ["LordOfTheRings"] = "Tolkien's Lord of the Rings",
         ["Pokemon"] = "Pokémon",
         ["Tech"] = "Tech Company or Product",
         ["Psychiatric"] = "Psychiatric Medication",
@@ -114,6 +114,47 @@ public class QuizService
         ["Superhero"] = "Marvel/DC Superhero",
         ["GreekLetter"] = "Greek Letter",
         ["SpaceMission"] = "NASA Space Mission"
+    };
+
+    public static readonly Dictionary<string, string> CategoryTooltips = new()
+    {
+        ["LordOfTheRings"] = "Characters, places, and items from Tolkien's Middle-earth",
+        ["Pokemon"] = "Everything Pokémon. Includes species names, moves, items, locations, cities, and more.",
+        ["Tech"] = "Technology companies, products, services, or brands",
+        ["Psychiatric"] = "Prescription psychiatric medications and drug names",
+        ["NorsePagan"] = "Gods, creatures, and concepts from Norse/Viking mythology",
+        ["GreekPagan"] = "Gods, heroes, and creatures from ancient Greek mythology",
+        ["RomanPagan"] = "Gods and figures from ancient Roman mythology",
+        ["CelticPagan"] = "Gods, heroes, and creatures from Celtic/Irish mythology",
+        ["MetalMusic"] = "Metal bands, albums, or songs",
+        ["RockMusic"] = "Rock bands, albums, or songs",
+        ["IKEAFurniture"] = "IKEA product names",
+        ["StarWars"] = "Characters, ships, planets from the Star Wars universe",
+        ["ProgrammingLang"] = "Programming languages, frameworks, or development tools",
+        ["DigitalTerm"] = "Technical terminology used in computing and digital media",
+        ["SiliconValleyBS"] = "Everything crypto, blockchain, NFT, or other nonsensical bullshit that only exists to please venture capitalists.",
+        ["HistoricalState"] = "Names of historical nations, empires, city-states, or ancient cities",
+        ["DnD"] = "Monsters, creatures, Gods, spells, classes, or items from Dungeons & Dragons or Forgotten Realms or Eberron Lore",
+        ["Warhammer"] = "Factions, units, or characters from Warhammer 40K/Fantasy",
+        ["Zelda"] = "Characters, items, or places from The Legend of Zelda series",
+        ["Yugioh"] = "Cards or characters from Yu-Gi-Oh!",
+        ["Digimon"] = "Digimon species names",
+        ["DragonBallZ"] = "Characters or techniques from Dragon Ball",
+        ["JoJo"] = "Characters, Stands, or references from JoJo's Bizarre Adventure",
+        ["Painter"] = "Famous painters throughout history",
+        ["Philosopher"] = "Notable philosophers throughout history",
+        ["Author"] = "Famous authors and writers. (if the philosopher category is included, nearly all philosophers will also be authors).",
+        ["CarModel"] = "Car model names (not brands)",
+        ["CloudInfra"] = "Cloud platforms, infrastructure tools, and DevOps software",
+        ["MTG"] = "Cards, mechanics, or planes from Magic: The Gathering",
+        ["Celestial"] = "Natural objects in space: planets, moons, stars, asteroids (not zodiac signs)",
+        ["Bird"] = "Bird species names",
+        ["Pigment"] = "Color names, pigments, or dyes",
+        ["SmashBros"] = "Playable fighters in Super Smash Bros. games",
+        ["AssassinsCreed"] = "Historical figures or settings featured in Assassin's Creed",
+        ["Superhero"] = "Superheroes or villains from Marvel or DC comics",
+        ["GreekLetter"] = "Letters of the Greek alphabet",
+        ["SpaceMission"] = "NASA missions or space programs (does not include spacecraft)"
     };
 
     public QuizService(HttpClient httpClient)
