@@ -2,1139 +2,1704 @@
   {
     "name": "Zelda",
     "categories": [
-      "Zelda",
-      "SmashBros"
-    ],
-    "explanation": "Princess Zelda is the titular character of The Legend of Zelda series, wielder of the Triforce of Wisdom, and a fighter in Super Smash Bros."
+      {
+        "category": "Zelda",
+        "description": "Princess Zelda is the titular character of The Legend of Zelda series and wielder of the Triforce of Wisdom."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Zelda is a playable fighter in Super Smash Bros., using magical attacks and transforming into Sheik in earlier games."
+      }
+    ]
   },
   {
     "name": "Jigglypuff",
     "categories": [
-      "Pokemon",
-      "SmashBros"
-    ],
-    "explanation": "Jigglypuff is a Normal/Fairy-type Pokémon known for singing, and one of the original 12 Super Smash Bros. characters."
+      {
+        "category": "Pokemon",
+        "description": "Jigglypuff is a Normal/Fairy-type Pokémon known for putting people to sleep with its singing."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Jigglypuff is one of the original 12 Super Smash Bros. characters, famous for its powerful Rest move."
+      }
+    ]
   },
   {
     "name": "Charizard",
     "categories": [
-      "Pokemon",
-      "SmashBros"
-    ],
-    "explanation": "Charizard is a Fire/Flying-type Pokémon, one of the most iconic starters, and a playable fighter in Super Smash Bros."
+      {
+        "category": "Pokemon",
+        "description": "Charizard is a Fire/Flying-type Pokémon and one of the most iconic starter evolutions from Generation I."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Charizard is a playable fighter in Super Smash Bros., either as part of Pokémon Trainer or as a standalone character."
+      }
+    ]
   },
   {
     "name": "Snorlax",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Snorlax is a Normal-type Pokémon known for sleeping and blocking paths."
+      {
+        "category": "Pokemon",
+        "description": "Snorlax is a Normal-type Pokémon known for sleeping and blocking paths until woken with a Poké Flute."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Snorlax appears as a Poké Ball summon in Super Smash Bros., body-slamming opponents from above."
+      }
+    ]
   },
   {
     "name": "Celebi",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Celebi is a Psychic/Grass-type mythical Pokémon that can travel through time."
+      {
+        "category": "Pokemon",
+        "description": "Celebi is a Psychic/Grass-type mythical Pokémon that can travel through time."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Sounds like Celeborn or Celebrimbor, but this time-traveling sprite is a Pokémon, not a Tolkien elf."
+      }
+    ]
   },
   {
     "name": "Geodude",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Geodude is a Rock/Ground-type Pokémon that looks like a boulder with arms."
+      {
+        "category": "Pokemon",
+        "description": "Geodude is a Rock/Ground-type Pokémon that looks like a boulder with muscular arms."
+      }
+    ]
   },
   {
     "name": "Eevee",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Eevee is a Normal-type Pokémon famous for its many possible evolutions."
+      {
+        "category": "Pokemon",
+        "description": "Eevee is a Normal-type Pokémon famous for its many possible evolutions (Vaporeon, Jolteon, Flareon, and more)."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Eevee appears as a Poké Ball summon in Super Smash Bros. Ultimate, tackling opponents with Take Down."
+      }
+    ]
   },
   {
     "name": "Pikachu",
     "categories": [
-      "Pokemon",
-      "SmashBros"
-    ],
-    "explanation": "Pikachu is the iconic Electric-type Pokémon, franchise mascot, and one of the original 12 Super Smash Bros. characters."
+      {
+        "category": "Pokemon",
+        "description": "Pikachu is the iconic Electric-type Pokémon and franchise mascot since 1996."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Pikachu is one of the original 12 Super Smash Bros. characters and has appeared in every game."
+      }
+    ]
   },
   {
     "name": "Mewtwo",
     "categories": [
-      "Pokemon",
-      "SmashBros"
-    ],
-    "explanation": "Mewtwo is a Psychic-type legendary Pokémon created from Mew's DNA, and a powerful fighter in Super Smash Bros."
+      {
+        "category": "Pokemon",
+        "description": "Mewtwo is a Psychic-type legendary Pokémon created from Mew's DNA through genetic manipulation."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Mewtwo is a powerful fighter in Super Smash Bros. Melee, 4, and Ultimate with psychic-based attacks."
+      }
+    ]
   },
   {
     "name": "Ditto",
     "categories": [
-      "Pokemon",
-      "Tech"
-    ],
-    "explanation": "Ditto is a Normal-type Pokémon that can transform into anything, and also a clipboard manager app for macOS."
+      {
+        "category": "Pokemon",
+        "description": "Ditto is a Normal-type Pokémon that can transform into anything using its Transform ability."
+      },
+      {
+        "category": "Tech",
+        "result": 1,
+        "description": "Partial credit for the existence of multiple clipboard apps called Ditto."
+      }
+    ]
   },
   {
     "name": "Porygon",
     "categories": [
-      "Pokemon",
-      "DigitalTerm"
-    ],
-    "explanation": "Porygon is the first artificial Pokémon, made entirely of programming code - a digital construct."
+      {
+        "category": "Pokemon",
+        "description": "Porygon is the first artificial Pokémon, made entirely of programming code."
+      },
+      {
+        "category": "Tech",
+        "result": -1,
+        "description": "While it's a 'digital' creature in-universe, that doesn't make it actual tech terminology. Unless you confused it with 'Polygon'"
+      }
+    ]
   },
   {
     "name": "Chansey",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Chansey is a Normal-type Pokémon that carries a healing egg in its pouch."
+      {
+        "category": "Pokemon",
+        "description": "Chansey is a Normal-type Pokémon that carries a healing egg in its pouch and has extremely high HP."
+      }
+    ]
   },
   {
     "name": "Blissey",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Blissey is Chansey's evolution, known for its nurturing nature and high HP."
+      {
+        "category": "Pokemon",
+        "description": "Blissey is Chansey's evolution, known for its nurturing nature and having the highest HP stat of any Pokémon."
+      }
+    ]
   },
   {
     "name": "Drowzee",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Drowzee is a Psychic-type Pokémon that feeds on dreams."
+      {
+        "category": "Pokemon",
+        "description": "Drowzee is a Psychic-type Pokémon that feeds on dreams through its tapir-like nose."
+      }
+    ]
   },
   {
     "name": "Hypno",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Hypno is Drowzee's evolution, carrying a pendulum it uses to hypnotize prey."
+      {
+        "category": "Pokemon",
+        "description": "Hypno is Drowzee's evolution, carrying a pendulum it uses to hypnotize prey."
+      }
+    ]
   },
   {
     "name": "Electrode",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Electrode is an Electric-type Pokémon that resembles a Poké Ball and is known for exploding."
+      {
+        "category": "Pokemon",
+        "description": "Electrode is an Electric-type Pokémon that resembles an upside-down Poké Ball and is known for exploding."
+      }
+    ]
   },
   {
     "name": "Magneton",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Magneton is an Electric/Steel-type Pokémon composed of three Magnemite linked together."
+      {
+        "category": "Pokemon",
+        "description": "Magneton is an Electric/Steel-type Pokémon composed of three Magnemite linked together by magnetism."
+      }
+    ]
   },
   {
     "name": "Rotom",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Rotom is an Electric/Ghost-type Pokémon that can possess electrical appliances."
+      {
+        "category": "Pokemon",
+        "description": "Rotom is an Electric/Ghost-type Pokémon that can possess electrical appliances and change its form."
+      }
+    ]
   },
   {
     "name": "Arceus",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Arceus is the mythical 'God Pokémon' said to have created the Pokémon universe."
+      {
+        "category": "Pokemon",
+        "description": "Arceus is the mythical 'God Pokémon' said to have created the entire Pokémon universe."
+      },
+      {
+        "category": "GreekPagan",
+        "result": -1,
+        "description": "Despite its divine nature in Pokémon lore, Arceus is not from Greek mythology. It's a fictional Pokémon deity."
+      }
+    ]
   },
   {
     "name": "Dialga",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Dialga is a Steel/Dragon-type legendary Pokémon that controls time."
+      {
+        "category": "Pokemon",
+        "description": "Dialga is a Steel/Dragon-type legendary Pokémon that controls time itself."
+      }
+    ]
   },
   {
     "name": "Palkia",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Palkia is a Water/Dragon-type legendary Pokémon that controls space."
+      {
+        "category": "Pokemon",
+        "description": "Palkia is a Water/Dragon-type legendary Pokémon that controls space and dimensions."
+      }
+    ]
   },
   {
     "name": "Giratina",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Giratina is a Ghost/Dragon-type legendary Pokémon that rules the Distortion World."
+      {
+        "category": "Pokemon",
+        "description": "Giratina is a Ghost/Dragon-type legendary Pokémon that rules the Distortion World and controls antimatter."
+      }
+    ]
   },
   {
     "name": "Luxray",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Luxray is an Electric-type Pokémon with eyes that can see through anything."
+      {
+        "category": "Pokemon",
+        "description": "Luxray is an Electric-type Pokémon with X-ray vision eyes that can see through anything."
+      }
+    ]
   },
   {
     "name": "Lucario",
     "categories": [
-      "Pokemon",
-      "SmashBros"
-    ],
-    "explanation": "Lucario is a Fighting/Steel-type Pokémon that can manipulate aura, and a fighter in Super Smash Bros."
+      {
+        "category": "Pokemon",
+        "description": "Lucario is a Fighting/Steel-type Pokémon that can manipulate aura energy."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Lucario is a fighter in Super Smash Bros. Brawl, 4, and Ultimate, getting stronger as it takes more damage."
+      }
+    ]
   },
   {
     "name": "Mew",
     "categories": [
-      "Pokemon",
-      "SmashBros"
-    ],
-    "explanation": "Mew is the mythical Psychic-type ancestor of all Pokémon, appearing in all six Super Smash Bros. games as a rare Poké Ball summon."
+      {
+        "category": "Pokemon",
+        "description": "Mew is the mythical Psychic-type ancestor of all Pokémon, said to contain the DNA of every species."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Mew appears in all six Super Smash Bros. games as a rare Poké Ball summon."
+      }
+    ]
   },
   {
     "name": "Greninja",
     "categories": [
-      "Pokemon",
-      "SmashBros"
-    ],
-    "explanation": "Greninja is a Water/Dark-type ninja frog Pokémon, a playable fighter in Super Smash Bros. 4 and Ultimate."
+      {
+        "category": "Pokemon",
+        "description": "Greninja is a Water/Dark-type ninja frog Pokémon and the final evolution of Froakie."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Greninja is a playable fighter in Super Smash Bros. 4 and Ultimate with fast, ninja-style attacks."
+      }
+    ]
   },
   {
     "name": "Audino",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Audino is a Normal-type Pokémon that can sense feelings through its ear feelers."
+      {
+        "category": "Pokemon",
+        "description": "Audino is a Normal-type Pokémon that can sense feelings through its ear feelers and is known for giving high EXP."
+      }
+    ]
   },
   {
     "name": "Latios",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Latios is a Dragon/Psychic-type legendary Pokémon known for high intelligence."
+      {
+        "category": "Pokemon",
+        "description": "Latios is a Dragon/Psychic-type legendary Pokémon known for high intelligence and flight speed."
+      }
+    ]
   },
   {
     "name": "Latias",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Latias is a Dragon/Psychic-type legendary Pokémon and Latios's counterpart."
+      {
+        "category": "Pokemon",
+        "description": "Latias is a Dragon/Psychic-type legendary Pokémon and Latios's counterpart, known for sensitivity and camouflage."
+      }
+    ]
   },
   {
     "name": "Slowpoke",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Slowpoke is a Water/Psychic-type Pokémon known for its slow reactions."
+      {
+        "category": "Pokemon",
+        "description": "Slowpoke is a Water/Psychic-type Pokémon known for its slow reactions and dopey expression."
+      }
+    ]
   },
   {
     "name": "Abra",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Abra is a Psychic-type Pokémon that sleeps 18 hours a day and teleports when threatened."
+      {
+        "category": "Pokemon",
+        "description": "Abra is a Psychic-type Pokémon that sleeps 18 hours a day and teleports away when threatened."
+      }
+    ]
   },
   {
     "name": "Kadabra",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Kadabra is Abra's evolution, a Psychic-type that emits alpha waves from its body."
+      {
+        "category": "Pokemon",
+        "description": "Kadabra is Abra's evolution, a Psychic-type that emits alpha waves and bends spoons with its mind."
+      }
+    ]
   },
   {
     "name": "Alakazam",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Alakazam is Kadabra's evolution with an IQ of 5,000 and powerful psychic abilities."
+      {
+        "category": "Pokemon",
+        "description": "Alakazam is Kadabra's evolution with an IQ of 5,000 and incredibly powerful psychic abilities."
+      }
+    ]
   },
   {
     "name": "Nidoran",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Nidoran is a Poison-type Pokémon that was the first to have distinct male and female forms."
+      {
+        "category": "Pokemon",
+        "description": "Nidoran is a Poison-type Pokémon that was the first to have distinct male and female forms."
+      }
+    ]
   },
   {
     "name": "Gengar",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Gengar is a Ghost/Poison-type Pokémon that hides in shadows to steal heat from surroundings."
+      {
+        "category": "Pokemon",
+        "description": "Gengar is a Ghost/Poison-type Pokémon that hides in shadows to steal heat from surroundings."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Gengar appears as a Poké Ball summon in Super Smash Bros., putting opponents to sleep with its gaze."
+      }
+    ]
   },
   {
     "name": "Arcanine",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Arcanine is a Fire-type Pokémon known for its speed, loyalty, and majestic appearance."
+      {
+        "category": "Pokemon",
+        "description": "Arcanine is a Fire-type Pokémon known for its legendary speed, loyalty, and majestic appearance."
+      }
+    ]
   },
   {
     "name": "Gastly",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Gastly is a Ghost/Poison-type Pokémon composed almost entirely of gas."
+      {
+        "category": "Pokemon",
+        "description": "Gastly is a Ghost/Poison-type Pokémon composed almost entirely of poisonous gas."
+      }
+    ]
   },
   {
     "name": "Koffing",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Koffing is a Poison-type Pokémon that stores toxic gases in its body."
+      {
+        "category": "Pokemon",
+        "description": "Koffing is a Poison-type Pokémon that stores toxic gases in its spherical body."
+      }
+    ]
   },
   {
     "name": "Weezing",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Weezing is Koffing's evolution, consisting of two Koffing fused together."
+      {
+        "category": "Pokemon",
+        "description": "Weezing is Koffing's evolution, consisting of two Koffing fused together into one toxic entity."
+      }
+    ]
   },
   {
     "name": "Tangela",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Tangela is a Grass-type Pokémon whose body is covered in thick blue vines."
+      {
+        "category": "Pokemon",
+        "description": "Tangela is a Grass-type Pokémon whose body is completely covered in thick blue vines."
+      }
+    ]
   },
   {
     "name": "Nidoking",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Nidoking is the final evolution of male Nidoran, a powerful Poison/Ground-type."
+      {
+        "category": "Pokemon",
+        "description": "Nidoking is the final evolution of male Nidoran, a powerful Poison/Ground-type with devastating strength."
+      }
+    ]
   },
   {
     "name": "Starmie",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Starmie is a Water/Psychic-type starfish Pokémon with a glowing jewel core."
+      {
+        "category": "Pokemon",
+        "description": "Starmie is a Water/Psychic-type starfish Pokémon with a glowing jewel core that transmits radio waves."
+      }
+    ]
   },
   {
     "name": "Dratini",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Dratini is a Dragon-type Pokémon that was long considered a mythical creature."
+      {
+        "category": "Pokemon",
+        "description": "Dratini is a Dragon-type Pokémon that was long considered a mythical creature before being discovered."
+      }
+    ]
   },
   {
     "name": "Dragonite",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Dragonite is Dratini's final evolution, a Dragon/Flying-type known for rescuing people at sea."
+      {
+        "category": "Pokemon",
+        "description": "Dragonite is Dratini's final evolution, a Dragon/Flying-type known for rescuing people at sea."
+      }
+    ]
   },
   {
     "name": "Skorupi",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Skorupi is a Poison/Bug-type Pokémon that looks like a scorpion."
+      {
+        "category": "Pokemon",
+        "description": "Skorupi is a Poison/Bug-type Pokémon that looks like a scorpion with powerful pincers."
+      }
+    ]
   },
   {
     "name": "Klefki",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Klefki is a Steel/Fairy-type Pokémon that collects keys on its ring-shaped body."
+      {
+        "category": "Pokemon",
+        "description": "Klefki is a Steel/Fairy-type Pokémon that collects keys on its ring-shaped body."
+      }
+    ]
   },
   {
     "name": "Xerneas",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Xerneas is the Fairy-type legendary Pokémon representing life in Pokémon X."
+      {
+        "category": "Pokemon",
+        "description": "Xerneas is the Fairy-type legendary Pokémon representing life in Pokémon X."
+      }
+    ]
   },
   {
     "name": "Pixilate",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Pixilate is a Pokémon ability that turns Normal-type moves into Fairy-type moves."
+      {
+        "category": "Pokemon",
+        "description": "Pixilate is a Pokémon ability that turns Normal-type moves into Fairy-type moves and boosts their power."
+      }
+    ]
   },
   {
     "name": "Axew",
     "categories": [
-      "Pokemon"
-    ],
-    "explanation": "Axew is a Dragon-type Pokémon with tusks that it uses to crush berries and mark territory."
+      {
+        "category": "Pokemon",
+        "description": "Axew is a Dragon-type Pokémon with tusks that it uses to crush berries and mark territory."
+      }
+    ]
   },
   {
     "name": "Dio",
     "categories": [
-      "JoJo",
-      "MetalBand"
-    ],
-    "explanation": "DIO is the iconic main villain of JoJo's Bizarre Adventure, named after Ronnie James Dio, the heavy metal legend."
+      {
+        "category": "JoJo",
+        "description": "DIO is the iconic main villain of JoJo's Bizarre Adventure with time-stopping powers."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Dio is the heavy metal band led by Ronnie James Dio."
+      }
+    ]
   },
   {
     "name": "Metallica",
     "categories": [
-      "JoJo",
-      "MetalBand"
-    ],
-    "explanation": "Metallica is Risotto Nero's iron-manipulating Stand in JoJo Part 5, named after the legendary thrash metal band."
+      {
+        "category": "JoJo",
+        "description": "Metallica is Risotto Nero's iron-manipulating Stand in JoJo Part 5."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Metallica is the legendary thrash metal band formed in 1981, one of the 'Big Four' of thrash metal."
+      }
+    ]
   },
   {
     "name": "Aerosmith",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Aerosmith is Narancia's miniature plane Stand in JoJo Part 5, named after the American rock band."
+      {
+        "category": "JoJo",
+        "description": "Aerosmith is Narancia's miniature fighter plane Stand in JoJo Part 5."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Aerosmith is the American rock band formed in Boston, known for hits like 'Dream On' and 'Walk This Way'."
+      }
+    ]
   },
   {
     "name": "Red Hot Chili Pepper",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Red Hot Chili Pepper is Akira Otoishi's electric Stand in JoJo Part 4, named after the funk rock band."
+      {
+        "category": "JoJo",
+        "description": "Red Hot Chili Pepper is Akira Otoishi's electricity-based Stand in JoJo Part 4."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Red Hot Chili Peppers is the funk rock band from Los Angeles, known for blending punk and funk."
+      }
+    ]
   },
   {
     "name": "Purple Haze",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Purple Haze is Fugo's deadly virus Stand in JoJo Part 5, named after the Jimi Hendrix song."
+      {
+        "category": "JoJo",
+        "description": "Purple Haze is Fugo's deadly virus-spreading Stand in JoJo Part 5."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Purple Haze is the iconic Jimi Hendrix song from 1967."
+      }
+    ]
   },
   {
     "name": "King Crimson",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "King Crimson is Diavolo's time-erasing Stand in JoJo Part 5, named after the British prog rock band."
+      {
+        "category": "JoJo",
+        "description": "King Crimson is Diavolo's time-erasing Stand in JoJo Part 5 that can skip through time."
+      },
+      {
+        "category": "RockMusic",
+        "description": "King Crimson is the British progressive rock band known for pioneering prog rock in the late 1960s."
+      }
+    ]
   },
   {
     "name": "Gold Experience",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Gold Experience is Giorno's life-giving Stand in JoJo Part 5, named after the Prince album."
+      {
+        "category": "JoJo",
+        "description": "Gold Experience is Giorno's life-giving Stand in JoJo Part 5 that can create life."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Gold Experience is the double album by Prince from 1995."
+      }
+    ]
   },
   {
     "name": "Moody Blues",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Moody Blues is Abbacchio's replay Stand in JoJo Part 5, named after the British rock band."
+      {
+        "category": "JoJo",
+        "description": "Moody Blues is Abbacchio's replay Stand in JoJo Part 5 that can re-enact past events."
+      },
+      {
+        "category": "RockMusic",
+        "description": "The Moody Blues is the British rock band known for progressive rock and hits like 'Nights in White Satin'."
+      }
+    ]
   },
   {
     "name": "Whitesnake",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Whitesnake is Pucci's disc-extracting Stand in JoJo Part 6, named after David Coverdale's rock band."
+      {
+        "category": "JoJo",
+        "description": "Whitesnake is Pucci's disc-extracting Stand in JoJo Part 6 that can steal memories and abilities."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Whitesnake is David Coverdale's rock band formed after he left Deep Purple."
+      }
+    ]
   },
   {
     "name": "Weather Report",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Weather Report is a weather-controlling Stand user in JoJo Part 6, named after the jazz fusion band."
+      {
+        "category": "JoJo",
+        "description": "Weather Report is a weather-controlling Stand user in JoJo Part 6 with powerful meteorological abilities."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Weather Report is the jazz fusion band co-founded by Joe Zawinul and Wayne Shorter."
+      }
+    ]
   },
   {
     "name": "Foo Fighters",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Foo Fighters is a plankton colony Stand user in JoJo Part 6, named after Dave Grohl's rock band."
+      {
+        "category": "JoJo",
+        "description": "Foo Fighters (F.F.) is a plankton colony Stand user in JoJo Part 6 who becomes an ally."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Foo Fighters is Dave Grohl's rock band formed in 1994 after Nirvana ended."
+      }
+    ]
   },
   {
     "name": "Oasis",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Oasis is Secco's ground-softening Stand in JoJo Part 5, named after the British rock band."
+      {
+        "category": "JoJo",
+        "description": "Oasis is Secco's ground-softening Stand in JoJo Part 5 that can swim through solid matter."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Oasis is the British rock band formed by the Gallagher brothers in 1991."
+      }
+    ]
   },
   {
     "name": "Soft Machine",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Soft Machine is Zucchero's deflating Stand in JoJo Part 5, named after the British rock band."
+      {
+        "category": "JoJo",
+        "description": "Soft Machine is Zucchero's deflating Stand in JoJo Part 5 that can deflate targets like balloons."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Soft Machine is the British progressive rock band that pioneered the Canterbury scene."
+      }
+    ]
   },
   {
     "name": "White Album",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "White Album is Ghiaccio's ice-armor Stand in JoJo Part 5, named after The Beatles' iconic 1968 album."
+      {
+        "category": "JoJo",
+        "description": "White Album is Ghiaccio's ice-armor Stand in JoJo Part 5 that freezes everything around it."
+      },
+      {
+        "category": "RockMusic",
+        "description": "The White Album is The Beatles' iconic self-titled 1968 double album."
+      }
+    ]
   },
   {
     "name": "Tusk",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Tusk is Johnny Joestar's spin-powered Stand in JoJo Part 7, named after the Fleetwood Mac album."
+      {
+        "category": "JoJo",
+        "description": "Tusk is Johnny Joestar's spin-powered Stand in JoJo Part 7 that evolves through multiple acts."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Tusk is the 1979 double album by Fleetwood Mac."
+      }
+    ]
   },
   {
     "name": "Scary Monsters",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Scary Monsters is Diego Brando's dinosaur Stand in JoJo Part 7, named after the David Bowie album."
+      {
+        "category": "JoJo",
+        "description": "Scary Monsters is Diego Brando's dinosaur-transforming Stand in JoJo Part 7."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Scary Monsters (and Super Creeps) is the 1980 David Bowie album."
+      }
+    ]
   },
   {
     "name": "Highway to Hell",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Highway to Hell is Thunder McQueen's suicide Stand in JoJo Part 6, named after the AC/DC album."
+      {
+        "category": "JoJo",
+        "description": "Highway to Hell is Thunder McQueen's suicide-pact Stand in JoJo Part 6."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Highway to Hell is the 1979 AC/DC album, the last with lead singer Bon Scott."
+      }
+    ]
   },
   {
     "name": "Bohemian Rhapsody",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Bohemian Rhapsody is Ungalo's fiction-manifesting Stand in JoJo Part 6, named after Queen's legendary song."
+      {
+        "category": "JoJo",
+        "description": "Bohemian Rhapsody is Ungalo's fiction-manifesting Stand in JoJo Part 6 that brings stories to life."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Bohemian Rhapsody is Queen's legendary 1975 song from the album A Night at the Opera."
+      }
+    ]
   },
   {
     "name": "Stone Free",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Stone Free is Jolyne Cujoh's string-based Stand in JoJo Part 6, named after the Jimi Hendrix song."
+      {
+        "category": "JoJo",
+        "description": "Stone Free is Jolyne Cujoh's string-based Stand in JoJo Part 6 that can unravel her body into strings."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Stone Free is the Jimi Hendrix song from the 1967 album Are You Experienced."
+      }
+    ]
   },
   {
     "name": "REO Speedwagon",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Robert E.O. Speedwagon is a beloved ally in JoJo Parts 1-2, named after the American rock band."
+      {
+        "category": "JoJo",
+        "description": "Robert E.O. Speedwagon is a beloved ally in JoJo Parts 1-2 and founder of the Speedwagon Foundation."
+      },
+      {
+        "category": "RockMusic",
+        "description": "REO Speedwagon is the American rock band known for hits like 'Keep On Loving You'."
+      }
+    ]
   },
   {
     "name": "Crazy Diamond",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Crazy Diamond is Josuke's restoration Stand in JoJo Part 4, named after the Pink Floyd song 'Shine On You Crazy Diamond'."
+      {
+        "category": "JoJo",
+        "description": "Crazy Diamond is Josuke's restoration Stand in JoJo Part 4 that can repair anything except its own user."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Crazy Diamond is referenced in Pink Floyd's 'Shine On You Crazy Diamond', a tribute to Syd Barrett."
+      }
+    ]
   },
   {
     "name": "Killer Queen",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "Killer Queen is Kira's explosive Stand in JoJo Part 4, named after the Queen song."
+      {
+        "category": "JoJo",
+        "description": "Killer Queen is Kira's explosive Stand in JoJo Part 4 that can turn anything into a bomb."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Killer Queen is the 1974 Queen song from the album Sheer Heart Attack."
+      }
+    ]
   },
   {
     "name": "The Hand",
     "categories": [
-      "JoJo",
-      "RockBand"
-    ],
-    "explanation": "The Hand is Okuyasu's space-erasing Stand in JoJo Part 4, named after The Band, a rock group."
+      {
+        "category": "JoJo",
+        "description": "The Hand is Okuyasu's space-erasing Stand in JoJo Part 4 that can scrape away anything from existence."
+      },
+      {
+        "category": "RockMusic",
+        "result": -1,
+        "description": "Named after 'The Band' - but 'The Hand' itself is not a band name."
+      }
+    ]
   },
   {
     "name": "Cell",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Cell is the bio-android villain in Dragon Ball Z, created from the cells of the strongest warriors."
+      {
+        "category": "DragonBallZ",
+        "description": "Cell is the bio-android villain in Dragon Ball Z, created from the cells of the strongest warriors."
+      },
+      {
+        "category": "Tech",
+        "result": 1,
+        "description": "Spreadsheet cells are a bit far fetched, but we won't count this one wrong."
+      }
+    ]
   },
   {
     "name": "Android",
     "categories": [
-      "DragonBallZ",
-      "Tech"
-    ],
-    "explanation": "Androids 16, 17, 18 are cyborg warriors in DBZ, and Android is also Google's mobile operating system."
+      {
+        "category": "DragonBallZ",
+        "description": "Androids 16, 17, 18, and others are cyborg warriors in Dragon Ball Z created by Dr. Gero."
+      },
+      {
+        "category": "Tech",
+        "description": "Android is Google's mobile operating system, powering billions of devices worldwide."
+      }
+    ]
   },
   {
     "name": "Fusion",
     "categories": [
-      "DragonBallZ",
-      "Tech",
-      "CarModel"
-    ],
-    "explanation": "Fusion is the DBZ technique where warriors merge, AMD's processor line, and the Ford Fusion sedan."
+      {
+        "category": "DragonBallZ",
+        "description": "Fusion is the technique in Dragon Ball Z where two warriors merge into one powerful being."
+      },
+      {
+        "category": "Tech",
+        "description": "Fusion is AMD's processor line combining CPU and GPU on one chip."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Ford Fusion is a mid-size sedan produced from 2006 to 2020."
+      }
+    ]
   },
   {
     "name": "Vegeta",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Vegeta is the Saiyan prince in DBZ, his name derived from 'vegetable'. All Saiyans are named after vegetables."
+      {
+        "category": "DragonBallZ",
+        "description": "Vegeta is the Saiyan prince in Dragon Ball Z, his name derived from 'vegetable'."
+      }
+    ]
   },
   {
     "name": "Kakarot",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Kakarot is Goku's Saiyan birth name in DBZ, a pun on 'carrot'."
+      {
+        "category": "DragonBallZ",
+        "description": "Kakarot is Goku's Saiyan birth name in Dragon Ball Z, a pun on 'carrot'."
+      }
+    ]
   },
   {
     "name": "Frieza",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Frieza is the tyrannical emperor in DBZ, his name a pun on 'freezer'."
+      {
+        "category": "DragonBallZ",
+        "description": "Frieza is the tyrannical emperor in Dragon Ball Z, his name a pun on 'freezer'."
+      },
+      {
+        "category": "Pokemon",
+        "result": -1,
+        "description": "Frieza is from Dragon Ball Z, not Pokémon. Despite the cold-themed name similar to Articuno's Japanese name (Freezer), he's not a Pokémon."
+      }
+    ]
   },
   {
     "name": "Piccolo",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Piccolo is the Namekian warrior in DBZ, named after the small flute instrument."
+      {
+        "category": "DragonBallZ",
+        "description": "Piccolo is the Namekian warrior in Dragon Ball Z, named after the small flute instrument."
+      }
+    ]
   },
   {
     "name": "Trunks",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Trunks is Vegeta's son in DBZ, named after underwear. The entire Briefs family is named after undergarments."
+      {
+        "category": "DragonBallZ",
+        "description": "Trunks is Vegeta's son in Dragon Ball Z, named after underwear like the rest of the Briefs family."
+      }
+    ]
   },
   {
     "name": "Krillin",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Krillin is Goku's best friend in DBZ. His name comes from 'kuri' (chestnut in Japanese)."
+      {
+        "category": "DragonBallZ",
+        "description": "Krillin is Goku's best friend in Dragon Ball Z, his name derived from 'kuri' (chestnut in Japanese)."
+      },
+      {
+        "category": "Pokemon",
+        "result": -1,
+        "description": "Sounds like it could be a Pokémon, but Krillin is Goku's bald best friend, not a pocket monster."
+      }
+    ]
   },
   {
     "name": "Gohan",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Gohan is Goku's eldest son in DBZ. 'Gohan' means 'cooked rice' or 'meal' in Japanese."
+      {
+        "category": "DragonBallZ",
+        "description": "Gohan is Goku's eldest son in Dragon Ball Z. 'Gohan' means 'cooked rice' or 'meal' in Japanese."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Despite the similar sound, Gohan is Goku's half-Saiyan son, not a kingdom of horse-lords. Rohan is the realm in Middle-earth; Gohan is busy going Super Saiyan."
+      },
+      {
+        "category": "Zelda",
+        "result": -1,
+        "description": "Not a rock-eating Goron from Death Mountain - Gohan is a half-Saiyan warrior who just wants to study."
+      }
+    ]
   },
   {
     "name": "Raditz",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Raditz is Goku's evil brother in DBZ, his name derived from 'radish'."
+      {
+        "category": "DragonBallZ",
+        "description": "Raditz is Goku's evil brother in Dragon Ball Z, his name derived from 'radish'."
+      }
+    ]
   },
   {
     "name": "Nappa",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Nappa is Vegeta's bald henchman in DBZ, named after a Japanese term for leafy greens."
+      {
+        "category": "DragonBallZ",
+        "description": "Nappa is Vegeta's bald henchman in Dragon Ball Z, named after a Japanese term for leafy greens."
+      }
+    ]
   },
   {
     "name": "Broly",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Broly is the Legendary Super Saiyan in DBZ movies, his name derived from 'broccoli'."
+      {
+        "category": "DragonBallZ",
+        "description": "Broly is the Legendary Super Saiyan in Dragon Ball Z movies, his name derived from 'broccoli'."
+      }
+    ]
   },
   {
     "name": "Shenron",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Shenron is the wish-granting eternal dragon in Dragon Ball Z who grants wishes when summoned."
+      {
+        "category": "DragonBallZ",
+        "description": "Shenron is the wish-granting eternal dragon in Dragon Ball Z who grants wishes when summoned with the Dragon Balls."
+      },
+      {
+        "category": "Pokemon",
+        "result": -1,
+        "description": "Shenron is from Dragon Ball Z, not Pokémon. While Pokémon has dragons like Dragonite, Shenron is not one of them."
+      }
+    ]
   },
   {
     "name": "Majin",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Majin is a title/race in Dragon Ball Z meaning 'demon person', most famously Majin Buu and Majin Vegeta."
+      {
+        "category": "DragonBallZ",
+        "description": "Majin is a title/race in Dragon Ball Z meaning 'demon person', most famously Majin Buu and Majin Vegeta."
+      }
+    ]
   },
   {
     "name": "Hit",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Hit is the legendary assassin from Universe 6 in Dragon Ball Super, known for his Time-Skip technique."
+      {
+        "category": "DragonBallZ",
+        "description": "Hit is the legendary assassin from Universe 6 in Dragon Ball Super, known for his Time-Skip technique."
+      }
+    ]
   },
   {
     "name": "Link",
     "categories": [
-      "Zelda",
-      "DigitalTerm",
-      "SmashBros"
-    ],
-    "explanation": "Link is the hero of the Legend of Zelda series, a web/HTML concept, and one of the original 12 Super Smash Bros. characters."
+      {
+        "category": "Zelda",
+        "description": "Link is the hero of The Legend of Zelda series, wielder of the Master Sword and Triforce of Courage."
+      },
+      {
+        "category": "DigitalTerm",
+        "description": "A link is a hyperlink or reference in HTML/web that connects one resource to another."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Link is one of the original 12 Super Smash Bros. characters and has appeared in every game."
+      }
+    ]
   },
   {
     "name": "Ganondorf",
     "categories": [
-      "Zelda",
-      "SmashBros"
-    ],
-    "explanation": "Ganondorf is the main antagonist of The Legend of Zelda series, wielding the Triforce of Power, and a heavy fighter in Super Smash Bros."
+      {
+        "category": "Zelda",
+        "description": "Ganondorf is the main antagonist of The Legend of Zelda series, wielding the Triforce of Power."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Ganondorf is a heavy fighter in Super Smash Bros. Melee onwards, known for powerful attacks."
+      }
+    ]
   },
   {
     "name": "Sheik",
     "categories": [
-      "Zelda",
-      "SmashBros"
-    ],
-    "explanation": "Sheik is Zelda's ninja alter ego in Ocarina of Time, and a playable fighter in every Super Smash Bros. since Melee."
+      {
+        "category": "Zelda",
+        "description": "Sheik is Princess Zelda's ninja alter ego in Ocarina of Time."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Sheik is a playable fighter in every Super Smash Bros. since Melee, known for speed and agility."
+      }
+    ]
   },
   {
     "name": "Toon Link",
     "categories": [
-      "Zelda",
-      "SmashBros"
-    ],
-    "explanation": "Toon Link is the cel-shaded hero from Wind Waker, and a playable fighter in Super Smash Bros. Brawl, 4, and Ultimate."
+      {
+        "category": "Zelda",
+        "description": "Toon Link is the cel-shaded hero from The Wind Waker and related games."
+      },
+      {
+        "category": "SmashBros",
+        "description": "Toon Link is a playable fighter in Super Smash Bros. Brawl, 4, and Ultimate."
+      }
+    ]
   },
   {
     "name": "Navi",
     "categories": [
-      "Zelda",
-      "Tech"
-    ],
-    "explanation": "Navi is Link's fairy companion in Ocarina of Time, and also an early AMD GPU architecture."
+      {
+        "category": "Zelda",
+        "description": "Navi is Link's fairy companion in Ocarina of Time, known for saying 'Hey! Listen!'"
+      },
+      {
+        "category": "Tech",
+        "description": "Navi is an early AMD GPU architecture from the RDNA family."
+      }
+    ]
   },
   {
     "name": "Hyrule",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Hyrule is the kingdom where most Zelda games take place, home to the Triforce."
+      {
+        "category": "Zelda",
+        "description": "Hyrule is the kingdom where most Legend of Zelda games take place, home to the Triforce."
+      }
+    ]
   },
   {
     "name": "Triforce",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "The Triforce is the sacred golden relic in Zelda representing Power, Wisdom, and Courage."
+      {
+        "category": "Zelda",
+        "description": "The Triforce is the sacred golden relic in Zelda representing Power, Wisdom, and Courage."
+      }
+    ]
   },
   {
     "name": "Sheikah",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "The Sheikah are a mysterious ninja-like tribe in Zelda who created the Sheikah Slate."
+      {
+        "category": "Zelda",
+        "description": "The Sheikah are a mysterious ninja-like tribe in Zelda who created ancient technology like the Sheikah Slate."
+      }
+    ]
   },
   {
     "name": "Goron",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Gorons are a rock-eating race in Zelda who live on Death Mountain."
+      {
+        "category": "Zelda",
+        "description": "Gorons are a rock-eating race in The Legend of Zelda who live on Death Mountain."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result" : -1,
+        "description": "Not to be confused with Rohan, the horse-kingdom of Middle-earth. Gorons are rock-eating mountain dwellers from Hyrule who roll around and call everyone 'brother.'"
+      },
+      {
+        "category": "DragonBallZ",
+        "result" : -1,
+        "description": "Sounds like Gohan but these boulder-bodied bros eat rocks in Hyrule, not ki blasts on Namek."
+      }
+    ]
   },
   {
     "name": "Zora",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Zora are an aquatic race in Zelda, including Princess Ruto and Prince Sidon."
+      {
+        "category": "Zelda",
+        "description": "Zora are an aquatic race in The Legend of Zelda, including characters like Princess Ruto and Prince Sidon."
+      }
+    ]
   },
   {
     "name": "Rito",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Rito are a bird-like race in Zelda known for their archery skills."
+      {
+        "category": "Zelda",
+        "description": "Rito are a bird-like race in The Legend of Zelda known for their archery skills and flight."
+      }
+    ]
   },
   {
     "name": "Korok",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Koroks are forest spirits in Zelda who evolved from the Kokiri."
+      {
+        "category": "Zelda",
+        "description": "Koroks are forest spirits in The Legend of Zelda who evolved from the Kokiri."
+      }
+    ]
   },
   {
     "name": "Bokoblin",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Bokoblins are pig-like enemies in The Legend of Zelda series, common foes in Breath of the Wild."
+      {
+        "category": "Zelda",
+        "description": "Bokoblins are pig-like enemies in The Legend of Zelda series, common foes in Breath of the Wild."
+      }
+    ]
   },
   {
     "name": "Lynel",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Lynels are powerful centaur-lion enemies in The Legend of Zelda, among the toughest foes in Breath of the Wild."
+      {
+        "category": "Zelda",
+        "description": "Lynels are powerful centaur-lion enemies in The Legend of Zelda, among the toughest foes in Breath of the Wild."
+      }
+    ]
   },
   {
     "name": "Moblin",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Moblins are bulldog-faced enemies in The Legend of Zelda, larger and stronger than Bokoblins."
+      {
+        "category": "Zelda",
+        "description": "Moblins are bulldog-faced enemies in The Legend of Zelda, larger and stronger than Bokoblins."
+      }
+    ]
   },
   {
     "name": "Ocarina",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "The Ocarina of Time is a magical instrument in Zelda that controls time."
+      {
+        "category": "Zelda",
+        "description": "The Ocarina of Time is a magical instrument in The Legend of Zelda that can control time and teleport Link."
+      }
+    ]
   },
   {
     "name": "Master Sword",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "The Master Sword is the legendary Blade of Evil's Bane in The Legend of Zelda, wielded by Link."
+      {
+        "category": "Zelda",
+        "description": "The Master Sword is the legendary Blade of Evil's Bane in The Legend of Zelda, wielded by Link to defeat Ganon."
+      }
+    ]
   },
   {
     "name": "Din",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Din is the Goddess of Power in The Legend of Zelda, who created the red earth."
+      {
+        "category": "Zelda",
+        "description": "Din is the Goddess of Power in The Legend of Zelda, who created the red earth."
+      },
+      {
+        "category": "StarWars",
+        "result": -1,
+        "description": "Not the Mandalorian Din Djarin - this Din is a Hylian goddess of power, not a bounty hunter in beskar armor."
+      }
+    ]
   },
   {
     "name": "Farore",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Farore is the Goddess of Courage in Zelda who created all life."
+      {
+        "category": "Zelda",
+        "description": "Farore is the Goddess of Courage in The Legend of Zelda who created all life."
+      }
+    ]
   },
   {
     "name": "Nayru",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Nayru is the Goddess of Wisdom in Zelda who created the laws of the world."
+      {
+        "category": "Zelda",
+        "description": "Nayru is the Goddess of Wisdom in The Legend of Zelda who created the laws of the world."
+      }
+    ]
   },
   {
     "name": "Revali",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Revali is the arrogant Rito Champion in Breath of the Wild."
+      {
+        "category": "Zelda",
+        "description": "Revali is the arrogant Rito Champion in Breath of the Wild with mastery over wind."
+      }
+    ]
   },
   {
     "name": "Urbosa",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Urbosa is the Gerudo Champion in Breath of the Wild known for her lightning powers."
+      {
+        "category": "Zelda",
+        "description": "Urbosa is the Gerudo Champion in Breath of the Wild known for her lightning powers."
+      }
+    ]
   },
   {
     "name": "Daruk",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Daruk is the Goron Champion in Breath of the Wild with a protective barrier ability."
+      {
+        "category": "Zelda",
+        "description": "Daruk is the Goron Champion in Breath of the Wild with a protective barrier ability called Daruk's Protection."
+      }
+    ]
   },
   {
     "name": "Mipha",
     "categories": [
-      "Zelda"
-    ],
-    "explanation": "Mipha is the Zora Champion in Breath of the Wild with healing powers."
+      {
+        "category": "Zelda",
+        "description": "Mipha is the Zora Champion in Breath of the Wild with healing powers and a deep affection for Link."
+      }
+    ]
   },
   {
     "name": "Exodia",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Exodia the Forbidden One instantly wins the duel if all five pieces are in hand."
+      {
+        "category": "Yugioh",
+        "description": "Exodia the Forbidden One instantly wins the duel if all five pieces are in hand."
+      }
+    ]
   },
   {
     "name": "Blue-Eyes",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Blue-Eyes White Dragon is Seto Kaiba's signature monster and one of the most iconic Yu-Gi-Oh! cards."
+      {
+        "category": "Yugioh",
+        "description": "Blue-Eyes White Dragon is Seto Kaiba's signature monster and one of the most iconic Yu-Gi-Oh! cards with 3000 ATK."
+      }
+    ]
   },
   {
     "name": "Dark Magician",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Dark Magician is Yugi Muto's signature monster, one of the most iconic spellcaster cards in Yu-Gi-Oh!"
+      {
+        "category": "Yugioh",
+        "description": "Dark Magician is Yugi Muto's signature monster, one of the most iconic spellcaster cards in Yu-Gi-Oh!"
+      }
+    ]
   },
   {
     "name": "Kuriboh",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Kuriboh is a cute furball monster that can prevent battle damage."
+      {
+        "category": "Yugioh",
+        "description": "Kuriboh is a cute furball monster that can prevent battle damage in Yu-Gi-Oh!"
+      }
+    ]
   },
   {
     "name": "Obelisk",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Obelisk the Tormentor is an Egyptian God Card, and obelisks are real Egyptian monuments."
+      {
+        "category": "Yugioh",
+        "description": "Obelisk the Tormentor is one of the three Egyptian God Cards in Yu-Gi-Oh!"
+      },
+      {
+        "category": "Celestial",
+        "result": -1,
+        "description": "An obelisk is a tall stone monument, not a celestial body. The Yu-Gi-Oh! card is named after the monument type."
+      }
+    ]
   },
   {
     "name": "Slifer",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Slifer the Sky Dragon is an Egyptian God Card named after a Yu-Gi-Oh! producer."
+      {
+        "category": "Yugioh",
+        "description": "Slifer the Sky Dragon is one of the three Egyptian God Cards, named after a Yu-Gi-Oh! producer."
+      }
+    ]
   },
   {
     "name": "Ra",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "The Winged Dragon of Ra is an Egyptian God Card named after the Egyptian sun god."
+      {
+        "category": "Yugioh",
+        "description": "The Winged Dragon of Ra is one of the three Egyptian God Cards, named after the Egyptian sun god."
+      },
+      {
+        "category": "GreekPagan",
+        "result": -1,
+        "description": "Ra is an Egyptian god, not Greek. The Greek sun god equivalent would be Helios or Apollo."
+      }
+    ]
   },
   {
     "name": "Red-Eyes",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Red-Eyes Black Dragon is Joey Wheeler's signature monster and rival to Blue-Eyes."
+      {
+        "category": "Yugioh",
+        "description": "Red-Eyes Black Dragon is Joey Wheeler's signature monster and rival to Blue-Eyes White Dragon."
+      },
+      {
+        "category": "MTG",
+        "result": -1,
+        "description": "Red-Eyes Black Dragon is from Yu-Gi-Oh!, not Magic: The Gathering. MTG has dragons but not this one."
+      }
+    ]
   },
   {
     "name": "Elemental Hero",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Elemental Heroes are Jaden Yuki's archetype of fusion-based superhero monsters."
+      {
+        "category": "Yugioh",
+        "description": "Elemental Heroes are Jaden Yuki's archetype of fusion-based superhero monsters in Yu-Gi-Oh! GX."
+      }
+    ]
   },
   {
     "name": "Cyber Dragon",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Cyber Dragon is a machine-type monster central to the Cyber archetype in Yu-Gi-Oh!"
+      {
+        "category": "Yugioh",
+        "description": "Cyber Dragon is a machine-type monster central to the Cyber archetype in Yu-Gi-Oh!"
+      },
+      {
+        "category": "MTG",
+        "result": -1,
+        "description": "Cyber Dragon is from Yu-Gi-Oh!, not Magic: The Gathering. MTG has artifact creatures but not this one."
+      }
+    ]
   },
   {
     "name": "Stardust",
     "categories": [
-      "Yugioh",
-      "JoJo",
-      "RockBand",
-      "Celestial"
-    ],
-    "explanation": "Stardust Dragon is Yusei's ace in Yu-Gi-Oh! 5D's, 'Stardust Crusaders' is JoJo Part 3, Ziggy Stardust is Bowie's iconic alter ego, and stardust is literal cosmic matter."
+      {
+        "category": "Yugioh",
+        "description": "Stardust Dragon is Yusei Fudo's ace Synchro Monster in Yu-Gi-Oh! 5D's."
+      },
+      {
+        "category": "JoJo",
+        "description": "Stardust Crusaders is JoJo's Bizarre Adventure Part 3, featuring Jotaro's journey to defeat DIO."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Ziggy Stardust is David Bowie's iconic alter ego from the 1972 album The Rise and Fall of Ziggy Stardust."
+      },
+      {
+        "category": "Celestial",
+        "description": "Stardust is cosmic dust composed of particles in space."
+      }
+    ]
   },
   {
     "name": "Number 39",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Number 39: Utopia is Yuma's ace Xyz Monster in Yu-Gi-Oh! Zexal, a key card in his Number hunting."
+      {
+        "category": "Yugioh",
+        "description": "Number 39: Utopia is Yuma Tsukumo's ace Xyz Monster in Yu-Gi-Oh! Zexal."
+      }
+    ]
   },
   {
     "name": "Pot of Greed",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Pot of Greed draws two cards - so powerful it's been banned for years."
+      {
+        "category": "Yugioh",
+        "description": "Pot of Greed draws two cards - so powerful it's been banned for years in competitive play."
+      }
+    ]
   },
   {
     "name": "Mirror Force",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Mirror Force destroys all attacking monsters when activated."
+      {
+        "category": "Yugioh",
+        "description": "Mirror Force destroys all attacking monsters when activated, one of the most iconic trap cards."
+      }
+    ]
   },
   {
     "name": "Mystical Space Typhoon",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Mystical Space Typhoon (MST) destroys spell/trap cards and is a staple card."
+      {
+        "category": "Yugioh",
+        "description": "Mystical Space Typhoon (MST) destroys spell/trap cards and is a staple card in many decks."
+      }
+    ]
   },
   {
     "name": "Monster Reborn",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Monster Reborn is one of the most powerful spell cards, reviving any monster from either graveyard."
+      {
+        "category": "Yugioh",
+        "description": "Monster Reborn is one of the most powerful spell cards, reviving any monster from either graveyard."
+      }
+    ]
   },
   {
     "name": "Greymon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Greymon is Agumon's Champion form, a dinosaur Digimon breathing fire."
+      {
+        "category": "Digimon",
+        "description": "Greymon is Agumon's Champion form, a dinosaur Digimon breathing fire."
+      },
+      {
+        "category": "Pokemon",
+        "result": -1,
+        "description": "Greymon is a Digimon, not a Pokémon. Despite being a dinosaur monster, it's from the Digital World."
+      }
+    ]
   },
   {
     "name": "Agumon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Agumon is the partner Digimon of Tai in Digimon Adventure, a small dinosaur."
+      {
+        "category": "Digimon",
+        "description": "Agumon is the partner Digimon of Tai Kamiya in Digimon Adventure, a small dinosaur-like creature."
+      },
+      {
+        "category": "Pokemon",
+        "result": -1,
+        "description": "Despite being a reptilian creature from a 'mon' franchise, Agumon is a Digimon, not a Pokémon."
+      }
+    ]
   },
   {
     "name": "Gabumon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Gabumon is Matt's partner Digimon, a reptile wearing a wolf pelt."
+      {
+        "category": "Digimon",
+        "description": "Gabumon is Matt Ishida's partner Digimon, a reptile wearing a wolf pelt."
+      },
+      {
+        "category": "Pokemon",
+        "result": -1,
+        "description": "Despite being a creature from a 'mon' franchise, Gabumon is a Digimon, not a Pokémon."
+      }
+    ]
   },
   {
     "name": "Patamon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Patamon is T.K.'s partner Digimon, a winged hamster-like creature."
+      {
+        "category": "Digimon",
+        "description": "Patamon is T.K. Takaishi's partner Digimon, a winged hamster-like creature that digivolves into Angemon."
+      }
+    ]
   },
   {
     "name": "Gatomon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Gatomon is Kari's cat-like Champion Digimon who can digivolve to Angewomon."
+      {
+        "category": "Digimon",
+        "description": "Gatomon is Kari Kamiya's cat-like Champion-level Digimon who can digivolve to Angewomon."
+      }
+    ]
   },
   {
     "name": "Angemon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Angemon is Patamon's angelic Champion form in Digimon Adventure, known for defeating Devimon."
+      {
+        "category": "Digimon",
+        "description": "Angemon is Patamon's angelic Champion form in Digimon Adventure, known for defeating Devimon."
+      },
+      {
+        "category": "GreekPagan",
+        "result": -1,
+        "description": "Despite being an angelic being, Angemon is a Digimon character, not a figure from Greek mythology."
+      }
+    ]
   },
   {
     "name": "Angewomon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Angewomon is Gatomon's Ultimate form in Digimon Adventure, an angelic archer Digimon."
+      {
+        "category": "Digimon",
+        "description": "Angewomon is Gatomon's Ultimate form in Digimon Adventure, an angelic archer Digimon."
+      }
+    ]
   },
   {
     "name": "Devimon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Devimon is a fallen angel Digimon and the first major villain in Digimon Adventure."
+      {
+        "category": "Digimon",
+        "description": "Devimon is a fallen angel Digimon and the first major villain in Digimon Adventure."
+      }
+    ]
   },
   {
     "name": "Beelzemon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Beelzemon is Impmon's Mega form in Digimon Tamers, a demon lord Digimon inspired by Beelzebub."
+      {
+        "category": "Digimon",
+        "description": "Beelzemon is Impmon's Mega form in Digimon Tamers, a demon lord Digimon inspired by Beelzebub."
+      },
+      {
+        "category": "GreekPagan",
+        "result": -1,
+        "description": "Though named after Beelzebub from Abrahamic traditions, Beelzemon is a Digimon, not a Greek mythological figure."
+      }
+    ]
   },
   {
     "name": "Omnimon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Omnimon is the DNA Digivolution of WarGreymon and MetalGarurumon."
+      {
+        "category": "Digimon",
+        "description": "Omnimon is the DNA Digivolution fusion of WarGreymon and MetalGarurumon."
+      }
+    ]
   },
   {
     "name": "Wargreymon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "WarGreymon is Agumon's Mega form, wielding the Dramon Destroyers."
+      {
+        "category": "Digimon",
+        "description": "WarGreymon is Agumon's Mega form, wielding the Dramon Destroyers on its arms."
+      }
+    ]
   },
   {
     "name": "MetalGarurumon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "MetalGarurumon is Gabumon's Mega form, a cybernetic wolf with missiles."
+      {
+        "category": "Digimon",
+        "description": "MetalGarurumon is Gabumon's Mega form, a cybernetic wolf with ice powers and missiles."
+      }
+    ]
   },
   {
     "name": "Leomon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Leomon is a noble lion warrior Digimon known for dying in every series."
+      {
+        "category": "Digimon",
+        "description": "Leomon is a noble lion warrior Digimon known for dying heroically in every series."
+      }
+    ]
   },
   {
     "name": "Myotismon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Myotismon is a vampire Digimon and major villain in Digimon Adventure."
+      {
+        "category": "Digimon",
+        "description": "Myotismon is a vampire Digimon and major villain in Digimon Adventure."
+      }
+    ]
   },
   {
     "name": "Piedmon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Piedmon is a clown-like Dark Master Digimon who turns enemies into keychains."
+      {
+        "category": "Digimon",
+        "description": "Piedmon is a clown-like Dark Master Digimon who turns enemies into keychains with his Trump Sword."
+      }
+    ]
   },
   {
     "name": "Machinedramon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Machinedramon is a Dark Master in Digimon Adventure, one of the most powerful machine Digimon."
+      {
+        "category": "Digimon",
+        "description": "Machinedramon is a Dark Master in Digimon Adventure, one of the most powerful machine-type Digimon."
+      }
+    ]
   },
   {
     "name": "Metalseadramon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "MetalSeadramon is a Dark Master, a giant sea serpent covered in Chrome Digizoid."
+      {
+        "category": "Digimon",
+        "description": "MetalSeadramon is a Dark Master, a giant sea serpent covered in the rare metal Chrome Digizoid."
+      }
+    ]
   },
   {
     "name": "Puppetmon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Puppetmon is a Dark Master made of wood who controls others like puppets."
+      {
+        "category": "Digimon",
+        "description": "Puppetmon is a Dark Master made of wood who controls others like puppets with his Puppet Pummel attack."
+      }
+    ]
   },
   {
     "name": "Imperialdramon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Imperialdramon is the DNA Digivolution of Veemon and Wormmon's Mega forms."
+      {
+        "category": "Digimon",
+        "description": "Imperialdramon is the DNA Digivolution of ExVeemon and Stingmon in Digimon Adventure 02."
+      }
+    ]
   },
   {
     "name": "Alphamon",
     "categories": [
-      "Digimon"
-    ],
-    "explanation": "Alphamon is a Royal Knight Digimon who leads the Royal Knights."
+      {
+        "category": "Digimon",
+        "description": "Alphamon is a Royal Knight Digimon who leads the Royal Knights and represents emptiness."
+      }
+    ]
   },
   {
     "name": "Buu",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Majin Buu is the ancient pink magical being in Dragon Ball Z who absorbs enemies and can turn people into candy."
+      {
+        "category": "DragonBallZ",
+        "description": "Majin Buu is the ancient pink magical being in Dragon Ball Z who absorbs enemies and can turn people into candy."
+      }
+    ]
   },
   {
     "name": "Beerus",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Beerus is the God of Destruction in Dragon Ball Super, a cat-like deity who can erase anything."
+      {
+        "category": "DragonBallZ",
+        "description": "Beerus is the God of Destruction in Dragon Ball Super, a cat-like deity who can erase anything from existence."
+      }
+    ]
   },
   {
     "name": "Whis",
     "categories": [
-      "DragonBallZ"
-    ],
-    "explanation": "Whis is Beerus's angelic attendant in Dragon Ball Super, able to rewind time."
+      {
+        "category": "DragonBallZ",
+        "description": "Whis is Beerus's angelic attendant in Dragon Ball Super, able to rewind time and trains Goku and Vegeta."
+      }
+    ]
   },
   {
     "name": "Zeno",
     "categories": [
-      "DragonBallZ",
-      "Philosopher"
-    ],
-    "explanation": "Zeno is the Omni-King in Dragon Ball Super. Zeno of Citium founded Stoicism; Zeno of Elea created famous paradoxes."
+      {
+        "category": "DragonBallZ",
+        "description": "Zeno is the Omni-King in Dragon Ball Super, the supreme ruler of all universes who can erase entire realities."
+      },
+      {
+        "category": "Philosopher",
+        "description": "Zeno of Citium founded Stoicism; Zeno of Elea created famous paradoxes like Achilles and the Tortoise."
+      }
+    ]
   },
   {
     "name": "Jinzo",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Jinzo is an android monster famous for negating all trap cards while on the field."
+      {
+        "category": "Yugioh",
+        "description": "Jinzo is an android monster famous for negating all trap cards while on the field."
+      }
+    ]
   },
   {
     "name": "Sangan",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Sangan is a three-eyed fiend that searches for weak monsters when destroyed."
+      {
+        "category": "Yugioh",
+        "description": "Sangan is a three-eyed fiend that searches for weak monsters when it's destroyed or sent to the graveyard."
+      }
+    ]
   },
   {
     "name": "Marshmallon",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Marshmallon is an indestructible fairy monster that looks like a cute blob."
+      {
+        "category": "Yugioh",
+        "description": "Marshmallon is an indestructible fairy monster that looks like a cute blob and damages attackers."
+      }
+    ]
   },
   {
     "name": "Summoned Skull",
     "categories": [
-      "Yugioh"
-    ],
-    "explanation": "Summoned Skull is a classic fiend-type monster and one of the original powerful beatsticks in Yu-Gi-Oh!"
+      {
+        "category": "Yugioh",
+        "description": "Summoned Skull is a classic fiend-type monster and one of the original powerful beatsticks in Yu-Gi-Oh! with 2500 ATK."
+      }
+    ]
   }
 ]

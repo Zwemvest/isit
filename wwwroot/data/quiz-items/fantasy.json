@@ -2,1209 +2,1870 @@
   {
     "name": "Palantir",
     "categories": [
-      "LordOfTheRings",
-      "SiliconValleyBS"
-    ],
-    "explanation": "Palantir is a seeing-stone used by Sauron and others in Middle-earth, and also a controversial US data analytics company founded by Peter Thiel."
+      {
+        "category": "LordOfTheRings",
+        "description": "Palantir is a seeing-stone used by Sauron and others in Middle-earth to communicate and observe distant places."
+      },
+      {
+        "category": "Tech",
+        "description": "Palantir Technologies is a data analytics company founded by Peter Thiel specializing in big data and intelligence."
+      },
+      {
+        "category": "SiliconValleyBS",
+        "description": "Palantir Technologies epitomizes Silicon Valley's tendency to adopt fantasy names for surveillance capitalism ventures."
+      }
+    ]
   },
   {
     "name": "Mithril",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Mithril is the precious 'true-silver' metal in Middle-earth, lighter than silk yet harder than steel. Frodo's mithril coat saved his life in Moria."
+      {
+        "category": "LordOfTheRings",
+        "description": "Mithril is the precious 'true-silver' metal in Middle-earth, lighter than silk yet harder than steel. Frodo's mithril coat saved his life in Moria."
+      },
+      {
+        "category": "ProgrammingLang",
+        "description": "Mithril.js is a lightweight JavaScript SPA framework for building front-end applications."
+      },
+      {
+        "category": "DnD",
+        "result": -1,
+        "description": "D&D uses 'Mithral' (not Mithril) as its magical silver metal. The spelling difference distinguishes Tolkien's original from D&D's adaptation."
+      }
+    ]
   },
   {
     "name": "Shadowfax",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Shadowfax is the lord of all horses in Middle-earth, ridden by Gandalf."
+      {
+        "category": "LordOfTheRings",
+        "description": "Shadowfax is the lord of all horses in Middle-earth, ridden by Gandalf the White and said to understand human speech."
+      }
+    ]
   },
   {
     "name": "Anduril",
     "categories": [
-      "LordOfTheRings",
-      "SiliconValleyBS"
-    ],
-    "explanation": "Andúril is Aragorn's reforged sword 'Flame of the West', and also a VC-backed US defense technology company founded by Palmer Luckey."
+      {
+        "category": "LordOfTheRings",
+        "description": "Andúril is Aragorn's reforged sword 'Flame of the West', originally the shards of Narsil that cut the Ring from Sauron's hand."
+      },
+      {
+        "category": "Tech",
+        "description": "Anduril Industries is a defense technology company founded by Palmer Luckey, creating autonomous weapons systems."
+      },
+      {
+        "category": "SiliconValleyBS",
+        "description": "Anduril represents Silicon Valley's VC-backed militarization wrapped in Tolkien branding."
+      }
+    ]
   },
   {
     "name": "Silmaril",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "The Silmarils are three jewels created by Fëanor containing the light of the Two Trees of Valinor."
+      {
+        "category": "LordOfTheRings",
+        "description": "The Silmarils are three jewels created by Fëanor containing the light of the Two Trees of Valinor, central to The Silmarillion."
+      }
+    ]
   },
   {
     "name": "Arwen",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Arwen Undómiel is the Elven princess who chose mortality to be with Aragorn."
+      {
+        "category": "LordOfTheRings",
+        "description": "Arwen Undómiel is the Elven princess, daughter of Elrond, who chose mortality to be with Aragorn."
+      }
+    ]
   },
   {
     "name": "Galadriel",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Galadriel is the Lady of Lothlórien, one of the most powerful Elves in Middle-earth."
+      {
+        "category": "LordOfTheRings",
+        "description": "Galadriel is the Lady of Lothlórien, one of the most powerful Elves in Middle-earth who resisted the temptation of the Ring."
+      },
+      {
+        "category": "MTG",
+        "description": "Galadriel appears in MTG's Tales of Middle-earth set as 'Galadriel, Light of Valinor' and other variants."
+      }
+    ]
   },
   {
     "name": "Númenor",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Númenor was the great island kingdom of Men, destroyed when they tried to invade the Undying Lands."
+      {
+        "category": "LordOfTheRings",
+        "description": "Númenor was the great island kingdom of Men, destroyed when they tried to invade the Undying Lands, Atlantis-like in its fall."
+      }
+    ]
   },
   {
     "name": "Sauron",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Sauron is the Dark Lord, creator of the One Ring, and main antagonist of Lord of the Rings."
+      {
+        "category": "LordOfTheRings",
+        "description": "Sauron is the Dark Lord, creator of the One Ring, and main antagonist of Lord of the Rings who manifests as a lidless eye."
+      },
+      {
+        "category": "MTG",
+        "description": "Sauron appears as multiple cards in MTG's Tales of Middle-earth set, including 'Sauron, the Lidless Eye'."
+      }
+    ]
   },
   {
     "name": "Saruman",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Saruman the White was the head of the wizard order who was corrupted by Sauron."
+      {
+        "category": "LordOfTheRings",
+        "description": "Saruman the White was the head of the wizard order who was corrupted by Sauron and bred Uruk-hai at Isengard."
+      },
+      {
+        "category": "StarWars",
+        "result": -1,
+        "description": "Don't confuse Saruman with Dooku - Christopher Lee played both, but they're from different franchises entirely."
+      }
+    ]
   },
   {
     "name": "Legolas",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Legolas is the Elven prince of Mirkwood and member of the Fellowship, known for his archery."
+      {
+        "category": "LordOfTheRings",
+        "description": "Legolas is the Elven prince of Mirkwood and member of the Fellowship, known for his superhuman archery and impossible physics-defying moves."
+      },
+      {
+        "category": "MTG",
+        "description": "Legolas appears in MTG's Tales of Middle-earth set as 'Legolas, Master Archer' and 'Legolas, Counter of Kills'."
+      }
+    ]
   },
   {
     "name": "Gimli",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Gimli is the Dwarf warrior of the Fellowship, son of Glóin, and friend of Legolas."
+      {
+        "category": "LordOfTheRings",
+        "description": "Gimli is the Dwarf warrior of the Fellowship, son of Glóin, and friend of Legolas despite the traditional Elf-Dwarf enmity."
+      },
+      {
+        "category": "MTG",
+        "description": "Gimli appears in MTG's Tales of Middle-earth set as 'Gimli, Counter of Kills' and partners with Legolas."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "Though Tolkien drew from Norse mythology for Dwarf names, Gimli is his creation, not a figure from the Eddas."
+      }
+    ]
   },
   {
     "name": "Elrond",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Elrond Half-elven is the Lord of Rivendell who hosted the Council that formed the Fellowship."
+      {
+        "category": "LordOfTheRings",
+        "description": "Elrond Half-elven is the Lord of Rivendell who hosted the Council that formed the Fellowship and possesses great healing powers."
+      },
+      {
+        "category": "MTG",
+        "description": "Elrond appears in MTG's Tales of Middle-earth set as 'Elrond, Lord of Rivendell' and 'Elrond, Master of Healing'."
+      }
+    ]
   },
   {
     "name": "Balrog",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "The Balrog is an ancient demon of shadow and flame that Gandalf faced in Moria."
+      {
+        "category": "LordOfTheRings",
+        "description": "The Balrog is an ancient demon of shadow and flame that Gandalf faced in Moria, famously told 'You shall not pass!'"
+      },
+      {
+        "category": "DnD",
+        "result": -1,
+        "description": "D&D has Balors, not Balrogs. TSR renamed them after legal threats from the Tolkien estate - the similarity is intentional but legally distinct."
+      },
+      {
+        "category": "Warhammer",
+        "result": -1,
+        "description": "Warhammer has Bloodthirsters as their fire demons of Khorne, not Balrogs. Similar aesthetic but different universe."
+      }
+    ]
   },
   {
     "name": "Nazgûl",
     "categories": [
-      "LordOfTheRings",
-      "MetalBand"
-    ],
-    "explanation": "The Nazgûl are the nine Ringwraiths in LOTR, and also an Italian black metal band formed in 1992."
+      {
+        "category": "LordOfTheRings",
+        "description": "The Nazgûl are the nine Ringwraiths, once mortal kings enslaved by Sauron's rings and led by the Witch-king of Angmar."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Nazgûl is an Italian black metal band formed in 1992, taking their name from Tolkien's wraiths."
+      }
+    ]
   },
   {
     "name": "Glamdring",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Glamdring is Gandalf's Elven sword, also known as 'Foe-hammer', found in a troll hoard."
+      {
+        "category": "LordOfTheRings",
+        "description": "Glamdring is Gandalf's Elven sword, also known as 'Foe-hammer', found in a troll hoard alongside Orcrist and Sting."
+      }
+    ]
   },
   {
     "name": "Morgoth",
     "categories": [
-      "LordOfTheRings",
-      "MetalBand"
-    ],
-    "explanation": "Morgoth was the first Dark Lord in Tolkien's legendarium, and also a German death metal band formed in 1985."
+      {
+        "category": "LordOfTheRings",
+        "description": "Morgoth was the first Dark Lord in Tolkien's legendarium, Sauron's master, who stole the Silmarils and corrupted Middle-earth."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Morgoth is a German death metal band formed in 1985, named after Tolkien's ultimate villain."
+      }
+    ]
   },
   {
     "name": "Shelob",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Shelob is the giant spider who guards the pass of Cirith Ungol and attacked Frodo."
+      {
+        "category": "LordOfTheRings",
+        "description": "Shelob is the giant spider who guards the pass of Cirith Ungol and attacked Frodo, offspring of Ungoliant."
+      },
+      {
+        "category": "DnD",
+        "result": -1,
+        "description": "D&D has its own giant spiders and Lolth the Spider Queen, but Shelob is purely Tolkien. The spider aesthetic overlaps but the names don't."
+      }
+    ]
   },
   {
     "name": "Eowyn",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Éowyn is the shieldmaiden of Rohan who slew the Witch-king of Angmar."
+      {
+        "category": "LordOfTheRings",
+        "description": "Éowyn is the shieldmaiden of Rohan who slew the Witch-king of Angmar, famously declaring 'I am no man!'"
+      }
+    ]
   },
   {
     "name": "Faramir",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Faramir is Boromir's brother and Captain of Gondor who helped Frodo on his quest."
+      {
+        "category": "LordOfTheRings",
+        "description": "Faramir is Boromir's younger brother and Captain of Gondor who helped Frodo on his quest and resisted the Ring's temptation."
+      }
+    ]
   },
   {
     "name": "Boromir",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Boromir is the son of Denethor who was corrupted by the Ring but redeemed himself in death."
+      {
+        "category": "LordOfTheRings",
+        "description": "Boromir is the son of Denethor and member of the Fellowship who was corrupted by the Ring but redeemed himself protecting Merry and Pippin."
+      }
+    ]
   },
   {
     "name": "Isildur",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Isildur cut the Ring from Sauron's hand but refused to destroy it."
+      {
+        "category": "LordOfTheRings",
+        "description": "Isildur cut the Ring from Sauron's hand but refused to destroy it, leading to his death and the Ring's loss for millennia."
+      }
+    ]
   },
   {
     "name": "Treebeard",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Treebeard (Fangorn) is the oldest Ent who led the attack on Isengard."
+      {
+        "category": "LordOfTheRings",
+        "description": "Treebeard (Fangorn) is the oldest Ent who led the attack on Isengard, speaks slowly, and shepherds the forests."
+      },
+      {
+        "category": "DnD",
+        "result": -1,
+        "description": "D&D has Treants as tree creatures, but Treebeard is Tolkien's Ent. D&D adapted the concept but not this specific name."
+      }
+    ]
   },
   {
     "name": "Smeagol",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Sméagol was a Hobbit-like creature corrupted into Gollum by the One Ring."
+      {
+        "category": "LordOfTheRings",
+        "description": "Sméagol was a Hobbit-like creature corrupted into Gollum by the One Ring after murdering his friend Déagol to possess it."
+      }
+    ]
   },
   {
     "name": "Orcrist",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Orcrist is Thorin Oakenshield's Elven sword, known as the 'Goblin-cleaver'."
+      {
+        "category": "LordOfTheRings",
+        "description": "Orcrist is Thorin Oakenshield's Elven sword, known as the 'Goblin-cleaver', twin to Glamdring."
+      }
+    ]
   },
   {
     "name": "Narsil",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Narsil was the sword that cut the Ring from Sauron's hand, later reforged as Andúril."
+      {
+        "category": "LordOfTheRings",
+        "description": "Narsil was the sword that cut the Ring from Sauron's hand, later reforged as Andúril for Aragorn."
+      }
+    ]
   },
   {
     "name": "Lothlórien",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Lothlórien is the golden forest realm ruled by Galadriel and Celeborn."
+      {
+        "category": "LordOfTheRings",
+        "description": "Lothlórien is the golden forest realm ruled by Galadriel and Celeborn where the Fellowship received gifts."
+      }
+    ]
   },
   {
     "name": "Rivendell",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Rivendell (Imladris) is Elrond's hidden valley sanctuary in the Misty Mountains."
+      {
+        "category": "LordOfTheRings",
+        "description": "Rivendell (Imladris) is Elrond's hidden valley sanctuary in the Misty Mountains where the Council of Elrond took place."
+      }
+    ]
   },
   {
     "name": "Mirkwood",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Mirkwood is the great forest home to Wood-elves, corrupted by Sauron's influence."
+      {
+        "category": "LordOfTheRings",
+        "description": "Mirkwood is the great forest home to Wood-elves, corrupted by Sauron's influence and filled with giant spiders."
+      }
+    ]
   },
   {
     "name": "Mordor",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Mordor is Sauron's realm of shadow where Mount Doom lies and the Ring was forged."
+      {
+        "category": "LordOfTheRings",
+        "description": "Mordor is Sauron's realm of shadow where Mount Doom lies and the Ring was forged. One does not simply walk into it."
+      },
+      {
+        "category": "StarWars",
+        "result": -1,
+        "description": "Despite both being volcanic evil lairs, Mordor is not Mustafar. Different dark lords, different franchises."
+      }
+    ]
   },
   {
     "name": "Celeborn",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Celeborn is Galadriel's husband and Lord of Lothlórien."
+      {
+        "category": "LordOfTheRings",
+        "description": "Celeborn is Galadriel's husband and Lord of Lothlórien, though often overshadowed by his powerful wife."
+      }
+    ]
   },
   {
     "name": "Thranduil",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Thranduil is Legolas's father and King of the Woodland Realm in Mirkwood."
+      {
+        "category": "LordOfTheRings",
+        "description": "Thranduil is Legolas's father and King of the Woodland Realm in Mirkwood, featured prominently in The Hobbit."
+      }
+    ]
   },
   {
     "name": "Denethor",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Denethor II was the Steward of Gondor who went mad from using a palantír."
+      {
+        "category": "LordOfTheRings",
+        "description": "Denethor II was the Steward of Gondor who went mad from using a palantír and seeing Sauron's power, ultimately self-immolating."
+      }
+    ]
   },
   {
     "name": "Glorfindel",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Glorfindel is a mighty Elf-lord who helped Frodo escape the Nazgûl to Rivendell."
+      {
+        "category": "LordOfTheRings",
+        "description": "Glorfindel is a mighty Elf-lord who helped Frodo escape the Nazgûl to Rivendell, so powerful his presence shines like light."
+      }
+    ]
   },
   {
     "name": "Théoden",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Théoden was the King of Rohan who led the charge at Pelennor Fields."
+      {
+        "category": "LordOfTheRings",
+        "description": "Théoden was the King of Rohan who led the charge at Pelennor Fields after being freed from Saruman's influence by Gandalf."
+      }
+    ]
   },
   {
     "name": "Éomer",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Éomer is Éowyn's brother and Marshal of the Riddermark who became King of Rohan."
+      {
+        "category": "LordOfTheRings",
+        "description": "Éomer is Éowyn's brother and Marshal of the Riddermark who became King of Rohan after Théoden's death."
+      }
+    ]
   },
   {
     "name": "Anakin",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Anakin Skywalker is the Chosen One who became Darth Vader."
+      {
+        "category": "StarWars",
+        "description": "Anakin Skywalker is the Chosen One prophesied to bring balance to the Force who became Darth Vader."
+      }
+    ]
   },
   {
     "name": "Padmé",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Padmé Amidala is the Queen and Senator of Naboo, mother of Luke and Leia."
+      {
+        "category": "StarWars",
+        "description": "Padmé Amidala is the Queen and Senator of Naboo, mother of Luke and Leia, who died of sadness (somehow)."
+      }
+    ]
   },
   {
     "name": "Qui-Gon",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Qui-Gon Jinn is the Jedi Master who discovered Anakin Skywalker on Tatooine."
+      {
+        "category": "StarWars",
+        "description": "Qui-Gon Jinn is the Jedi Master who discovered Anakin Skywalker on Tatooine and was killed by Darth Maul."
+      }
+    ]
   },
   {
     "name": "Obi-Wan",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Obi-Wan Kenobi is the legendary Jedi Master who trained both Anakin and Luke Skywalker."
+      {
+        "category": "StarWars",
+        "description": "Obi-Wan Kenobi is the legendary Jedi Master who trained both Anakin and Luke Skywalker, and master of the high ground."
+      }
+    ]
   },
   {
     "name": "Yoda",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Yoda is the 900-year-old Jedi Grand Master known for his wisdom and unique speech pattern."
+      {
+        "category": "StarWars",
+        "description": "Yoda is the 900-year-old Jedi Grand Master known for his wisdom and unique speech pattern ('Do or do not, there is no try')."
+      },
+      {
+        "category": "SmashBros",
+        "result": -1,
+        "description": "Despite Star Wars' popularity, Yoda has never appeared in Super Smash Bros. He did appear in Soul Calibur IV though."
+      }
+    ]
   },
   {
     "name": "Mace Windu",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Mace Windu is a Jedi Master and member of the Jedi Council who wields a purple lightsaber."
+      {
+        "category": "StarWars",
+        "description": "Mace Windu is a Jedi Master and member of the Jedi Council who wields a purple lightsaber and was betrayed by Anakin."
+      }
+    ]
   },
   {
     "name": "Palpatine",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Palpatine is the Sith Lord Darth Sidious who manipulated his way to becoming Emperor."
+      {
+        "category": "StarWars",
+        "description": "Palpatine is the Sith Lord Darth Sidious who manipulated his way to becoming Emperor and creator of the Galactic Empire."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Despite the similar sound to 'Palantir', Palpatine is Star Wars, not Tolkien. One's an evil emperor, the other's a seeing stone."
+      }
+    ]
   },
   {
     "name": "Dooku",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Count Dooku is a former Jedi who became the Sith Lord Darth Tyranus."
+      {
+        "category": "StarWars",
+        "description": "Count Dooku is a former Jedi who became the Sith Lord Darth Tyranus and led the Separatists during the Clone Wars."
+      }
+    ]
   },
   {
     "name": "Grievous",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "General Grievous is the cyborg Supreme Commander of the Separatist Droid Army."
+      {
+        "category": "StarWars",
+        "description": "General Grievous is the cyborg Supreme Commander of the Separatist Droid Army who collects lightsabers and coughs constantly."
+      }
+    ]
   },
   {
     "name": "Kylo Ren",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Kylo Ren is Ben Solo's dark side identity, grandson of Darth Vader."
+      {
+        "category": "StarWars",
+        "description": "Kylo Ren is Ben Solo's dark side identity, grandson of Darth Vader, prone to throwing tantrums and smashing consoles."
+      }
+    ]
   },
   {
     "name": "Ahsoka",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Ahsoka Tano is a Togruta former Jedi Padawan of Anakin Skywalker."
+      {
+        "category": "StarWars",
+        "description": "Ahsoka Tano is a Togruta former Jedi Padawan of Anakin Skywalker who left the Order and became a key figure in the Rebellion."
+      }
+    ]
   },
   {
     "name": "Grogu",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Grogu is a Force-sensitive youngling of Yoda's species, found by Din Djarin."
+      {
+        "category": "StarWars",
+        "description": "Grogu is a Force-sensitive youngling of Yoda's species, found by Din Djarin, popularly known as 'Baby Yoda'."
+      },
+      {
+        "category": "Pokemon",
+        "result": -1,
+        "description": "Sounds like a Pokémon name, but Grogu is 'Baby Yoda' from The Mandalorian, not a pocket monster you can catch."
+      }
+    ]
   },
   {
     "name": "Din Djarin",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Din Djarin is a Mandalorian bounty hunter who becomes Grogu's guardian."
+      {
+        "category": "StarWars",
+        "description": "Din Djarin is a Mandalorian bounty hunter who becomes Grogu's guardian and speaks the famous line 'This is the Way'."
+      }
+    ]
   },
   {
     "name": "Thrawn",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Grand Admiral Thrawn is a Chiss tactical genius serving the Galactic Empire."
+      {
+        "category": "StarWars",
+        "description": "Grand Admiral Thrawn is a Chiss tactical genius serving the Galactic Empire, known for his brilliant military strategies and art appreciation."
+      }
+    ]
   },
   {
     "name": "Tarkin",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Grand Moff Tarkin is the Imperial officer who commanded the first Death Star."
+      {
+        "category": "StarWars",
+        "description": "Grand Moff Tarkin is the Imperial officer who commanded the first Death Star and ordered Alderaan's destruction."
+      }
+    ]
   },
   {
     "name": "Jabba",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Jabba the Hutt is a powerful crime lord operating from Tatooine."
+      {
+        "category": "StarWars",
+        "description": "Jabba the Hutt is a powerful crime lord operating from Tatooine who enslaved Leia and was strangled by her."
+      }
+    ]
   },
   {
     "name": "Boba Fett",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Boba Fett is a legendary bounty hunter and unaltered clone of Jango Fett."
+      {
+        "category": "StarWars",
+        "description": "Boba Fett is a legendary bounty hunter and unaltered clone of Jango Fett who survived the Sarlacc pit."
+      }
+    ]
   },
   {
     "name": "Chewbacca",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Chewbacca is a Wookiee warrior and Han Solo's co-pilot and best friend."
+      {
+        "category": "StarWars",
+        "description": "Chewbacca is a Wookiee warrior and Han Solo's co-pilot and best friend who communicates through growls and roars."
+      }
+    ]
   },
   {
     "name": "Lando",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Lando Calrissian is a gambler, smuggler, and former Baron Administrator of Cloud City."
+      {
+        "category": "StarWars",
+        "description": "Lando Calrissian is a gambler, smuggler, and former Baron Administrator of Cloud City who betrayed then helped Han Solo."
+      }
+    ]
   },
   {
     "name": "Tatooine",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Tatooine is the desert planet with twin suns where Luke Skywalker was raised."
+      {
+        "category": "StarWars",
+        "description": "Tatooine is the desert planet with twin suns where Luke Skywalker was raised and Anakin was enslaved."
+      }
+    ]
   },
   {
     "name": "Coruscant",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Coruscant is the city-covered planet that served as capital of the Republic and Empire."
+      {
+        "category": "StarWars",
+        "description": "Coruscant is the city-covered planet that served as capital of the Republic and Empire, a massive ecumenopolis."
+      }
+    ]
   },
   {
     "name": "Naboo",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Naboo is a lush planet home to humans and the amphibious Gungans."
+      {
+        "category": "StarWars",
+        "description": "Naboo is a lush planet home to humans and the amphibious Gungans, where the Battle of Naboo took place."
+      }
+    ]
   },
   {
     "name": "Mustafar",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Mustafar is a volcanic planet where Anakin Skywalker was defeated and became Vader."
+      {
+        "category": "StarWars",
+        "description": "Mustafar is a volcanic planet where Anakin Skywalker was defeated by Obi-Wan and transformed into Darth Vader."
+      }
+    ]
   },
   {
     "name": "Hoth",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Hoth is the frozen ice planet where the Rebel Alliance established Echo Base."
+      {
+        "category": "StarWars",
+        "description": "Hoth is the frozen ice planet where the Rebel Alliance established Echo Base, attacked by AT-AT walkers."
+      }
+    ]
   },
   {
     "name": "Dagobah",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Dagobah is the swamp planet where Yoda lived in exile and trained Luke."
+      {
+        "category": "StarWars",
+        "description": "Dagobah is the swamp planet where Yoda lived in exile and trained Luke in the ways of the Force."
+      }
+    ]
   },
   {
     "name": "Endor",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Endor is the forest moon inhabited by Ewoks where the second Death Star was destroyed."
+      {
+        "category": "StarWars",
+        "description": "Endor is the forest moon inhabited by Ewoks where the second Death Star was destroyed in the Battle of Endor."
+      }
+    ]
   },
   {
     "name": "Bespin",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Bespin is the gas giant planet where Cloud City floats in the atmosphere."
+      {
+        "category": "StarWars",
+        "description": "Bespin is the gas giant planet where Cloud City floats in the atmosphere, site of Han Solo's carbonite freezing."
+      }
+    ]
   },
   {
     "name": "Kashyyyk",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Kashyyyk is the forested homeworld of the Wookiees."
+      {
+        "category": "StarWars",
+        "description": "Kashyyyk is the forested homeworld of the Wookiees, with massive wroshyr trees and multiple canopy layers."
+      }
+    ]
   },
   {
     "name": "Mandalore",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Mandalore is the homeworld of the Mandalorian warrior culture."
+      {
+        "category": "StarWars",
+        "description": "Mandalore is the homeworld of the Mandalorian warrior culture, known for beskar armor and fierce combat traditions."
+      },
+      {
+        "category": "Warhammer",
+        "result": -1,
+        "description": "Mandalore is Star Wars, not Warhammer. The Space Wolves are Warhammer's viking warriors, not Mandalorians."
+      }
+    ]
   },
   {
     "name": "Alderaan",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Alderaan was Princess Leia's peaceful homeworld, destroyed by the Death Star."
+      {
+        "category": "StarWars",
+        "description": "Alderaan was Princess Leia's peaceful homeworld, destroyed by the Death Star as a demonstration of Imperial power."
+      }
+    ]
   },
   {
     "name": "Jakku",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Jakku is the desert junkyard planet where Rey grew up scavenging."
+      {
+        "category": "StarWars",
+        "description": "Jakku is the desert junkyard planet where Rey grew up scavenging from crashed Star Destroyers."
+      }
+    ]
   },
   {
     "name": "Kyber",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Kyber crystals are Force-attuned crystals that power lightsabers."
+      {
+        "category": "StarWars",
+        "description": "Kyber crystals are Force-attuned crystals that power lightsabers and were used in the Death Star's superlaser."
+      }
+    ]
   },
   {
     "name": "Holocron",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Holocrons are ancient data storage devices containing Jedi or Sith knowledge."
+      {
+        "category": "StarWars",
+        "description": "Holocrons are ancient data storage devices containing Jedi or Sith knowledge, accessible only to Force users."
+      }
+    ]
   },
   {
     "name": "Bacta",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Bacta is a healing substance used in medical tanks to treat injuries."
+      {
+        "category": "StarWars",
+        "description": "Bacta is a healing substance used in medical tanks to treat injuries, famously used to heal Luke after Hoth."
+      }
+    ]
   },
   {
     "name": "Sarlacc",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "The Sarlacc is a large omnivorous creature that digests prey over thousands of years."
+      {
+        "category": "StarWars",
+        "description": "The Sarlacc is a large omnivorous creature that digests prey over thousands of years in its pit on Tatooine."
+      }
+    ]
   },
   {
     "name": "Rancor",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Rancors are large predatory reptiles, one was kept as a pet by Jabba the Hutt."
+      {
+        "category": "StarWars",
+        "description": "Rancors are large predatory reptiles, one was kept as a pet by Jabba the Hutt beneath his palace."
+      }
+    ]
   },
   {
     "name": "Ewok",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Ewoks are small furry sentient beings native to the forest moon of Endor."
+      {
+        "category": "StarWars",
+        "description": "Ewoks are small furry sentient beings native to the forest moon of Endor who helped destroy the second Death Star."
+      }
+    ]
   },
   {
     "name": "Wookiee",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Wookiees are tall, hairy sentient beings from Kashyyyk known for strength and loyalty."
+      {
+        "category": "StarWars",
+        "description": "Wookiees are tall, hairy sentient beings from Kashyyyk known for strength, loyalty, and pulling people's arms out of sockets when losing."
+      }
+    ]
   },
   {
     "name": "Twi'lek",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Twi'leks are a humanoid species with distinctive head-tails called lekku."
+      {
+        "category": "StarWars",
+        "description": "Twi'leks are a humanoid species with distinctive head-tails called lekku, often victimized by slavery in the galaxy."
+      }
+    ]
   },
   {
     "name": "Zabrak",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Zabraks are a humanoid species with vestigial horns, including Darth Maul."
+      {
+        "category": "StarWars",
+        "description": "Zabraks are a humanoid species with vestigial horns, including Darth Maul and other Force-sensitive individuals."
+      }
+    ]
   },
   {
     "name": "Sith",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "The Sith are an order of Force users who embrace the dark side."
+      {
+        "category": "StarWars",
+        "description": "The Sith are an order of Force users who embrace the dark side, following the Rule of Two established by Darth Bane."
+      }
+    ]
   },
   {
     "name": "Jedi",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "The Jedi are an order of Force users who serve as peacekeepers of the galaxy."
+      {
+        "category": "StarWars",
+        "description": "The Jedi are an order of Force users who serve as peacekeepers of the galaxy, adhering to a strict code and avoiding attachment."
+      }
+    ]
   },
   {
     "name": "Cirith Ungol",
     "categories": [
-      "LordOfTheRings",
-      "MetalBand"
-    ],
-    "explanation": "Cirith Ungol is the spider pass into Mordor guarded by Shelob, and also a classic American heavy metal band formed in 1972."
+      {
+        "category": "LordOfTheRings",
+        "description": "Cirith Ungol is the spider pass into Mordor guarded by Shelob, where Frodo was captured by orcs."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Cirith Ungol is a classic American heavy metal band formed in 1972, named after the Tolkien location."
+      }
+    ]
   },
   {
     "name": "Isengard",
     "categories": [
-      "LordOfTheRings",
-      "MetalBand"
-    ],
-    "explanation": "Isengard is Saruman's fortress in LOTR, and also a Norwegian black metal project by Fenriz of Darkthrone."
+      {
+        "category": "LordOfTheRings",
+        "description": "Isengard is Saruman's fortress with the tower of Orthanc, destroyed by the Ents in their march."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Isengard is a Norwegian black metal project by Fenriz of Darkthrone, named after Saruman's stronghold."
+      }
+    ]
   },
   {
     "name": "Carach Angren",
     "categories": [
-      "LordOfTheRings",
-      "MetalBand"
-    ],
-    "explanation": "Carach Angren is Sindarin for 'Iron Jaws', a location in Mordor, and also a Dutch symphonic black metal band."
+      {
+        "category": "LordOfTheRings",
+        "description": "Carach Angren is Sindarin for 'Iron Jaws', a fortified pass into Mordor in Tolkien's Middle-earth."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Carach Angren is a Dutch symphonic black metal band that uses Tolkien's Sindarin name for their theatrical horror metal."
+      }
+    ]
   },
   {
     "name": "Bossk",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Bossk is a Trandoshan bounty hunter who appears in The Empire Strikes Back."
+      {
+        "category": "StarWars",
+        "description": "Bossk is a Trandoshan bounty hunter who appears in The Empire Strikes Back among those hired by Vader."
+      }
+    ]
   },
   {
     "name": "Lobot",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Lobot is Lando Calrissian's cyborg aide with a computer headband in Cloud City."
+      {
+        "category": "StarWars",
+        "description": "Lobot is Lando Calrissian's cyborg aide with a computer headband in Cloud City, communicating through the city's systems."
+      }
+    ]
   },
   {
     "name": "Ventress",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Asajj Ventress is a Dathomirian dark side assassin from the Clone Wars series."
+      {
+        "category": "StarWars",
+        "description": "Asajj Ventress is a Dathomirian dark side assassin from the Clone Wars series, apprentice to Count Dooku."
+      }
+    ]
   },
   {
     "name": "Sebulba",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Sebulba is the Dug podracer who cheated against young Anakin in The Phantom Menace."
+      {
+        "category": "StarWars",
+        "description": "Sebulba is the Dug podracer who cheated against young Anakin in The Phantom Menace's Boonta Eve race."
+      }
+    ]
   },
   {
     "name": "Plo Koon",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Plo Koon is a Kel Dor Jedi Master and member of the Jedi Council."
+      {
+        "category": "StarWars",
+        "description": "Plo Koon is a Kel Dor Jedi Master and member of the Jedi Council who wears protective goggles and breather."
+      }
+    ]
   },
   {
     "name": "Gonk",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Gonk droids (GNK Power Droids) are walking battery units that make 'gonk' sounds."
+      {
+        "category": "StarWars",
+        "description": "Gonk droids (GNK Power Droids) are walking battery units that make 'gonk' sounds, beloved for their simple existence."
+      }
+    ]
   },
   {
     "name": "Dengar",
     "categories": [
-      "StarWars"
-    ],
-    "explanation": "Dengar is a human bounty hunter seen on Vader's Star Destroyer in The Empire Strikes Back."
+      {
+        "category": "StarWars",
+        "description": "Dengar is a human bounty hunter seen on Vader's Star Destroyer in The Empire Strikes Back, wrapped in bandages."
+      }
+    ]
   },
   {
     "name": "Tiamat",
     "categories": [
-      "DnD",
-      "MTG",
-      "MetalBand"
-    ],
-    "explanation": "Tiamat is the Babylonian chaos goddess, D&D's five-headed dragon queen, an MTG Legendary Creature, and a Swedish gothic/doom metal band formed in 1988."
+      {
+        "category": "DnD",
+        "description": "Tiamat is the five-headed dragon queen of evil chromatic dragons in D&D, representing the ultimate draconic threat."
+      },
+      {
+        "category": "MTG",
+        "description": "Tiamat is a Legendary Creature card in MTG that tutors dragon cards, paying homage to D&D's dragon goddess."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Tiamat is a Swedish gothic/doom metal band formed in 1988, named after the Babylonian chaos goddess."
+      }
+    ]
   },
   {
     "name": "Bahamut",
     "categories": [
-      "DnD",
-      "MTG"
-    ],
-    "explanation": "Bahamut is a fish from Arabian mythology supporting the world, the platinum dragon god of justice in D&D, and a Legendary Creature card in MTG."
+      {
+        "category": "DnD",
+        "description": "Bahamut is the platinum dragon god of justice in D&D, king of metallic dragons and eternal enemy of Tiamat."
+      },
+      {
+        "category": "MTG",
+        "description": "Bahamut is a Legendary Creature card in MTG's Adventures in the Forgotten Realms, representing the noble dragon god."
+      }
+    ]
   },
   {
     "name": "Asmodeus",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Asmodeus is a demon king from Jewish and Christian demonology, and also the archdevil ruler of the Nine Hells in D&D."
+      {
+        "category": "DnD",
+        "description": "Asmodeus is the archdevil ruler of the Nine Hells in D&D, lord of devils and master schemer."
+      },
+      {
+        "category": "MTG",
+        "description": "Asmodeus appears in MTG's Adventures in the Forgotten Realms as 'Asmodeus the Archfiend', a black legendary creature."
+      }
+    ]
   },
   {
     "name": "Balduran",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Balduran was a legendary explorer and founder of the city of Baldur's Gate in the Forgotten Realms."
+      {
+        "category": "DnD",
+        "description": "Balduran was a legendary explorer and founder of the city of Baldur's Gate in the Forgotten Realms."
+      }
+    ]
   },
   {
     "name": "Tarrasque",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "The Tarrasque is a legendary dinosaur-like monstrosity in D&D, considered nearly impossible to kill."
+      {
+        "category": "DnD",
+        "description": "The Tarrasque is a legendary dinosaur-like monstrosity in D&D, considered nearly impossible to kill and awakening only to eat."
+      },
+      {
+        "category": "MTG",
+        "description": "The Tarrasque is a legendary creature card in MTG's Adventures in the Forgotten Realms, depicting D&D's ultimate monster."
+      }
+    ]
   },
   {
     "name": "Mystra",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Mystra is the goddess of magic in the Forgotten Realms, keeper of the Weave."
+      {
+        "category": "DnD",
+        "description": "Mystra is the goddess of magic in the Forgotten Realms, keeper of the Weave through which all magic flows."
+      }
+    ]
   },
   {
     "name": "Vecna",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Vecna is a powerful lich who became a god, known for his Hand and Eye artifacts in D&D."
+      {
+        "category": "DnD",
+        "description": "Vecna is a powerful lich who became a god, known for his Hand and Eye artifacts that grant terrible powers."
+      },
+      {
+        "category": "MTG",
+        "description": "Vecna appears in MTG's Adventures in the Forgotten Realms as 'The Book of Vile Darkness' can create a Vecna token."
+      }
+    ]
   },
   {
     "name": "Beholder",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "A Beholder is an iconic D&D monster - a floating orb with a central eye and eyestalks with magical rays."
+      {
+        "category": "DnD",
+        "description": "A Beholder is an iconic D&D monster - a floating orb with a central eye and eyestalks with magical rays, paranoid and xenophobic."
+      },
+      {
+        "category": "MTG",
+        "description": "Beholders appear in MTG's Adventures in the Forgotten Realms set as creature cards, bringing D&D's iconic aberrations to Magic."
+      }
+    ]
   },
   {
     "name": "Illithid",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Illithids (Mind Flayers) are psionic aberrations with tentacled faces that consume brains in D&D."
+      {
+        "category": "DnD",
+        "description": "Illithids (Mind Flayers) are psionic aberrations with tentacled faces that consume brains and dominate minds."
+      },
+      {
+        "category": "MTG",
+        "description": "Mind Flayers appear in MTG's Adventures in the Forgotten Realms set, bringing D&D's brain-eating horrors to Magic."
+      }
+    ]
   },
   {
     "name": "Drow",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "The Drow are dark elves who live in the Underdark, known for their worship of Lolth in D&D."
+      {
+        "category": "DnD",
+        "description": "The Drow are dark elves who live in the Underdark, known for their worship of Lolth and matriarchal society."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Tolkien has no Drow - his dark elves are the Moriquendi who never saw the light of the Trees. The Drow concept is purely D&D."
+      },
+      {
+        "category": "Warhammer",
+        "result": -1,
+        "description": "Warhammer has Dark Elves (Druchii), but they're called that, not Drow. The term 'Drow' is specific to D&D."
+      }
+    ]
   },
   {
     "name": "Lich",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "A Lich is an undead spellcaster who achieved immortality by binding their soul to a phylactery in D&D."
+      {
+        "category": "DnD",
+        "description": "A Lich is an undead spellcaster who achieved immortality by binding their soul to a phylactery through dark rituals."
+      },
+      {
+        "category": "MTG",
+        "description": "Lich is a classic black enchantment card in MTG, and liches appear throughout Magic's multiverse as undead mages."
+      },
+      {
+        "category": "Warhammer",
+        "result": 1,
+        "description": "Warhammer has 'Liches' among the undead, particularly the Liche Priests of Khemri who maintain Tomb King armies."
+      }
+    ]
   },
   {
     "name": "Strahd",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Count Strahd von Zarovich is the vampire lord of Barovia in the classic D&D adventure Curse of Strahd."
+      {
+        "category": "DnD",
+        "description": "Count Strahd von Zarovich is the vampire lord of Barovia in the classic D&D adventure Curse of Strahd."
+      },
+      {
+        "category": "Warhammer",
+        "result": -1,
+        "description": "Warhammer has its own vampires like Mannfred von Carstein, but Strahd is purely D&D. Different gothic vampire lords."
+      }
+    ]
   },
   {
     "name": "Mordenkainen",
     "categories": [
-      "DnD",
-      "MTG"
-    ],
-    "explanation": "Mordenkainen is the legendary archmage from D&D's Greyhawk setting, namesake of famous spells, and a Legendary Creature in MTG's Adventures in the Forgotten Realms."
+      {
+        "category": "DnD",
+        "description": "Mordenkainen is the legendary archmage from D&D's Greyhawk setting, namesake of famous spells like Mordenkainen's Magnificent Mansion."
+      },
+      {
+        "category": "MTG",
+        "description": "Mordenkainen is a Legendary Creature in MTG's Adventures in the Forgotten Realms, bringing D&D's archmage to Magic."
+      }
+    ]
   },
   {
     "name": "Elminster",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Elminster Aumar is the Sage of Shadowdale, one of the most powerful wizards in the Forgotten Realms."
+      {
+        "category": "DnD",
+        "description": "Elminster Aumar is the Sage of Shadowdale, one of the most powerful wizards in the Forgotten Realms and Ed Greenwood's self-insert."
+      }
+    ]
   },
   {
     "name": "Acererak",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Acererak is a powerful demilich, creator of the Tomb of Horrors and Tomb of Annihilation dungeons."
+      {
+        "category": "DnD",
+        "description": "Acererak is a powerful demilich, creator of the Tomb of Horrors and Tomb of Annihilation dungeons designed to kill players."
+      },
+      {
+        "category": "MTG",
+        "description": "Acererak the Archlich is a legendary creature in MTG's Adventures in the Forgotten Realms, venturing through dungeons."
+      }
+    ]
   },
   {
     "name": "Faerûn",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Faerûn is the main continent of the Forgotten Realms campaign setting in D&D."
+      {
+        "category": "DnD",
+        "description": "Faerûn is the main continent of the Forgotten Realms campaign setting in D&D, home to Baldur's Gate and Waterdeep."
+      }
+    ]
   },
   {
     "name": "Netheril",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Netheril was an ancient magical empire with flying cities in the Forgotten Realms."
+      {
+        "category": "DnD",
+        "description": "Netheril was an ancient magical empire with flying cities in the Forgotten Realms, destroyed by the folly of Karsus."
+      }
+    ]
   },
   {
     "name": "Thay",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Thay is a magocracy ruled by the Red Wizards in the Forgotten Realms."
+      {
+        "category": "DnD",
+        "description": "Thay is a magocracy ruled by the Red Wizards in the Forgotten Realms, known for necromancy and slave trade."
+      }
+    ]
   },
   {
     "name": "Lolth",
     "categories": [
-      "DnD",
-      "MTG"
-    ],
-    "explanation": "Lolth is the Spider Queen goddess of the Drow and Queen of the Demonweb Pits, also a Legendary Creature in MTG's Adventures in the Forgotten Realms."
+      {
+        "category": "DnD",
+        "description": "Lolth is the Spider Queen goddess of the Drow and Queen of the Demonweb Pits, demanding sacrifices and scheming."
+      },
+      {
+        "category": "MTG",
+        "description": "Lolth is a Legendary Creature in MTG's Adventures in the Forgotten Realms, representing the Drow goddess."
+      }
+    ]
   },
   {
     "name": "Drizzt",
     "categories": [
-      "DnD",
-      "MTG"
-    ],
-    "explanation": "Drizzt Do'Urden is the iconic dual-scimitar wielding Drow ranger who rejected his evil heritage, and a Legendary Creature in MTG's Adventures in the Forgotten Realms."
+      {
+        "category": "DnD",
+        "description": "Drizzt Do'Urden is the iconic dual-scimitar wielding Drow ranger who rejected his evil heritage, hero of R.A. Salvatore's novels."
+      },
+      {
+        "category": "MTG",
+        "description": "Drizzt is a Legendary Creature in MTG's Adventures in the Forgotten Realms, representing D&D's most famous Drow."
+      }
+    ]
   },
   {
     "name": "Underdark",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "The Underdark is a vast subterranean realm beneath Faerûn, home to Drow, Duergar, and Illithids."
+      {
+        "category": "DnD",
+        "description": "The Underdark is a vast subterranean realm beneath Faerûn, home to Drow, Duergar, Illithids, and other creatures of darkness."
+      }
+    ]
   },
   {
     "name": "Flumph",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "A Flumph is a friendly floating aberration that feeds on psionic energy - one of D&D's quirkiest monsters."
+      {
+        "category": "DnD",
+        "description": "A Flumph is a friendly floating aberration that feeds on psionic energy - one of D&D's quirkiest and most beloved joke monsters."
+      },
+      {
+        "category": "MTG",
+        "description": "Flumph appears in MTG's Adventures in the Forgotten Realms as a rare blue creature that draws cards for everyone."
+      }
+    ]
   },
   {
     "name": "Gelatinous Cube",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "A Gelatinous Cube is a transparent ooze that fills dungeon corridors, dissolving anything it engulfs."
+      {
+        "category": "DnD",
+        "description": "A Gelatinous Cube is a transparent ooze that fills dungeon corridors, dissolving anything it engulfs while cleaning the passages."
+      },
+      {
+        "category": "MTG",
+        "description": "Gelatinous Cube is a creature card in MTG's Adventures in the Forgotten Realms, digesting creatures it absorbs."
+      }
+    ]
   },
   {
     "name": "Owlbear",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "An Owlbear is an iconic D&D monster combining an owl's head with a bear's body."
+      {
+        "category": "DnD",
+        "description": "An Owlbear is an iconic D&D monster combining an owl's head with a bear's body, created by a mad wizard's experiment."
+      },
+      {
+        "category": "MTG",
+        "description": "Owlbear is a creature card in MTG's Adventures in the Forgotten Realms set, adapting D&D's hybrid monster for Magic."
+      }
+    ]
   },
   {
     "name": "Displacer Beast",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "A Displacer Beast is a six-legged panther-like creature with tentacles that projects illusions of itself."
+      {
+        "category": "DnD",
+        "description": "A Displacer Beast is a six-legged panther-like creature with tentacles that projects illusions of itself several feet away."
+      },
+      {
+        "category": "MTG",
+        "description": "Displacer Beast is a creature card in MTG's Adventures in the Forgotten Realms with abilities reflecting its illusory displacement."
+      }
+    ]
   },
   {
     "name": "Githyanki",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "The Githyanki are a warrior race from the Astral Plane who ride red dragons and hunt Illithids."
+      {
+        "category": "DnD",
+        "description": "The Githyanki are a warrior race from the Astral Plane who ride red dragons and hunt Illithids, their former masters."
+      },
+      {
+        "category": "MTG",
+        "description": "Githyanki appear in MTG's Commander Legends: Battle for Baldur's Gate set as creature cards with combat abilities."
+      }
+    ]
   },
   {
     "name": "Githzerai",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "The Githzerai are psionic monks living in Limbo, cousins and enemies of the Githyanki."
+      {
+        "category": "DnD",
+        "description": "The Githzerai are psionic monks living in Limbo, cousins and enemies of the Githyanki after their split from slavery."
+      }
+    ]
   },
   {
     "name": "Aboleth",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Aboleths are ancient aquatic aberrations with perfect memory that predate the gods in D&D lore."
+      {
+        "category": "DnD",
+        "description": "Aboleths are ancient aquatic aberrations with perfect memory that predate the gods in D&D lore, enslaving entire civilizations."
+      },
+      {
+        "category": "MTG",
+        "description": "Aboleth appears in MTG's Commander Legends: Battle for Baldur's Gate as 'Aboleth Spawn', referencing D&D's ancient horrors."
+      }
+    ]
   },
   {
     "name": "Kenku",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Kenku are raven-like flightless bird people who can only speak by mimicking sounds in D&D."
+      {
+        "category": "DnD",
+        "description": "Kenku are raven-like flightless bird people who can only speak by mimicking sounds in D&D, cursed by their master."
+      }
+    ]
   },
   {
     "name": "Slaad",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Slaadi are chaotic frog-like aberrations from the plane of Limbo in D&D."
+      {
+        "category": "DnD",
+        "description": "Slaadi are chaotic frog-like aberrations from the plane of Limbo in D&D, reproducing through implanting eggs."
+      }
+    ]
   },
   {
     "name": "Demogorgon",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Demogorgon is the two-headed Prince of Demons, one of the most powerful demon lords in D&D."
+      {
+        "category": "DnD",
+        "description": "Demogorgon is the two-headed Prince of Demons, one of the most powerful demon lords in D&D, embodying madness and destruction."
+      },
+      {
+        "category": "GreekPagan",
+        "result": -1,
+        "description": "Despite sounding Greek, Demogorgon is not from Greek mythology. It's a medieval manuscript error that became a fantasy staple."
+      }
+    ]
   },
   {
     "name": "Orcus",
     "categories": [
-      "DnD",
-      "RomanPagan"
-    ],
-    "explanation": "Orcus is the demon prince of undeath in D&D, named after the Roman god of the underworld."
+      {
+        "category": "DnD",
+        "description": "Orcus is the demon prince of undeath in D&D, wielding his wand that can kill with a touch."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Orcus is the Roman god of the underworld and punisher of broken oaths, from which D&D's demon prince takes his name."
+      }
+    ]
   },
   {
     "name": "Bulette",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "A Bulette is a shark-like burrowing monster in D&D, also called a 'landshark'."
+      {
+        "category": "DnD",
+        "description": "A Bulette is a shark-like burrowing monster in D&D, also called a 'landshark', created from plastic dinosaur toys."
+      }
+    ]
   },
   {
     "name": "Modron",
     "categories": [
-      "DnD"
-    ],
-    "explanation": "Modrons are lawful clockwork beings from the plane of Mechanus in D&D."
+      {
+        "category": "DnD",
+        "description": "Modrons are lawful clockwork beings from the plane of Mechanus in D&D, existing in a strict hierarchy from monodrone to primus."
+      }
+    ]
   },
   {
     "name": "Gondor",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Gondor is the southern kingdom of Men in Middle-earth, ruled from Minas Tirith."
+      {
+        "category": "LordOfTheRings",
+        "description": "Gondor is the southern kingdom of Men in Middle-earth, ruled from Minas Tirith by the line of stewards until Aragorn's return."
+      }
+    ]
   },
   {
     "name": "Aragorn",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Aragorn is the heir of Isildur who becomes King of Gondor after the War of the Ring."
+      {
+        "category": "LordOfTheRings",
+        "description": "Aragorn is the heir of Isildur who becomes King of Gondor after the War of the Ring, also known as Strider."
+      },
+      {
+        "category": "MTG",
+        "description": "Aragorn appears in MTG's Tales of Middle-earth set as multiple cards including 'Aragorn, the Uniter'."
+      }
+    ]
   },
   {
     "name": "Moria",
     "categories": [
-      "LordOfTheRings"
-    ],
-    "explanation": "Moria (Khazad-dûm) is the ancient Dwarf kingdom under the Misty Mountains where the Fellowship faced the Balrog."
+      {
+        "category": "LordOfTheRings",
+        "description": "Moria (Khazad-dûm) is the ancient Dwarf kingdom under the Misty Mountains where the Fellowship faced the Balrog."
+      }
+    ]
   },
   {
     "name": "Bolt Thrower",
     "categories": [
-      "Warhammer",
-      "MetalBand"
-    ],
-    "explanation": "Bolt Thrower was a British death metal band named after a Warhammer 40K weapon."
+      {
+        "category": "Warhammer",
+        "description": "Bolt Thrower is a weapon system in Warhammer 40K, a large ballistic device used by various factions."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Bolt Thrower was a British death metal band named after the Warhammer 40K weapon, known for their war-themed albums."
+      }
+    ]
   },
   {
     "name": "Chaos",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Chaos is the corrupting force in Warhammer, representing the four dark gods: Khorne, Nurgle, Tzeentch, and Slaanesh."
+      {
+        "category": "Warhammer",
+        "description": "Chaos is the corrupting force in Warhammer, representing the four dark gods (Khorne, Nurgle, Tzeentch, Slaanesh) and their daemons."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Chaos (Χάος) was the primordial void that existed before all creation in Greek cosmogony, parent of Erebus and Nyx."
+      }
+    ]
   },
   {
     "name": "Imperium",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "The Imperium of Man is the galaxy-spanning human civilization in Warhammer 40K, ruled by the God-Emperor from the Golden Throne."
+      {
+        "category": "Warhammer",
+        "description": "The Imperium of Man is the galaxy-spanning human civilization in Warhammer 40K, ruled by the God-Emperor from the Golden Throne."
+      }
+    ]
   },
   {
     "name": "Eldar",
     "categories": [
-      "Warhammer",
-      "LordOfTheRings"
-    ],
-    "explanation": "Eldar are the space elves of Warhammer 40K, the name borrowed from Tolkien's Eldar."
+      {
+        "category": "Warhammer",
+        "description": "Eldar (now rebranded as Aeldari) are the space elves of Warhammer 40K, an ancient dying race that birthed Slaanesh."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "While 'Eldar' was borrowed from Tolkien (where it means ancient elves), Warhammer's Eldar are a completely separate space elf faction."
+      }
+    ]
   },
   {
     "name": "Ork",
     "categories": [
-      "Warhammer",
-      "DnD",
-      "LordOfTheRings"
-    ],
-    "explanation": "Orks are brutal green warriors in Warhammer, similar to D&D and Tolkien's orcs."
+      {
+        "category": "Warhammer",
+        "description": "Orks are brutal green warriors in Warhammer, fungus-based creatures who believe red makes things go faster."
+      },
+      {
+        "category": "DnD",
+        "description": "Orcs in D&D (sometimes spelled Ork in older editions) are savage humanoids who raid and pillage."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Tolkien uses 'Orc' with a C - the K spelling is specifically Warhammer's (and some other fantasy), not Tolkien's creation."
+      }
+    ]
   },
   {
     "name": "Sigmar",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Sigmar is the human god-king who founded the Empire in Warhammer Fantasy."
+      {
+        "category": "Warhammer",
+        "description": "Sigmar is the human god-king who founded the Empire in Warhammer Fantasy, later returning as the God-King of Azyr."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "Despite the Germanic sound, Sigmar is not from Norse mythology. He's a Warhammer-original deity inspired by Charlemagne."
+      }
+    ]
   },
   {
     "name": "Khorne",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Khorne is the Chaos God of blood, war, and skulls. Blood for the Blood God!"
+      {
+        "category": "Warhammer",
+        "description": "Khorne is the Chaos God of blood, war, and skulls. Blood for the Blood God! Skulls for the Skull Throne!"
+      }
+    ]
   },
   {
     "name": "Nurgle",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Nurgle is the Chaos God of plague, decay, and disease, yet strangely jovial."
+      {
+        "category": "Warhammer",
+        "description": "Nurgle is the Chaos God of plague, decay, and disease, yet strangely jovial and affectionate to his followers."
+      }
+    ]
   },
   {
     "name": "Tzeentch",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Tzeentch is the Chaos God of change, magic, and scheming."
+      {
+        "category": "Warhammer",
+        "description": "Tzeentch is the Chaos God of change, magic, and scheming, the Architect of Fate who plots eternally."
+      }
+    ]
   },
   {
     "name": "Slaanesh",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Slaanesh is the Chaos God of excess and pleasure, born from Eldar decadence."
+      {
+        "category": "Warhammer",
+        "description": "Slaanesh is the Chaos God of excess and pleasure, born from Eldar decadence in a psychic cataclysm."
+      }
+    ]
   },
   {
     "name": "Tyranid",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Tyranids are an extragalactic hive-mind species that consumes all biomass."
+      {
+        "category": "Warhammer",
+        "description": "Tyranids are an extragalactic hive-mind species that consumes all biomass, leaving dead worlds in their wake."
+      },
+      {
+        "category": "StarWars",
+        "result": -1,
+        "description": "Star Wars has similar insectoid aliens like Geonosians, but Tyranids are purely Warhammer 40K's Aliens-inspired swarm."
+      }
+    ]
   },
   {
     "name": "Necron",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Necrons are ancient robotic undead who once ruled the galaxy."
+      {
+        "category": "Warhammer",
+        "description": "Necrons are ancient robotic undead who once ruled the galaxy, awakening from their tomb worlds after millions of years."
+      },
+      {
+        "category": "DnD",
+        "result": -1,
+        "description": "D&D has necromancers and undead, but 'Necrons' are specifically Warhammer 40K's robot skeleton faction."
+      }
+    ]
   },
   {
     "name": "Tau",
     "categories": [
-      "Warhammer",
-      "GreekPagan"
-    ],
-    "explanation": "T'au are a young species in Warhammer 40K. Tau is also a Greek letter."
+      {
+        "category": "Warhammer",
+        "description": "T'au are a young species in Warhammer 40K promoting the Greater Good through diplomacy and advanced technology."
+      },
+      {
+        "category": "GreekLetter",
+        "description": "Tau (Τ, τ) is the 19th letter of the Greek alphabet, representing the 't' sound."
+      }
+    ]
   },
   {
     "name": "Primarch",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Primarchs are the twenty superhuman sons of the Emperor who led the Space Marine legions."
+      {
+        "category": "Warhammer",
+        "description": "Primarchs are the twenty superhuman sons of the Emperor who led the Space Marine legions during the Great Crusade."
+      }
+    ]
   },
   {
     "name": "Horus",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Horus was the Warmaster of the Imperium who betrayed the Emperor, sparking the Horus Heresy in Warhammer 40K."
+      {
+        "category": "Warhammer",
+        "description": "Horus was the Warmaster of the Imperium who betrayed the Emperor, sparking the Horus Heresy that shaped Warhammer 40K."
+      },
+      {
+        "category": "GreekPagan",
+        "result": -1,
+        "description": "Horus is Egyptian, not Greek. He's the Egyptian falcon-headed god of the sky, son of Osiris and Isis."
+      },
+      {
+        "category": "AssassinsCreed",
+        "result": 1,
+        "description": "Horus appears as a referenced deity in Assassin's Creed Origins, set in Ptolemaic Egypt, but the game isn't about him."
+      }
+    ]
   },
   {
     "name": "Magnus",
     "categories": [
-      "Warhammer",
-      "HistoricalState"
-    ],
-    "explanation": "Magnus the Red is the Primarch of the Thousand Sons. Magnus was also a historical title."
+      {
+        "category": "Warhammer",
+        "description": "Magnus the Red is the Primarch of the Thousand Sons in Warhammer 40K, a powerful psyker who did nothing wrong (allegedly)."
+      }
+    ]
   },
   {
     "name": "Mortarion",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Mortarion is the Primarch of the Death Guard, now a Daemon Prince of Nurgle."
+      {
+        "category": "Warhammer",
+        "description": "Mortarion is the Primarch of the Death Guard, now a Daemon Prince of Nurgle spreading pestilence across the galaxy."
+      }
+    ]
   },
   {
     "name": "Fulgrim",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Fulgrim is the Primarch of the Emperor's Children, now a Daemon Prince of Slaanesh."
+      {
+        "category": "Warhammer",
+        "description": "Fulgrim is the Primarch of the Emperor's Children, now a Daemon Prince of Slaanesh obsessed with perfection and excess."
+      }
+    ]
   },
   {
     "name": "Angron",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Angron is the Primarch of the World Eaters, a rage-filled Daemon Prince of Khorne."
+      {
+        "category": "Warhammer",
+        "description": "Angron is the Primarch of the World Eaters, a rage-filled Daemon Prince of Khorne with the Butcher's Nails implants."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Sounds like Aragorn, but Angron is a rage-fueled Daemon Primarch, not the noble heir of Isildur."
+      }
+    ]
   },
   {
     "name": "Guilliman",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Roboute Guilliman is the Primarch of the Ultramarines and current Lord Commander."
+      {
+        "category": "Warhammer",
+        "description": "Roboute Guilliman is the Primarch of the Ultramarines and current Lord Commander, resurrected to lead the Imperium."
+      }
+    ]
   },
   {
     "name": "Space Marine",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Space Marines are genetically-enhanced super soldiers defending the Imperium."
+      {
+        "category": "Warhammer",
+        "description": "Space Marines are genetically-enhanced super soldiers defending the Imperium, also known as Adeptus Astartes."
+      }
+    ]
   },
   {
     "name": "Warp",
     "categories": [
-      "Warhammer",
-      "DigitalTerm"
-    ],
-    "explanation": "The Warp is the chaotic parallel dimension used for FTL travel, and image warping in graphics."
+      {
+        "category": "Warhammer",
+        "description": "The Warp is the chaotic parallel dimension in Warhammer 40K used for FTL travel, home to the Chaos Gods and daemons."
+      }
+    ]
   },
   {
     "name": "Daemon",
     "categories": [
-      "Warhammer",
-      "DnD",
-      "Tech"
-    ],
-    "explanation": "Daemons are Warp entities in Warhammer, demons in D&D, and background processes in computing."
+      {
+        "category": "Warhammer",
+        "description": "Daemons are Warp entities in Warhammer, manifestations of the Chaos Gods corrupting reality."
+      },
+      {
+        "category": "DnD",
+        "description": "Demons in D&D are chaotic evil fiends from the Abyss, distinct from lawful evil devils."
+      },
+      {
+        "category": "Tech",
+        "description": "Daemons are background processes in Unix-like operating systems that run without direct user interaction."
+      }
+    ]
   },
   {
     "name": "Inquisitor",
     "categories": [
-      "Warhammer",
-      "DnD"
-    ],
-    "explanation": "Inquisitors root out heresy in Warhammer, similar to the Inquisitor class in D&D."
+      {
+        "category": "Warhammer",
+        "description": "Inquisitors root out heresy in Warhammer, wielding absolute authority to purge corruption with extreme prejudice."
+      },
+      {
+        "category": "DnD",
+        "description": "Inquisitors in D&D are divine warriors who hunt heretics and enemies of their faith, similar to paladins."
+      }
+    ]
   },
   {
     "name": "Commissar",
     "categories": [
-      "Warhammer"
-    ],
-    "explanation": "Commissars are political officers in the Imperial Guard who execute cowards to maintain morale."
+      {
+        "category": "Warhammer",
+        "description": "Commissars are political officers in the Imperial Guard who execute cowards to maintain morale. Summary execution is their specialty."
+      }
+    ]
   },
   {
     "name": "Rogue",
     "categories": [
-      "StarWars",
-      "DnD",
-      "CarModel"
-    ],
-    "explanation": "Rogue One and Rogue Squadron are Star Wars properties, Rogue is a D&D class, and the Nissan Rogue SUV."
+      {
+        "category": "StarWars",
+        "description": "Rogue One and Rogue Squadron are Star Wars properties about rebels and pilots."
+      },
+      {
+        "category": "DnD",
+        "description": "Rogue is a D&D class specializing in stealth, sneak attacks, and skillful cunning."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Nissan Rogue is a compact crossover SUV popular in North America."
+      }
+    ]
   },
   {
     "name": "Ranger",
     "categories": [
-      "LordOfTheRings",
-      "DnD",
-      "CarModel"
-    ],
-    "explanation": "Rangers are the Dúnedain guardians in LOTR, a D&D class, and the Ford Ranger pickup truck."
+      {
+        "category": "LordOfTheRings",
+        "description": "Rangers are the Dúnedain guardians in LOTR, protectors of the North led by Aragorn before he became king."
+      },
+      {
+        "category": "DnD",
+        "description": "Ranger is a D&D class focused on wilderness survival, tracking, and archery with animal companions."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Ford Ranger is a midsize pickup truck known for its durability and off-road capability."
+      }
+    ]
   },
   {
     "name": "Erebos",
     "categories": [
-      "MTG",
-      "GreekPagan"
-    ],
-    "explanation": "Erebos is the Greek primordial god of darkness, and a god card in MTG's Theros set."
+      {
+        "category": "MTG",
+        "description": "Erebos is the god of the dead in MTG's Theros set, a black-aligned deity preventing escape from the underworld."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Erebos (Erebus) is the Greek primordial god of darkness, born from Chaos and brother of Nyx."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Sounds like Erebor, the Lonely Mountain of the dwarves, but Erebos is the Greek god of darkness - no dragon gold here."
+      }
+    ]
   },
   {
     "name": "Heliod",
     "categories": [
-      "MTG",
-      "GreekPagan"
-    ],
-    "explanation": "Heliod is based on Helios (Greek sun god), appearing as the god of the sun in MTG's Theros set."
+      {
+        "category": "MTG",
+        "description": "Heliod is the god of the sun in MTG's Theros set, a white-aligned deity representing justice and law."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Heliod is based on Helios, the Greek sun god who drove the chariot of the sun across the sky daily."
+      }
+    ]
   },
   {
     "name": "Thassa",
     "categories": [
-      "MTG",
-      "GreekPagan"
-    ],
-    "explanation": "Thassa is based on Thalassa (Greek sea personification), the god of the sea in MTG's Theros set."
+      {
+        "category": "MTG",
+        "description": "Thassa is the god of the sea in MTG's Theros set, a blue-aligned deity controlling oceans and knowledge."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Thassa is based on Thalassa, the Greek primordial personification of the sea in cosmogony."
+      }
+    ]
   },
   {
     "name": "Purphoros",
     "categories": [
-      "MTG",
-      "GreekPagan"
-    ],
-    "explanation": "Purphoros is based on Hephaestus, the god of the forge in MTG's Theros set."
+      {
+        "category": "MTG",
+        "description": "Purphoros is the god of the forge in MTG's Theros set, a red-aligned deity of craftsmanship and fire."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Purphoros is based on Hephaestus, the Greek god of blacksmiths, metalworking, and volcanic fire."
+      }
+    ]
   },
   {
     "name": "Nylea",
     "categories": [
-      "MTG",
-      "GreekPagan"
-    ],
-    "explanation": "Nylea is based on Artemis, the god of the hunt in MTG's Theros set."
+      {
+        "category": "MTG",
+        "description": "Nylea is the god of the hunt in MTG's Theros set, a green-aligned deity representing nature and the wild."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Nylea is based on Artemis, the Greek goddess of the hunt, wilderness, and wild animals."
+      }
+    ]
   },
   {
     "name": "Pestilence",
     "categories": [
-      "MTG",
-      "MetalBand"
-    ],
-    "explanation": "Pestilence is an iconic black enchantment card in MTG, and a Dutch death metal band formed in 1986."
+      {
+        "category": "MTG",
+        "description": "Pestilence is an iconic black enchantment card in MTG that deals damage to all creatures and players."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Pestilence is a Dutch death metal band formed in 1986, pioneers of technical death metal."
+      }
+    ]
   },
   {
     "name": "Dismember",
     "categories": [
-      "MTG",
-      "MetalBand"
-    ],
-    "explanation": "Dismember is an instant removal spell in MTG, and a Swedish death metal band formed in 1988."
+      {
+        "category": "MTG",
+        "description": "Dismember is an instant removal spell in MTG with Phyrexian mana, allowing you to pay life instead of mana."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Dismember is a Swedish death metal band formed in 1988, known for their brutal grinding sound."
+      }
+    ]
   },
   {
     "name": "Iron Maiden",
     "categories": [
-      "MTG",
-      "MetalBand"
-    ],
-    "explanation": "Iron Maiden is an artifact creature card in MTG, and the legendary British heavy metal band."
+      {
+        "category": "MTG",
+        "description": "Iron Maiden is an artifact creature card in MTG that punishes players for having large hands."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Iron Maiden is the legendary British heavy metal band known for Eddie the Head and epic songs like 'The Trooper'."
+      }
+    ]
   },
   {
     "name": "Toralf",
     "categories": [
-      "MTG",
-      "NorsePagan"
-    ],
-    "explanation": "Toralf is based on Thor, appearing as the god of fury in MTG's Kaldheim set."
+      {
+        "category": "MTG",
+        "description": "Toralf is the god of fury in MTG's Kaldheim set, a red-aligned deity representing battle and thunder."
+      },
+      {
+        "category": "NorsePagan",
+        "description": "Toralf is based on Thor, the Norse god of thunder, lightning, and protection of mankind."
+      }
+    ]
   },
   {
     "name": "Alrund",
     "categories": [
-      "MTG",
-      "NorsePagan"
-    ],
-    "explanation": "Alrund is based on Odin, appearing as the god of wisdom in MTG's Kaldheim set."
+      {
+        "category": "MTG",
+        "description": "Alrund is the god of wisdom in MTG's Kaldheim set, a blue-aligned deity of knowledge and foresight."
+      },
+      {
+        "category": "NorsePagan",
+        "description": "Alrund is based on Odin, the Allfather and Norse god of wisdom, poetry, and magic who sacrificed his eye."
+      }
+    ]
   },
   {
     "name": "Valki",
     "categories": [
-      "MTG",
-      "NorsePagan"
-    ],
-    "explanation": "Valki is based on Loki, appearing as the god of lies in MTG's Kaldheim set."
+      {
+        "category": "MTG",
+        "description": "Valki is the god of lies in MTG's Kaldheim set, a black-aligned deity of deception and trickery."
+      },
+      {
+        "category": "NorsePagan",
+        "description": "Valki is based on Loki, the Norse trickster god known for shape-shifting and causing mischief among the gods."
+      }
+    ]
   },
   {
     "name": "Black Lotus",
     "categories": [
-      "MTG"
-    ],
-    "explanation": "Black Lotus is the most valuable and iconic card in MTG history, a 'Power Nine' artifact."
+      {
+        "category": "MTG",
+        "description": "Black Lotus is the most valuable and iconic card in MTG history, a 'Power Nine' artifact that generates three mana of any color."
+      }
+    ]
   },
   {
     "name": "Jace",
     "categories": [
-      "MTG"
-    ],
-    "explanation": "Jace Beleren is one of the most iconic planeswalker characters in Magic: The Gathering."
+      {
+        "category": "MTG",
+        "description": "Jace Beleren is one of the most iconic planeswalker characters in Magic: The Gathering, a blue-aligned mind mage."
+      }
+    ]
   },
   {
     "name": "Liliana",
     "categories": [
-      "MTG"
-    ],
-    "explanation": "Liliana Vess is a powerful necromancer planeswalker in Magic: The Gathering."
+      {
+        "category": "MTG",
+        "description": "Liliana Vess is a powerful necromancer planeswalker in Magic: The Gathering, black-aligned and dealing with demons."
+      }
+    ]
   },
   {
     "name": "Chandra",
     "categories": [
-      "MTG"
-    ],
-    "explanation": "Chandra Nalaar is a pyromancer planeswalker in Magic: The Gathering."
+      {
+        "category": "MTG",
+        "description": "Chandra Nalaar is a pyromancer planeswalker in Magic: The Gathering, red-aligned and wielding fire magic impulsively."
+      },
+      {
+        "category": "SpaceMission",
+        "description": "Chandra is NASA's X-ray space observatory, launched in 1999 and named after astrophysicist Subrahmanyan Chandrasekhar."
+      }
+    ]
   }
 ]

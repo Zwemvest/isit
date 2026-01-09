@@ -2,802 +2,1789 @@
   {
     "name": "Kallax",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "KALLAX is IKEA's popular cube shelving unit system."
+      {
+        "category": "IKEAFurniture",
+        "description": "KALLAX is IKEA's popular cube shelving unit system."
+      }
+    ]
   },
   {
     "name": "Malm",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "MALM is IKEA's bed and dresser series. The name is Swedish for 'ore'."
+      {
+        "category": "IKEAFurniture",
+        "description": "MALM is IKEA's bed and dresser series. The name is Swedish for 'ore'."
+      }
+    ]
   },
   {
     "name": "Billy",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "BILLY is IKEA's iconic bookcase, in production since 1979."
+      {
+        "category": "IKEAFurniture",
+        "description": "BILLY is IKEA's iconic bookcase, in production since 1979."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "While it sounds like it could be a Norse name (like Baldur), Billy is just an English name - no Viking heritage here."
+      }
+    ]
   },
   {
     "name": "Poäng",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "POÄNG is IKEA's bentwood armchair. The name is Swedish for 'point'."
+      {
+        "category": "IKEAFurniture",
+        "description": "POÄNG is IKEA's bentwood armchair. The name is Swedish for 'point'."
+      }
+    ]
   },
   {
     "name": "Lack",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "LACK is IKEA's affordable side table series with a hollow core design."
+      {
+        "category": "IKEAFurniture",
+        "description": "LACK is IKEA's affordable side table series with a hollow core design."
+      }
+    ]
   },
   {
     "name": "Hemnes",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "HEMNES is IKEA's traditional furniture series named after a Norwegian municipality."
+      {
+        "category": "IKEAFurniture",
+        "description": "HEMNES is IKEA's traditional furniture series named after a Norwegian municipality."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "Sounds like it could be a Norse realm or god, but it's just a Norwegian town name - no mythological connection."
+      }
+    ]
   },
   {
     "name": "Bestå",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "BESTÅ is IKEA's modular storage system. The name means 'to consist' in Swedish."
+      {
+        "category": "IKEAFurniture",
+        "description": "BESTÅ is IKEA's modular storage system. The name means 'to consist' in Swedish."
+      }
+    ]
   },
   {
     "name": "Detolf",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "DETOLF is IKEA's glass-door display cabinet."
+      {
+        "category": "IKEAFurniture",
+        "description": "DETOLF is IKEA's glass-door display cabinet."
+      }
+    ]
   },
   {
     "name": "Ektorp",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "EKTORP is IKEA's classic sofa series with removable, washable covers."
+      {
+        "category": "IKEAFurniture",
+        "description": "EKTORP is IKEA's classic sofa series with removable, washable covers."
+      }
+    ]
   },
   {
     "name": "Klippan",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "KLIPPAN is IKEA's compact loveseat named after a Swedish town."
+      {
+        "category": "IKEAFurniture",
+        "description": "KLIPPAN is IKEA's compact loveseat named after a Swedish town."
+      }
+    ]
   },
   {
     "name": "Frakta",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "FRAKTA is IKEA's iconic blue shopping bag. Swedish for 'to transport'."
+      {
+        "category": "IKEAFurniture",
+        "description": "FRAKTA is IKEA's iconic blue shopping bag. Swedish for 'to transport'."
+      }
+    ]
   },
   {
     "name": "Björkudden",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "BJÖRKUDDEN is an IKEA table series. Swedish for 'birch point'."
+      {
+        "category": "IKEAFurniture",
+        "description": "BJÖRKUDDEN is an IKEA table series. Swedish for 'birch point'."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "With those umlauts and Norse-sounding consonants, this could pass for a Viking settlement - but it's just Swedish for 'birch point'."
+      }
+    ]
   },
   {
     "name": "Råskog",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "RÅSKOG is IKEA's steel utility cart on casters."
+      {
+        "category": "IKEAFurniture",
+        "description": "RÅSKOG is IKEA's steel utility cart on casters."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "Sounds like it could be a forest spirit from Norse legend, but it's just Swedish meaning 'raw forest'."
+      }
+    ]
   },
   {
     "name": "Bekväm",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "BEKVÄM is IKEA's wooden step stool. Swedish for 'comfortable'."
+      {
+        "category": "IKEAFurniture",
+        "description": "BEKVÄM is IKEA's wooden step stool. Swedish for 'comfortable'."
+      }
+    ]
   },
   {
     "name": "Strandmon",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "STRANDMON is IKEA's wing chair inspired by a 1950s Scandinavian design."
+      {
+        "category": "IKEAFurniture",
+        "description": "STRANDMON is IKEA's wing chair inspired by a 1950s Scandinavian design."
+      }
+    ]
   },
   {
     "name": "Järvfjället",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "JÄRVFJÄLLET is IKEA's ergonomic office chair. Swedish for 'mountain of Järv'."
+      {
+        "category": "IKEAFurniture",
+        "description": "JÄRVFJÄLLET is IKEA's ergonomic office chair. Swedish for 'mountain of Järv'."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "This sounds VERY Norse - like a mountain where giants dwell. But it's just a Swedish place name meaning 'wolverine mountain'."
+      }
+    ]
   },
   {
     "name": "Markus",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "MARKUS is IKEA's popular ergonomic office chair with a high back."
+      {
+        "category": "IKEAFurniture",
+        "description": "MARKUS is IKEA's popular ergonomic office chair with a high back."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "Despite the Scandinavian setting, Markus is a Latin name from Mars - no Norse mythology here."
+      }
+    ]
   },
   {
     "name": "Kivik",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "KIVIK is IKEA's deep-seated sofa series named after a Swedish town."
+      {
+        "category": "IKEAFurniture",
+        "description": "KIVIK is IKEA's deep-seated sofa series named after a Swedish town."
+      }
+    ]
   },
   {
     "name": "Söderhamn",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "SÖDERHAMN is IKEA's modular sofa system named after a Swedish city."
+      {
+        "category": "IKEAFurniture",
+        "description": "SÖDERHAMN is IKEA's modular sofa system named after a Swedish city."
+      }
+    ]
   },
   {
     "name": "Vittsjö",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "VITTSJÖ is IKEA's glass and metal shelving unit. Swedish for 'white lake'."
+      {
+        "category": "IKEAFurniture",
+        "description": "VITTSJÖ is IKEA's glass and metal shelving unit. Swedish for 'white lake'."
+      }
+    ]
   },
   {
     "name": "Havsta",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "HAVSTA is IKEA's solid pine storage furniture series."
+      {
+        "category": "IKEAFurniture",
+        "description": "HAVSTA is IKEA's solid pine storage furniture series."
+      }
+    ]
   },
   {
     "name": "Ivar",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "IVAR is IKEA's untreated pine shelving system designed for customization."
+      {
+        "category": "IKEAFurniture",
+        "description": "IVAR is IKEA's untreated pine shelving system."
+      },
+      {
+        "category": "NorsePagan",
+        "description": "Ivar is an Old Norse name meaning 'bow warrior' - like Ivar the Boneless, the legendary Viking leader."
+      }
+    ]
   },
   {
     "name": "Trofast",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "TROFAST is IKEA's children's storage system with bins. Swedish for 'faithful'."
+      {
+        "category": "IKEAFurniture",
+        "description": "TROFAST is IKEA's children's storage system with bins. Swedish for 'faithful'."
+      }
+    ]
   },
   {
     "name": "Brimnes",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "BRIMNES is IKEA's bedroom furniture series with built-in storage."
+      {
+        "category": "IKEAFurniture",
+        "description": "BRIMNES is IKEA's bedroom furniture series with built-in storage."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "Sounds like a Norse frost giant or place name, but it's actually named after a place in Iceland - no mythological significance."
+      }
+    ]
   },
   {
     "name": "Nordli",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "NORDLI is IKEA's modular bedroom furniture series."
+      {
+        "category": "IKEAFurniture",
+        "description": "NORDLI is IKEA's modular bedroom furniture series."
+      }
+    ]
   },
   {
     "name": "Fenomen",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "FENOMEN is IKEA's unscented block candle. Swedish for 'phenomenon'."
+      {
+        "category": "IKEAFurniture",
+        "description": "FENOMEN is IKEA's unscented block candle. Swedish for 'phenomenon'."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "While it sounds like it could be a Norse entity, it's just Swedish for 'phenomenon'."
+      }
+    ]
   },
   {
     "name": "Skurup",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "SKURUP is IKEA's pendant and floor lamp series named after a Swedish town."
+      {
+        "category": "IKEAFurniture",
+        "description": "SKURUP is IKEA's pendant and floor lamp series named after a Swedish town."
+      }
+    ]
   },
   {
     "name": "Tertial",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "TERTIAL is IKEA's adjustable work lamp with an articulated arm."
+      {
+        "category": "IKEAFurniture",
+        "description": "TERTIAL is IKEA's adjustable work lamp with an articulated arm."
+      }
+    ]
   },
   {
     "name": "Godmorgon",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "GODMORGON is IKEA's bathroom furniture series. Swedish for 'good morning'."
+      {
+        "category": "IKEAFurniture",
+        "description": "GODMORGON is IKEA's bathroom furniture series. Swedish for 'good morning'."
+      }
+    ]
   },
   {
     "name": "Flisat",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "FLISAT is IKEA's children's furniture series made from solid pine."
+      {
+        "category": "IKEAFurniture",
+        "description": "FLISAT is IKEA's children's furniture series made from solid pine."
+      }
+    ]
   },
   {
     "name": "Antilop",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "ANTILOP is IKEA's high chair for babies. Swedish for 'antelope'."
+      {
+        "category": "IKEAFurniture",
+        "description": "ANTILOP is IKEA's high chair for babies. Swedish for 'antelope'."
+      }
+    ]
   },
   {
     "name": "Duktig",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "DUKTIG is IKEA's children's play kitchen series. Swedish for 'clever' or 'good'."
+      {
+        "category": "IKEAFurniture",
+        "description": "DUKTIG is IKEA's children's play kitchen series. Swedish for 'clever' or 'good'."
+      }
+    ]
   },
   {
     "name": "Skogsta",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "Skogsta is IKEA's solid acacia wood dining furniture series."
+      {
+        "category": "IKEAFurniture",
+        "description": "Skogsta is IKEA's solid acacia wood dining furniture series."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "Sounds like it could be a sacred forest location in Norse myth, but 'skog' is just Swedish for 'forest'."
+      }
+    ]
   },
   {
     "name": "Vallentuna",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "Vallentuna is IKEA's modular seating system named after a Swedish municipality."
+      {
+        "category": "IKEAFurniture",
+        "description": "Vallentuna is IKEA's modular seating system named after a Swedish municipality."
+      }
+    ]
   },
   {
     "name": "Kura",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "Kura is IKEA's reversible children's bed that can be flipped for different heights."
+      {
+        "category": "IKEAFurniture",
+        "description": "Kura is IKEA's reversible children's bed that can be flipped for different heights."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "Sounds like it could be a Norse spirit or creature, but it's just Swedish meaning 'to cuddle' or 'snuggle'."
+      }
+    ]
   },
   {
     "name": "Norden",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "Norden is IKEA's gateleg table with drawers. Swedish for 'the North'."
+      {
+        "category": "IKEAFurniture",
+        "description": "Norden is IKEA's gateleg table with drawers. Swedish for 'the North'."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "While 'Norden' means 'the North' and sounds Norse, it's not a specific pagan reference."
+      }
+    ]
   },
   {
     "name": "Friheten",
     "categories": [
-      "IKEAFurniture"
-    ],
-    "explanation": "Friheten is IKEA's sofa bed with storage. Swedish for 'freedom'."
+      {
+        "category": "IKEAFurniture",
+        "description": "Friheten is IKEA's sofa bed with storage. Swedish for 'freedom'."
+      }
+    ]
   },
   {
     "name": "Saruhan",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Saruhan was an Anatolian beylik (Turkish principality) in western Anatolia during the 14th-15th centuries."
+      {
+        "category": "HistoricalState",
+        "description": "Saruhan was an Anatolian beylik (Turkish principality) in western Anatolia during the 14th-15th centuries."
+      }
+    ]
   },
   {
     "name": "Aragon",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Aragon was a medieval Spanish kingdom that united with Castile to form modern Spain."
+      {
+        "category": "HistoricalState",
+        "description": "Aragon was a medieval Spanish kingdom that united with Castile to form modern Spain."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Not to be confused with Aragorn, the ranger who became King of Gondor - the Spanish kingdom came first!"
+      }
+    ]
   },
   {
     "name": "Gondar",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Gondar is an Ethiopian city that served as the capital of the Ethiopian Empire from 1636 to 1855."
+      {
+        "category": "HistoricalState",
+        "description": "Gondar is an Ethiopian city that served as the capital of the Ethiopian Empire from 1636 to 1855."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Sounds like Gondor but this is a real Ethiopian city! Tolkien's kingdom name may have been coincidental."
+      }
+    ]
   },
   {
     "name": "Trebizond",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "The Empire of Trebizond was a Byzantine successor state on the Black Sea coast, lasting from 1204 to 1461."
+      {
+        "category": "HistoricalState",
+        "description": "The Empire of Trebizond was a Byzantine successor state on the Black Sea coast, lasting from 1204 to 1461."
+      }
+    ]
   },
   {
     "name": "Wallachia",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Wallachia was a Romanian principality and home of Vlad the Impaler (Dracula)."
+      {
+        "category": "HistoricalState",
+        "description": "Wallachia was a Romanian principality and home of Vlad the Impaler (Dracula)."
+      },
+      {
+        "category": "DnD",
+        "result": 1,
+        "description": "While not D&D-specific, the real Dracula's homeland has heavily influenced vampire lore used in D&D settings like Ravenloft."
+      }
+    ]
   },
   {
     "name": "Byzantium",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Byzantium was the Eastern Roman Empire, lasting from 330 AD until Constantinople fell in 1453."
+      {
+        "category": "HistoricalState",
+        "description": "Byzantium was the Eastern Roman Empire, lasting from 330 AD until Constantinople fell in 1453."
+      }
+    ]
   },
   {
     "name": "Khmer",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "The Khmer Empire was a powerful Southeast Asian state that built Angkor Wat, lasting from 802 to 1431."
+      {
+        "category": "HistoricalState",
+        "description": "The Khmer Empire was a powerful Southeast Asian state that built Angkor Wat, lasting from 802 to 1431."
+      }
+    ]
   },
   {
     "name": "Ayutthaya",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Ayutthaya was a Thai kingdom that preceded modern Thailand, flourishing from 1351 to 1767."
+      {
+        "category": "HistoricalState",
+        "description": "Ayutthaya was a Thai kingdom that preceded modern Thailand, flourishing from 1351 to 1767."
+      }
+    ]
   },
   {
     "name": "Majapahit",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Majapahit was a powerful Indonesian maritime empire based in Java from 1293 to around 1527."
+      {
+        "category": "HistoricalState",
+        "description": "Majapahit was a powerful Indonesian maritime empire based in Java from 1293 to around 1527."
+      }
+    ]
   },
   {
     "name": "Vijayanagar",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Vijayanagar was a powerful South Indian empire that ruled much of southern India from 1336 to 1646."
+      {
+        "category": "HistoricalState",
+        "description": "Vijayanagar was a powerful South Indian empire that ruled much of southern India from 1336 to 1646."
+      }
+    ]
   },
   {
     "name": "Theodoro",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Theodoro was a small Gothic principality in Crimea that existed from the 13th century until 1475."
+      {
+        "category": "HistoricalState",
+        "description": "Theodoro was a small Gothic principality in Crimea that existed from the 13th century until 1475."
+      }
+    ]
   },
   {
     "name": "Ulm",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Ulm is a German city on the Danube, birthplace of Albert Einstein and home to the world's tallest church steeple."
+      {
+        "category": "HistoricalState",
+        "description": "Ulm is a German city on the Danube, birthplace of Albert Einstein and home to the world's tallest church steeple."
+      }
+    ]
   },
   {
     "name": "Dithmarschen",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Dithmarschen was a medieval peasant republic in northern Germany that defeated Danish armies in 1500."
+      {
+        "category": "HistoricalState",
+        "description": "Dithmarschen was a medieval peasant republic in northern Germany that defeated Danish armies in 1500."
+      }
+    ]
   },
   {
     "name": "Mewar",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Mewar was a Rajput kingdom in India famous for resisting Mughal conquest under Maharana Pratap."
+      {
+        "category": "HistoricalState",
+        "description": "Mewar was a Rajput kingdom in India famous for resisting Mughal conquest under Maharana Pratap."
+      }
+    ]
   },
   {
     "name": "Ternate",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Ternate was a sultanate in the Indonesian Spice Islands, a major clove producer and trading power."
+      {
+        "category": "HistoricalState",
+        "description": "Ternate was a sultanate in the Indonesian Spice Islands, a major clove producer and trading power."
+      }
+    ]
   },
   {
     "name": "Tidore",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Tidore was Ternate's rival sultanate in the Spice Islands, allied with Spain against Portuguese-backed Ternate."
+      {
+        "category": "HistoricalState",
+        "description": "Tidore was Ternate's rival sultanate in the Spice Islands, allied with Spain against Portuguese-backed Ternate."
+      }
+    ]
   },
   {
     "name": "Mordva",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Mordva (Mordovia) is a Russian region home to the Mordvin people, a Finno-Ugric ethnic group."
+      {
+        "category": "HistoricalState",
+        "description": "Mordva (Mordovia) is a Russian region home to the Mordvin people, a Finno-Ugric ethnic group."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Sounds exactly like Mordor, but this is a real Russian region! Tolkien probably didn't copy it... probably."
+      }
+    ]
   },
   {
     "name": "Morea",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Morea was the medieval name for the Peloponnese peninsula in Greece, used from the 10th century onward."
+      {
+        "category": "HistoricalState",
+        "description": "Morea was the medieval name for the Peloponnese peninsula in Greece, used from the 10th century onward."
+      },
+      {
+        "category": "LordOfTheRings",
+        "result": -1,
+        "description": "Sounds like Moria but this is a real Greek region! The Dwarven halls and this peninsula are unrelated."
+      }
+    ]
   },
   {
     "name": "Axum",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Axum was a powerful Ethiopian kingdom (1st-7th century AD), considered one of the four great powers of the ancient world."
+      {
+        "category": "HistoricalState",
+        "description": "Axum was a powerful Ethiopian kingdom (1st-7th century AD), considered one of the four great powers of the ancient world."
+      }
+    ]
   },
   {
     "name": "Lydia",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Lydia was an ancient Anatolian kingdom famous for inventing coined money under King Croesus."
+      {
+        "category": "HistoricalState",
+        "description": "Lydia was an ancient Anatolian kingdom famous for inventing coined money under King Croesus."
+      }
+    ]
   },
   {
     "name": "Nabataea",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Nabataea was an ancient Arab kingdom centered at Petra (4th century BC - 106 AD), famous for rock-cut architecture."
+      {
+        "category": "HistoricalState",
+        "description": "Nabataea was an ancient Arab kingdom centered at Petra (4th century BC - 106 AD), famous for rock-cut architecture."
+      }
+    ]
   },
   {
     "name": "Birka",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Birka was a major Viking Age trading center in Sweden (8th-10th century), one of Scandinavia's earliest urban settlements."
+      {
+        "category": "HistoricalState",
+        "description": "Birka was a major Viking Age trading center in Sweden (8th-10th century), one of Scandinavia's earliest urban settlements."
+      },
+      {
+        "category": "IKEAFurniture",
+        "result": -1,
+        "description": "Sounds like it could be an IKEA product with that Swedish name, but it's actually a Viking trading settlement."
+      }
+    ]
   },
   {
     "name": "Hedeby",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Hedeby was a major Viking trading settlement in what is now northern Germany (8th-11th century)."
+      {
+        "category": "HistoricalState",
+        "description": "Hedeby was a major Viking trading settlement in what is now northern Germany (8th-11th century)."
+      }
+    ]
   },
   {
     "name": "Kush",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Kush was an ancient Nubian kingdom in Sudan that once conquered Egypt, lasting from c. 1070 BC to 350 AD."
+      {
+        "category": "HistoricalState",
+        "description": "Kush was an ancient Nubian kingdom in Sudan that once conquered Egypt, lasting from c. 1070 BC to 350 AD."
+      }
+    ]
   },
   {
     "name": "Elam",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Elam was one of the oldest civilizations, located in ancient Iran, lasting from c. 3200 BC to 539 BC."
+      {
+        "category": "HistoricalState",
+        "description": "Elam was one of the oldest civilizations, located in ancient Iran, lasting from c. 3200 BC to 539 BC."
+      }
+    ]
   },
   {
     "name": "Pontus",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Pontus was a Hellenistic kingdom on the Black Sea coast of Anatolia (281-63 BC), ruled by Mithridates the Great."
+      {
+        "category": "HistoricalState",
+        "description": "Pontus was a Hellenistic kingdom on the Black Sea coast of Anatolia (281-63 BC), ruled by Mithridates the Great."
+      }
+    ]
   },
   {
     "name": "Colchis",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Colchis was an ancient kingdom in the Caucasus (modern Georgia), famous in Greek myth as home of Medea and the Golden Fleece."
+      {
+        "category": "HistoricalState",
+        "description": "Colchis was an ancient kingdom in the Caucasus (modern Georgia)."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "In Greek mythology, Colchis was home of Medea and the Golden Fleece - where Jason and the Argonauts quested."
+      }
+    ]
   },
   {
     "name": "Urartu",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Urartu was a powerful Iron Age kingdom in the Armenian Highlands (9th-6th century BC), a rival to Assyria."
+      {
+        "category": "HistoricalState",
+        "description": "Urartu was a powerful Iron Age kingdom in the Armenian Highlands (9th-6th century BC), a rival to Assyria."
+      }
+    ]
   },
   {
     "name": "Phrygia",
     "categories": [
-      "HistoricalState"
-    ],
-    "explanation": "Phrygia was an ancient Anatolian kingdom (12th-7th century BC), famous for King Midas and the Gordian Knot."
+      {
+        "category": "HistoricalState",
+        "description": "Phrygia was an ancient Anatolian kingdom (12th-7th century BC)."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Famous in Greek mythology for King Midas's golden touch and the Gordian Knot that Alexander the Great 'solved.'"
+      }
+    ]
   },
   {
     "name": "Monte Carlo",
     "categories": [
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "Monte Carlo is the famous district of Monaco known for its casino, and the Chevrolet Monte Carlo."
+      {
+        "category": "HistoricalState",
+        "description": "Monte Carlo is the famous district of Monaco known for its casino."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Chevrolet Monte Carlo was a classic American personal luxury coupe."
+      }
+    ]
   },
   {
     "name": "Monaco",
     "categories": [
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "Monaco is the independent city-state principality on the French Riviera, and the Dodge Monaco."
+      {
+        "category": "HistoricalState",
+        "description": "Monaco is the independent city-state principality on the French Riviera."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Dodge Monaco was a full-size automobile."
+      }
+    ]
   },
   {
     "name": "Corsica",
     "categories": [
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "Corsica is the French Mediterranean island (birthplace of Napoleon), and the Chevrolet Corsica."
+      {
+        "category": "HistoricalState",
+        "description": "Corsica is the French Mediterranean island, birthplace of Napoleon."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Chevrolet Corsica was a compact car."
+      }
+    ]
   },
   {
     "name": "Granada",
     "categories": [
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "Granada was the last Moorish kingdom in Spain until 1492, and the Ford Granada."
+      {
+        "category": "HistoricalState",
+        "description": "Granada was the last Moorish kingdom in Spain until 1492."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Ford Granada was a European and American sedan."
+      }
+    ]
   },
   {
     "name": "Cordoba",
     "categories": [
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "Córdoba was the capital of the Islamic Caliphate in Spain, and the Chrysler Cordoba."
+      {
+        "category": "HistoricalState",
+        "description": "Córdoba was the capital of the Islamic Caliphate in Spain."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Chrysler Cordoba was a luxury personal coupe."
+      }
+    ]
   },
   {
     "name": "Seville",
     "categories": [
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "Seville was the center of Spanish colonial trade, and the Cadillac Seville luxury car."
+      {
+        "category": "HistoricalState",
+        "description": "Seville was the center of Spanish colonial trade."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Cadillac Seville was a luxury car."
+      }
+    ]
   },
   {
     "name": "Eldorado",
     "categories": [
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "El Dorado was the legendary lost city of gold, and the Cadillac Eldorado luxury coupe."
+      {
+        "category": "CarModel",
+        "description": "The Cadillac Eldorado is a legendary luxury coupe."
+      },
+      {
+        "category": "HistoricalState",
+        "result": -1,
+        "description": "El Dorado was a mythical city of gold that never actually existed - not a historical state."
+      }
+    ]
   },
   {
     "name": "Capri",
     "categories": [
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "Capri is the Italian island that was a retreat for Roman emperors, and the Ford/Mercury Capri."
+      {
+        "category": "HistoricalState",
+        "description": "Capri is the Italian island that was a retreat for Roman emperors."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Ford/Mercury Capri was a sporty car."
+      }
+    ]
   },
   {
     "name": "Falcon",
     "categories": [
-      "Bird",
-      "CarModel",
-      "Tech",
-      "Superhero"
-    ],
-    "explanation": "The falcon is the fastest animal on Earth, the Ford Falcon, SpaceX's rockets, and Sam Wilson - Captain America's bestie turned Captain America himself."
+      {
+        "category": "Bird",
+        "description": "The falcon is the fastest animal on Earth, capable of diving at over 240 mph."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Ford Falcon was a classic compact car."
+      },
+      {
+        "category": "Tech",
+        "description": "SpaceX's Falcon 9 and Falcon Heavy rockets revolutionized spaceflight with reusability."
+      },
+      {
+        "category": "Superhero",
+        "description": "Sam Wilson - Captain America's bestie who became the new Captain America himself."
+      }
+    ]
   },
   {
     "name": "Thunderbird",
     "categories": [
-      "Bird",
-      "CarModel",
-      "Tech"
-    ],
-    "explanation": "The thunderbird is a legendary Native American supernatural bird, the iconic Ford Thunderbird car, and Mozilla's email client."
+      {
+        "category": "Bird",
+        "result": -1,
+        "description": "Not an actual bird species - the thunderbird is a legendary supernatural creature from Native American mythology."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Ford Thunderbird was an iconic American personal luxury car."
+      },
+      {
+        "category": "Tech",
+        "description": "Mozilla Thunderbird is a popular free email client."
+      },
+      {
+        "category": "NorsePagan",
+        "result": -1,
+        "description": "While thunder-related, the Thunderbird is Native American, not Norse - you might be thinking of Thor's hammer."
+      }
+    ]
   },
   {
     "name": "Firebird",
     "categories": [
-      "Bird",
-      "CarModel",
-      "Tech"
-    ],
-    "explanation": "The firebird is a mythological creature similar to the phoenix, the Pontiac Firebird muscle car, and the original Firefox browser codename."
+      {
+        "category": "Bird",
+        "result": -1,
+        "description": "Not an actual bird species - the firebird is a mythological creature from Slavic folklore, similar to the phoenix."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Pontiac Firebird was a classic American muscle car."
+      },
+      {
+        "category": "Tech",
+        "description": "Firebird was the original codename for the Firefox browser."
+      },
+      {
+        "category": "GreekPagan",
+        "result": 1,
+        "description": "Similar to but distinct from the Greek phoenix - the Slavic firebird has its own legends involving magical feathers."
+      }
+    ]
   },
   {
     "name": "Eagle",
     "categories": [
-      "Bird",
-      "CarModel",
-      "RockBand"
-    ],
-    "explanation": "Eagles are majestic birds of prey, the AMC Eagle crossover vehicle, and The Eagles rock band ('Hotel California')."
+      {
+        "category": "Bird",
+        "description": "Eagles are majestic birds of prey with exceptional vision."
+      },
+      {
+        "category": "CarModel",
+        "description": "The AMC Eagle was an innovative early crossover vehicle."
+      },
+      {
+        "category": "RockMusic",
+        "description": "The Eagles are a legendary American rock band known for 'Hotel California'."
+      },
+      {
+        "category": "SpaceMission",
+        "description": "'Eagle' was the Apollo 11 Lunar Module - 'The Eagle has landed!'"
+      }
+    ]
   },
   {
     "name": "Hawkeye",
     "categories": [
-      "Bird",
-      "Superhero"
-    ],
-    "explanation": "Hawkeye refers to a hawk's exceptional vision, and Marvel's Clint Barton - the Avenger who never misses (just like actual hawks diving for prey)."
+      {
+        "category": "Bird",
+        "result": -1,
+        "description": "Not actually a bird species - it refers to hawk-like vision, but there's no bird called 'hawkeye'."
+      },
+      {
+        "category": "Superhero",
+        "description": "Marvel's Clint Barton - the Avenger who never misses, just like actual hawks diving for prey."
+      }
+    ]
   },
   {
     "name": "Vulture",
     "categories": [
-      "Bird",
-      "Superhero"
-    ],
-    "explanation": "Vultures are nature's cleanup crew, and Spider-Man's winged villain - Michael Keaton played him in Homecoming, which is perfect because he was also Batman."
+      {
+        "category": "Bird",
+        "description": "Vultures are nature's cleanup crew, scavenging carrion with powerful digestive systems."
+      },
+      {
+        "category": "Superhero",
+        "description": "Spider-Man's winged villain - Michael Keaton played him in Homecoming, which is perfect because he was also Batman."
+      }
+    ]
   },
   {
     "name": "Raven",
     "categories": [
-      "Bird",
-      "NorsePagan",
-      "Warhammer",
-      "DnD",
-      "Superhero",
-      "MetalBand"
-    ],
-    "explanation": "Ravens are intelligent corvids, Odin's messengers, Raven Guard Space Marines, D&D's Raven Queen, DC's Teen Titans empath, and a NWOBHM band from 1974."
+      {
+        "category": "Bird",
+        "description": "Ravens are highly intelligent corvids known for problem-solving abilities and complex communication."
+      },
+      {
+        "category": "NorsePagan",
+        "description": "Huginn and Muninn are Odin's ravens who fly across the world gathering information."
+      },
+      {
+        "category": "Warhammer",
+        "description": "The Raven Guard are a loyalist Space Marine chapter known for stealth tactics and guerrilla warfare."
+      },
+      {
+        "category": "DnD",
+        "description": "The Raven Queen is a deity of death and fate in D&D, with ravens as her symbols."
+      },
+      {
+        "category": "Superhero",
+        "description": "Raven is DC's Teen Titans empath with demonic heritage and dark powers."
+      },
+      {
+        "category": "MetalMusic",
+        "description": "Raven was a NWOBHM (New Wave of British Heavy Metal) band from 1974."
+      }
+    ]
   },
   {
     "name": "Robin",
     "categories": [
-      "Bird",
-      "CarModel",
-      "Superhero"
-    ],
-    "explanation": "The robin is a common songbird, the Reliant Robin three-wheeler, and Batman's sidekick(s) - there have been like five of them at this point."
+      {
+        "category": "Bird",
+        "description": "The robin is a common songbird, beloved for its red breast."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Reliant Robin was a famous British three-wheeler car."
+      },
+      {
+        "category": "Superhero",
+        "description": "Batman's sidekick(s) - there have been like five of them at this point."
+      }
+    ]
   },
   {
     "name": "Skylark",
     "categories": [
-      "Bird",
-      "CarModel"
-    ],
-    "explanation": "The skylark is a songbird celebrated in poetry, and the Buick Skylark was a popular American car."
+      {
+        "category": "Bird",
+        "description": "The skylark is a songbird celebrated in poetry for its beautiful aerial song displays."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Buick Skylark was a popular American car from the 1950s-1990s."
+      }
+    ]
   },
   {
     "name": "Finch",
     "categories": [
-      "Bird",
-      "CloudInfra"
-    ],
-    "explanation": "Finches are diverse songbirds (Darwin's finches), and AWS Finch is a container development tool."
+      {
+        "category": "Bird",
+        "description": "Finches are diverse songbirds, famous from Darwin's finches in the Galápagos Islands."
+      },
+      {
+        "category": "CloudInfra",
+        "description": "AWS Finch is a container development tool for building cloud infrastructure."
+      }
+    ]
   },
   {
     "name": "Condor",
     "categories": [
-      "Bird",
-      "CloudInfra"
-    ],
-    "explanation": "Condors are the largest flying land birds in the Western Hemisphere, and HTCondor is high-throughput computing software."
+      {
+        "category": "Bird",
+        "description": "Condors are the largest flying land birds in the Western Hemisphere with massive wingspans."
+      },
+      {
+        "category": "CloudInfra",
+        "description": "HTCondor is high-throughput computing software for distributed workloads."
+      }
+    ]
   },
   {
     "name": "Crow",
     "categories": [
-      "Bird",
-      "RockBand"
-    ],
-    "explanation": "Crows are highly intelligent corvids, and The Black Crowes are a major American rock band."
+      {
+        "category": "Bird",
+        "description": "Crows are highly intelligent corvids capable of using tools and remembering faces."
+      },
+      {
+        "category": "RockMusic",
+        "description": "The Black Crowes are a major American rock band."
+      }
+    ]
   },
   {
     "name": "Magpie",
     "categories": [
-      "Bird",
-      "ProgrammingLang"
-    ],
-    "explanation": "Magpies are intelligent corvids known for collecting shiny objects, and Magpie is a programming language."
+      {
+        "category": "Bird",
+        "description": "Magpies are intelligent corvids known for collecting shiny objects and complex social behaviors."
+      },
+      {
+        "category": "ProgrammingLang",
+        "description": "Magpie is a programming language for game development."
+      }
+    ]
   },
   {
     "name": "Hawk",
     "categories": [
-      "Bird",
-      "CarModel",
-      "RockBand"
-    ],
-    "explanation": "Hawks are birds of prey, the Studebaker Hawk classic car, and Hawkwind is a British space rock band."
+      {
+        "category": "Bird",
+        "description": "Hawks are birds of prey with keen eyesight and powerful talons."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Studebaker Hawk was a classic American car from the 1950s."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Hawkwind is a British space rock band pioneering psychedelic and progressive sounds."
+      }
+    ]
   },
   {
     "name": "Lark",
     "categories": [
-      "Bird",
-      "CarModel"
-    ],
-    "explanation": "Larks are songbirds known for their melodious calls, and the Studebaker Lark was a compact car."
+      {
+        "category": "Bird",
+        "description": "Larks are songbirds known for their melodious calls and aerial displays."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Studebaker Lark was a compact car from the 1960s."
+      }
+    ]
   },
   {
     "name": "Osprey",
     "categories": [
-      "Bird",
-      "Tech"
-    ],
-    "explanation": "The osprey is a fish-eating raptor also called the sea hawk, and the V-22 Osprey military tiltrotor aircraft."
+      {
+        "category": "Bird",
+        "description": "The osprey is a fish-eating raptor also called the sea hawk, with specialized talons for catching fish."
+      },
+      {
+        "category": "Tech",
+        "description": "The V-22 Osprey is a military tiltrotor aircraft that can take off like a helicopter and fly like a plane."
+      }
+    ]
   },
   {
     "name": "Kiwi",
     "categories": [
-      "Bird",
-      "Tech"
-    ],
-    "explanation": "The kiwi is a flightless bird native to New Zealand, and Kiwi.com is a travel tech company."
+      {
+        "category": "Bird",
+        "description": "The kiwi is a flightless bird native to New Zealand with unique nocturnal habits."
+      },
+      {
+        "category": "Tech",
+        "description": "Kiwi.com is a travel tech company for flight booking."
+      }
+    ]
   },
   {
     "name": "Pelican",
     "categories": [
-      "Bird",
-      "Tech"
-    ],
-    "explanation": "Pelicans are water birds with distinctive throat pouches, and Pelican Cases is a major rugged equipment brand."
+      {
+        "category": "Bird",
+        "description": "Pelicans are water birds with distinctive throat pouches for catching fish."
+      },
+      {
+        "category": "Tech",
+        "description": "Pelican Cases is a major rugged equipment and protective case brand."
+      }
+    ]
   },
   {
     "name": "Sienna",
     "categories": [
-      "Pigment",
-      "HistoricalState",
-      "CarModel"
-    ],
-    "explanation": "Sienna is an earth pigment from Tuscany, the historic Italian city-state of Siena, and the Toyota Sienna minivan."
+      {
+        "category": "Pigment",
+        "description": "Sienna is an earth pigment from Tuscany, producing warm reddish-brown tones."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "Siena was a historic Italian city-state and major medieval power."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Toyota Sienna is a popular minivan."
+      }
+    ]
   },
   {
     "name": "Prussia",
     "categories": [
-      "Pigment",
-      "HistoricalState"
-    ],
-    "explanation": "Prussia was a major German kingdom, and Prussian Blue (1704) was the first modern synthetic pigment."
+      {
+        "category": "Pigment",
+        "description": "Prussian Blue (1704) was the first modern synthetic pigment, a vibrant blue color."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "Prussia was a major German kingdom that unified Germany under Bismarck."
+      }
+    ]
   },
   {
     "name": "Venice",
     "categories": [
-      "Pigment",
-      "HistoricalState"
-    ],
-    "explanation": "Venice was the historic Italian maritime republic, and Venetian Red is a classic iron oxide pigment."
+      {
+        "category": "Pigment",
+        "description": "Venetian Red is a classic iron oxide pigment producing warm red tones."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "Venice was the historic Italian maritime republic and trading powerhouse."
+      }
+    ]
   },
   {
     "name": "Naples",
     "categories": [
-      "Pigment",
-      "HistoricalState"
-    ],
-    "explanation": "Naples was the capital of a southern Italian kingdom, and Naples Yellow is a lead-based artist pigment."
+      {
+        "category": "Pigment",
+        "description": "Naples Yellow is a lead-based artist pigment producing bright yellow tones."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "Naples was the capital of a southern Italian kingdom."
+      }
+    ]
   },
   {
     "name": "Umbria",
     "categories": [
-      "Pigment",
-      "HistoricalState"
-    ],
-    "explanation": "Umbria is an Italian region, and Umber pigment was originally mined there."
+      {
+        "category": "Pigment",
+        "description": "Umber pigment was originally mined in the Italian region of Umbria, producing brown earth tones."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "Umbria is an Italian region with rich historical significance."
+      }
+    ]
   },
   {
     "name": "Van Dyck",
     "categories": [
-      "Pigment",
-      "Painter"
-    ],
-    "explanation": "Anthony van Dyck was a Flemish Baroque painter, and Van Dyke Brown pigment is named after him."
+      {
+        "category": "Pigment",
+        "description": "Van Dyke Brown is a rich brown pigment named after the painter."
+      },
+      {
+        "category": "Painter",
+        "description": "Anthony van Dyck was a Flemish Baroque painter famous for his portraits."
+      }
+    ]
   },
   {
     "name": "Payne",
     "categories": [
-      "Pigment",
-      "Painter"
-    ],
-    "explanation": "William Payne was an 18th-century English watercolorist, and Payne's Grey pigment bears his name."
+      {
+        "category": "Pigment",
+        "description": "Payne's Grey is a blue-grey pigment perfect for watercolors."
+      },
+      {
+        "category": "Painter",
+        "description": "William Payne was an 18th-century English watercolorist who formulated the grey mixture."
+      }
+    ]
   },
   {
     "name": "Tyre",
     "categories": [
-      "Pigment",
-      "HistoricalState"
-    ],
-    "explanation": "Tyre was an ancient Phoenician city, and Tyrian Purple dye was worth more than gold in antiquity."
+      {
+        "category": "Pigment",
+        "description": "Tyrian Purple dye from Tyre was worth more than gold in antiquity, extracted from sea snails."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "Tyre was an ancient Phoenician city and major trading center."
+      }
+    ]
   },
   {
     "name": "Egypt",
     "categories": [
-      "Pigment",
-      "HistoricalState"
-    ],
-    "explanation": "Egypt is the ancient civilization, and Egyptian Blue is one of the oldest synthetic pigments (c. 3100 BC)."
+      {
+        "category": "Pigment",
+        "description": "Egyptian Blue is one of the oldest synthetic pigments (c. 3100 BC), a vibrant blue color."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "Ancient Egypt was one of the world's great civilizations along the Nile."
+      }
+    ]
   },
   {
     "name": "Cobalt",
     "categories": [
-      "Pigment",
-      "Tech"
-    ],
-    "explanation": "Cobalt Blue is a vivid artist pigment, and cobalt is a critical element for lithium-ion batteries."
+      {
+        "category": "Pigment",
+        "description": "Cobalt Blue is a vivid artist pigment producing intense blue tones."
+      },
+      {
+        "category": "Tech",
+        "description": "Cobalt is a critical element for lithium-ion batteries in modern electronics."
+      }
+    ]
   },
   {
     "name": "India",
     "categories": [
-      "Pigment",
-      "HistoricalState"
-    ],
-    "explanation": "India is the historic subcontinent civilization, and Indian Yellow was a pigment made from mango-fed cow urine."
+      {
+        "category": "Pigment",
+        "description": "Indian Yellow was a pigment made from mango-fed cow urine, producing bright yellow tones."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "India is the historic subcontinent civilization with thousands of years of history."
+      }
+    ]
   },
   {
     "name": "Vermilion",
     "categories": [
-      "Pigment",
-      "Pokemon"
-    ],
-    "explanation": "Vermilion is a brilliant red pigment made from cinnabar, and Vermilion City is home to Lt. Surge's Electric-type Gym in Pokemon."
+      {
+        "category": "Pigment",
+        "description": "Vermilion is a brilliant red pigment made from cinnabar (mercury sulfide)."
+      },
+      {
+        "category": "Pokemon",
+        "description": "Vermilion City is home to Lt. Surge's Electric-type Gym in Pokemon."
+      }
+    ]
   },
   {
     "name": "Cerulean",
     "categories": [
-      "Pigment",
-      "Pokemon"
-    ],
-    "explanation": "Cerulean is a sky-blue cobalt stannate pigment, and Cerulean City is home to Misty's Water-type Gym in Pokemon."
+      {
+        "category": "Pigment",
+        "description": "Cerulean is a sky-blue cobalt stannate pigment producing brilliant blue tones."
+      },
+      {
+        "category": "Pokemon",
+        "description": "Cerulean City is home to Misty's Water-type Gym in Pokemon."
+      }
+    ]
   },
   {
     "name": "Ultramarine",
     "categories": [
-      "Pigment",
-      "Warhammer"
-    ],
-    "explanation": "Ultramarine is a blue pigment from lapis lazuli ('beyond the sea'), and the Ultramarines are THE iconic Space Marine chapter in Warhammer 40k."
+      {
+        "category": "Pigment",
+        "description": "Ultramarine is a blue pigment from lapis lazuli, meaning 'beyond the sea' because it came from Afghanistan."
+      },
+      {
+        "category": "Warhammer",
+        "description": "The Ultramarines are THE iconic Space Marine chapter in Warhammer 40k."
+      }
+    ]
   },
   {
     "name": "Ochre",
     "categories": [
-      "Pigment"
-    ],
-    "explanation": "Ochre is one of humanity's oldest pigments, an iron oxide earth color used since prehistory."
+      {
+        "category": "Pigment",
+        "description": "Ochre is one of humanity's oldest pigments, an iron oxide earth color used since prehistory."
+      }
+    ]
+  },
+  {
+    "name": "Alpha",
+    "categories": [
+      {
+        "category": "GreekLetter",
+        "description": "Alpha is the first letter of the Greek alphabet, symbolizing beginnings and primacy."
+      },
+      {
+        "category": "Tech",
+        "description": "Alpha versions are early software releases for internal testing before beta."
+      },
+      {
+        "category": "CloudInfra",
+        "description": "Google Cloud's Alpha features are early-access APIs not yet production-ready."
+      }
+    ]
+  },
+  {
+    "name": "Beta",
+    "categories": [
+      {
+        "category": "GreekLetter",
+        "description": "Beta is the second letter of the Greek alphabet."
+      },
+      {
+        "category": "Tech",
+        "description": "Beta software is nearly complete, released for public testing before final launch."
+      }
+    ]
+  },
+  {
+    "name": "Delta",
+    "categories": [
+      {
+        "category": "GreekLetter",
+        "description": "Delta is the fourth Greek letter, representing change in mathematics and science."
+      },
+      {
+        "category": "SpaceMission",
+        "description": "Delta rockets have launched hundreds of satellites since 1960."
+      },
+      {
+        "category": "Tech",
+        "description": "Delta encoding stores differences between versions to save storage space."
+      }
+    ]
+  },
+  {
+    "name": "Gamma",
+    "categories": [
+      {
+        "category": "GreekLetter",
+        "description": "Gamma is the third Greek letter, used in physics for electromagnetic radiation."
+      },
+      {
+        "category": "Superhero",
+        "description": "Gamma radiation created the Hulk - Bruce Banner's alter ego powered by anger."
+      }
+    ]
+  },
+  {
+    "name": "Omega",
+    "categories": [
+      {
+        "category": "GreekLetter",
+        "description": "Omega is the last Greek letter, symbolizing endings and ultimate outcomes."
+      },
+      {
+        "category": "Superhero",
+        "description": "Darkseid's Omega Beams are his signature weapon - unavoidable energy blasts that can erase you from existence."
+      }
+    ]
+  },
+  {
+    "name": "Lambda",
+    "categories": [
+      {
+        "category": "GreekLetter",
+        "description": "Lambda is the 11th Greek letter, used in physics for wavelength."
+      },
+      {
+        "category": "CloudInfra",
+        "description": "AWS Lambda is Amazon's serverless compute service that runs code without managing servers."
+      },
+      {
+        "category": "ProgrammingLang",
+        "description": "Lambda functions are anonymous functions in programming, named after lambda calculus."
+      }
+    ]
+  },
+  {
+    "name": "Sigma",
+    "categories": [
+      {
+        "category": "GreekLetter",
+        "description": "Sigma is the 18th Greek letter, used for summation in mathematics."
+      },
+      {
+        "category": "Tech",
+        "description": "Six Sigma is a quality management methodology for eliminating defects."
+      }
+    ]
+  },
+  {
+    "name": "Apollo",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "NASA's Apollo program landed humans on the Moon from 1969-1972."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Apollo is the Greek god of the sun, music, poetry, and archery."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Apollo was one of the few Greek gods adopted into Roman religion with the same name."
+      }
+    ]
+  },
+  {
+    "name": "Mercury",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Project Mercury was NASA's first human spaceflight program (1958-1963)."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Mercury is the Roman god of commerce, communication, and messenger of the gods."
+      },
+      {
+        "category": "Celestial",
+        "description": "Mercury is the smallest planet and closest to the Sun in our solar system."
+      },
+      {
+        "category": "CarModel",
+        "description": "Mercury was a Ford division producing mid-range automobiles from 1938-2011."
+      },
+      {
+        "category": "RockMusic",
+        "description": "Freddie Mercury was the legendary frontman of Queen - one of rock's greatest voices ever."
+      }
+    ]
+  },
+  {
+    "name": "Gemini",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Project Gemini was NASA's second human spaceflight program, bridging Mercury and Apollo."
+      },
+      {
+        "category": "Celestial",
+        "description": "Gemini is a zodiac constellation representing the twins Castor and Pollux."
+      },
+      {
+        "category": "Tech",
+        "description": "Google Gemini is Google's multimodal AI model family."
+      }
+    ]
+  },
+  {
+    "name": "Saturn",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "The Saturn V rocket launched Apollo astronauts to the Moon - still the most powerful rocket ever flown."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Saturn is the Roman god of agriculture, wealth, and time - father of Jupiter."
+      },
+      {
+        "category": "Celestial",
+        "description": "Saturn is the ringed gas giant, sixth planet from the Sun."
+      },
+      {
+        "category": "CarModel",
+        "description": "Saturn was GM's 'different kind of car company' brand from 1985-2010."
+      }
+    ]
+  },
+  {
+    "name": "Titan",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Titan rockets launched many NASA and military payloads from 1959-2005."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "The Titans were the elder gods in Greek mythology, overthrown by the Olympians."
+      },
+      {
+        "category": "Celestial",
+        "description": "Titan is Saturn's largest moon, the only moon with a dense atmosphere."
+      },
+      {
+        "category": "Warhammer",
+        "description": "Titans are god-machines in Warhammer 40k - massive war engines piloted by the Collegia Titanica."
+      },
+      {
+        "category": "Superhero",
+        "description": "The Teen Titans are DC's iconic young superhero team featuring Robin, Starfire, Raven, and more."
+      }
+    ]
+  },
+  {
+    "name": "Atlas",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Atlas rockets have launched spacecraft since 1957, including John Glenn's orbital flight."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Atlas is the Titan condemned to hold up the sky for eternity."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Volkswagen Atlas is a mid-size SUV."
+      },
+      {
+        "category": "CloudInfra",
+        "description": "MongoDB Atlas is the cloud database service for MongoDB."
+      }
+    ]
+  },
+  {
+    "name": "Voyager",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Voyager 1 and 2 are NASA's interstellar probes, still transmitting from beyond the solar system."
+      },
+      {
+        "category": "StarWars",
+        "result": -1,
+        "description": "Not a Star Wars ship - it's a real NASA spacecraft, though the name sounds sci-fi enough!"
+      },
+      {
+        "category": "CarModel",
+        "description": "The Plymouth/Chrysler Voyager was a pioneering minivan."
+      }
+    ]
+  },
+  {
+    "name": "Pioneer",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Pioneer probes explored the outer solar system, with Pioneer 10 being the first to cross the asteroid belt."
+      },
+      {
+        "category": "CarModel",
+        "description": "Various car manufacturers have used the Pioneer name for vehicles."
+      }
+    ]
+  },
+  {
+    "name": "Orion",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "NASA's Orion spacecraft is designed for deep space missions to the Moon and beyond."
+      },
+      {
+        "category": "Celestial",
+        "description": "Orion is one of the most recognizable constellations, the Hunter with his belt of three stars."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Orion was a giant huntsman in Greek mythology, placed among the stars after his death."
+      }
+    ]
+  },
+  {
+    "name": "Cassini",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Cassini-Huygens explored Saturn and its moons for 13 years before its Grand Finale dive in 2017."
+      },
+      {
+        "category": "Celestial",
+        "description": "The Cassini Division is the gap between Saturn's A and B rings, discovered by Giovanni Cassini."
+      }
+    ]
+  },
+  {
+    "name": "Horizon",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "New Horizons flew past Pluto in 2015, revealing the dwarf planet's heart-shaped feature."
+      },
+      {
+        "category": "CarModel",
+        "description": "Several manufacturers have used Horizon as a car model name."
+      }
+    ]
+  },
+  {
+    "name": "Europa",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Europa Clipper is NASA's mission to study Jupiter's icy moon Europa."
+      },
+      {
+        "category": "Celestial",
+        "description": "Europa is Jupiter's icy moon, potentially harboring an ocean beneath its frozen surface."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Europa was a Phoenician princess abducted by Zeus in the form of a white bull."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Lotus Europa was a lightweight British sports car."
+      }
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Phoenix Mars Lander studied the Martian arctic in 2008, finding water ice."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "The phoenix is a mythical bird that cyclically regenerates from its own ashes."
+      },
+      {
+        "category": "Superhero",
+        "description": "Jean Grey's Phoenix Force is one of the most powerful cosmic entities in Marvel - and the Dark Phoenix Saga is legendary."
+      }
+    ]
+  },
+  {
+    "name": "Juno",
+    "categories": [
+      {
+        "category": "SpaceMission",
+        "description": "Juno is NASA's spacecraft studying Jupiter's atmosphere and magnetosphere since 2016."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Juno is the Roman queen of the gods, goddess of marriage and childbirth."
+      },
+      {
+        "category": "Celestial",
+        "description": "3 Juno is one of the largest asteroids in the main asteroid belt."
+      }
+    ]
+  },
+  {
+    "name": "Mars",
+    "categories": [
+      {
+        "category": "Celestial",
+        "description": "Mars is the fourth planet from the Sun, known as the Red Planet."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Mars is the Roman god of war, father of Romulus and Remus."
+      },
+      {
+        "category": "SpaceMission",
+        "result": 1,
+        "description": "Many missions have gone to Mars, but 'Mars' itself is the planet, not a mission name."
+      }
+    ]
+  },
+  {
+    "name": "Venus",
+    "categories": [
+      {
+        "category": "Celestial",
+        "description": "Venus is Earth's 'sister planet', the hottest planet despite not being closest to the Sun."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Venus is the Roman goddess of love, beauty, and fertility."
+      }
+    ]
+  },
+  {
+    "name": "Neptune",
+    "categories": [
+      {
+        "category": "Celestial",
+        "description": "Neptune is the eighth planet, an ice giant with the strongest winds in the solar system."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Neptune is the Roman god of the sea, equivalent to Greek Poseidon."
+      }
+    ]
+  },
+  {
+    "name": "Pluto",
+    "categories": [
+      {
+        "category": "Celestial",
+        "description": "Pluto is the dwarf planet, demoted from planet status in 2006 but still beloved."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Pluto is the Roman god of the underworld, equivalent to Greek Hades."
+      }
+    ]
+  },
+  {
+    "name": "Vega",
+    "categories": [
+      {
+        "category": "Celestial",
+        "description": "Vega is one of the brightest stars visible from Earth, in the constellation Lyra."
+      },
+      {
+        "category": "CarModel",
+        "description": "The Chevrolet Vega was a subcompact car from the 1970s."
+      },
+      {
+        "category": "SmashBros",
+        "result": -1,
+        "description": "Not a Smash Bros fighter - you might be thinking of other fighting games where Vega appears."
+      }
+    ]
+  },
+  {
+    "name": "Corvette",
+    "categories": [
+      {
+        "category": "CarModel",
+        "description": "The Chevrolet Corvette is America's iconic sports car since 1953."
+      },
+      {
+        "category": "Bird",
+        "result": -1,
+        "description": "Not a bird - you might be thinking of 'corvid' (crow family) which sounds similar."
+      }
+    ]
+  },
+  {
+    "name": "Mustang",
+    "categories": [
+      {
+        "category": "CarModel",
+        "description": "The Ford Mustang is the legendary American pony car since 1964."
+      },
+      {
+        "category": "Tech",
+        "description": "P-51 Mustang was the legendary WWII fighter plane."
+      }
+    ]
+  },
+  {
+    "name": "Impala",
+    "categories": [
+      {
+        "category": "CarModel",
+        "description": "The Chevrolet Impala is a full-size car named after the African antelope."
+      },
+      {
+        "category": "Bird",
+        "result": -1,
+        "description": "Not a bird - the impala is an African antelope known for its leaping ability."
+      }
+    ]
+  },
+  {
+    "name": "Stingray",
+    "categories": [
+      {
+        "category": "CarModel",
+        "description": "The Corvette Stingray is the iconic performance variant named after the sea creature."
+      },
+      {
+        "category": "Bird",
+        "result": -1,
+        "description": "Not a bird - stingrays are flat-bodied fish with venomous tails."
+      }
+    ]
+  },
+  {
+    "name": "Barracuda",
+    "categories": [
+      {
+        "category": "CarModel",
+        "description": "The Plymouth Barracuda was a classic muscle car named after the predatory fish."
+      },
+      {
+        "category": "Bird",
+        "result": -1,
+        "description": "Not a bird - barracudas are fast, aggressive saltwater fish."
+      }
+    ]
   }
 ]

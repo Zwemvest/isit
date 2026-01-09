@@ -2,711 +2,1159 @@
   {
     "name": "Zoloft",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Zoloft (sertraline) is one of the most commonly prescribed SSRI antidepressants."
+      {
+        "category": "Psychiatric",
+        "description": "Zoloft (sertraline) is one of the most commonly prescribed SSRI antidepressants."
+      },
+      {
+        "category": "Painter",
+        "result": -1,
+        "description": "Not a painter, though the name sounds vaguely artistic."
+      }
+    ]
   },
   {
     "name": "Lexapro",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Lexapro (escitalopram) is an SSRI antidepressant used for anxiety and depression."
+      {
+        "category": "Psychiatric",
+        "description": "Lexapro (escitalopram) is an SSRI antidepressant used for anxiety and depression."
+      },
+      {
+        "category": "Tech",
+        "result": -1,
+        "description": "Not a tech product, though it sounds like it could be a SaaS platform."
+      }
+    ]
   },
   {
     "name": "Prozac",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Prozac (fluoxetine) was the first SSRI antidepressant, approved in 1987."
+      {
+        "category": "Psychiatric",
+        "description": "Prozac (fluoxetine) was the first SSRI antidepressant, approved in 1987."
+      }
+    ]
   },
   {
     "name": "Wellbutrin",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Wellbutrin (bupropion) is an atypical antidepressant that works differently from SSRIs."
+      {
+        "category": "Psychiatric",
+        "description": "Wellbutrin (bupropion) is an atypical antidepressant that works differently from SSRIs."
+      }
+    ]
   },
   {
     "name": "Cymbalta",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Cymbalta (duloxetine) is an SNRI antidepressant also used for chronic pain."
+      {
+        "category": "Psychiatric",
+        "description": "Cymbalta (duloxetine) is an SNRI antidepressant also used for chronic pain."
+      }
+    ]
   },
   {
     "name": "Effexor",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Effexor (venlafaxine) is an SNRI antidepressant used for depression and anxiety disorders."
+      {
+        "category": "Psychiatric",
+        "description": "Effexor (venlafaxine) is an SNRI antidepressant used for depression and anxiety disorders."
+      }
+    ]
   },
   {
     "name": "Celexa",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Celexa (citalopram) is an SSRI antidepressant used for depression."
+      {
+        "category": "Psychiatric",
+        "description": "Celexa (citalopram) is an SSRI antidepressant used for depression."
+      }
+    ]
   },
   {
     "name": "Paxil",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Paxil (paroxetine) is an SSRI antidepressant used for depression and anxiety disorders."
+      {
+        "category": "Psychiatric",
+        "description": "Paxil (paroxetine) is an SSRI antidepressant used for depression and anxiety disorders."
+      }
+    ]
   },
   {
     "name": "Pristiq",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Pristiq (desvenlafaxine) is an SNRI antidepressant, the active metabolite of Effexor."
+      {
+        "category": "Psychiatric",
+        "description": "Pristiq (desvenlafaxine) is an SNRI antidepressant, the active metabolite of Effexor."
+      }
+    ]
   },
   {
     "name": "Remeron",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Remeron (mirtazapine) is a tetracyclic antidepressant that also helps with sleep."
+      {
+        "category": "Psychiatric",
+        "description": "Remeron (mirtazapine) is a tetracyclic antidepressant that also helps with sleep."
+      }
+    ]
   },
   {
     "name": "Trintellix",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Trintellix (vortioxetine) is an antidepressant with a multimodal mechanism of action."
+      {
+        "category": "Psychiatric",
+        "description": "Trintellix (vortioxetine) is an antidepressant with a multimodal mechanism of action."
+      }
+    ]
   },
   {
     "name": "Trazodone",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Trazodone is an antidepressant often prescribed off-label for insomnia."
+      {
+        "category": "Psychiatric",
+        "description": "Trazodone is an antidepressant often prescribed off-label for insomnia."
+      }
+    ]
   },
   {
     "name": "Abilify",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Abilify (aripiprazole) is an atypical antipsychotic used to augment antidepressant treatment."
+      {
+        "category": "Psychiatric",
+        "description": "Abilify (aripiprazole) is an atypical antipsychotic used to augment antidepressant treatment."
+      }
+    ]
   },
   {
     "name": "Seroquel",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Seroquel (quetiapine) is an atypical antipsychotic used for bipolar disorder and depression."
+      {
+        "category": "Psychiatric",
+        "description": "Seroquel (quetiapine) is an atypical antipsychotic used for bipolar disorder and depression."
+      }
+    ]
   },
   {
     "name": "Latuda",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Latuda (lurasidone) is an atypical antipsychotic used for bipolar depression and schizophrenia."
+      {
+        "category": "Psychiatric",
+        "description": "Latuda (lurasidone) is an atypical antipsychotic used for bipolar depression and schizophrenia."
+      }
+    ]
   },
   {
     "name": "Vraylar",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Vraylar (cariprazine) is an atypical antipsychotic for bipolar disorder and schizophrenia."
+      {
+        "category": "Psychiatric",
+        "description": "Vraylar (cariprazine) is an atypical antipsychotic for bipolar disorder and schizophrenia."
+      }
+    ]
   },
   {
     "name": "Rexulti",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Rexulti (brexpiprazole) is an atypical antipsychotic used to augment antidepressant treatment."
+      {
+        "category": "Psychiatric",
+        "description": "Rexulti (brexpiprazole) is an atypical antipsychotic used to augment antidepressant treatment."
+      }
+    ]
   },
   {
     "name": "Viibryd",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Viibryd (vilazodone) is an SSRI antidepressant with partial 5-HT1A agonist activity."
+      {
+        "category": "Psychiatric",
+        "description": "Viibryd (vilazodone) is an SSRI antidepressant with partial 5-HT1A agonist activity."
+      }
+    ]
   },
   {
     "name": "Geodon",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Geodon (ziprasidone) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+      {
+        "category": "Psychiatric",
+        "description": "Geodon (ziprasidone) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+      }
+    ]
   },
   {
     "name": "Lunesta",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Lunesta (eszopiclone) is a sedative-hypnotic medication prescribed for insomnia."
+      {
+        "category": "Psychiatric",
+        "description": "Lunesta (eszopiclone) is a sedative-hypnotic medication prescribed for insomnia."
+      }
+    ]
   },
   {
     "name": "Zyprexa",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Zyprexa (olanzapine) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+      {
+        "category": "Psychiatric",
+        "description": "Zyprexa (olanzapine) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+      }
+    ]
   },
   {
     "name": "Klonopin",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Klonopin (clonazepam) is a benzodiazepine used for anxiety and seizure disorders."
+      {
+        "category": "Psychiatric",
+        "description": "Klonopin (clonazepam) is a benzodiazepine used for anxiety and seizure disorders."
+      }
+    ]
   },
   {
     "name": "Thorazine",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Thorazine (chlorpromazine) was the first major antipsychotic medication, approved in 1954."
+      {
+        "category": "Psychiatric",
+        "description": "Thorazine (chlorpromazine) was the first major antipsychotic medication, approved in 1954."
+      }
+    ]
   },
   {
     "name": "Risperdal",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Risperdal (risperidone) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+      {
+        "category": "Psychiatric",
+        "description": "Risperdal (risperidone) is an atypical antipsychotic used for schizophrenia and bipolar disorder."
+      }
+    ]
   },
   {
     "name": "Nardil",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Nardil (phenelzine) is an MAOI antidepressant requiring dietary restrictions."
+      {
+        "category": "Psychiatric",
+        "description": "Nardil (phenelzine) is an MAOI antidepressant requiring dietary restrictions."
+      }
+    ]
   },
   {
     "name": "Lamictal",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Lamictal (lamotrigine) is a mood stabilizer used for bipolar disorder and epilepsy."
+      {
+        "category": "Psychiatric",
+        "description": "Lamictal (lamotrigine) is a mood stabilizer used for bipolar disorder and epilepsy."
+      }
+    ]
   },
   {
     "name": "Invega",
     "categories": [
-      "Psychiatric"
-    ],
-    "explanation": "Invega (paliperidone) is an extended-release atypical antipsychotic for schizophrenia."
+      {
+        "category": "Psychiatric",
+        "description": "Invega (paliperidone) is an extended-release atypical antipsychotic for schizophrenia."
+      }
+    ]
   },
   {
     "name": "Picasso",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Pablo Picasso was the legendary Spanish painter who co-founded Cubism and created over 50,000 artworks including Guernica."
+      {
+        "category": "Painter",
+        "description": "Pablo Picasso was the legendary Spanish painter who co-founded Cubism and created over 50,000 artworks including Guernica."
+      },
+      {
+        "category": "Philosopher",
+        "result": -1,
+        "description": "Not a philosopher, though he revolutionized how we see form and perspective."
+      }
+    ]
   },
   {
     "name": "Warhol",
     "categories": [
-      "Painter",
-      "SiliconValleyBS"
-    ],
-    "explanation": "Andy Warhol was the pop art icon. Various crypto/NFT platforms use the Warhol name."
+      {
+        "category": "Painter",
+        "description": "Andy Warhol was the pop art icon behind Campbell's Soup Cans and the iconic Marilyn Monroe prints."
+      },
+      {
+        "category": "Author",
+        "result": -1,
+        "description": "He wrote books, but he's definitively known as an artist, not an author."
+      }
+    ]
   },
   {
     "name": "Dali",
     "categories": [
-      "Painter",
-      "Tech"
-    ],
-    "explanation": "Salvador Dalí was the surrealist master. DALL-E is OpenAI's image generation AI named after him."
+      {
+        "category": "Painter",
+        "description": "Salvador Dalí was the surrealist master known for The Persistence of Memory with its melting clocks."
+      },
+      {
+        "category": "Tech",
+        "description": "DALL-E is OpenAI's image generation AI named after the surrealist painter."
+      }
+    ]
   },
   {
     "name": "Leonardo",
     "categories": [
-      "Painter",
-      "Tech",
-      "AssassinsCreed"
-    ],
-    "explanation": "Leonardo da Vinci was the Renaissance polymath, Leonardo.AI is an image generation platform, and he's a key ally in Assassin's Creed II and Brotherhood."
+      {
+        "category": "Painter",
+        "description": "Leonardo da Vinci was the ultimate Renaissance polymath - Mona Lisa, Last Supper, flying machines."
+      },
+      {
+        "category": "Tech",
+        "description": "Leonardo.AI is an AI image generation platform named after the master artist."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Leonardo appears in AC II and Brotherhood as Ezio's friend who builds his gadgets."
+      }
+    ]
   },
   {
     "name": "Michelangelo",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Michelangelo was the Italian Renaissance sculptor of David and painter of the Sistine Chapel ceiling."
+      {
+        "category": "Painter",
+        "description": "Michelangelo was the Italian Renaissance sculptor of David and painter of the Sistine Chapel ceiling."
+      },
+      {
+        "category": "Philosopher",
+        "result": -1,
+        "description": "Not a philosopher, though he certainly had opinions (mostly complaints about Pope Julius II)."
+      }
+    ]
   },
   {
     "name": "Raphael",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Raphael was the Italian Renaissance master painter of the School of Athens."
+      {
+        "category": "Painter",
+        "description": "Raphael was the Italian Renaissance master painter of the School of Athens."
+      },
+      {
+        "category": "Celestial",
+        "result": -1,
+        "description": "Not a celestial body, though his name means 'God has healed' in Hebrew."
+      }
+    ]
   },
   {
     "name": "Rembrandt",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Rembrandt van Rijn was the Dutch Golden Age master of light and shadow, famous for The Night Watch and over 90 self-portraits."
+      {
+        "category": "Painter",
+        "description": "Rembrandt van Rijn was the Dutch Golden Age master of light and shadow, famous for The Night Watch and over 90 self-portraits."
+      },
+      {
+        "category": "Celestial",
+        "description": "Asteroid 4511 Rembrandt and a crater on Mercury are named after the Dutch painter."
+      }
+    ]
   },
   {
     "name": "Monet",
     "categories": [
-      "Painter",
-      "SiliconValleyBS"
-    ],
-    "explanation": "Claude Monet founded Impressionism. Monet is also a DeFi protocol."
+      {
+        "category": "Painter",
+        "description": "Claude Monet was the founder of French Impressionism, famous for his Water Lilies series and Impression, Sunrise."
+      },
+      {
+        "category": "Celestial",
+        "description": "Asteroid 6676 Monet is named after the French Impressionist painter."
+      }
+    ]
   },
   {
     "name": "Kandinsky",
     "categories": [
-      "Painter",
-      "Tech"
-    ],
-    "explanation": "Wassily Kandinsky pioneered abstract art. Kandinsky is also Sberbank's AI image generation model."
+      {
+        "category": "Painter",
+        "description": "Wassily Kandinsky pioneered abstract art with works like Composition VIII."
+      },
+      {
+        "category": "Tech",
+        "description": "Kandinsky is Sberbank's AI image generation model named after the abstract art pioneer."
+      }
+    ]
   },
   {
     "name": "Pollock",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Jackson Pollock was the abstract expressionist famous for drip painting technique."
+      {
+        "category": "Painter",
+        "description": "Jackson Pollock was the abstract expressionist famous for drip painting technique."
+      }
+    ]
   },
   {
     "name": "Banksy",
     "categories": [
-      "Painter",
-      "SiliconValleyBS"
-    ],
-    "explanation": "Banksy is the anonymous British street artist. Various crypto/NFT projects use the name."
+      {
+        "category": "Painter",
+        "description": "Banksy is the anonymous British street artist known for politically subversive works like Girl with Balloon."
+      }
+    ]
   },
   {
     "name": "Rodin",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Auguste Rodin was the French sculptor of 'The Thinker', considered father of modern sculpture."
+      {
+        "category": "Painter",
+        "result": -1,
+        "description": "Not a painter - Auguste Rodin was primarily a sculptor, known for The Thinker and The Kiss."
+      }
+    ]
   },
   {
     "name": "Goya",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Francisco Goya was the Spanish painter known for his dark period works."
+      {
+        "category": "Painter",
+        "description": "Francisco Goya was the Spanish painter known for his dark period works like Saturn Devouring His Son."
+      },
+      {
+        "category": "Celestial",
+        "description": "Asteroid 6592 Goya is named after the Spanish painter Francisco Goya."
+      }
+    ]
   },
   {
     "name": "Basquiat",
     "categories": [
-      "Painter",
-      "SiliconValleyBS"
-    ],
-    "explanation": "Jean-Michel Basquiat was the neo-expressionist artist whose works are heavily traded as NFTs."
+      {
+        "category": "Painter",
+        "description": "Jean-Michel Basquiat was the neo-expressionist artist who rose from graffiti to become one of the most celebrated painters of the 1980s."
+      }
+    ]
   },
   {
     "name": "Escher",
     "categories": [
-      "Painter",
-      "DigitalTerm"
-    ],
-    "explanation": "M.C. Escher created impossible architecture art, hugely influential in computer graphics."
+      {
+        "category": "Painter",
+        "description": "M.C. Escher created mathematically inspired impossible architecture art like Ascending and Descending."
+      },
+      {
+        "category": "DigitalTerm",
+        "description": "Escher's impossible geometry and recursive patterns are hugely influential in computer graphics and digital art."
+      }
+    ]
   },
   {
     "name": "Klimt",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Gustav Klimt was the Austrian symbolist painter known for 'The Kiss' with gold leaf technique."
+      {
+        "category": "Painter",
+        "description": "Gustav Klimt was the Austrian symbolist painter known for 'The Kiss' with his signature gold leaf technique."
+      }
+    ]
   },
   {
     "name": "Vermeer",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Johannes Vermeer was the Dutch Golden Age painter of 'Girl with a Pearl Earring'."
+      {
+        "category": "Painter",
+        "description": "Johannes Vermeer was the Dutch Golden Age painter of 'Girl with a Pearl Earring'."
+      },
+      {
+        "category": "Celestial",
+        "description": "Asteroid 9928 Vermeer is named after the Dutch Golden Age painter."
+      }
+    ]
   },
   {
     "name": "Caravaggio",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Caravaggio was the Italian Baroque master known for dramatic chiaroscuro."
+      {
+        "category": "Painter",
+        "description": "Caravaggio was the Italian Baroque master known for dramatic chiaroscuro lighting and violent subject matter."
+      },
+      {
+        "category": "Celestial",
+        "description": "Asteroid 10605 Caravaggio is named after the Italian Baroque painter."
+      }
+    ]
   },
   {
     "name": "Degas",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Edgar Degas was the French Impressionist famous for paintings of ballet dancers."
+      {
+        "category": "Painter",
+        "description": "Edgar Degas was the French Impressionist famous for paintings of ballet dancers."
+      }
+    ]
   },
   {
     "name": "Bernini",
     "categories": [
-      "Painter"
-    ],
-    "explanation": "Gian Lorenzo Bernini was the Italian Baroque sculptor of the Ecstasy of Saint Teresa."
+      {
+        "category": "Painter",
+        "result": 1,
+        "description": "Bernini was primarily a sculptor, but he did paint - just far less famously than his sculptures like Ecstasy of Saint Teresa."
+      }
+    ]
   },
   {
     "name": "Pascal",
     "categories": [
-      "Philosopher",
-      "ProgrammingLang"
-    ],
-    "explanation": "Blaise Pascal was a 17th-century philosopher and mathematician. Pascal is also a programming language designed by Niklaus Wirth."
+      {
+        "category": "Philosopher",
+        "description": "Blaise Pascal was a 17th-century philosopher and mathematician known for Pascal's Wager."
+      },
+      {
+        "category": "ProgrammingLang",
+        "description": "Pascal is a structured programming language designed by Niklaus Wirth in 1970."
+      },
+      {
+        "category": "Author",
+        "result": -1,
+        "description": "He wrote philosophical works but is primarily known as a mathematician/philosopher, not an author."
+      }
+    ]
   },
   {
     "name": "Thales",
     "categories": [
-      "Philosopher",
-      "Tech"
-    ],
-    "explanation": "Thales of Miletus was the first Greek philosopher. Thales Group is a major French defense and aerospace company."
+      {
+        "category": "Philosopher",
+        "description": "Thales of Miletus was the first Greek philosopher, predicting a solar eclipse in 585 BCE."
+      },
+      {
+        "category": "Tech",
+        "description": "Thales Group is a major French multinational in defense, aerospace, and cybersecurity."
+      }
+    ]
   },
   {
     "name": "Bacon",
     "categories": [
-      "Philosopher",
-      "Tech"
-    ],
-    "explanation": "Francis Bacon was the father of empiricism. Bacon.js is a functional reactive programming library for JavaScript."
+      {
+        "category": "Philosopher",
+        "description": "Francis Bacon was the father of empiricism and the scientific method."
+      },
+      {
+        "category": "Tech",
+        "description": "Bacon.js is a functional reactive programming library for JavaScript."
+      },
+      {
+        "category": "Painter",
+        "result": -1,
+        "description": "Not the philosopher - Francis Bacon (1909-1992) was a different person, an Irish figurative painter."
+      }
+    ]
   },
   {
     "name": "Kafka",
     "categories": [
-      "Author",
-      "Tech"
-    ],
-    "explanation": "Franz Kafka was the existentialist author of 'The Metamorphosis'. Apache Kafka is a distributed streaming platform."
+      {
+        "category": "Author",
+        "description": "Franz Kafka was the existentialist author of 'The Metamorphosis' and 'The Trial'."
+      },
+      {
+        "category": "Tech",
+        "description": "Apache Kafka is a distributed event streaming platform used by thousands of companies."
+      }
+    ]
   },
   {
     "name": "Hemingway",
     "categories": [
-      "Author",
-      "Tech"
-    ],
-    "explanation": "Ernest Hemingway was the American novelist known for sparse prose. Hemingway Editor is a popular writing app."
+      {
+        "category": "Author",
+        "description": "Ernest Hemingway was the American novelist known for sparse prose in 'The Old Man and the Sea' and 'A Farewell to Arms'."
+      },
+      {
+        "category": "Tech",
+        "description": "Hemingway Editor is a popular writing app that highlights complex sentences and passive voice."
+      }
+    ]
   },
   {
     "name": "Asimov",
     "categories": [
-      "Author",
-      "Tech"
-    ],
-    "explanation": "Isaac Asimov was the legendary sci-fi author of the Foundation series. Asimov Institute focuses on AI research."
+      {
+        "category": "Author",
+        "description": "Isaac Asimov was the legendary sci-fi author of the Foundation series and I, Robot."
+      },
+      {
+        "category": "Tech",
+        "description": "Asimov Institute creates neural network architecture diagrams and focuses on AI research visualization."
+      }
+    ]
   },
   {
     "name": "Socrates",
     "categories": [
-      "Philosopher",
-      "AssassinsCreed"
-    ],
-    "explanation": "Socrates was the ancient Greek philosopher who developed the Socratic method, and a major character in Assassin's Creed Odyssey."
+      {
+        "category": "Philosopher",
+        "description": "Socrates was the ancient Greek philosopher who developed the Socratic method of questioning."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Socrates is a major character in Assassin's Creed Odyssey, wandering Athens and dispensing wisdom."
+      },
+      {
+        "category": "Author",
+        "result": -1,
+        "description": "Socrates famously never wrote anything down - we know him through Plato's writings."
+      }
+    ]
   },
   {
     "name": "Plato",
     "categories": [
-      "Philosopher",
-      "AssassinsCreed"
-    ],
-    "explanation": "Plato was the ancient Greek philosopher who founded the Academy, and appears as a young man in Assassin's Creed Odyssey."
+      {
+        "category": "Philosopher",
+        "description": "Plato was the ancient Greek philosopher who founded the Academy and developed the Theory of Forms."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Plato appears in Assassin's Creed Odyssey as a student of Socrates."
+      },
+      {
+        "category": "Author",
+        "description": "Plato wrote The Republic and numerous Socratic dialogues that shaped Western philosophy."
+      }
+    ]
   },
   {
     "name": "Aristotle",
     "categories": [
-      "Philosopher",
-      "Tech"
-    ],
-    "explanation": "Aristotle was the ancient Greek philosopher who tutored Alexander the Great. Aristotle is also an AI company."
+      {
+        "category": "Philosopher",
+        "description": "Aristotle was the ancient Greek philosopher who tutored Alexander the Great and wrote on everything from ethics to biology."
+      },
+      {
+        "category": "Tech",
+        "description": "Aristotle is an AI knowledge management company focused on enterprise solutions."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Aristotle appears in Assassin's Creed Odyssey as tutor to Alexander the Great."
+      }
+    ]
   },
   {
     "name": "Descartes",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "René Descartes was the rationalist philosopher famous for 'I think, therefore I am' and his Meditations."
+      {
+        "category": "Philosopher",
+        "description": "René Descartes was the rationalist philosopher famous for 'I think, therefore I am'."
+      },
+      {
+        "category": "Author",
+        "description": "Descartes wrote Meditations on First Philosophy and Discourse on the Method."
+      }
+    ]
   },
   {
     "name": "Nietzsche",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Friedrich Nietzsche was the German philosopher who wrote Thus Spoke Zarathustra and declared 'God is dead'."
+      {
+        "category": "Philosopher",
+        "description": "Friedrich Nietzsche declared 'God is dead' and introduced concepts like the Übermensch."
+      },
+      {
+        "category": "Author",
+        "description": "Nietzsche wrote Thus Spoke Zarathustra and Beyond Good and Evil."
+      }
+    ]
   },
   {
     "name": "Kant",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Immanuel Kant was the German philosopher who wrote the Critique of Pure Reason."
+      {
+        "category": "Philosopher",
+        "description": "Immanuel Kant developed the categorical imperative and revolutionized epistemology."
+      },
+      {
+        "category": "Author",
+        "description": "Kant wrote the Critique of Pure Reason and Groundwork of the Metaphysics of Morals."
+      }
+    ]
   },
   {
     "name": "Hegel",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Georg Wilhelm Friedrich Hegel was the German idealist philosopher known for dialectical reasoning."
+      {
+        "category": "Philosopher",
+        "description": "Georg Wilhelm Friedrich Hegel was the German idealist philosopher known for dialectical reasoning (thesis-antithesis-synthesis)."
+      },
+      {
+        "category": "Author",
+        "description": "Hegel wrote Phenomenology of Spirit and Science of Logic."
+      }
+    ]
   },
   {
     "name": "Marx",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Karl Marx was the philosopher who wrote Das Kapital and The Communist Manifesto with Engels."
+      {
+        "category": "Philosopher",
+        "description": "Karl Marx developed the theory of historical materialism and class struggle."
+      },
+      {
+        "category": "Author",
+        "description": "Marx wrote Das Kapital and The Communist Manifesto with Friedrich Engels."
+      }
+    ]
   },
   {
     "name": "Hume",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "David Hume was the Scottish empiricist philosopher known for skepticism about causation."
+      {
+        "category": "Philosopher",
+        "description": "David Hume was the Scottish empiricist philosopher known for skepticism about causation and induction."
+      },
+      {
+        "category": "Author",
+        "description": "Hume wrote A Treatise of Human Nature and An Enquiry Concerning Human Understanding."
+      }
+    ]
   },
   {
     "name": "Locke",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "John Locke was the English philosopher whose ideas influenced liberal democracy and the US Constitution."
+      {
+        "category": "Philosopher",
+        "description": "John Locke was the English philosopher whose ideas on natural rights influenced liberal democracy."
+      },
+      {
+        "category": "Author",
+        "description": "Locke wrote Two Treatises of Government and An Essay Concerning Human Understanding."
+      }
+    ]
   },
   {
     "name": "Hobbes",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Thomas Hobbes was the philosopher who wrote Leviathan, arguing life without government is 'nasty, brutish, and short'."
+      {
+        "category": "Philosopher",
+        "description": "Thomas Hobbes argued life without government is 'nasty, brutish, and short'."
+      },
+      {
+        "category": "Author",
+        "description": "Hobbes wrote Leviathan, his masterwork on the social contract."
+      }
+    ]
   },
   {
     "name": "Spinoza",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Baruch Spinoza was the rationalist philosopher who argued God and Nature are the same substance."
+      {
+        "category": "Philosopher",
+        "description": "Baruch Spinoza was the rationalist philosopher who argued God and Nature are the same substance."
+      },
+      {
+        "category": "Author",
+        "description": "Spinoza wrote Ethics and Theological-Political Treatise."
+      }
+    ]
   },
   {
     "name": "Rousseau",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Jean-Jacques Rousseau was the philosopher who wrote The Social Contract and influenced the French Revolution."
+      {
+        "category": "Philosopher",
+        "description": "Jean-Jacques Rousseau developed the concept of the general will and influenced the French Revolution."
+      },
+      {
+        "category": "Author",
+        "description": "Rousseau wrote The Social Contract and Emile, or On Education."
+      },
+      {
+        "category": "Painter",
+        "result": -1,
+        "description": "Not the philosopher - Henri Rousseau was a different person, a French Post-Impressionist painter known for jungle scenes."
+      }
+    ]
   },
   {
     "name": "Voltaire",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Voltaire was the French Enlightenment writer known for Candide and his satirical wit."
+      {
+        "category": "Philosopher",
+        "description": "Voltaire was the French Enlightenment thinker known for championing civil liberties and freedom of speech."
+      },
+      {
+        "category": "Author",
+        "description": "Voltaire wrote Candide, a satirical novella mocking Leibnizian optimism."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Voltaire appears in Assassin's Creed Unity in 18th century Paris during the Enlightenment era."
+      }
+    ]
   },
   {
     "name": "Kierkegaard",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Søren Kierkegaard was the Danish philosopher considered the father of existentialism."
+      {
+        "category": "Philosopher",
+        "description": "Søren Kierkegaard was the Danish philosopher considered the father of existentialism."
+      },
+      {
+        "category": "Author",
+        "description": "Kierkegaard wrote Fear and Trembling and Either/Or."
+      }
+    ]
   },
   {
     "name": "Sartre",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Jean-Paul Sartre was the French existentialist who wrote Being and Nothingness and No Exit."
+      {
+        "category": "Philosopher",
+        "description": "Jean-Paul Sartre declared 'existence precedes essence' and championed radical freedom."
+      },
+      {
+        "category": "Author",
+        "description": "Sartre wrote Being and Nothingness and the play No Exit ('Hell is other people')."
+      }
+    ]
   },
   {
     "name": "Camus",
     "categories": [
-      "Philosopher",
-      "Author"
-    ],
-    "explanation": "Albert Camus was the French-Algerian absurdist who wrote The Stranger and The Myth of Sisyphus."
+      {
+        "category": "Philosopher",
+        "description": "Albert Camus was the French-Algerian absurdist who explored the meaning of life in an absurd universe."
+      },
+      {
+        "category": "Author",
+        "description": "Camus wrote The Stranger and The Myth of Sisyphus."
+      }
+    ]
   },
   {
     "name": "Seneca",
     "categories": [
-      "Philosopher",
-      "RomanPagan"
-    ],
-    "explanation": "Seneca the Younger was a Roman Stoic philosopher and advisor to Emperor Nero."
+      {
+        "category": "Philosopher",
+        "description": "Seneca the Younger was a Roman Stoic philosopher and advisor to Emperor Nero."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Seneca lived in the Roman Empire during the pagan era, though Stoicism was becoming compatible with monotheism."
+      },
+      {
+        "category": "Author",
+        "description": "Seneca wrote Letters from a Stoic and numerous tragedies like Medea."
+      }
+    ]
   },
   {
     "name": "Marcus Aurelius",
     "categories": [
-      "Philosopher",
-      "RomanPagan",
-      "HistoricalState"
-    ],
-    "explanation": "Marcus Aurelius was the Roman Emperor and Stoic philosopher who wrote Meditations."
+      {
+        "category": "Philosopher",
+        "description": "Marcus Aurelius was the Stoic philosopher-emperor whose Meditations remains a bestseller 2000 years later."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Marcus Aurelius was Roman Emperor from 161-180 CE during the pagan era."
+      },
+      {
+        "category": "HistoricalState",
+        "description": "Marcus Aurelius ruled the Roman Empire at its territorial peak."
+      },
+      {
+        "category": "Author",
+        "description": "Marcus Aurelius wrote Meditations, personal philosophical writings never meant for publication."
+      }
+    ]
   },
   {
     "name": "Epictetus",
     "categories": [
-      "Philosopher"
-    ],
-    "explanation": "Epictetus was a Greek Stoic philosopher who was born a slave and taught that we control only our reactions."
+      {
+        "category": "Philosopher",
+        "description": "Epictetus was a Stoic philosopher who taught that we can only control our responses, not external events."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Epictetus was born a slave in the Roman Empire around 50 CE during the pagan era."
+      },
+      {
+        "category": "Author",
+        "description": "Epictetus's teachings were recorded by his student Arrian in the Discourses and Enchiridion."
+      }
+    ]
   },
   {
     "name": "Orwell",
     "categories": [
-      "Author"
-    ],
-    "explanation": "George Orwell was the British author of 1984 and Animal Farm, known for dystopian political fiction."
+      {
+        "category": "Author",
+        "description": "George Orwell was the British author of 1984 and Animal Farm, known for dystopian political fiction."
+      },
+      {
+        "category": "Philosopher",
+        "result": -1,
+        "description": "While his works contain philosophical themes, he's primarily known as a novelist, not a philosopher."
+      }
+    ]
   },
   {
     "name": "Huxley",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Aldous Huxley was the British author of Brave New World, exploring a dystopia of pleasure and control."
+      {
+        "category": "Author",
+        "description": "Aldous Huxley was the British author of Brave New World, exploring a dystopia of pleasure and control."
+      }
+    ]
   },
   {
     "name": "Bradbury",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Ray Bradbury was the American author of Fahrenheit 451 and The Martian Chronicles."
+      {
+        "category": "Author",
+        "description": "Ray Bradbury was the American author of Fahrenheit 451 and The Martian Chronicles."
+      }
+    ]
   },
   {
     "name": "Verne",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Jules Verne was the French 'Father of Science Fiction' who wrote Twenty Thousand Leagues Under the Sea."
+      {
+        "category": "Author",
+        "description": "Jules Verne was the French 'Father of Science Fiction' who wrote Twenty Thousand Leagues Under the Sea."
+      }
+    ]
   },
   {
     "name": "Lovecraft",
     "categories": [
-      "Author",
-      "MetalBand"
-    ],
-    "explanation": "H.P. Lovecraft created the Cthulhu Mythos. Many metal bands like Metallica reference his cosmic horror."
+      {
+        "category": "Author",
+        "description": "H.P. Lovecraft created the Cthulhu Mythos and cosmic horror genre."
+      },
+      {
+        "category": "RockMusic",
+        "description": "H.P. Lovecraft was also a 1960s psychedelic rock band that performed 'White Ship'."
+      }
+    ]
   },
   {
     "name": "Poe",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Edgar Allan Poe was the American master of macabre who wrote The Raven and The Tell-Tale Heart."
+      {
+        "category": "Author",
+        "description": "Edgar Allan Poe was the American master of macabre who wrote The Raven and The Tell-Tale Heart."
+      },
+      {
+        "category": "StarWars",
+        "result": -1,
+        "description": "Not related to Star Wars, though the name sounds like it could be - Poe Dameron is a Star Wars character with a different origin."
+      }
+    ]
   },
   {
     "name": "Dickens",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Charles Dickens was the Victorian novelist who wrote A Tale of Two Cities and Oliver Twist."
+      {
+        "category": "Author",
+        "description": "Charles Dickens was the Victorian novelist who wrote A Tale of Two Cities and Oliver Twist."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Charles Dickens is a major ally in Assassin's Creed Syndicate, giving missions in Victorian London."
+      }
+    ]
   },
   {
     "name": "Austen",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Jane Austen was the English novelist known for Pride and Prejudice and Sense and Sensibility."
+      {
+        "category": "Author",
+        "description": "Jane Austen was the English novelist known for Pride and Prejudice and Sense and Sensibility."
+      }
+    ]
   },
   {
     "name": "Dostoevsky",
     "categories": [
-      "Author",
-      "Philosopher"
-    ],
-    "explanation": "Fyodor Dostoevsky was the Russian author of Crime and Punishment and The Brothers Karamazov."
+      {
+        "category": "Author",
+        "description": "Fyodor Dostoevsky was the Russian author of Crime and Punishment and The Brothers Karamazov."
+      },
+      {
+        "category": "Philosopher",
+        "description": "Dostoevsky explored profound philosophical questions about morality, faith, and free will in his novels."
+      }
+    ]
   },
   {
     "name": "Tolstoy",
     "categories": [
-      "Author",
-      "Philosopher"
-    ],
-    "explanation": "Leo Tolstoy was the Russian author of War and Peace and Anna Karenina."
+      {
+        "category": "Author",
+        "description": "Leo Tolstoy was the Russian author of War and Peace and Anna Karenina."
+      },
+      {
+        "category": "Philosopher",
+        "description": "Tolstoy developed a Christian anarchist philosophy and wrote extensively on ethics and religion."
+      }
+    ]
   },
   {
     "name": "Twain",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Mark Twain was the American humorist who wrote The Adventures of Tom Sawyer and Huckleberry Finn."
+      {
+        "category": "Author",
+        "description": "Mark Twain was the American humorist who wrote The Adventures of Tom Sawyer and Huckleberry Finn."
+      }
+    ]
   },
   {
     "name": "Shakespeare",
     "categories": [
-      "Author"
-    ],
-    "explanation": "William Shakespeare was the English playwright who wrote Hamlet, Macbeth, and Romeo and Juliet."
+      {
+        "category": "Author",
+        "description": "William Shakespeare was the English playwright who wrote Hamlet, Macbeth, and Romeo and Juliet."
+      },
+      {
+        "category": "Philosopher",
+        "result": -1,
+        "description": "Not a philosopher per se, though his plays contain profound philosophical insights about human nature."
+      }
+    ]
   },
   {
     "name": "Homer",
     "categories": [
-      "Author",
-      "GreekPagan"
-    ],
-    "explanation": "Homer was the ancient Greek poet who composed the Iliad and Odyssey, foundational works of Greek mythology."
+      {
+        "category": "Author",
+        "description": "Homer was the ancient Greek poet who composed the Iliad and Odyssey."
+      },
+      {
+        "category": "GreekPagan",
+        "description": "Homer's epics are foundational works of Greek mythology and polytheistic religion."
+      }
+    ]
   },
   {
     "name": "Virgil",
     "categories": [
-      "Author",
-      "RomanPagan"
-    ],
-    "explanation": "Virgil was the Roman poet who wrote the Aeneid, the epic of Rome's mythological founding."
+      {
+        "category": "Author",
+        "description": "Virgil was the Roman poet who wrote the Aeneid, the epic of Rome's mythological founding."
+      },
+      {
+        "category": "RomanPagan",
+        "description": "Virgil lived during the Roman Empire's pagan era and wrote about Roman gods and mythology."
+      }
+    ]
   },
   {
     "name": "Dante",
     "categories": [
-      "Author",
-      "GreekPagan"
-    ],
-    "explanation": "Dante Alighieri wrote the Divine Comedy, drawing heavily on Greek and Roman mythology in his Inferno."
+      {
+        "category": "Author",
+        "description": "Dante Alighieri wrote the Divine Comedy, the epic journey through Hell, Purgatory, and Paradise."
+      },
+      {
+        "category": "RomanPagan",
+        "result": 1,
+        "description": "Dante was a medieval Christian, but he features the Roman pagan poet Virgil as his guide through Hell and Purgatory."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Dante's Death Mask is a key item in Assassin's Creed II, found in his tomb in Florence."
+      }
+    ]
   },
   {
     "name": "Milton",
     "categories": [
-      "Author"
-    ],
-    "explanation": "John Milton was the English poet who wrote Paradise Lost, the epic of Satan's fall from Heaven."
+      {
+        "category": "Author",
+        "description": "John Milton was the English poet who wrote Paradise Lost, the epic of Satan's fall from Heaven."
+      }
+    ]
   },
   {
     "name": "Chaucer",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Geoffrey Chaucer was the medieval English poet who wrote The Canterbury Tales."
+      {
+        "category": "Author",
+        "description": "Geoffrey Chaucer was the medieval English poet who wrote The Canterbury Tales."
+      }
+    ]
   },
   {
     "name": "Goethe",
     "categories": [
-      "Author",
-      "Philosopher"
-    ],
-    "explanation": "Johann Wolfgang von Goethe was the German polymath who wrote Faust and The Sorrows of Young Werther."
+      {
+        "category": "Author",
+        "description": "Johann Wolfgang von Goethe wrote Faust and The Sorrows of Young Werther."
+      },
+      {
+        "category": "Philosopher",
+        "description": "Goethe was a polymath who wrote on philosophy, science, and aesthetics."
+      }
+    ]
   },
   {
     "name": "Byron",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Lord Byron was the Romantic poet known for Don Juan and Childe Harold's Pilgrimage, whose scandalous life made him the original rock star."
+      {
+        "category": "Author",
+        "description": "Lord Byron was the Romantic poet known for Don Juan and Childe Harold's Pilgrimage, whose scandalous life made him the original rock star."
+      },
+      {
+        "category": "GreekPagan",
+        "result": 1,
+        "description": "Byron wasn't pagan, but he died fighting for Greek independence and his poetry heavily referenced Greek mythology."
+      }
+    ]
   },
   {
     "name": "Shelley",
     "categories": [
-      "Author"
-    ],
-    "explanation": "Mary Shelley was the author of Frankenstein, considered the first science fiction novel."
+      {
+        "category": "Author",
+        "description": "Mary Shelley was the author of Frankenstein, considered the first science fiction novel."
+      },
+      {
+        "category": "Philosopher",
+        "result": -1,
+        "description": "Not a philosopher, though her husband Percy Bysshe Shelley wrote philosophical poetry."
+      }
+    ]
   },
   {
     "name": "Machiavelli",
     "categories": [
-      "Philosopher",
-      "Author",
-      "AssassinsCreed"
-    ],
-    "explanation": "Niccolò Machiavelli was the political philosopher who wrote The Prince, and a major ally in Assassin's Creed Brotherhood."
+      {
+        "category": "Philosopher",
+        "description": "Niccolò Machiavelli was the political philosopher known for ruthlessly pragmatic advice in The Prince."
+      },
+      {
+        "category": "Author",
+        "description": "Machiavelli wrote The Prince and Discourses on Livy."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Machiavelli is a major ally to Ezio in Assassin's Creed Brotherhood, serving as a master Assassin."
+      }
+    ]
   },
   {
     "name": "Cleopatra",
     "categories": [
-      "HistoricalState",
-      "AssassinsCreed"
-    ],
-    "explanation": "Cleopatra VII was the last pharaoh of ancient Egypt, and a major character in Assassin's Creed Origins."
+      {
+        "category": "HistoricalState",
+        "description": "Cleopatra VII was the last pharaoh of ancient Egypt, ruling from 51-30 BCE."
+      },
+      {
+        "category": "AssassinsCreed",
+        "description": "Cleopatra is a major character in Assassin's Creed Origins set in Ptolemaic Egypt."
+      },
+      {
+        "category": "Philosopher",
+        "result": -1,
+        "description": "Not a philosopher, though she was highly educated and spoke multiple languages."
+      }
+    ]
   }
 ]

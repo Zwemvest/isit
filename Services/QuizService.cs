@@ -15,7 +15,7 @@ public enum GameMode
     Custom
 }
 
-public record AnswerRecord(QuizItem Item, HashSet<string> SelectedCategories, HashSet<string> CorrectCategories, bool WasCorrect);
+public record AnswerRecord(QuizItem Item, HashSet<string> SelectedCategories, HashSet<string> CorrectCategories, bool WasCorrect, HashSet<string> MissedCategories);
 
 public class QuizService
 {
@@ -45,8 +45,8 @@ public class QuizService
         "GreekPagan",
         "RomanPagan",
         "CelticPagan",
-        "MetalBand",
-        "RockBand",
+        "MetalMusic",
+        "RockMusic",
         "IKEAFurniture",
         "StarWars",
         "ProgrammingLang",
@@ -86,8 +86,8 @@ public class QuizService
         ["GreekPagan"] = "Greek Mythology",
         ["RomanPagan"] = "Roman Mythology",
         ["CelticPagan"] = "Celtic Mythology",
-        ["MetalBand"] = "Metal Band",
-        ["RockBand"] = "Rock Band",
+        ["MetalMusic"] = "Metal Music",
+        ["RockMusic"] = "Rock Music",
         ["IKEAFurniture"] = "IKEA Furniture",
         ["StarWars"] = "Star Wars",
         ["ProgrammingLang"] = "Programming Language or Framework",
@@ -108,24 +108,18 @@ public class QuizService
         ["CloudInfra"] = "Cloud Infrastructure Tool",
         ["MTG"] = "Magic: The Gathering",
         ["Celestial"] = "Celestial Body",
-        ["Bird"] = "Bird Species",
-        ["Pigment"] = "Artist Pigment",
+        ["Bird"] = "Ornithology",
+        ["Pigment"] = "Colours or Pigments",
         ["SmashBros"] = "Super Smash Bros. Character",
         ["AssassinsCreed"] = "Assassin's Creed Appearance",
         ["Superhero"] = "Marvel/DC Superhero",
         ["GreekLetter"] = "Greek Letter",
-        ["SpaceMission"] = "NASA Mission or Spacecraft"
+        ["SpaceMission"] = "NASA Space Mission"
     };
 
     public QuizService(HttpClient httpClient)
     {
         _httpClient = httpClient;
-        InitializeRandomCategories();
-    }
-
-    public void InitializeRandomCategories()
-    {
-        // Default: 6 random categories
         IncludedCategories = AllCategories
             .OrderBy(_ => Random.Shared.Next())
             .Take(6)
@@ -173,7 +167,7 @@ public class QuizService
         // Filter items to those that have at least one included category
         // In Custom/endless mode, we take ALL matching items (no limit)
         _shuffledItems = _items
-            .Where(item => item.Categories.Any(c => IncludedCategories.Contains(c)))
+            .Where(item => item.Categories.Any(c => IncludedCategories.Contains(c.Category) && c.Result == ResultType.Correct))
             .OrderBy(_ => Random.Shared.Next())
             .ToList();
         _currentIndex = 0;
@@ -206,7 +200,7 @@ public class QuizService
 
         // Filter and shuffle items using the same seed
         _shuffledItems = _items
-            .Where(item => item.Categories.Any(c => IncludedCategories.Contains(c)))
+            .Where(item => item.Categories.Any(c => IncludedCategories.Contains(c.Category) && c.Result == ResultType.Correct))
             .OrderBy(_ => rng.Next())
             .Take(DailyQuestions)
             .ToList();
@@ -219,14 +213,13 @@ public class QuizService
     public bool IsDailyComplete => CurrentGameMode == GameMode.Daily && _currentIndex >= DailyQuestions;
 
     /// <summary>
-    /// Gets the categories for the current item that are included in the game.
-    /// Excluded categories are filtered out.
+    /// Gets the category descriptions for a quiz item.
     /// </summary>
-    public List<string> GetCurrentItemIncludedCategories()
+    public Dictionary<string, string> GetCategoryDescriptions(QuizItem item)
     {
-        var current = GetCurrentItem();
-        if (current == null) return [];
-        return current.Categories.Where(c => IncludedCategories.Contains(c)).ToList();
+        return item.Categories
+            .Where(c => IncludedCategories.Contains(c.Category))
+            .ToDictionary(c => c.Category, c => c.Description);
     }
 
     public QuizItem? GetCurrentItem()
@@ -239,7 +232,6 @@ public class QuizService
     }
 
     public int CurrentQuestionNumber => _currentIndex + 1;
-    public int TotalQuestions => _shuffledItems.Count;
     public int Score => _score;
     public bool IsFinished => _currentIndex >= _shuffledItems.Count;
     public bool HasReachedMinQuestions => _currentIndex >= QuestionsPerGame;
@@ -251,19 +243,51 @@ public class QuizService
         if (current == null) return false;
 
         var selected = selectedCategories.ToHashSet();
-        // Only consider included categories as "correct" - excluded ones don't count
-        var correctIncluded = current.Categories.Where(c => IncludedCategories.Contains(c)).ToHashSet();
+
+        // Get categories by result type (only included ones)
+        var correctCategories = current.Categories
+            .Where(c => IncludedCategories.Contains(c.Category) && c.Result == ResultType.Correct)
+            .Select(c => c.Category)
+            .ToHashSet();
+
+        // Arguable and Obscure are both treated as "acceptable" selections
+        var arguableCategories = current.Categories
+            .Where(c => IncludedCategories.Contains(c.Category) && c.Result == ResultType.Arguable)
+            .Select(c => c.Category)
+            .ToHashSet();
+
+        var obscureCategories = current.Categories
+            .Where(c => IncludedCategories.Contains(c.Category) && c.Result == ResultType.Obscure)
+            .Select(c => c.Category)
+            .ToHashSet();
+
+        var missCategories = current.Categories
+            .Where(c => IncludedCategories.Contains(c.Category) && c.Result == ResultType.Miss)
+            .Select(c => c.Category)
+            .ToHashSet();
+
+        // Valid categories are Correct, Arguable, or Obscure - selecting anything else is wrong
+        var validSelectableCategories = correctCategories.Union(arguableCategories).Union(obscureCategories).ToHashSet();
+
+        // Check if ALL selected categories are valid (no erroneous selections)
+        var hasOnlyValidSelections = selected.All(s => validSelectableCategories.Contains(s));
 
         bool isCorrect;
         if (ScoringMode == ScoringMode.AllCorrect)
         {
-            // Must match exactly all included categories
-            isCorrect = selected.SetEquals(correctIncluded);
+            // Must select ALL "Correct" categories AND only valid categories (no erroneous ones)
+            var hasAllCorrect = correctCategories.All(c => selected.Contains(c));
+            // Arguable/Obscure categories are optional and don't affect scoring
+
+            isCorrect = hasAllCorrect && hasOnlyValidSelections;
         }
         else // AnyCorrect
         {
-            // At least one selected category must be correct
-            isCorrect = selected.Any(s => correctIncluded.Contains(s));
+            // At least one "Correct", "Arguable", or "Obscure" category must be selected
+            // AND must not have any erroneous selections
+            var hasAnyValid = selected.Any(s => validSelectableCategories.Contains(s));
+
+            isCorrect = hasAnyValid && hasOnlyValidSelections;
         }
 
         if (isCorrect)
@@ -271,8 +295,14 @@ public class QuizService
             _score++;
         }
 
+        // For display purposes, combine Correct, Arguable, and Obscure as "acceptable answers"
+        var allCorrectForDisplay = correctCategories.Union(arguableCategories).Union(obscureCategories).ToHashSet();
+
+        // Track which Miss categories were incorrectly selected
+        var selectedMissCategories = selected.Where(s => missCategories.Contains(s)).ToHashSet();
+
         // Record the answer
-        _answerHistory.Add(new AnswerRecord(current, selected, correctIncluded, isCorrect));
+        _answerHistory.Add(new AnswerRecord(current, selected, allCorrectForDisplay, isCorrect, selectedMissCategories));
 
         return isCorrect;
     }

@@ -110,25 +110,62 @@ else if (_state == QuizState.Playing)
     if (item != null)
     {
         <MudStack Spacing="4">
-            @* Fixed-height result box for previous answer *@
-            <MudPaper Style="min-height: 140px; width: 100%;" Elevation="0" Class="pa-3">
+            @* Fixed-width result box for previous answer with scrollbar *@
+            <MudPaper Style="height: 200px; width: 100%; max-width: 500px; overflow-y: auto;" Elevation="0" Class="pa-2">
                 @if (_lastAnswerItem != null)
                 {
-                    <MudAlert Severity="@GetResultSeverity()" Variant="Variant.Filled" Dense="true" Class="mb-2">
-                        <strong>@_lastAnswerItem.Name:</strong> @string.Join(", ", _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c)).Select(c => QuizService.CategoryDisplayNames[c]))
-                        @{
-                            var excludedCats = _lastAnswerItem.Categories.Where(c => !QuizService.IncludedCategories.Contains(c)).ToList();
-                        }
-                        @if (excludedCats.Count > 0)
+                    var includedCategories = _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c.Category)).ToList();
+
+                    <MudText Typo="Typo.h6" Class="mb-2">@_lastAnswerItem.Name</MudText>
+                    <MudStack Spacing="2">
+                        @* Correct categories that WERE selected - SUCCESS *@
+                        @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Correct && _lastAnswerSelectedCategories.Contains(c.Category)))
                         {
-                            <span style="opacity: 0.8;"> (also @string.Join(", ", excludedCats.Select(c => QuizService.CategoryDisplayNames[c])))</span>
+                            <MudAlert Severity="Severity.Success" Variant="Variant.Outlined" Dense="true">
+                                <strong>@QuizService.CategoryDisplayNames[cat.Category]</strong><br />
+                                <span style="font-weight: normal;">@cat.Description</span>
+                            </MudAlert>
                         }
-                    </MudAlert>
-                    <MudText Typo="Typo.body2" Style="opacity: 0.9;">@_lastAnswerItem.Explanation</MudText>
+                        @* Arguable categories that WERE selected - WARNING with warning icon *@
+                        @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Arguable && _lastAnswerSelectedCategories.Contains(c.Category)))
+                        {
+                            <MudAlert Severity="Severity.Warning" Variant="Variant.Outlined" Dense="true" Icon="@Icons.Material.Filled.Warning">
+                                <strong>@QuizService.CategoryDisplayNames[cat.Category]</strong><br />
+                                <span style="font-weight: normal;">@cat.Description</span>
+                            </MudAlert>
+                        }
+                        @* Obscure categories that WERE selected - WARNING with info/exclamation icon *@
+                        @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Obscure && _lastAnswerSelectedCategories.Contains(c.Category)))
+                        {
+                            <MudAlert Severity="Severity.Warning" Variant="Variant.Outlined" Dense="true" Icon="@Icons.Material.Filled.Info">
+                                <strong>@QuizService.CategoryDisplayNames[cat.Category]</strong><br />
+                                <span style="font-weight: normal;">@cat.Description</span>
+                            </MudAlert>
+                        }
+                        @* Miss categories that WERE selected - ERROR *@
+                        @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Miss && _lastAnswerSelectedCategories.Contains(c.Category)))
+                        {
+                            <MudAlert Severity="Severity.Error" Variant="Variant.Outlined" Dense="true">
+                                <strong>@QuizService.CategoryDisplayNames[cat.Category]</strong>
+                                @if (!string.IsNullOrEmpty(cat.Description))
+                                {
+                                    <br /><span style="font-weight: normal;">@cat.Description</span>
+                                }
+                            </MudAlert>
+                        }
+                        @* Correct categories that were NOT selected - ERROR (missed!) *@
+                        @foreach (var cat in includedCategories.Where(c => c.Result == ResultType.Correct && !_lastAnswerSelectedCategories.Contains(c.Category)))
+                        {
+                            <MudAlert Severity="Severity.Error" Variant="Variant.Outlined" Dense="true">
+                                <strong>@QuizService.CategoryDisplayNames[cat.Category] (Missed!)</strong><br />
+                                <span style="font-weight: normal;">@cat.Description</span>
+                            </MudAlert>
+                        }
+                    </MudStack>
                 }
                 else
                 {
-                    <MudText Typo="Typo.body2" Color="Color.Secondary" Align="Align.Center" Class="mt-6">
+                    <MudText Typo="Typo.body2" Color="Color.Secondary" Align="Align.Center" Class="mt-8">
                         Answer questions to see results here
                     </MudText>
                 }
@@ -211,11 +248,49 @@ else if (_state == QuizState.Finished)
         @* Show the last answer result at the top (only if not viewing saved results) *@
         @if (_lastAnswerItem != null && !_viewingSavedResults)
         {
+            var includedCategories = _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c.Category)).ToList();
+
             <MudPaper Style="width: 100%; max-width: 500px;" Elevation="0" Class="pa-3">
                 <MudAlert Severity="@GetResultSeverity()" Variant="Variant.Filled" Dense="true" Class="mb-2">
-                    <strong>@_lastAnswerItem.Name:</strong> @string.Join(", ", _lastAnswerItem.Categories.Where(c => QuizService.IncludedCategories.Contains(c)).Select(c => QuizService.CategoryDisplayNames[c]))
+                    <strong>@_lastAnswerItem.Name:</strong> @string.Join(", ", includedCategories.Where(c => c.Result == ResultType.Correct || c.Result == ResultType.Arguable || c.Result == ResultType.Obscure).Select(c => QuizService.CategoryDisplayNames[c.Category]))
                 </MudAlert>
-                <MudText Typo="Typo.body2" Style="opacity: 0.9;">@_lastAnswerItem.Explanation</MudText>
+                <MudStack Spacing="1">
+                    @foreach (var category in includedCategories.Where(c => c.Result == ResultType.Correct))
+                    {
+                        <MudText Typo="Typo.body2" Style="opacity: 0.9;">
+                            <strong>@QuizService.CategoryDisplayNames[category.Category]:</strong> @category.Description
+                        </MudText>
+                    }
+                    @{
+                        var finishedArguableCategories = includedCategories.Where(c => c.Result == ResultType.Arguable || c.Result == ResultType.Obscure).ToList();
+                    }
+                    @if (finishedArguableCategories.Count > 0)
+                    {
+                        <MudExpansionPanels Dense="true" Class="mt-1" Style="background: transparent;">
+                            <MudExpansionPanel Text="Also acceptable..." Dense="true" Style="font-size: 0.875rem;">
+                                @foreach (var category in finishedArguableCategories)
+                                {
+                                    <MudText Typo="Typo.body2" Style="opacity: 0.9;">
+                                        <strong>@QuizService.CategoryDisplayNames[category.Category]:</strong> @category.Description
+                                    </MudText>
+                                }
+                            </MudExpansionPanel>
+                        </MudExpansionPanels>
+                    }
+                    @if (_lastAnswerMissedCategories != null && _lastAnswerMissedCategories.Count > 0)
+                    {
+                        @foreach (var missedCat in _lastAnswerMissedCategories)
+                        {
+                            var missEntry = includedCategories.FirstOrDefault(c => c.Category == missedCat && c.Result == ResultType.Miss);
+                            @if (missEntry != null)
+                            {
+                                <MudText Typo="Typo.body2" Color="Color.Error" Style="opacity: 0.9;">
+                                    <strong>@QuizService.CategoryDisplayNames[missEntry.Category] (Wrong!):</strong> @missEntry.Description
+                                </MudText>
+                            }
+                        }
+                    }
+                </MudStack>
             </MudPaper>
             <MudDivider Style="width: 100%; max-width: 500px;" />
         }
@@ -292,6 +367,10 @@ else if (_state == QuizState.Finished)
                         {
                             @foreach (var (answer, index) in _savedDailyResult.Answers.Select((a, i) => (a, i)))
                             {
+                                var acceptableKeys = answer.ArguableCategories.Concat(answer.ObscureCategories).ToHashSet();
+                                var correctDescs = answer.CategoryDescriptions.Where(d => !acceptableKeys.Contains(d.Key)).ToList();
+                                var acceptableDescs = answer.CategoryDescriptions.Where(d => acceptableKeys.Contains(d.Key)).ToList();
+
                                 <MudPaper Class="pa-3" Elevation="1">
                                     <MudStack Spacing="1">
                                         <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
@@ -316,7 +395,25 @@ else if (_state == QuizState.Finished)
                                                 <strong>You said:</strong> @(answer.SelectedCategories.Count > 0 ? string.Join(", ", answer.SelectedCategories.Select(c => QuizService.CategoryDisplayNames.GetValueOrDefault(c, c))) : "(none)")
                                             </MudText>
                                         }
-                                        <MudText Typo="Typo.caption" Style="opacity: 0.8;">@answer.Explanation</MudText>
+                                        @foreach (var desc in correctDescs)
+                                        {
+                                            <MudText Typo="Typo.caption" Style="opacity: 0.8;">
+                                                <strong>@QuizService.CategoryDisplayNames.GetValueOrDefault(desc.Key, desc.Key):</strong> @desc.Value
+                                            </MudText>
+                                        }
+                                        @if (acceptableDescs.Count > 0)
+                                        {
+                                            <MudExpansionPanels Dense="true" Class="mt-1" Style="background: transparent;">
+                                                <MudExpansionPanel Text="Also acceptable..." Dense="true" Style="font-size: 0.75rem;">
+                                                    @foreach (var desc in acceptableDescs)
+                                                    {
+                                                        <MudText Typo="Typo.caption" Style="opacity: 0.8;">
+                                                            <strong>@QuizService.CategoryDisplayNames.GetValueOrDefault(desc.Key, desc.Key):</strong> @desc.Value
+                                                        </MudText>
+                                                    }
+                                                </MudExpansionPanel>
+                                            </MudExpansionPanels>
+                                        }
                                     </MudStack>
                                 </MudPaper>
                             }
@@ -325,6 +422,10 @@ else if (_state == QuizState.Finished)
                         {
                             @foreach (var (answer, index) in QuizService.AnswerHistory.Select((a, i) => (a, i)))
                             {
+                                var itemCategories = answer.Item.Categories.Where(c => QuizService.IncludedCategories.Contains(c.Category)).ToList();
+                                var correctCats = itemCategories.Where(c => c.Result == ResultType.Correct).ToList();
+                                var acceptableCats = itemCategories.Where(c => c.Result == ResultType.Arguable || c.Result == ResultType.Obscure).ToList();
+
                                 <MudPaper Class="pa-3" Elevation="1">
                                     <MudStack Spacing="1">
                                         <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
@@ -349,7 +450,25 @@ else if (_state == QuizState.Finished)
                                                 <strong>You said:</strong> @(answer.SelectedCategories.Count > 0 ? string.Join(", ", answer.SelectedCategories.Select(c => QuizService.CategoryDisplayNames[c])) : "(none)")
                                             </MudText>
                                         }
-                                        <MudText Typo="Typo.caption" Style="opacity: 0.8;">@answer.Item.Explanation</MudText>
+                                        @foreach (var cat in correctCats)
+                                        {
+                                            <MudText Typo="Typo.caption" Style="opacity: 0.8;">
+                                                <strong>@QuizService.CategoryDisplayNames[cat.Category]:</strong> @cat.Description
+                                            </MudText>
+                                        }
+                                        @if (acceptableCats.Count > 0)
+                                        {
+                                            <MudExpansionPanels Dense="true" Class="mt-1" Style="background: transparent;">
+                                                <MudExpansionPanel Text="Also acceptable..." Dense="true" Style="font-size: 0.75rem;">
+                                                    @foreach (var cat in acceptableCats)
+                                                    {
+                                                        <MudText Typo="Typo.caption" Style="opacity: 0.8;">
+                                                            <strong>@QuizService.CategoryDisplayNames[cat.Category]:</strong> @cat.Description
+                                                        </MudText>
+                                                    }
+                                                </MudExpansionPanel>
+                                            </MudExpansionPanels>
+                                        }
                                     </MudStack>
                                 </MudPaper>
                             }
@@ -363,7 +482,7 @@ else if (_state == QuizState.Finished)
 
 @code {
     private enum QuizState { Loading, Start, Playing, Finished }
-    private enum AnswerResult { None, Correct, Partial, Wrong }
+    private enum AnswerResult { None, Correct, Acceptable, Wrong }
 
     private QuizState _state = QuizState.Loading;
     private HashSet<string> _selectedCategories = [];
@@ -371,6 +490,8 @@ else if (_state == QuizState.Finished)
     // Last answer tracking for the result box
     private QuizItem? _lastAnswerItem;
     private AnswerResult _lastAnswerResult = AnswerResult.None;
+    private HashSet<string>? _lastAnswerMissedCategories;
+    private HashSet<string> _lastAnswerSelectedCategories = [];
 
     // Settings
     private IEnumerable<string> _selectedIncludedCategories = [];
@@ -451,9 +572,18 @@ else if (_state == QuizState.Finished)
             {
                 ItemName = a.Item.Name,
                 CorrectCategories = a.CorrectCategories.ToList(),
+                ArguableCategories = a.Item.Categories
+                    .Where(c => QuizService.IncludedCategories.Contains(c.Category) && c.Result == ResultType.Arguable)
+                    .Select(c => c.Category)
+                    .ToList(),
+                ObscureCategories = a.Item.Categories
+                    .Where(c => QuizService.IncludedCategories.Contains(c.Category) && c.Result == ResultType.Obscure)
+                    .Select(c => c.Category)
+                    .ToList(),
                 SelectedCategories = a.SelectedCategories.ToList(),
                 WasCorrect = a.WasCorrect,
-                Explanation = a.Item.Explanation
+                Explanation = "", // Deprecated - now using CategoryDescriptions
+                CategoryDescriptions = QuizService.GetCategoryDescriptions(a.Item)
             }).ToList()
         };
 
@@ -502,6 +632,7 @@ else if (_state == QuizState.Finished)
         _selectedCategories.Clear();
         _lastAnswerItem = null;
         _lastAnswerResult = AnswerResult.None;
+        _lastAnswerSelectedCategories.Clear();
         _state = QuizState.Playing;
     }
 
@@ -511,6 +642,7 @@ else if (_state == QuizState.Finished)
         _selectedCategories.Clear();
         _lastAnswerItem = null;
         _lastAnswerResult = AnswerResult.None;
+        _lastAnswerSelectedCategories.Clear();
         _state = QuizState.Playing;
     }
 
@@ -528,6 +660,7 @@ else if (_state == QuizState.Finished)
         _state = QuizState.Start;
         _lastAnswerItem = null;
         _lastAnswerResult = AnswerResult.None;
+        _lastAnswerSelectedCategories.Clear();
         _selectedCategories.Clear();
         _viewingSavedResults = false;
     }
@@ -542,11 +675,16 @@ else if (_state == QuizState.Finished)
 
     private async Task SubmitAnswer()
     {
-        // Store current item before moving on
+        // Store current item and selected categories before moving on
         _lastAnswerItem = QuizService.GetCurrentItem();
+        _lastAnswerSelectedCategories = [.. _selectedCategories];
 
         // Check answer and determine result type
         var isCorrect = QuizService.CheckAnswer(_selectedCategories);
+
+        // Get the last answer record to check for missed categories
+        var lastRecord = QuizService.AnswerHistory.LastOrDefault();
+        _lastAnswerMissedCategories = lastRecord?.MissedCategories;
 
         if (isCorrect)
         {
@@ -554,12 +692,14 @@ else if (_state == QuizState.Finished)
         }
         else if (_lastAnswerItem != null)
         {
-            // Check for partial match (at least one correct category selected)
-            var correctCategories = _lastAnswerItem.Categories
-                .Where(c => QuizService.IncludedCategories.Contains(c))
+            // Check for acceptable match (at least one correct/arguable/obscure category selected)
+            var acceptableCategories = _lastAnswerItem.Categories
+                .Where(c => QuizService.IncludedCategories.Contains(c.Category) &&
+                           (c.Result == ResultType.Correct || c.Result == ResultType.Arguable || c.Result == ResultType.Obscure))
+                .Select(c => c.Category)
                 .ToHashSet();
-            var hasPartialMatch = _selectedCategories.Any(s => correctCategories.Contains(s));
-            _lastAnswerResult = hasPartialMatch ? AnswerResult.Partial : AnswerResult.Wrong;
+            var hasAcceptableMatch = _selectedCategories.Any(s => acceptableCategories.Contains(s));
+            _lastAnswerResult = hasAcceptableMatch ? AnswerResult.Acceptable : AnswerResult.Wrong;
         }
         else
         {
@@ -669,7 +809,7 @@ else if (_state == QuizState.Finished)
     private Severity GetResultSeverity() => _lastAnswerResult switch
     {
         AnswerResult.Correct => Severity.Success,
-        AnswerResult.Partial => Severity.Warning,
+        AnswerResult.Acceptable => Severity.Warning,
         _ => Severity.Error
     };
 
