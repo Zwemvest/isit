@@ -1,4 +1,3 @@
-using System.Net.Http.Json;
 using IsIt.Models;
 
 namespace IsIt.Services;
@@ -137,13 +136,13 @@ public class QuizService
 
     private static readonly string[] DataFiles =
     [
-        "data/quiz-items/mythology.json",
-        "data/quiz-items/fantasy.json",
-        "data/quiz-items/anime-games.json",
-        "data/quiz-items/music.json",
-        "data/quiz-items/tech.json",
-        "data/quiz-items/people.json",
-        "data/quiz-items/things.json"
+        "data/quiz-items/mythology.quiz",
+        "data/quiz-items/fantasy.quiz",
+        "data/quiz-items/anime-games.quiz",
+        "data/quiz-items/music.quiz",
+        "data/quiz-items/tech.quiz",
+        "data/quiz-items/people.quiz",
+        "data/quiz-items/things.quiz"
     ];
 
     public async Task LoadItemsAsync()
@@ -152,7 +151,8 @@ public class QuizService
         {
             foreach (var file in DataFiles)
             {
-                var items = await _httpClient.GetFromJsonAsync<List<QuizItem>>(file) ?? [];
+                var content = await _httpClient.GetStringAsync(file);
+                var items = QuizDataParser.Parse(content);
                 _items.AddRange(items);
             }
         }
