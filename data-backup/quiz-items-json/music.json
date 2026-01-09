@@ -52,7 +52,7 @@
         "description": "Amon Amarth is a Swedish melodic death metal band known for Viking-themed music and mythology."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "The band name 'Amon Amarth' is the Sindarin (Elvish) name for Mount Doom in Tolkien's Middle-earth."
       }
     ]
@@ -65,7 +65,7 @@
         "description": "Gorgoroth is a Norwegian black metal band formed in 1992, known for controversial imagery and extreme sound."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Gorgoroth is the plateau of fear and death in Mordor where Mount Doom stands in Tolkien's Lord of the Rings."
       }
     ]
@@ -78,7 +78,7 @@
         "description": "Burzum was a Norwegian black metal project created by Varg Vikernes, influential in the second wave of black metal."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Burzum is Black Speech for 'darkness' from the Ring inscription in Tolkien's Lord of the Rings."
       }
     ]

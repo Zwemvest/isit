@@ -3,7 +3,7 @@
     "name": "Palantir",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Palantir is a seeing-stone used by Sauron and others in Middle-earth to communicate and observe distant places."
       },
       {
@@ -20,7 +20,7 @@
     "name": "Mithril",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Mithril is the precious 'true-silver' metal in Middle-earth, lighter than silk yet harder than steel. Frodo's mithril coat saved his life in Moria."
       },
       {
@@ -38,7 +38,7 @@
     "name": "Shadowfax",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Shadowfax is the lord of all horses in Middle-earth, ridden by Gandalf the White and said to understand human speech."
       }
     ]
@@ -47,7 +47,7 @@
     "name": "Anduril",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Andúril is Aragorn's reforged sword 'Flame of the West', originally the shards of Narsil that cut the Ring from Sauron's hand."
       },
       {
@@ -64,7 +64,7 @@
     "name": "Silmaril",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "The Silmarils are three jewels created by Fëanor containing the light of the Two Trees of Valinor, central to The Silmarillion."
       }
     ]
@@ -73,7 +73,7 @@
     "name": "Arwen",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Arwen Undómiel is the Elven princess, daughter of Elrond, who chose mortality to be with Aragorn."
       }
     ]
@@ -82,7 +82,7 @@
     "name": "Galadriel",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Galadriel is the Lady of Lothlórien, one of the most powerful Elves in Middle-earth who resisted the temptation of the Ring."
       },
       {
@@ -95,7 +95,7 @@
     "name": "Númenor",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Númenor was the great island kingdom of Men, destroyed when they tried to invade the Undying Lands, Atlantis-like in its fall."
       }
     ]
@@ -104,7 +104,7 @@
     "name": "Sauron",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Sauron is the Dark Lord, creator of the One Ring, and main antagonist of Lord of the Rings who manifests as a lidless eye."
       },
       {
@@ -117,7 +117,7 @@
     "name": "Saruman",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Saruman the White was the head of the wizard order who was corrupted by Sauron and bred Uruk-hai at Isengard."
       },
       {
@@ -131,7 +131,7 @@
     "name": "Legolas",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Legolas is the Elven prince of Mirkwood and member of the Fellowship, known for his superhuman archery and impossible physics-defying moves."
       },
       {
@@ -144,7 +144,7 @@
     "name": "Gimli",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Gimli is the Dwarf warrior of the Fellowship, son of Glóin, and friend of Legolas despite the traditional Elf-Dwarf enmity."
       },
       {
@@ -162,7 +162,7 @@
     "name": "Elrond",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Elrond Half-elven is the Lord of Rivendell who hosted the Council that formed the Fellowship and possesses great healing powers."
       },
       {
@@ -175,7 +175,7 @@
     "name": "Balrog",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "The Balrog is an ancient demon of shadow and flame that Gandalf faced in Moria, famously told 'You shall not pass!'"
       },
       {
@@ -194,7 +194,7 @@
     "name": "Nazgûl",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "The Nazgûl are the nine Ringwraiths, once mortal kings enslaved by Sauron's rings and led by the Witch-king of Angmar."
       },
       {
@@ -207,7 +207,7 @@
     "name": "Glamdring",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Glamdring is Gandalf's Elven sword, also known as 'Foe-hammer', found in a troll hoard alongside Orcrist and Sting."
       }
     ]
@@ -216,7 +216,7 @@
     "name": "Morgoth",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Morgoth was the first Dark Lord in Tolkien's legendarium, Sauron's master, who stole the Silmarils and corrupted Middle-earth."
       },
       {
@@ -229,7 +229,7 @@
     "name": "Shelob",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Shelob is the giant spider who guards the pass of Cirith Ungol and attacked Frodo, offspring of Ungoliant."
       },
       {
@@ -243,7 +243,7 @@
     "name": "Eowyn",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Éowyn is the shieldmaiden of Rohan who slew the Witch-king of Angmar, famously declaring 'I am no man!'"
       }
     ]
@@ -252,7 +252,7 @@
     "name": "Faramir",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Faramir is Boromir's younger brother and Captain of Gondor who helped Frodo on his quest and resisted the Ring's temptation."
       }
     ]
@@ -261,7 +261,7 @@
     "name": "Boromir",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Boromir is the son of Denethor and member of the Fellowship who was corrupted by the Ring but redeemed himself protecting Merry and Pippin."
       }
     ]
@@ -270,7 +270,7 @@
     "name": "Isildur",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Isildur cut the Ring from Sauron's hand but refused to destroy it, leading to his death and the Ring's loss for millennia."
       }
     ]
@@ -279,7 +279,7 @@
     "name": "Treebeard",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Treebeard (Fangorn) is the oldest Ent who led the attack on Isengard, speaks slowly, and shepherds the forests."
       },
       {
@@ -293,7 +293,7 @@
     "name": "Smeagol",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Sméagol was a Hobbit-like creature corrupted into Gollum by the One Ring after murdering his friend Déagol to possess it."
       }
     ]
@@ -302,7 +302,7 @@
     "name": "Orcrist",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Orcrist is Thorin Oakenshield's Elven sword, known as the 'Goblin-cleaver', twin to Glamdring."
       }
     ]
@@ -311,7 +311,7 @@
     "name": "Narsil",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Narsil was the sword that cut the Ring from Sauron's hand, later reforged as Andúril for Aragorn."
       }
     ]
@@ -320,7 +320,7 @@
     "name": "Lothlórien",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Lothlórien is the golden forest realm ruled by Galadriel and Celeborn where the Fellowship received gifts."
       }
     ]
@@ -329,7 +329,7 @@
     "name": "Rivendell",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Rivendell (Imladris) is Elrond's hidden valley sanctuary in the Misty Mountains where the Council of Elrond took place."
       }
     ]
@@ -338,7 +338,7 @@
     "name": "Mirkwood",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Mirkwood is the great forest home to Wood-elves, corrupted by Sauron's influence and filled with giant spiders."
       }
     ]
@@ -347,7 +347,7 @@
     "name": "Mordor",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Mordor is Sauron's realm of shadow where Mount Doom lies and the Ring was forged. One does not simply walk into it."
       },
       {
@@ -361,7 +361,7 @@
     "name": "Celeborn",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Celeborn is Galadriel's husband and Lord of Lothlórien, though often overshadowed by his powerful wife."
       }
     ]
@@ -370,7 +370,7 @@
     "name": "Thranduil",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Thranduil is Legolas's father and King of the Woodland Realm in Mirkwood, featured prominently in The Hobbit."
       }
     ]
@@ -379,7 +379,7 @@
     "name": "Denethor",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Denethor II was the Steward of Gondor who went mad from using a palantír and seeing Sauron's power, ultimately self-immolating."
       }
     ]
@@ -388,7 +388,7 @@
     "name": "Glorfindel",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Glorfindel is a mighty Elf-lord who helped Frodo escape the Nazgûl to Rivendell, so powerful his presence shines like light."
       }
     ]
@@ -397,7 +397,7 @@
     "name": "Théoden",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Théoden was the King of Rohan who led the charge at Pelennor Fields after being freed from Saruman's influence by Gandalf."
       }
     ]
@@ -406,7 +406,7 @@
     "name": "Éomer",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Éomer is Éowyn's brother and Marshal of the Riddermark who became King of Rohan after Théoden's death."
       }
     ]
@@ -478,7 +478,7 @@
         "description": "Palpatine is the Sith Lord Darth Sidious who manipulated his way to becoming Emperor and creator of the Galactic Empire."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Despite the similar sound to 'Palantir', Palpatine is Star Wars, not Tolkien. One's an evil emperor, the other's a seeing stone."
       }
@@ -813,7 +813,7 @@
     "name": "Cirith Ungol",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Cirith Ungol is the spider pass into Mordor guarded by Shelob, where Frodo was captured by orcs."
       },
       {
@@ -826,7 +826,7 @@
     "name": "Isengard",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Isengard is Saruman's fortress with the tower of Orthanc, destroyed by the Ents in their march."
       },
       {
@@ -839,7 +839,7 @@
     "name": "Carach Angren",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Carach Angren is Sindarin for 'Iron Jaws', a fortified pass into Mordor in Tolkien's Middle-earth."
       },
       {
@@ -1032,7 +1032,7 @@
         "description": "The Drow are dark elves who live in the Underdark, known for their worship of Lolth and matriarchal society."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Tolkien has no Drow - his dark elves are the Moriquendi who never saw the light of the Trees. The Drow concept is purely D&D."
       },
@@ -1326,7 +1326,7 @@
     "name": "Gondor",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Gondor is the southern kingdom of Men in Middle-earth, ruled from Minas Tirith by the line of stewards until Aragorn's return."
       }
     ]
@@ -1335,7 +1335,7 @@
     "name": "Aragorn",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Aragorn is the heir of Isildur who becomes King of Gondor after the War of the Ring, also known as Strider."
       },
       {
@@ -1348,7 +1348,7 @@
     "name": "Moria",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Moria (Khazad-dûm) is the ancient Dwarf kingdom under the Misty Mountains where the Fellowship faced the Balrog."
       }
     ]
@@ -1396,7 +1396,7 @@
         "description": "Eldar (now rebranded as Aeldari) are the space elves of Warhammer 40K, an ancient dying race that birthed Slaanesh."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "While 'Eldar' was borrowed from Tolkien (where it means ancient elves), Warhammer's Eldar are a completely separate space elf faction."
       }
@@ -1414,7 +1414,7 @@
         "description": "Orcs in D&D (sometimes spelled Ork in older editions) are savage humanoids who raid and pillage."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Tolkien uses 'Orc' with a C - the K spelling is specifically Warhammer's (and some other fantasy), not Tolkien's creation."
       }
@@ -1574,7 +1574,7 @@
         "description": "Angron is the Primarch of the World Eaters, a rage-filled Daemon Prince of Khorne with the Butcher's Nails implants."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Sounds like Aragorn, but Angron is a rage-fueled Daemon Primarch, not the noble heir of Isildur."
       }
@@ -1667,7 +1667,7 @@
     "name": "Ranger",
     "categories": [
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "description": "Rangers are the Dúnedain guardians in LOTR, protectors of the North led by Aragorn before he became king."
       },
       {
@@ -1692,7 +1692,7 @@
         "description": "Erebos (Erebus) is the Greek primordial god of darkness, born from Chaos and brother of Nyx."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Sounds like Erebor, the Lonely Mountain of the dwarves, but Erebos is the Greek god of darkness - no dragon gold here."
       }

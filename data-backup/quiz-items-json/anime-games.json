@@ -59,7 +59,7 @@
         "description": "Celebi is a Psychic/Grass-type mythical Pokémon that can travel through time."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Sounds like Celeborn or Celebrimbor, but this time-traveling sprite is a Pokémon, not a Tolkien elf."
       }
@@ -920,7 +920,7 @@
         "description": "Gohan is Goku's eldest son in Dragon Ball Z. 'Gohan' means 'cooked rice' or 'meal' in Japanese."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Despite the similar sound, Gohan is Goku's half-Saiyan son, not a kingdom of horse-lords. Rohan is the realm in Middle-earth; Gohan is busy going Super Saiyan."
       },
@@ -1094,7 +1094,7 @@
         "description": "Gorons are a rock-eating race in The Legend of Zelda who live on Death Mountain."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result" : -1,
         "description": "Not to be confused with Rohan, the horse-kingdom of Middle-earth. Gorons are rock-eating mountain dwellers from Hyrule who roll around and call everyone 'brother.'"
       },

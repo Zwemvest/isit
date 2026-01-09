@@ -3,7 +3,7 @@
     "name": "Kallax",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "KALLAX is IKEA's popular cube shelving unit system."
       }
     ]
@@ -12,7 +12,7 @@
     "name": "Malm",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "MALM is IKEA's bed and dresser series. The name is Swedish for 'ore'."
       }
     ]
@@ -21,7 +21,7 @@
     "name": "Billy",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "BILLY is IKEA's iconic bookcase, in production since 1979."
       },
       {
@@ -35,7 +35,7 @@
     "name": "Poäng",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "POÄNG is IKEA's bentwood armchair. The name is Swedish for 'point'."
       }
     ]
@@ -44,7 +44,7 @@
     "name": "Lack",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "LACK is IKEA's affordable side table series with a hollow core design."
       }
     ]
@@ -53,7 +53,7 @@
     "name": "Hemnes",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "HEMNES is IKEA's traditional furniture series named after a Norwegian municipality."
       },
       {
@@ -67,7 +67,7 @@
     "name": "Bestå",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "BESTÅ is IKEA's modular storage system. The name means 'to consist' in Swedish."
       }
     ]
@@ -76,7 +76,7 @@
     "name": "Detolf",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "DETOLF is IKEA's glass-door display cabinet."
       }
     ]
@@ -85,7 +85,7 @@
     "name": "Ektorp",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "EKTORP is IKEA's classic sofa series with removable, washable covers."
       }
     ]
@@ -94,7 +94,7 @@
     "name": "Klippan",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "KLIPPAN is IKEA's compact loveseat named after a Swedish town."
       }
     ]
@@ -103,7 +103,7 @@
     "name": "Frakta",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "FRAKTA is IKEA's iconic blue shopping bag. Swedish for 'to transport'."
       }
     ]
@@ -112,7 +112,7 @@
     "name": "Björkudden",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "BJÖRKUDDEN is an IKEA table series. Swedish for 'birch point'."
       },
       {
@@ -126,7 +126,7 @@
     "name": "Råskog",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "RÅSKOG is IKEA's steel utility cart on casters."
       },
       {
@@ -140,7 +140,7 @@
     "name": "Bekväm",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "BEKVÄM is IKEA's wooden step stool. Swedish for 'comfortable'."
       }
     ]
@@ -149,7 +149,7 @@
     "name": "Strandmon",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "STRANDMON is IKEA's wing chair inspired by a 1950s Scandinavian design."
       }
     ]
@@ -158,7 +158,7 @@
     "name": "Järvfjället",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "JÄRVFJÄLLET is IKEA's ergonomic office chair. Swedish for 'mountain of Järv'."
       },
       {
@@ -172,7 +172,7 @@
     "name": "Markus",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "MARKUS is IKEA's popular ergonomic office chair with a high back."
       },
       {
@@ -186,7 +186,7 @@
     "name": "Kivik",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "KIVIK is IKEA's deep-seated sofa series named after a Swedish town."
       }
     ]
@@ -195,7 +195,7 @@
     "name": "Söderhamn",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "SÖDERHAMN is IKEA's modular sofa system named after a Swedish city."
       }
     ]
@@ -204,7 +204,7 @@
     "name": "Vittsjö",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "VITTSJÖ is IKEA's glass and metal shelving unit. Swedish for 'white lake'."
       }
     ]
@@ -213,7 +213,7 @@
     "name": "Havsta",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "HAVSTA is IKEA's solid pine storage furniture series."
       }
     ]
@@ -222,7 +222,7 @@
     "name": "Ivar",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "IVAR is IKEA's untreated pine shelving system."
       },
       {
@@ -235,7 +235,7 @@
     "name": "Trofast",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "TROFAST is IKEA's children's storage system with bins. Swedish for 'faithful'."
       }
     ]
@@ -244,7 +244,7 @@
     "name": "Brimnes",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "BRIMNES is IKEA's bedroom furniture series with built-in storage."
       },
       {
@@ -258,7 +258,7 @@
     "name": "Nordli",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "NORDLI is IKEA's modular bedroom furniture series."
       }
     ]
@@ -267,7 +267,7 @@
     "name": "Fenomen",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "FENOMEN is IKEA's unscented block candle. Swedish for 'phenomenon'."
       },
       {
@@ -281,7 +281,7 @@
     "name": "Skurup",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "SKURUP is IKEA's pendant and floor lamp series named after a Swedish town."
       }
     ]
@@ -290,7 +290,7 @@
     "name": "Tertial",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "TERTIAL is IKEA's adjustable work lamp with an articulated arm."
       }
     ]
@@ -299,7 +299,7 @@
     "name": "Godmorgon",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "GODMORGON is IKEA's bathroom furniture series. Swedish for 'good morning'."
       }
     ]
@@ -308,7 +308,7 @@
     "name": "Flisat",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "FLISAT is IKEA's children's furniture series made from solid pine."
       }
     ]
@@ -317,7 +317,7 @@
     "name": "Antilop",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "ANTILOP is IKEA's high chair for babies. Swedish for 'antelope'."
       }
     ]
@@ -326,7 +326,7 @@
     "name": "Duktig",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "DUKTIG is IKEA's children's play kitchen series. Swedish for 'clever' or 'good'."
       }
     ]
@@ -335,7 +335,7 @@
     "name": "Skogsta",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "Skogsta is IKEA's solid acacia wood dining furniture series."
       },
       {
@@ -349,7 +349,7 @@
     "name": "Vallentuna",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "Vallentuna is IKEA's modular seating system named after a Swedish municipality."
       }
     ]
@@ -358,7 +358,7 @@
     "name": "Kura",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "Kura is IKEA's reversible children's bed that can be flipped for different heights."
       },
       {
@@ -372,7 +372,7 @@
     "name": "Norden",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "Norden is IKEA's gateleg table with drawers. Swedish for 'the North'."
       },
       {
@@ -386,7 +386,7 @@
     "name": "Friheten",
     "categories": [
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "description": "Friheten is IKEA's sofa bed with storage. Swedish for 'freedom'."
       }
     ]
@@ -408,7 +408,7 @@
         "description": "Aragon was a medieval Spanish kingdom that united with Castile to form modern Spain."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Not to be confused with Aragorn, the ranger who became King of Gondor - the Spanish kingdom came first!"
       }
@@ -422,7 +422,7 @@
         "description": "Gondar is an Ethiopian city that served as the capital of the Ethiopian Empire from 1636 to 1855."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Sounds like Gondor but this is a real Ethiopian city! Tolkien's kingdom name may have been coincidental."
       }
@@ -558,7 +558,7 @@
         "description": "Mordva (Mordovia) is a Russian region home to the Mordvin people, a Finno-Ugric ethnic group."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Sounds exactly like Mordor, but this is a real Russian region! Tolkien probably didn't copy it... probably."
       }
@@ -572,7 +572,7 @@
         "description": "Morea was the medieval name for the Peloponnese peninsula in Greece, used from the 10th century onward."
       },
       {
-        "category": "LordOfTheRings",
+        "category": "LOTR",
         "result": -1,
         "description": "Sounds like Moria but this is a real Greek region! The Dwarven halls and this peninsula are unrelated."
       }
@@ -613,7 +613,7 @@
         "description": "Birka was a major Viking Age trading center in Sweden (8th-10th century), one of Scandinavia's earliest urban settlements."
       },
       {
-        "category": "IKEAFurniture",
+        "category": "IKEA",
         "result": -1,
         "description": "Sounds like it could be an IKEA product with that Swedish name, but it's actually a Viking trading settlement."
       }

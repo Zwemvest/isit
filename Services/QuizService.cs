@@ -36,7 +36,7 @@ public class QuizService
 
     public static readonly List<string> AllCategories =
     [
-        "LordOfTheRings",
+        "LOTR",
         "Pokemon",
         "Tech",
         "Psychiatric",
@@ -46,7 +46,7 @@ public class QuizService
         "CelticPagan",
         "MetalMusic",
         "RockMusic",
-        "IKEAFurniture",
+        "IKEA",
         "StarWars",
         "ProgrammingLang",
         "DigitalTerm",
@@ -77,7 +77,7 @@ public class QuizService
 
     public static readonly Dictionary<string, string> CategoryDisplayNames = new()
     {
-        ["LordOfTheRings"] = "Tolkien's Lord of the Rings",
+        ["LOTR"] = "Tolkien's Lord of the Rings",
         ["Pokemon"] = "Pokémon",
         ["Tech"] = "Tech Company or Product",
         ["Psychiatric"] = "Psychiatric Medication",
@@ -87,7 +87,7 @@ public class QuizService
         ["CelticPagan"] = "Celtic Mythology",
         ["MetalMusic"] = "Metal Music",
         ["RockMusic"] = "Rock Music",
-        ["IKEAFurniture"] = "IKEA Furniture",
+        ["IKEA"] = "IKEA Furniture",
         ["StarWars"] = "Star Wars",
         ["ProgrammingLang"] = "Programming Language or Framework",
         ["DigitalTerm"] = "Digital Terminology",
@@ -118,7 +118,7 @@ public class QuizService
 
     public static readonly Dictionary<string, string> CategoryTooltips = new()
     {
-        ["LordOfTheRings"] = "Characters, places, and items from Tolkien's Middle-earth",
+        ["LOTR"] = "Characters, places, and items from Tolkien's Middle-earth",
         ["Pokemon"] = "Everything Pokémon. Includes species names, moves, items, locations, cities, and more.",
         ["Tech"] = "Technology companies, products, services, or brands",
         ["Psychiatric"] = "Prescription psychiatric medications and drug names",
@@ -128,7 +128,7 @@ public class QuizService
         ["CelticPagan"] = "Gods, heroes, and creatures from Celtic/Irish mythology",
         ["MetalMusic"] = "Metal bands, albums, or songs",
         ["RockMusic"] = "Rock bands, albums, or songs",
-        ["IKEAFurniture"] = "IKEA product names",
+        ["IKEA"] = "IKEA product names",
         ["StarWars"] = "Characters, ships, planets from the Star Wars universe",
         ["ProgrammingLang"] = "Programming languages, frameworks, or development tools",
         ["DigitalTerm"] = "Technical terminology used in computing and digital media",
