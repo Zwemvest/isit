@@ -14,7 +14,9 @@
 
   <ItemGroup>
     <Compile Remove="tools/**" />
+    <Compile Remove="IsIt.Tests/**" />
     <None Remove="tools/**" />
+    <None Remove="IsIt.Tests/**" />
   </ItemGroup>
 
 </Project>
