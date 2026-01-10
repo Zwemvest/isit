@@ -150,7 +150,7 @@ public class QuizService
         ["Celestial"] = "Natural objects in space: planets, moons, stars, asteroids (not zodiac signs)",
         ["Bird"] = "Bird species names",
         ["Pigment"] = "Color names, pigments, or dyes",
-        ["SmashBros"] = "Character that makes an appearance in the Super Smash Bros. games; as a fighter or otherwise ",
+        ["SmashBros"] = "Character that makes an appearance in the Super Smash Bros. games; as a fighter or otherwise. This includes Pokéball summons.",
         ["AssassinsCreed"] = "Historical figures or settings featured in Assassin's Creed",
         ["Superhero"] = "Superheroes or villains from Marvel or DC comics",
         ["GreekLetter"] = "Letters of the Greek alphabet",
