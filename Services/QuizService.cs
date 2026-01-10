@@ -24,6 +24,7 @@ public class QuizService
     private int _currentIndex;
     private int _score;
     private List<AnswerRecord> _answerHistory = [];
+    private int _restoredAnswerCount;
 
     // Settings
     public ScoringMode ScoringMode { get; set; } = ScoringMode.AllCorrect;
@@ -133,7 +134,7 @@ public class QuizService
         ["ProgrammingLang"] = "Programming languages, frameworks, or development tools",
         ["DigitalTerm"] = "Technical terminology used in computing and digital media",
         ["SiliconValleyBS"] = "Everything crypto, blockchain, NFT, or other nonsensical bullshit that only exists to please venture capitalists.",
-        ["HistoricalState"] = "Names of historical nations, empires, city-states, or ancient cities",
+        ["HistoricalState"] = "Names of historical nations, empires, city-states, or ancient cities (existed/founded more than 250 years ago)",
         ["DnD"] = "Monsters, creatures, Gods, spells, classes, or items from Dungeons & Dragons or Forgotten Realms or Eberron Lore",
         ["Warhammer"] = "Factions, units, or characters from Warhammer 40K/Fantasy",
         ["Zelda"] = "Characters, items, or places from The Legend of Zelda series",
@@ -214,6 +215,7 @@ public class QuizService
         _currentIndex = 0;
         _score = 0;
         _answerHistory = [];
+        _restoredAnswerCount = 0;
     }
 
     public int GetDailySeed()
@@ -249,6 +251,7 @@ public class QuizService
         _currentIndex = 0;
         _score = 0;
         _answerHistory = [];
+        _restoredAnswerCount = 0;
     }
 
     public bool IsDailyComplete => CurrentGameMode == GameMode.Daily && _currentIndex >= DailyQuestions;
@@ -261,7 +264,7 @@ public class QuizService
         // Then restore the saved progress
         _currentIndex = currentIndex;
         _score = score;
-        // Note: _answerHistory is not restored - the saved answers are stored in DailyResult
+        _restoredAnswerCount = currentIndex;  // Track how many questions were already answered
     }
 
     /// <summary>
@@ -285,6 +288,7 @@ public class QuizService
 
     public int CurrentQuestionNumber => _currentIndex + 1;
     public int Score => _score;
+    public int TotalAnsweredCount => _restoredAnswerCount + _answerHistory.Count;
     public bool IsFinished => _currentIndex >= _shuffledItems.Count;
     public bool HasReachedMinQuestions => _currentIndex >= QuestionsPerGame;
     public const int MinQuestionsForResults = 20;

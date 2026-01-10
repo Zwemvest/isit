@@ -293,7 +293,7 @@ else if (_state == QuizState.Finished)
         : QuizService.Score;
     var questionsAnswered = _viewingSavedResults && _savedDailyResult != null
         ? _savedDailyResult.TotalQuestions
-        : QuizService.AnswerHistory.Count;
+        : QuizService.TotalAnsweredCount;
     var percentage = questionsAnswered > 0
         ? (int)Math.Round(100.0 * score / questionsAnswered)
         : 0;
@@ -412,7 +412,7 @@ else if (_state == QuizState.Finished)
         }
 
         @* Answer Review Section - works with both live answers and saved answers *@
-        @if (QuizService.AnswerHistory.Count > 0 || (_viewingSavedResults && _savedDailyResult?.Answers.Count > 0))
+        @if (QuizService.TotalAnsweredCount > 0 || (_viewingSavedResults && _savedDailyResult?.Answers.Count > 0))
         {
             <MudExpansionPanels Class="mt-4" Style="width: 100%; max-width: 600px;">
                 <MudExpansionPanel Text="Review All Answers">
@@ -820,7 +820,7 @@ else if (_state == QuizState.Finished)
             : QuizService.Score;
         var questionsAnswered = _viewingSavedResults && _savedDailyResult != null
             ? _savedDailyResult.TotalQuestions
-            : QuizService.AnswerHistory.Count;
+            : QuizService.TotalAnsweredCount;
         var percentage = questionsAnswered > 0
             ? (int)Math.Round(100.0 * score / questionsAnswered)
             : 0;
