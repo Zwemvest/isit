@@ -132,7 +132,7 @@ else if (_state == QuizState.Playing)
                     var obscureSelected = includedCategories.Where(c => c.Result == ResultType.Obscure && _lastAnswerSelectedCategories.Contains(c.Category)).ToList();
                     var correctMissed = includedCategories.Where(c => c.Result == ResultType.Correct && !_lastAnswerSelectedCategories.Contains(c.Category)).ToList();
                     var missSelected = includedCategories.Where(c => c.Result == ResultType.Miss && _lastAnswerSelectedCategories.Contains(c.Category)).ToList();
-                    var errorSelected = QuizService.IncludedCategories.Where(c => includedCategories.All(ic => ic.Category != c)).ToList();
+                    var errorSelected = QuizService.IncludedCategories.Where(c => _lastAnswerSelectedCategories.Any(ic => ic == c) && _lastAnswerItem.Categories.All(lc => lc.Category != c)).ToList();
                     var misses = correctMissed.Select(c => c.Category).Concat(missSelected.Select(c => c.Category)).Concat(errorSelected).ToList();
 
                                         <MudText Typo="Typo.h6" Class="mb-2">@_lastAnswerItem.Name</MudText>
