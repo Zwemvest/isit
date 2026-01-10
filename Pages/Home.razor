@@ -266,6 +266,9 @@ else if (_state == QuizState.Playing)
                         FullWidth="true"
                         OnClick="() => ToggleCategory(category)">
                         @QuizService.CategoryDisplayNames[category]
+                        <MudTooltip Text="@QuizService.CategoryTooltips[category]" Placement="Placement.End">
+                            <MudIcon Icon=@Icons.Material.Outlined.Info></MudIcon>
+                        </MudTooltip>
                     </MudButton>
                 }
             </MudStack>
