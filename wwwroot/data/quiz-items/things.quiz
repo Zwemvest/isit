@@ -88,7 +88,7 @@ Ochre | Pigment: "Ochre is one of humanity's oldest pigments, an iron oxide eart
 Osprey | Bird: "The osprey is a fish-eating raptor also called the sea hawk, with specialized talons for catching fish." | Tech: "The V-22 Osprey is a military tiltrotor aircraft that can take off like a helicopter and fly like a plane."
 Payne | Painter: "William Payne was an 18th-century English watercolorist who formulated the grey mixture." | Pigment: "Payne's Grey is a blue-grey pigment perfect for watercolors."
 Pelican | Bird: "Pelicans are water birds with distinctive throat pouches for catching fish." | Tech: "Pelican Cases is a major rugged equipment and protective case brand."
-Phrygia | GreekPagan: "Famous in Greek mythology for King Midas's golden touch and the Gordian Knot that Alexander the Great 'solved.'" | HistoricalState: "Phrygia was an ancient Anatolian kingdom (12th-7th century BC)."
+Phrygia | HistoricalState: "Phrygia was an ancient Anatolian kingdom (12th-7th century BC)." | GreekPagan!: "Famous in Greek mythology for King Midas's golden touch and the Gordian Knot - but the category aks for Gods and heroes, not states"
 Pioneer | CarModel: "Various car manufacturers have used the Pioneer name for vehicles." | SpaceMission: "Pioneer probes explored the outer solar system, with Pioneer 10 being the first to cross the asteroid belt."
 Pontus | HistoricalState: "Pontus was a Hellenistic kingdom on the Black Sea coast of Anatolia (281-63 BC), ruled by Mithridates the Great."
 Poäng | IKEA: "POÄNG is IKEA's bentwood armchair. The name is Swedish for 'point'."
