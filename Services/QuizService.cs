@@ -145,7 +145,7 @@ public class QuizService
         ["Painter"] = "Famous painters throughout history",
         ["Philosopher"] = "Notable philosophers throughout history",
         ["Author"] = "Famous authors and writers. (if the philosopher category is included, nearly all philosophers will also be authors).",
-        ["CarModel"] = "Car model names (not brands)",
+        ["CarModel"] = "Car model names (not brands!)",
         ["CloudInfra"] = "Cloud platforms, infrastructure tools, and DevOps software",
         ["MTG"] = "Cards, mechanics, or planes from Magic: The Gathering",
         ["Celestial"] = "Natural objects in space: planets, moons, stars, asteroids (not zodiac signs)",
