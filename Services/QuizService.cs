@@ -109,7 +109,7 @@ public class QuizService
         ["MTG"] = "Magic: The Gathering",
         ["Celestial"] = "Celestial Body",
         ["Bird"] = "Ornithology",
-        ["Pigment"] = "Colours or Pigments",
+        ["Pigment"] = "Color names, pigments, or dyes",
         ["SmashBros"] = "Appears in Super Smash Bros.",
         ["AssassinsCreed"] = "Assassin's Creed Appearance",
         ["Superhero"] = "Marvel/DC Superhero",

@@ -16,7 +16,13 @@
 else if (_state == QuizState.Start)
 {
     <MudStack AlignItems="AlignItems.Center" Spacing="6">
-        <MudText Typo="Typo.h2" Align="Align.Center">IsIt...?</MudText>
+        <MudStack Row="true" AlignItems="AlignItems.Center" Spacing="1">
+            <MudText Typo="Typo.h2" Align="Align.Center">IsIt...?</MudText>
+            <MudIconButton Icon="@Icons.Material.Outlined.Help"
+                           Size="Size.Small"
+                           Color="Color.Secondary"
+                           OnClick="@(() => _showHelpDialog = true)" />
+        </MudStack>
         <MudText Typo="Typo.body1" Align="Align.Center" Color="Color.Secondary">
             Guess which categories each item belongs to.<br />
             Some items belong to multiple categories!
@@ -534,12 +540,87 @@ else if (_state == QuizState.Finished)
     </MudStack>
 }
 
+<MudDialog @bind-Visible="_showHelpDialog" Options="@(new DialogOptions { MaxWidth = MaxWidth.Small, FullWidth = true })">
+    <TitleContent>
+        <MudText Typo="Typo.h6">How to Play</MudText>
+    </TitleContent>
+    <DialogContent>
+        <MudStack Spacing="3">
+            <MudText Typo="Typo.body1">
+                You'll be shown an item name. Your task is to guess <strong>all categories</strong> it belongs to.
+            </MudText>
+
+            <MudText Typo="Typo.subtitle2">Rules</MudText>
+            <MudStack Spacing="1">
+                <MudText Typo="Typo.body2">
+                    <strong>Correct</strong><br/>
+                    The a
+                </MudText>
+                <MudText Typo="Typo.body2">
+                    <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" Size="Size.Small" Style="vertical-align: middle;" />
+                    Miss a correct category: <strong>Incorrect</strong>
+                </MudText>
+                <MudText Typo="Typo.body2">
+                    <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" Size="Size.Small" Style="vertical-align: middle;" />
+                    Select a wrong category: <strong>Incorrect</strong>
+                </MudText>
+            </MudStack>
+            
+            <MudText Typo="Typo.subtitle2">Scoring</MudText>
+            <MudStack Spacing="1">
+                <MudText Typo="Typo.body2">
+                    <MudIcon Icon="@Icons.Material.Filled.Check" Color="Color.Success" Size="Size.Small" Style="vertical-align: middle;" />
+                    Select all the exactly correct categories: <strong>Correct</strong>
+                </MudText>
+                <MudText Typo="Typo.body2">
+                    <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" Size="Size.Small" Style="vertical-align: middle;" />
+                    Miss a correct category: <strong>Incorrect</strong>
+                </MudText>
+                <MudText Typo="Typo.body2">
+                    <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" Size="Size.Small" Style="vertical-align: middle;" />
+                    Select a wrong category: <strong>Incorrect</strong>
+                </MudText>
+            </MudStack>
+
+            <MudText Typo="Typo.subtitle2">Special Categories</MudText>
+            <MudStack Spacing="1">
+                <MudText Typo="Typo.body2">
+                    <MudIcon Icon="@Icons.Material.Filled.Warning" Color="Color.Warning" Size="Size.Small" Style="vertical-align: middle;" />
+                    Argueable: It's argueable if the answer counts or not. It's counted as correct either way - you can select it and receive trivia, but it's not necessary for the answer to be counted as correct.
+                </MudText>
+                <MudText Typo="Typo.body2">
+                    <MudIcon Icon="@Icons.Material.Filled.Info" Color="Color.Warning" Size="Size.Small" Style="vertical-align: middle;" />
+                    Obscure: The answer is correct, but the average fan would probably not even know that it is! Clearly you know some deep cut trivia. Like an argueable answer, it's counted as correct either way. 
+                </MudText>
+            </MudStack>
+
+            <MudText Typo="Typo.subtitle2">Game Modes</MudText>
+            <MudStack Spacing="1">
+                <MudText Typo="Typo.body2">
+                    <strong>Daily:</strong> Same 20 questions for everyone each day. Compare with friends!
+                </MudText>
+                <MudText Typo="Typo.body2">
+                    <strong>Custom:</strong> Endless mode with your choice of categories.
+                </MudText>
+            </MudStack>
+
+            <MudText Typo="Typo.caption" Color="Color.Secondary" Class="mt-2">
+                Tip: Hover over category buttons during gameplay to see what each category includes.
+            </MudText>
+        </MudStack>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="@(() => _showHelpDialog = false)" Color="Color.Primary">Got it!</MudButton>
+    </DialogActions>
+</MudDialog>
+
 @code {
     private enum QuizState { Loading, Start, Playing, Finished }
     private enum AnswerResult { None, Correct, Wrong }
 
     private QuizState _state = QuizState.Loading;
     private HashSet<string> _selectedCategories = [];
+    private bool _showHelpDialog;
 
     // Last answer tracking for the result box
     private QuizItem? _lastAnswerItem;
