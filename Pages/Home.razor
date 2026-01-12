@@ -19,7 +19,8 @@ else if (_state == QuizState.Start)
         <MudStack Row="true" AlignItems="AlignItems.Center" Spacing="1">
             <MudText Typo="Typo.h2" Align="Align.Center">IsIt...?</MudText>
             <MudIconButton Icon="@Icons.Material.Outlined.Help"
-                           Size="Size.Small"
+                           Size="Size.Large"
+                           Style="right: 0;position: fixed;top: 0;"
                            Color="Color.Secondary"
                            OnClick="@(() => _showHelpDialog = true)" />
         </MudStack>
@@ -547,26 +548,10 @@ else if (_state == QuizState.Finished)
     <DialogContent>
         <MudStack Spacing="3">
             <MudText Typo="Typo.body1">
-                You'll be shown an item name. Your task is to guess <strong>all categories</strong> it belongs to.
+                You'll be shown an item name. Your task is to guess <strong>all exact categories</strong> it belongs to.
             </MudText>
-
-            <MudText Typo="Typo.subtitle2">Rules</MudText>
-            <MudStack Spacing="1">
-                <MudText Typo="Typo.body2">
-                    <strong>Correct</strong><br/>
-                    The a
-                </MudText>
-                <MudText Typo="Typo.body2">
-                    <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" Size="Size.Small" Style="vertical-align: middle;" />
-                    Miss a correct category: <strong>Incorrect</strong>
-                </MudText>
-                <MudText Typo="Typo.body2">
-                    <MudIcon Icon="@Icons.Material.Filled.Close" Color="Color.Error" Size="Size.Small" Style="vertical-align: middle;" />
-                    Select a wrong category: <strong>Incorrect</strong>
-                </MudText>
-            </MudStack>
             
-            <MudText Typo="Typo.subtitle2">Scoring</MudText>
+            <MudText Typo="Typo.subtitle2">Rules</MudText>
             <MudStack Spacing="1">
                 <MudText Typo="Typo.body2">
                     <MudIcon Icon="@Icons.Material.Filled.Check" Color="Color.Success" Size="Size.Small" Style="vertical-align: middle;" />
@@ -581,16 +566,40 @@ else if (_state == QuizState.Finished)
                     Select a wrong category: <strong>Incorrect</strong>
                 </MudText>
             </MudStack>
+            
+            <MudText Typo="Typo.subtitle2">When is a category correct?</MudText>
+            <MudStack Spacing="1">
+                <MudText Typo="Typo.body2">
+                    The entry must match the category description exactly. For example, if the entry is <strong>Aries</strong> and the categories are <i>Greek Mythology</i> and <i>Celestial Body</i>, the entry should not be marked as a Celestial Body. <br/>
+                    The category description explains that celestial bodies are physical, natural objects - zodiac signs are neither physical nor natural.<br/> 
+                    The term must be an <strong>exact</strong> match - Orks are not a Lord of the Rings term, since Tolkien named them Orcs (with a C)
+                </MudText>
+            </MudStack>
 
             <MudText Typo="Typo.subtitle2">Special Categories</MudText>
             <MudStack Spacing="1">
                 <MudText Typo="Typo.body2">
-                    <MudIcon Icon="@Icons.Material.Filled.Warning" Color="Color.Warning" Size="Size.Small" Style="vertical-align: middle;" />
-                    Argueable: It's argueable if the answer counts or not. It's counted as correct either way - you can select it and receive trivia, but it's not necessary for the answer to be counted as correct.
+                    
+                    <MudText Typo="Typo.subtitle2"><MudIcon Icon="@Icons.Material.Filled.Warning" Color="Color.Warning" Size="Size.Small" Style="vertical-align: middle;"/>Argueable</MudText>
+                    
+                    It's argueable if the answer counts or not. It's counted as correct either way - you can select it and receive trivia, but it's not necessary for the answer to be counted as correct.<br/><br/>
+
+                    <ul>
+                        <li>The connection far-fetched but does exist. Swift should be in the Programming Language and Car Models category, but fans of the Pokémon franchise may categorize it as a Pokémon move. </li>
+                        <li>The word is part of a larger term that so ingrained into the fandom, that a fan of the fandom would easily refer to it as such, even if the name isn't an exact match. For example; "Stardust" for JoJo (Stardust Crusaders), "Envoy" for Yu-Gi-Oh (Envoy of the Beginning)</li>
+                        <li>Reasonable people might disagree whether it "counts"</li>
+                    </ul>
                 </MudText>
                 <MudText Typo="Typo.body2">
-                    <MudIcon Icon="@Icons.Material.Filled.Info" Color="Color.Warning" Size="Size.Small" Style="vertical-align: middle;" />
-                    Obscure: The answer is correct, but the average fan would probably not even know that it is! Clearly you know some deep cut trivia. Like an argueable answer, it's counted as correct either way. 
+                    
+                    <MudText Typo="Typo.subtitle2"><MudIcon Icon="@Icons.Material.Filled.Info" Color="Color.Warning" Size="Size.Small" Style="vertical-align: middle;" />Obscure</MudText>
+                    A real, but obscure connection - the answer is correct, but the average fan would probably not even know that it is! Clearly you know some deep cut trivia. Like an argueable answer, it's counted as correct either way. <br/><br/>
+                    
+                    <ul>
+                        <li>- The connection is technically true but most people won't know it. </li>
+                        <li>- It requires specialist knowledge to recognize</li>
+                        <li>- It's a deep-cut reference or trivia</li>
+                    </ul>
                 </MudText>
             </MudStack>
 
